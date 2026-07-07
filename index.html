@@ -27,7 +27,7 @@ body{
   --radius:14px;
   --radius-sm:9px;
 }
-.app{max-width:480px;margin:0 auto;min-height:100dvh;padding-bottom:96px;position:relative}
+.app{max-width:480px;margin:0 auto;min-height:100dvh;padding-bottom:150px;position:relative}
 
 /* ── Header ── */
 .header{
@@ -96,22 +96,54 @@ body{
 .kotoba-kanji{font-family:'Noto Serif JP',serif;font-weight:700;font-size:20px}
 .kotoba-yomi{font-size:12.5px;color:var(--muted);margin-top:2px}
 .kotoba-arti{font-size:13.5px;color:var(--indigo);margin-top:3px;font-weight:500}
-.kotoba-chevron{font-size:11px;color:var(--muted);transition:transform .18s;flex-shrink:0}
-.kotoba-chevron.open{transform:rotate(180deg)}
+.kotoba-chevron{display:none}
 
-.kalimat-list{display:none;border-top:1px solid var(--border);background:#FCFAF4}
-.kalimat-list.open{display:block}
+.kalimat-list{display:block;border-top:1px solid var(--border);background:#FCFAF4}
 .kalimat-item{
   padding:12px 14px;display:flex;gap:10px;align-items:flex-start;
   border-top:1px dashed var(--border);
+  scroll-margin:120px 0;
 }
 .kalimat-item:first-child{border-top:none}
+.kalimat-item.active{background:#FFE9DE}
 .kalimat-text{flex:1;min-width:0}
 .kalimat-jp{font-size:14.5px;line-height:1.5}
 .kalimat-yomi{font-size:11.5px;color:var(--muted);margin-top:2px}
 .kalimat-id{font-size:12.5px;color:var(--indigo);margin-top:4px}
 .play-dot.small{width:30px;height:30px;font-size:11px;margin-top:1px}
 .empty-note{font-size:12px;color:var(--muted);padding:12px 14px;font-style:italic}
+
+/* ── Highlight aktif (baca-along) ── */
+.kotoba-card{scroll-margin:120px 0}
+.kotoba-card.active{border-color:var(--red);box-shadow:0 0 0 2px rgba(182,67,44,.22)}
+.kotoba-card.active .kotoba-main{background:#FFF3ED}
+.track-header{
+  font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted);
+  margin:18px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border);
+  display:flex;justify-content:space-between;align-items:center;
+}
+.track-header:first-child{margin-top:0}
+.track-header .th-tema{font-family:'Zen Kaku Gothic New',sans-serif;font-size:13px;color:var(--ink);font-weight:700}
+
+/* ── Player bar ── */
+.player-bar{
+  position:fixed;left:0;right:0;bottom:0;background:var(--card);
+  border-top:1px solid var(--border);box-shadow:0 -3px 12px rgba(35,31,27,.08);
+  padding:9px 16px 12px;z-index:40;display:none;
+}
+.player-bar.show{display:block}
+.player-bar-inner{max-width:480px;margin:0 auto}
+.player-info{font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;gap:8px;margin-bottom:8px;overflow:hidden}
+.player-info .pi-word{color:var(--ink);font-weight:700;font-family:'Noto Serif JP',serif;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.player-info .pi-track{white-space:nowrap;flex-shrink:0}
+.player-controls{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.player-btn{
+  width:38px;height:38px;border-radius:50%;border:1px solid var(--border-strong);
+  background:var(--paper);display:flex;align-items:center;justify-content:center;
+  font-size:13px;color:var(--ink);cursor:pointer;flex-shrink:0;
+}
+.player-btn:disabled{opacity:.3}
+.player-btn.main{width:48px;height:48px;background:var(--red);color:#fff;border:none;font-size:16px}
 
 /* ── Flashcard ── */
 .fc-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
@@ -222,6 +254,22 @@ body{
 
   </div>
 
+  <div class="player-bar show" id="player-bar">
+    <div class="player-bar-inner">
+      <div class="player-info">
+        <span class="pi-word" id="pi-word">—</span>
+        <span class="pi-track" id="pi-track">—</span>
+      </div>
+      <div class="player-controls">
+        <button class="player-btn" id="pb-prevtrack" onclick="uiPrevTrack()" title="Track sebelumnya">|◀</button>
+        <button class="player-btn" id="pb-previd" onclick="uiPrevId()" title="Kata sebelumnya">◀◀</button>
+        <button class="player-btn main" id="pb-playpause" onclick="uiPlayPause()" title="Play/Pause">▶</button>
+        <button class="player-btn" id="pb-nextid" onclick="uiNextId()" title="Kata selanjutnya">▶▶</button>
+        <button class="player-btn" id="pb-nexttrack" onclick="uiNextTrack()" title="Track selanjutnya">▶|</button>
+      </div>
+    </div>
+  </div>
+
   <div class="toast" id="toast"></div>
   <div id="sc-widgets" style="position:absolute;width:0;height:0;overflow:hidden;"></div>
 </div>
@@ -249,10 +297,24 @@ const TRACK_URL = {
   2: (n)=> `https://soundcloud.com/user-95896001/${String(n).padStart(2,'0')}-1` // CD2: 01-1, 02-1, ...
 };
 
-let currentUnitIdx = 0;
+let trackPtr = 0;        // index ke UNITS (tiap elemen UNITS = satu track)
 let fcOrder = [];
 let fcIdx = 0;
 let fcFlipped = false;
+
+// ── Engine "baca-along" utk tab Kosakata ──
+let flatSegments = [];   // segmen (kotoba+kalimat) milik unit yg sedang ditampilkan
+let curSegIdx = -1;      // index aktif di flatSegments
+let isPlayingBaca = false;
+let bacaProgressHandler = null;
+
+function currentTrackObj(){ return UNITS[trackPtr]; }
+function currentUnitNumber(){ return currentTrackObj() ? currentTrackObj().unit : null; }
+function unitTrackRefs(unitNumber){
+  const out = [];
+  UNITS.forEach((u,i)=>{ if(u.unit===unitNumber) out.push(i); });
+  return out;
+}
 
 // ────────────────────────────────────────────────────────────────────────
 // PERSISTENCE untuk unit kosakata (window.storage kalau tersedia sbg
@@ -314,11 +376,16 @@ function stopAudio(){
   if(scWidget && scReady){
     scWidget.pause();
     if(progressHandler){ scWidget.unbind(SC.Widget.Events.PLAY_PROGRESS); progressHandler = null; }
+    if(bacaProgressHandler){ scWidget.unbind(SC.Widget.Events.PLAY_PROGRESS); bacaProgressHandler = null; }
+    scWidget.unbind(SC.Widget.Events.FINISH);
   }
   document.querySelectorAll('.play-dot.playing').forEach(el=>el.classList.remove('playing'));
   const fcp = document.getElementById('fc-play');
   if(fcp) fcp.classList.remove('playing');
+  isPlayingBaca = false;
+  updatePlayPauseIcon();
 }
+// Putar satu segmen saja lalu berhenti di endMs (dipakai flashcard & tap manual di luar mode baca)
 function playSegment(cd, track, startMs, endMs, btnEl){
   stopAudio();
   const urlFn = TRACK_URL[cd];
@@ -347,6 +414,126 @@ function playSegment(cd, track, startMs, endMs, btnEl){
 }
 
 // ────────────────────────────────────────────────────────────────────────
+// ENGINE "BACA-ALONG" — audio jalan terus, id/kalimat yg aktif ke-highlight
+// otomatis mengikuti posisi audio. Player bar di bawah utk navigasi.
+// ────────────────────────────────────────────────────────────────────────
+function segTrackIndex(seg){ return seg.trackIdx; }
+
+function loadAndPlayFromSeg(idx, autoplay){
+  if(idx<0 || idx>=flatSegments.length) return;
+  curSegIdx = idx;
+  const seg = flatSegments[idx];
+  const trackObj = UNITS[seg.trackIdx];
+  const urlFn = TRACK_URL[trackObj.cd];
+  if(!urlFn){ toast(`Belum ada link audio utk CD${trackObj.cd}.`); return; }
+  if(trackPtr !== seg.trackIdx){
+    trackPtr = seg.trackIdx;
+    updatePlayerInfo();
+  }
+  ensureWidget(()=>{
+    const key = `${trackObj.cd}:${trackObj.track}`;
+    const afterReady = ()=>{
+      scWidget.seekTo(seg.start);
+      if(autoplay){ scWidget.play(); isPlayingBaca = true; }
+      bindBacaProgress();
+      highlightSeg(idx);
+      updatePlayPauseIcon();
+      updatePlayerInfo();
+    };
+    if(scLoadedKey === key){
+      afterReady();
+    } else {
+      scWidget.load(urlFn(trackObj.track), { callback: ()=>{ scLoadedKey = key; afterReady(); } });
+    }
+  });
+}
+function bindBacaProgress(){
+  if(bacaProgressHandler) scWidget.unbind(SC.Widget.Events.PLAY_PROGRESS);
+  bacaProgressHandler = (e)=>{
+    const pos = e.currentPosition;
+    const segs = flatSegments.filter(s=>s.trackIdx===trackPtr);
+    if(!segs.length) return;
+    let active = segs[0];
+    for(const s of segs){ if(s.start<=pos) active = s; else break; }
+    const idx = flatSegments.indexOf(active);
+    if(idx !== curSegIdx){ curSegIdx = idx; highlightSeg(idx); updatePlayerInfo(); }
+  };
+  scWidget.bind(SC.Widget.Events.PLAY_PROGRESS, bacaProgressHandler);
+  scWidget.unbind(SC.Widget.Events.FINISH);
+  scWidget.bind(SC.Widget.Events.FINISH, onTrackFinish);
+}
+function onTrackFinish(){
+  // lanjut otomatis ke track berikutnya kalau ada, spt playthrough album
+  if(trackPtr < UNITS.length-1){
+    uiNextTrack(true);
+  } else {
+    isPlayingBaca = false;
+    updatePlayPauseIcon();
+  }
+}
+function highlightSeg(idx){
+  document.querySelectorAll('.kotoba-card.active, .kalimat-item.active').forEach(el=>el.classList.remove('active'));
+  const seg = flatSegments[idx];
+  if(!seg) return;
+  const el = document.getElementById(seg.domId);
+  if(el){
+    el.classList.add('active');
+    el.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+}
+function updatePlayerInfo(){
+  const bar = document.getElementById('player-bar');
+  if(!bar) return;
+  const trackObj = currentTrackObj();
+  document.getElementById('pi-track').textContent = trackObj ? `CD${trackObj.cd}/T${trackObj.track}` : '—';
+  const seg = flatSegments[curSegIdx];
+  document.getElementById('pi-word').textContent = seg ? seg.label : (trackObj ? trackObj.tema[0] : '—');
+  document.getElementById('pb-prevtrack').disabled = trackPtr<=0;
+  document.getElementById('pb-nexttrack').disabled = trackPtr>=UNITS.length-1;
+}
+function updatePlayPauseIcon(){
+  const btn = document.getElementById('pb-playpause');
+  if(btn) btn.textContent = isPlayingBaca ? '❚❚' : '▶';
+}
+function uiPlayPause(){
+  if(isPlayingBaca){
+    scWidget && scWidget.pause();
+    isPlayingBaca = false;
+    updatePlayPauseIcon();
+  } else {
+    const idx = curSegIdx>=0 ? curSegIdx : flatSegments.findIndex(s=>s.trackIdx===trackPtr);
+    loadAndPlayFromSeg(idx<0?0:idx, true);
+  }
+}
+function uiPrevId(){
+  if(curSegIdx<=0) return;
+  loadAndPlayFromSeg(curSegIdx-1, true);
+}
+function uiNextId(){
+  if(curSegIdx>=flatSegments.length-1) return;
+  loadAndPlayFromSeg(curSegIdx+1, true);
+}
+function uiPrevTrack(auto){
+  if(trackPtr<=0) return;
+  trackPtr -= 1;
+  switchToTrackPtr(auto);
+}
+function uiNextTrack(auto){
+  if(trackPtr>=UNITS.length-1) return;
+  trackPtr += 1;
+  switchToTrackPtr(auto);
+}
+function switchToTrackPtr(autoplay){
+  const newUnit = currentTrackObj().unit;
+  if(newUnit !== currentUnitNumber_rendered){
+    document.getElementById('sel-unit').value = allUnitNumbers().indexOf(newUnit);
+    renderKosakata();
+  }
+  const idx = flatSegments.findIndex(s=>s.trackIdx===trackPtr);
+  loadAndPlayFromSeg(idx<0?0:idx, !!autoplay);
+}
+
+// ────────────────────────────────────────────────────────────────────────
 // TABS
 // ────────────────────────────────────────────────────────────────────────
 function switchTab(name){
@@ -354,26 +541,41 @@ function switchTab(name){
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
   document.getElementById('view-kosakata').style.display = name==='kosakata' ? '' : 'none';
   document.getElementById('view-flashcard').style.display = name==='flashcard' ? '' : 'none';
+  document.getElementById('player-bar').classList.toggle('show', name==='kosakata');
   if(name==='flashcard') renderFlashcard();
 }
 
 // ────────────────────────────────────────────────────────────────────────
 // UNIT SELECTOR
 // ────────────────────────────────────────────────────────────────────────
+let currentUnitNumber_rendered = null;
+function allUnitNumbers(){
+  const seen = []; UNITS.forEach(u=>{ if(!seen.includes(u.unit)) seen.push(u.unit); });
+  return seen;
+}
 function renderUnitSelect(){
   const sel = document.getElementById('sel-unit');
   sel.innerHTML = '';
-  UNITS.forEach((u,i)=>{
-    const label = `Unit ${u.unit} — ${u.tema[2]} (${u.tema[0]})`;
+  const units = allUnitNumbers();
+  units.forEach((unitNum,i)=>{
+    const firstTrack = UNITS.find(u=>u.unit===unitNum);
+    const label = `Unit ${unitNum} — ${firstTrack.tema[2]} (${firstTrack.tema[0]})`;
     sel.innerHTML += `<option value="${i}">${label}</option>`;
   });
-  sel.value = currentUnitIdx;
-  sel.onchange = ()=>{ currentUnitIdx = +sel.value; onUnitChange(); };
+  sel.value = units.indexOf(currentTrackObj().unit);
+  sel.onchange = ()=>{
+    const unitNum = units[+sel.value];
+    trackPtr = UNITS.findIndex(u=>u.unit===unitNum);
+    onUnitChange();
+  };
   onUnitChange();
 }
 function onUnitChange(){
-  const u = UNITS[currentUnitIdx];
+  const u = currentTrackObj();
+  currentUnitNumber_rendered = u.unit;
   document.getElementById('unit-tag').textContent = `CD${u.cd} / Track ${u.track}`;
+  stopAudio();
+  curSegIdx = -1;
   renderKosakata();
   fcOrder = u.data.map((_,i)=>i);
   fcIdx = 0; fcFlipped = false;
@@ -384,47 +586,66 @@ function onUnitChange(){
 // KOSAKATA VIEW
 // ────────────────────────────────────────────────────────────────────────
 function renderKosakata(){
-  const u = UNITS[currentUnitIdx];
+  const unitNum = currentUnitNumber_rendered;
+  const trackIdxs = unitTrackRefs(unitNum);
+  flatSegments = [];
   const wrap = document.getElementById('view-kosakata');
-  wrap.innerHTML = u.data.map((entry, i)=>{
-    const [kanji, yomi, arti, seg] = entry.kotoba;
-    const hasKalimat = entry.kalimat && entry.kalimat.length;
-    const kalimatHtml = hasKalimat ? entry.kalimat.map((k,ki)=>{
-      const [jp, ky, kid, kseg] = k;
-      return `<div class="kalimat-item">
-        <div class="play-dot small" onclick="event.stopPropagation();playSegment(${u.cd},${u.track},${kseg[0]},${kseg[1]},this)">▶</div>
-        <div class="kalimat-text">
-          <div class="kalimat-jp">${jp}</div>
-          <div class="kalimat-yomi">${ky}</div>
-          <div class="kalimat-id">${kid}</div>
-        </div>
-      </div>`;
-    }).join('') : `<div class="empty-note">Belum ada contoh kalimat untuk kosakata ini.</div>`;
+  let html = '';
 
-    return `<div class="kotoba-card">
-      <div class="kotoba-main" onclick="toggleKalimat(${i})">
-        <div class="play-dot" id="dot-${i}" onclick="event.stopPropagation();playSegment(${u.cd},${u.track},${seg[0]},${seg[1]},this)">▶</div>
-        <div class="kotoba-text">
-          <div class="kotoba-kanji">${kanji}</div>
-          <div class="kotoba-yomi">${yomi}</div>
-          <div class="kotoba-arti">${arti}</div>
+  trackIdxs.forEach(ti=>{
+    const u = UNITS[ti];
+    html += `<div class="track-header"><span class="th-tema">Track ${u.track} — ${u.tema[2]} (${u.tema[0]})</span><span>CD${u.cd}/T${u.track}</span></div>`;
+    u.data.forEach((entry,i)=>{
+      const [kanji, yomi, arti, seg] = entry.kotoba;
+      const domId = `seg-${ti}-${i}`;
+      flatSegments.push({trackIdx:ti, entryIdx:i, kalimatIdx:null, start:seg[0], end:seg[1], domId, label:`${kanji} · ${yomi}`});
+
+      const hasKalimat = entry.kalimat && entry.kalimat.length;
+      const kalimatHtml = hasKalimat ? entry.kalimat.map((k,ki)=>{
+        const [jp, ky, kid, kseg] = k;
+        const kDomId = `seg-${ti}-${i}-${ki}`;
+        flatSegments.push({trackIdx:ti, entryIdx:i, kalimatIdx:ki, start:kseg[0], end:kseg[1], domId:kDomId, label:jp});
+        return `<div class="kalimat-item" id="${kDomId}">
+          <div class="play-dot small" onclick="event.stopPropagation();jumpToSegByDom('${kDomId}')">▶</div>
+          <div class="kalimat-text">
+            <div class="kalimat-jp">${jp}</div>
+            <div class="kalimat-yomi">${ky}</div>
+            <div class="kalimat-id">${kid}</div>
+          </div>
+        </div>`;
+      }).join('') : `<div class="empty-note">Belum ada contoh kalimat untuk kosakata ini.</div>`;
+
+      html += `<div class="kotoba-card" id="${domId}">
+        <div class="kotoba-main" onclick="jumpToSegByDom('${domId}')">
+          <div class="play-dot" onclick="event.stopPropagation();jumpToSegByDom('${domId}')">▶</div>
+          <div class="kotoba-text">
+            <div class="kotoba-kanji">${kanji}</div>
+            <div class="kotoba-yomi">${yomi}</div>
+            <div class="kotoba-arti">${arti}</div>
+          </div>
         </div>
-        <div class="kotoba-chevron" id="chev-${i}">▾</div>
-      </div>
-      <div class="kalimat-list" id="kalimat-${i}">${kalimatHtml}</div>
-    </div>`;
-  }).join('');
+        <div class="kalimat-list">${kalimatHtml}</div>
+      </div>`;
+    });
+  });
+
+  wrap.innerHTML = html;
+  // urutkan flatSegments berdasarkan urutan track (trackIdxs) lalu waktu, biar navigasi id konsisten
+  flatSegments.sort((a,b)=> trackIdxs.indexOf(a.trackIdx)-trackIdxs.indexOf(b.trackIdx) || a.start-b.start);
+  curSegIdx = -1;
+  updatePlayerInfo();
 }
-function toggleKalimat(i){
-  document.getElementById(`kalimat-${i}`).classList.toggle('open');
-  document.getElementById(`chev-${i}`).classList.toggle('open');
+function jumpToSegByDom(domId){
+  const idx = flatSegments.findIndex(s=>s.domId===domId);
+  if(idx<0) return;
+  loadAndPlayFromSeg(idx, true);
 }
 
 // ────────────────────────────────────────────────────────────────────────
 // FLASHCARD VIEW
 // ────────────────────────────────────────────────────────────────────────
 function renderFlashcard(){
-  const u = UNITS[currentUnitIdx];
+  const u = currentTrackObj();
   if(!fcOrder.length) fcOrder = u.data.map((_,i)=>i);
   const entry = u.data[fcOrder[fcIdx]];
   const [kanji, yomi, arti, seg] = entry.kotoba;
@@ -448,7 +669,7 @@ function fcNav(dir){
   renderFlashcard();
 }
 function fcPlay(){
-  const u = UNITS[currentUnitIdx];
+  const u = currentTrackObj();
   const entry = u.data[fcOrder[fcIdx]];
   playSegment(u.cd, u.track, entry.kotoba[3][0], entry.kotoba[3][1], document.getElementById('fc-play'));
 }
@@ -460,7 +681,7 @@ function shuffleUnit(){
   fcIdx=0; fcFlipped=false; renderFlashcard();
 }
 function resetUnitOrder(){
-  fcOrder = UNITS[currentUnitIdx].data.map((_,i)=>i);
+  fcOrder = currentTrackObj().data.map((_,i)=>i);
   fcIdx=0; fcFlipped=false; renderFlashcard();
 }
 
