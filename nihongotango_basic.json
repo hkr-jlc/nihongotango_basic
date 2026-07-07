@@ -1,1098 +1,2970 @@
 {
   "units": [
     {
-      "cd": 1, "track": 1, "audio": "cd1_01.mp3", "unit": 1,
-      "tema": ["数字", "すうじ", "Angka"],
+      "cd": 1,
+      "track": 1,
+      "audio": "cd1_01.mp3",
+      "unit": 1,
+      "tema": [
+        "数字",
+        "すうじ",
+        "Angka"
+      ],
       "data": [
         {
           "id": 1,
-          "kotoba": ["0", "ゼロ／れい", "nol", [14000, 15600]],
+          "kotoba": [
+            "0",
+            "ゼロ／れい",
+            "nol",
+            [
+              14015,
+              15536
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 2,
-          "kotoba": ["1", "いち", "satu", [15600, 17200]],
+          "kotoba": [
+            "1",
+            "いち",
+            "satu",
+            [
+              16697,
+              16998
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 3,
-          "kotoba": ["2", "に", "dua", [17200, 18800]],
+          "kotoba": [
+            "2",
+            "に",
+            "dua",
+            [
+              17958,
+              18078
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 4,
-          "kotoba": ["3", "さん", "tiga", [18800, 20400]],
+          "kotoba": [
+            "3",
+            "さん",
+            "tiga",
+            [
+              19159,
+              19460
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 5,
-          "kotoba": ["4", "し／よん", "empat", [20400, 22000]],
+          "kotoba": [
+            "4",
+            "し／よん",
+            "empat",
+            [
+              20641,
+              21882
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 6,
-          "kotoba": ["5", "ご", "lima", [22000, 23500]],
+          "kotoba": [
+            "5",
+            "ご",
+            "lima",
+            [
+              23062,
+              23183
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 7,
-          "kotoba": ["6", "ろく", "enam", [23500, 25000]],
+          "kotoba": [
+            "6",
+            "ろく",
+            "enam",
+            [
+              24123,
+              24484
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 8,
-          "kotoba": ["7", "しち／なな", "tujuh", [25000, 26500]],
+          "kotoba": [
+            "7",
+            "しち／なな",
+            "tujuh",
+            [
+              25384,
+              27926
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 9,
-          "kotoba": ["8", "はち", "delapan", [26500, 28000]],
+          "kotoba": [
+            "8",
+            "はち",
+            "delapan",
+            [
+              27927,
+              28267
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 10,
-          "kotoba": ["9", "きゅう／く", "sembilan", [28000, 29636]],
+          "kotoba": [
+            "9",
+            "きゅう／く",
+            "sembilan",
+            [
+              29228,
+              30568
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 11,
-          "kotoba": ["10", "じゅう", "sepuluh", [29636, 31272]],
+          "kotoba": [
+            "10",
+            "じゅう",
+            "sepuluh",
+            [
+              31569,
+              31829
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 12,
-          "kotoba": ["11", "じゅういち", "sebelas", [31272, 32908]],
+          "kotoba": [
+            "11",
+            "じゅういち",
+            "sebelas",
+            [
+              32869,
+              33590
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 13,
-          "kotoba": ["12", "じゅうに", "dua belas", [32908, 34544]],
+          "kotoba": [
+            "12",
+            "じゅうに",
+            "dua belas",
+            [
+              34490,
+              35010
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 14,
-          "kotoba": ["13", "じゅうさん", "tiga belas", [34544, 36180]],
+          "kotoba": [
+            "13",
+            "じゅうさん",
+            "tiga belas",
+            [
+              35971,
+              36611
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 15,
-          "kotoba": ["14", "じゅうよん", "empat belas", [36180, 37816]],
+          "kotoba": [
+            "14",
+            "じゅうよん",
+            "empat belas",
+            [
+              37512,
+              37972
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 16,
-          "kotoba": ["15", "じゅうご", "lima belas", [37816, 39452]],
+          "kotoba": [
+            "15",
+            "じゅうご",
+            "lima belas",
+            [
+              38973,
+              39513
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 17,
-          "kotoba": ["16", "じゅうろく", "enam belas", [39452, 41088]],
+          "kotoba": [
+            "16",
+            "じゅうろく",
+            "enam belas",
+            [
+              40393,
+              41114
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 18,
-          "kotoba": ["17", "じゅうしち", "tujuh belas", [41088, 42724]],
+          "kotoba": [
+            "17",
+            "じゅうしち",
+            "tujuh belas",
+            [
+              42014,
+              42715
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 19,
-          "kotoba": ["18", "じゅうはち", "delapan belas", [42724, 44360]],
+          "kotoba": [
+            "18",
+            "じゅうはち",
+            "delapan belas",
+            [
+              43615,
+              44355
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 20,
-          "kotoba": ["19", "じゅうきゅう", "sembilan belas", [44360, 46000]],
+          "kotoba": [
+            "19",
+            "じゅうきゅう",
+            "sembilan belas",
+            [
+              45256,
+              45876
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 21,
-          "kotoba": ["20", "にじゅう", "dua puluh", [46000, 47615]],
+          "kotoba": [
+            "20",
+            "にじゅう",
+            "dua puluh",
+            [
+              48238,
+              48618
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 22,
-          "kotoba": ["30", "さんじゅう", "tiga puluh", [47615, 49230]],
+          "kotoba": [
+            "30",
+            "さんじゅう",
+            "tiga puluh",
+            [
+              49718,
+              50319
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 23,
-          "kotoba": ["40", "よんじゅう", "empat puluh", [49230, 50845]],
+          "kotoba": [
+            "40",
+            "よんじゅう",
+            "empat puluh",
+            [
+              51319,
+              51860
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 24,
-          "kotoba": ["50", "ごじゅう", "lima puluh", [50845, 52460]],
+          "kotoba": [
+            "50",
+            "ごじゅう",
+            "lima puluh",
+            [
+              52960,
+              53320
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 25,
-          "kotoba": ["60", "ろくじゅう", "enam puluh", [52460, 54075]],
+          "kotoba": [
+            "60",
+            "ろくじゅう",
+            "enam puluh",
+            [
+              54401,
+              54961
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 26,
-          "kotoba": ["70", "ななじゅう", "tujuh puluh", [54075, 55690]],
+          "kotoba": [
+            "70",
+            "ななじゅう",
+            "tujuh puluh",
+            [
+              56042,
+              56602
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 27,
-          "kotoba": ["80", "はちじゅう", "delapan puluh", [55690, 57305]],
+          "kotoba": [
+            "80",
+            "はちじゅう",
+            "delapan puluh",
+            [
+              57623,
+              58183
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 28,
-          "kotoba": ["90", "きゅうじゅう", "sembilan puluh", [57305, 58920]],
+          "kotoba": [
+            "90",
+            "きゅうじゅう",
+            "sembilan puluh",
+            [
+              59264,
+              59764
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 29,
-          "kotoba": ["100", "ひゃく", "seratus", [58920, 60535]],
+          "kotoba": [
+            "100",
+            "ひゃく",
+            "seratus",
+            [
+              60900,
+              61300
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 30,
-          "kotoba": ["200", "にひゃく", "dua ratus", [60535, 62150]],
+          "kotoba": [
+            "200",
+            "にひゃく",
+            "dua ratus",
+            [
+              62221,
+              62801
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 31,
-          "kotoba": ["300", "さんびゃく", "tiga ratus", [62150, 63765]],
+          "kotoba": [
+            "300",
+            "さんびゃく",
+            "tiga ratus",
+            [
+              63722,
+              64443
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 32,
-          "kotoba": ["400", "よんひゃく", "empat ratus", [63765, 65380]],
+          "kotoba": [
+            "400",
+            "よんひゃく",
+            "empat ratus",
+            [
+              65343,
+              66024
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 33,
-          "kotoba": ["500", "ごひゃく", "lima ratus", [65380, 67000]],
+          "kotoba": [
+            "500",
+            "ごひゃく",
+            "lima ratus",
+            [
+              67004,
+              67565
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 34,
-          "kotoba": ["600", "ろっぴゃく", "enam ratus", [67000, 68692]],
+          "kotoba": [
+            "600",
+            "ろっぴゃく",
+            "enam ratus",
+            [
+              68465,
+              69166
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 35,
-          "kotoba": ["700", "ななひゃく", "tujuh ratus", [68692, 70384]],
+          "kotoba": [
+            "700",
+            "ななひゃく",
+            "tujuh ratus",
+            [
+              70086,
+              70787
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 36,
-          "kotoba": ["800", "はっぴゃく", "delapan ratus", [70384, 72076]],
+          "kotoba": [
+            "800",
+            "はっぴゃく",
+            "delapan ratus",
+            [
+              71668,
+              72388
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 37,
-          "kotoba": ["900", "きゅうひゃく", "sembilan ratus", [72076, 73768]],
+          "kotoba": [
+            "900",
+            "きゅうひゃく",
+            "sembilan ratus",
+            [
+              73249,
+              73969
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 38,
-          "kotoba": ["1000", "せん／いっせん", "seribu", [73768, 75460]],
+          "kotoba": [
+            "1000",
+            "せん／いっせん",
+            "seribu",
+            [
+              74870,
+              76731
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 39,
-          "kotoba": ["2000", "にせん", "dua ribu", [75460, 77152]],
+          "kotoba": [
+            "2000",
+            "にせん",
+            "dua ribu",
+            [
+              77752,
+              78232
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 40,
-          "kotoba": ["3000", "さんぜん", "tiga ribu", [77152, 78844]],
+          "kotoba": [
+            "3000",
+            "さんぜん",
+            "tiga ribu",
+            [
+              79253,
+              79893
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 41,
-          "kotoba": ["4000", "よんせん", "empat ribu", [78844, 80536]],
+          "kotoba": [
+            "4000",
+            "よんせん",
+            "empat ribu",
+            [
+              80914,
+              81555
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 42,
-          "kotoba": ["5000", "ごせん", "lima ribu", [80536, 82228]],
+          "kotoba": [
+            "5000",
+            "ごせん",
+            "lima ribu",
+            [
+              82515,
+              82976
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 43,
-          "kotoba": ["6000", "ろくせん", "enam ribu", [82228, 83920]],
+          "kotoba": [
+            "6000",
+            "ろくせん",
+            "enam ribu",
+            [
+              83956,
+              84557
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 44,
-          "kotoba": ["7000", "ななせん", "tujuh ribu", [83920, 85612]],
+          "kotoba": [
+            "7000",
+            "ななせん",
+            "tujuh ribu",
+            [
+              85437,
+              86058
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 45,
-          "kotoba": ["8000", "はっせん", "delapan ribu", [85612, 87304]],
+          "kotoba": [
+            "8000",
+            "はっせん",
+            "delapan ribu",
+            [
+              86978,
+              87599
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 46,
-          "kotoba": ["9000", "きゅうせん", "sembilan ribu", [87304, 89000]],
+          "kotoba": [
+            "9000",
+            "きゅうせん",
+            "sembilan ribu",
+            [
+              88499,
+              89140
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 47,
-          "kotoba": ["10000", "いちまん", "sepuluh ribu", [89000, 90800]],
+          "kotoba": [
+            "10000",
+            "いちまん",
+            "sepuluh ribu",
+            [
+              90044,
+              90605
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 48,
-          "kotoba": ["20000", "にまん", "dua puluh ribu", [90800, 92600]],
+          "kotoba": [
+            "20000",
+            "にまん",
+            "dua puluh ribu",
+            [
+              91605,
+              92086
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 49,
-          "kotoba": ["30000", "さんまん", "tiga puluh ribu", [92600, 94400]],
+          "kotoba": [
+            "30000",
+            "さんまん",
+            "tiga puluh ribu",
+            [
+              93127,
+              93767
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 50,
-          "kotoba": ["40000", "よんまん", "empat puluh ribu", [94400, 96200]],
+          "kotoba": [
+            "40000",
+            "よんまん",
+            "empat puluh ribu",
+            [
+              94708,
+              95329
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 51,
-          "kotoba": ["50000", "ごまん", "lima puluh ribu", [96200, 98000]],
+          "kotoba": [
+            "50000",
+            "ごまん",
+            "lima puluh ribu",
+            [
+              96289,
+              96770
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 52,
-          "kotoba": ["60000", "ろくまん", "enam puluh ribu", [98000, 99800]],
+          "kotoba": [
+            "60000",
+            "ろくまん",
+            "enam puluh ribu",
+            [
+              97711,
+              98331
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 53,
-          "kotoba": ["70000", "ななまん", "tujuh puluh ribu", [99800, 101600]],
+          "kotoba": [
+            "70000",
+            "ななまん",
+            "tujuh puluh ribu",
+            [
+              99252,
+              99832
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 54,
-          "kotoba": ["80000", "はちまん", "delapan puluh ribu", [101600, 103400]],
+          "kotoba": [
+            "80000",
+            "はちまん",
+            "delapan puluh ribu",
+            [
+              100793,
+              101434
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 55,
-          "kotoba": ["90000", "きゅうまん", "sembilan puluh ribu", [103400, 105200]],
+          "kotoba": [
+            "90000",
+            "きゅうまん",
+            "sembilan puluh ribu",
+            [
+              102415,
+              103015
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 56,
-          "kotoba": ["100000", "じゅうまん", "seratus ribu", [105200, 107000]],
+          "kotoba": [
+            "100000",
+            "じゅうまん",
+            "seratus ribu",
+            [
+              104016,
+              104616
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 57,
-          "kotoba": ["123", "ひゃく にじゅう さん", "Seratus dua puluh tiga", [107000, 111200]],
+          "kotoba": [
+            "1000000",
+            "ひゃくまん",
+            "satu juta",
+            [
+              105577,
+              106238
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 58,
-          "kotoba": ["2345", "にせん さんびゃく よんじゅうご", "Dua ribu tiga ratus empat puluh lima", [111200, 115400]],
+          "kotoba": [
+            "123",
+            "ひゃく にじゅう さん",
+            "Seratus dua puluh tiga",
+            [
+              109961,
+              111182
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 59,
-          "kotoba": ["34567", "さんまん よんせん ごひゃく ろくじゅうなな", "Tiga puluh empat ribu lima ratus enam puluh tujuh", [115400, 119600]],
+          "kotoba": [
+            "2345",
+            "にせん さんびゃく よんじゅうご",
+            "Dua ribu tiga ratus empat puluh lima",
+            [
+              112523,
+              114465
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 60,
-          "kotoba": ["456789", "よんじゅうごまん ろくせん ななひゃく はちじゅうきゅう", "Empat ratus lima puluh enam ribu tujuh ratus delapan puluh sembilan", [119600, 123800]],
+          "kotoba": [
+            "34567",
+            "さんまん よんせん ごひゃく ろくじゅうなな",
+            "Tiga puluh empat ribu lima ratus enam puluh tujuh",
+            [
+              115806,
+              118288
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 61,
-          "kotoba": ["5678901", "ごひゃく ろくじゅうななまん はっせん きゅうひゃく いち", "Lima juta enam ratus tujuh puluh delapan ribu sembilan ratus satu", [123800, 128000]],
+          "kotoba": [
+            "456789",
+            "よんじゅうごまん ろくせん ななひゃく はちじゅうきゅう",
+            "Empat ratus lima puluh enam ribu tujuh ratus delapan puluh sembilan",
+            [
+              119508,
+              122590
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 62,
-          "kotoba": ["零", "ゼロ／れい", "nol (kanji)", [128000, 129714]],
+          "kotoba": [
+            "5678901",
+            "ごひゃく ろくじゅうななまん はっせん きゅうひゃく いち",
+            "Lima juta enam ratus tujuh puluh delapan ribu sembilan ratus satu",
+            [
+              123870,
+              127032
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 63,
-          "kotoba": ["一", "いち", "satu (kanji)", [129714, 131428]],
+          "kotoba": [
+            "零",
+            "ゼロ／れい",
+            "nol (kanji)",
+            [
+              128713,
+              130014
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 64,
-          "kotoba": ["二", "に", "dua (kanji)", [131428, 133142]],
+          "kotoba": [
+            "一",
+            "いち",
+            "satu (kanji)",
+            [
+              131054,
+              131375
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 65,
-          "kotoba": ["三", "さん", "tiga (kanji)", [133142, 134856]],
+          "kotoba": [
+            "二",
+            "に",
+            "dua (kanji)",
+            [
+              132275,
+              132395
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 66,
-          "kotoba": ["四", "し／よん", "empat (kanji)", [134856, 136570]],
+          "kotoba": [
+            "三",
+            "さん",
+            "tiga (kanji)",
+            [
+              133276,
+              133576
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 67,
-          "kotoba": ["五", "ご", "lima (kanji)", [136570, 138284]],
+          "kotoba": [
+            "四",
+            "し／よん",
+            "empat (kanji)",
+            [
+              134696,
+              135617
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 68,
-          "kotoba": ["六", "ろく", "enam (kanji)", [138284, 139998]],
+          "kotoba": [
+            "五",
+            "ご",
+            "lima (kanji)",
+            [
+              136757,
+              136878
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 69,
-          "kotoba": ["七", "しち／なな", "tujuh (kanji)", [139998, 141712]],
+          "kotoba": [
+            "六",
+            "ろく",
+            "enam (kanji)",
+            [
+              137678,
+              138038
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 70,
-          "kotoba": ["八", "はち", "delapan (kanji)", [141712, 143426]],
+          "kotoba": [
+            "七",
+            "しち／なな",
+            "tujuh (kanji)",
+            [
+              139059,
+              140660
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 71,
-          "kotoba": ["九", "きゅう／く", "sembilan (kanji)", [143426, 145140]],
+          "kotoba": [
+            "八",
+            "はち",
+            "delapan (kanji)",
+            [
+              140661,
+              142120
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 72,
-          "kotoba": ["十", "じゅう", "sepuluh (kanji)", [145140, 146854]],
+          "kotoba": [
+            "九",
+            "きゅう／く",
+            "sembilan (kanji)",
+            [
+              143021,
+              143321
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 73,
-          "kotoba": ["百", "ひゃく", "seratus (kanji)", [146854, 148568]],
+          "kotoba": [
+            "十",
+            "じゅう",
+            "sepuluh (kanji)",
+            [
+              144362,
+              144482
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 74,
-          "kotoba": ["千", "せん", "seribu (kanji)", [148568, 150282]],
+          "kotoba": [
+            "百",
+            "ひゃく",
+            "seratus (kanji)",
+            [
+              145482,
+              147183
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 75,
-          "kotoba": ["万", "まん", "sepuluh ribu (kanji)", [150282, 152000]],
+          "kotoba": [
+            "千",
+            "せん",
+            "seribu (kanji)",
+            [
+              148204,
+              148484
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 76,
-          "kotoba": ["1.2", "いってんに", "Satu koma dua", [152000, 156000]],
+          "kotoba": [
+            "万",
+            "まん",
+            "sepuluh ribu (kanji)",
+            [
+              148600,
+              150700
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 77,
-          "kotoba": ["0.5", "れいてんご", "Nol koma lima", [156000, 160000]],
+          "kotoba": [
+            "1.2",
+            "いってんに",
+            "Satu koma dua",
+            [
+              151687,
+              154189
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 78,
-          "kotoba": ["-10", "マイナスじゅう", "Minus sepuluh", [160000, 164000]],
+          "kotoba": [
+            "0.5",
+            "れいてんご",
+            "Nol koma lima",
+            [
+              155431,
+              156352
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 79,
-          "kotoba": ["+20", "プラスにじゅう", "Plus dua puluh", [164000, 168000]],
+          "kotoba": [
+            "-10",
+            "マイナスじゅう",
+            "Minus sepuluh",
+            [
+              157613,
+              158274
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 80,
-          "kotoba": ["5%", "ごパーセント", "Lima persen", [168000, 172000]],
+          "kotoba": [
+            "+20",
+            "プラスにじゅう",
+            "Plus dua puluh",
+            [
+              159976,
+              161600
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 81,
+          "kotoba": [
+            "5%",
+            "ごパーセント",
+            "Lima persen",
+            [
+              161600,
+              163280
+            ]
+          ],
           "kalimat": []
         }
       ]
     },
     {
-      "cd": 1, "track": 2, "audio": "cd1_02.mp3", "unit": 2,
-      "tema": ["時間", "じかん", "Waktu"],
+      "cd": 1,
+      "track": 2,
+      "audio": "cd1_02.mp3",
+      "unit": 2,
+      "tema": [
+        "時間",
+        "じかん",
+        "Waktu"
+      ],
       "data": [
         {
           "id": 1,
-          "kotoba": ["年", "とし", "tahun", [4000, 17000]],
-          "kalimat": [["新しい年", "あたらしい とし", "Tahun baru", [10000, 14000]], ["日本に来たのは何年ですか。", "にほん に きた のは なんねん ですか。", "Anda datang ke Jepang tahun berapa?", [14000, 17000]]]
+          "kotoba": [
+            "年",
+            "とし",
+            "tahun",
+            [
+              4000,
+              17000
+            ]
+          ],
+          "kalimat": [
+            [
+              "新しい年",
+              "あたらしい とし",
+              "Tahun baru",
+              [
+                10000,
+                14000
+              ]
+            ],
+            [
+              "日本に来たのは何年ですか。",
+              "にほん に きた のは なんねん ですか。",
+              "Anda datang ke Jepang tahun berapa?",
+              [
+                14000,
+                17000
+              ]
+            ]
+          ]
         },
         {
           "id": 2,
-          "kotoba": ["月", "つき", "bulan", [17000, 25000]],
-          "kalimat": [["月に一度集まります。", "つき に いちど あつまります。", "Kami berkumpul sebulan sekali.", [20000, 24000]], ["誕生日は何月ですか。", "たんじょうび は なんがつ ですか。", "Ulang tahun Anda bulan apa?", [24000, 25000]]]
+          "kotoba": [
+            "月",
+            "つき",
+            "bulan",
+            [
+              17000,
+              25000
+            ]
+          ],
+          "kalimat": [
+            [
+              "月に一度集まります。",
+              "つき に いちど あつまります。",
+              "Kami berkumpul sebulan sekali.",
+              [
+                20000,
+                24000
+              ]
+            ],
+            [
+              "誕生日は何月ですか。",
+              "たんじょうび は なんがつ ですか。",
+              "Ulang tahun Anda bulan apa?",
+              [
+                24000,
+                25000
+              ]
+            ]
+          ]
         },
         {
           "id": 3,
-          "kotoba": ["1月", "いちがつ", "Januari", [25000, 29000]],
+          "kotoba": [
+            "1月",
+            "いちがつ",
+            "Januari",
+            [
+              25000,
+              29000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 4,
-          "kotoba": ["2月", "にがつ", "Februari", [25000, 29000]],
+          "kotoba": [
+            "2月",
+            "にがつ",
+            "Februari",
+            [
+              25000,
+              29000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 5,
-          "kotoba": ["3月", "さんがつ", "Maret", [29000, 33000]],
+          "kotoba": [
+            "3月",
+            "さんがつ",
+            "Maret",
+            [
+              29000,
+              33000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 6,
-          "kotoba": ["4月", "しがつ", "April", [29000, 33000]],
+          "kotoba": [
+            "4月",
+            "しがつ",
+            "April",
+            [
+              29000,
+              33000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 7,
-          "kotoba": ["5月", "ごがつ", "Mei", [33000, 37000]],
+          "kotoba": [
+            "5月",
+            "ごがつ",
+            "Mei",
+            [
+              33000,
+              37000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 8,
-          "kotoba": ["6月", "ろくがつ", "Juni", [33000, 37000]],
+          "kotoba": [
+            "6月",
+            "ろくがつ",
+            "Juni",
+            [
+              33000,
+              37000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 9,
-          "kotoba": ["7月", "しちがつ", "Juli", [37000, 41000]],
+          "kotoba": [
+            "7月",
+            "しちがつ",
+            "Juli",
+            [
+              37000,
+              41000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 10,
-          "kotoba": ["8月", "はちがつ", "Agustus", [37000, 41000]],
+          "kotoba": [
+            "8月",
+            "はちがつ",
+            "Agustus",
+            [
+              37000,
+              41000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 11,
-          "kotoba": ["9月", "くがつ", "September", [41000, 45000]],
+          "kotoba": [
+            "9月",
+            "くがつ",
+            "September",
+            [
+              41000,
+              45000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 12,
-          "kotoba": ["10月", "じゅうがつ", "Oktober", [41000, 45000]],
+          "kotoba": [
+            "10月",
+            "じゅうがつ",
+            "Oktober",
+            [
+              41000,
+              45000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 13,
-          "kotoba": ["11月", "じゅういちがつ", "November", [45000, 49000]],
+          "kotoba": [
+            "11月",
+            "じゅういちがつ",
+            "November",
+            [
+              45000,
+              49000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 14,
-          "kotoba": ["12月", "じゅうにがつ", "Desember", [45000, 49000]],
+          "kotoba": [
+            "12月",
+            "じゅうにがつ",
+            "Desember",
+            [
+              45000,
+              49000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 15,
-          "kotoba": ["日", "ひ", "hari / tanggal", [49000, 59000]],
-          "kalimat": [["その日はダメです。", "その ひ は だめです。", "Hari itu saya tidak bisa.", [53000, 56000]], ["今日は何日ですか。", "きょう は なんにち ですか。", "Hari ini tanggal berapa?", [56000, 58000]]]
+          "kotoba": [
+            "日",
+            "ひ",
+            "hari / tanggal",
+            [
+              49000,
+              59000
+            ]
+          ],
+          "kalimat": [
+            [
+              "その日はダメです。",
+              "その ひ は だめです。",
+              "Hari itu saya tidak bisa.",
+              [
+                53000,
+                56000
+              ]
+            ],
+            [
+              "今日は何日ですか。",
+              "きょう は なんにち ですか。",
+              "Hari ini tanggal berapa?",
+              [
+                56000,
+                58000
+              ]
+            ]
+          ]
         },
         {
           "id": 16,
-          "kotoba": ["日にち", "ひにち", "tanggal", [58000, 62000]],
-          "kalimat": [["日にちは決まりましたか。", "ひにち は きまりましたか。", "Apakah tanggalnya sudah ditentukan?", [59000, 62000]]]
+          "kotoba": [
+            "日にち",
+            "ひにち",
+            "tanggal",
+            [
+              58000,
+              62000
+            ]
+          ],
+          "kalimat": [
+            [
+              "日にちは決まりましたか。",
+              "ひにち は きまりましたか。",
+              "Apakah tanggalnya sudah ditentukan?",
+              [
+                59000,
+                62000
+              ]
+            ]
+          ]
         },
         {
           "id": 17,
-          "kotoba": ["1日", "ついたち", "tanggal 1", [62000, 66000]],
+          "kotoba": [
+            "1日",
+            "ついたち",
+            "tanggal 1",
+            [
+              62000,
+              66000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 18,
-          "kotoba": ["2日", "ふつか", "tanggal 2", [62000, 66000]],
+          "kotoba": [
+            "2日",
+            "ふつか",
+            "tanggal 2",
+            [
+              62000,
+              66000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 19,
-          "kotoba": ["3日", "みっか", "tanggal 3", [66000, 70000]],
+          "kotoba": [
+            "3日",
+            "みっか",
+            "tanggal 3",
+            [
+              66000,
+              70000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 20,
-          "kotoba": ["4日", "よっか", "tanggal 4", [66000, 70000]],
+          "kotoba": [
+            "4日",
+            "よっか",
+            "tanggal 4",
+            [
+              66000,
+              70000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 21,
-          "kotoba": ["5日", "いつか", "tanggal 5", [70000, 73000]],
+          "kotoba": [
+            "5日",
+            "いつか",
+            "tanggal 5",
+            [
+              70000,
+              73000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 22,
-          "kotoba": ["6日", "むいか", "tanggal 6", [70000, 73000]],
+          "kotoba": [
+            "6日",
+            "むいか",
+            "tanggal 6",
+            [
+              70000,
+              73000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 23,
-          "kotoba": ["7日", "なのか", "tanggal 7", [73000, 77000]],
+          "kotoba": [
+            "7日",
+            "なのか",
+            "tanggal 7",
+            [
+              73000,
+              77000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 24,
-          "kotoba": ["8日", "ようか", "tanggal 8", [73000, 77000]],
+          "kotoba": [
+            "8日",
+            "ようか",
+            "tanggal 8",
+            [
+              73000,
+              77000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 25,
-          "kotoba": ["9日", "ここのか", "tanggal 9", [77000, 80000]],
+          "kotoba": [
+            "9日",
+            "ここのか",
+            "tanggal 9",
+            [
+              77000,
+              80000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 26,
-          "kotoba": ["10日", "とおか", "tanggal 10", [77000, 80000]],
+          "kotoba": [
+            "10日",
+            "とおか",
+            "tanggal 10",
+            [
+              77000,
+              80000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 27,
-          "kotoba": ["11日", "じゅういちにち", "tanggal 11", [80000, 85000]],
+          "kotoba": [
+            "11日",
+            "じゅういちにち",
+            "tanggal 11",
+            [
+              80000,
+              85000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 28,
-          "kotoba": ["12日", "じゅうににち", "tanggal 12", [80000, 85000]],
+          "kotoba": [
+            "12日",
+            "じゅうににち",
+            "tanggal 12",
+            [
+              80000,
+              85000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 29,
-          "kotoba": ["13日", "じゅうさんにち", "tanggal 13", [85000, 88000]],
+          "kotoba": [
+            "13日",
+            "じゅうさんにち",
+            "tanggal 13",
+            [
+              85000,
+              88000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 30,
-          "kotoba": ["14日", "じゅうよっか", "tanggal 14", [85000, 88000]],
+          "kotoba": [
+            "14日",
+            "じゅうよっか",
+            "tanggal 14",
+            [
+              85000,
+              88000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 31,
-          "kotoba": ["15日", "じゅうごにち", "tanggal 15", [88000, 94000]],
+          "kotoba": [
+            "15日",
+            "じゅうごにち",
+            "tanggal 15",
+            [
+              88000,
+              94000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 32,
-          "kotoba": ["16日", "じゅうろくにち", "tanggal 16", [88000, 94000]],
+          "kotoba": [
+            "16日",
+            "じゅうろくにち",
+            "tanggal 16",
+            [
+              88000,
+              94000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 33,
-          "kotoba": ["17日", "じゅうしちにち", "tanggal 17", [94000, 98000]],
+          "kotoba": [
+            "17日",
+            "じゅうしちにち",
+            "tanggal 17",
+            [
+              94000,
+              98000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 34,
-          "kotoba": ["18日", "じゅうはちにち", "tanggal 18", [94000, 98000]],
+          "kotoba": [
+            "18日",
+            "じゅうはちにち",
+            "tanggal 18",
+            [
+              94000,
+              98000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 35,
-          "kotoba": ["19日", "じゅうくにち", "tanggal 19", [98000, 103000]],
+          "kotoba": [
+            "19日",
+            "じゅうくにち",
+            "tanggal 19",
+            [
+              98000,
+              103000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 36,
-          "kotoba": ["20日", "はつか", "tanggal 20", [98000, 103000]],
+          "kotoba": [
+            "20日",
+            "はつか",
+            "tanggal 20",
+            [
+              98000,
+              103000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 37,
-          "kotoba": ["21日", "にじゅういちにち", "tanggal 21", [103000, 107000]],
+          "kotoba": [
+            "21日",
+            "にじゅういちにち",
+            "tanggal 21",
+            [
+              103000,
+              107000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 38,
-          "kotoba": ["22日", "にじゅうににち", "tanggal 22", [103000, 107000]],
+          "kotoba": [
+            "22日",
+            "にじゅうににち",
+            "tanggal 22",
+            [
+              103000,
+              107000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 39,
-          "kotoba": ["23日", "にじゅうさんにち", "tanggal 23", [107000, 112000]],
+          "kotoba": [
+            "23日",
+            "にじゅうさんにち",
+            "tanggal 23",
+            [
+              107000,
+              112000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 40,
-          "kotoba": ["24日", "にじゅうよっか", "tanggal 24", [107000, 112000]],
+          "kotoba": [
+            "24日",
+            "にじゅうよっか",
+            "tanggal 24",
+            [
+              107000,
+              112000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 41,
-          "kotoba": ["25日", "にじゅうごにち", "tanggal 25", [112000, 116000]],
+          "kotoba": [
+            "25日",
+            "にじゅうごにち",
+            "tanggal 25",
+            [
+              112000,
+              116000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 42,
-          "kotoba": ["26日", "にじゅうろくにち", "tanggal 26", [112000, 116000]],
+          "kotoba": [
+            "26日",
+            "にじゅうろくにち",
+            "tanggal 26",
+            [
+              112000,
+              116000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 43,
-          "kotoba": ["27日", "にじゅうしちにち", "tanggal 27", [116000, 122000]],
+          "kotoba": [
+            "27日",
+            "にじゅうしちにち",
+            "tanggal 27",
+            [
+              116000,
+              122000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 44,
-          "kotoba": ["28日", "にじゅうはちにち", "tanggal 28", [116000, 122000]],
+          "kotoba": [
+            "28日",
+            "にじゅうはちにち",
+            "tanggal 28",
+            [
+              116000,
+              122000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 45,
-          "kotoba": ["29日", "にじゅうくにち", "tanggal 29", [122000, 126000]],
+          "kotoba": [
+            "29日",
+            "にじゅうくにち",
+            "tanggal 29",
+            [
+              122000,
+              126000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 46,
-          "kotoba": ["30日", "さんじゅうにち", "tanggal 30", [122000, 126000]],
+          "kotoba": [
+            "30日",
+            "さんじゅうにち",
+            "tanggal 30",
+            [
+              122000,
+              126000
+            ]
+          ],
           "kalimat": []
         },
         {
           "id": 47,
-          "kotoba": ["31日", "さんじゅういちにち", "tanggal 31", [126000, 130000]],
+          "kotoba": [
+            "31日",
+            "さんじゅういちにち",
+            "tanggal 31",
+            [
+              126000,
+              130000
+            ]
+          ],
           "kalimat": []
         }
       ]
     },
-	{
-	  "cd": 1,
-	  "track": 3,
-	  "audio": "cd1_03.mp3",
-	  "unit": 2,
-	  "tema": ["週", "しゅう", "Minggu"],
-	  "data": [
-		{
-		  "id": 17,
-		  "kotoba": ["月曜日", "げつようび", "Senin", [3000, 5285]],
-		  "kalimat": []
-		},
-		{
-		  "id": 18,
-		  "kotoba": ["火曜日", "かようび", "Selasa", [5285, 7570]],
-		  "kalimat": []
-		},
-		{
-		  "id": 19,
-		  "kotoba": ["水曜日", "すいようび", "Rabu", [7570, 9855]],
-		  "kalimat": []
-		},
-		{
-		  "id": 20,
-		  "kotoba": ["木曜日", "もくようび", "Kamis", [9855, 12140]],
-		  "kalimat": []
-		},
-		{
-		  "id": 21,
-		  "kotoba": ["金曜日", "きんようび", "Jumat", [12140, 14425]],
-		  "kalimat": []
-		},
-		{
-		  "id": 22,
-		  "kotoba": ["土曜日", "どようび", "Sabtu", [14425, 16710]],
-		  "kalimat": []
-		},
-		{
-		  "id": 23,
-		  "kotoba": ["日曜日", "にちようび", "Minggu", [16710, 19000]],
-		  "kalimat": []
-		},
-		{
-		  "id": 24,
-		  "kotoba": ["曜日", "ようび", "hari dalam seminggu", [19000, 22000]],
-		  "kalimat": [
-			["お休みは何曜日ですか。", "おやすみ は なんようび ですか。", "Hari apa Anda libur?", [19000, 22000]]
-		  ]
-		},
-		{
-		  "id": 25,
-		  "kotoba": ["週", "しゅう", "minggu", [22000, 26000]],
-		  "kalimat": [
-			["どの週がいいですか。", "どの しゅう が いい ですか。", "Minggu yang mana yang baik?", [22000, 26000]]
-		  ]
-		},
-		{
-		  "id": 26,
-		  "kotoba": ["週末", "しゅうまつ", "akhir pekan", [26000, 31000]],
-		  "kalimat": [
-			["週末はいつも何をしていますか。", "しゅうまつ は いつも なに を して いますか。", "Biasanya Anda melakukan apa saat akhir pekan?", [26000, 31000]]
-		  ]
-		}
-	  ]
-	},
-	{
-	  "cd": 1,
-	  "track": 4,
-	  "audio": "cd1_04.mp3",
-	  "unit": 2,
-	  "tema": ["一日・一年", "いちにち・いちねん", "Satu hari・Satu tahun"],
-	  "data": [
-		{
-		  "id": 27,
-		  "kotoba": ["～時間", "～じかん", "~jam", [4000, 14000]],
-		  "kalimat": [
-			["ここから東京まで何時間かかりますか。", "ここから とうきょうまで なんじかん かかりますか。", "Berapa jam dari sini ke Tokyo?", [7000, 10500]],
-			["２時間くらいです。", "にじかん くらい です。", "Sekitar dua jam.", [10500, 14000]]
-		  ]
-		},
-		{
-		  "id": 28,
-		  "kotoba": ["～日間", "～にちかん", "~hari", [14000, 25000]],
-		  "kalimat": [
-			["最初の15日間は無料です。", "さいしょ の じゅうごにちかん は むりょう です。", "15 hari pertama gratis.", [18000, 21500]],
-			["セールは土日の２日間です。", "セール は どにち の ふつかかん です。", "Obral berlangsung selama dua hari (Sabtu dan Minggu).", [21500, 25000]]
-		  ]
-		},
-		{
-		  "id": 29,
-		  "kotoba": ["～週間", "～しゅうかん", "~minggu", [25000, 32000]],
-		  "kalimat": [
-			["夏に２週間、国に帰ります。", "なつ に にしゅうかん、くに に かえります。", "Saya pulang ke negara asal selama dua minggu pada musim panas.", [25000, 32000]]
-		  ]
-		},
-		{
-		  "id": 30,
-		  "kotoba": ["～か月(間)", "～かげつ(かん)", "~bulan", [32000, 41000]],
-		  "kalimat": [
-			["日本に来て、まだ３か月です。", "にほん に きて、まだ さんかげつ です。", "Saya baru tiga bulan datang ke Jepang.", [35000, 41000]]
-		  ]
-		},
-		{
-		  "id": 31,
-		  "kotoba": ["～年(間)", "～ねん(かん)", "~tahun", [41000, 52000]],
-		  "kalimat": [
-			["ここに５年住んでいます。", "ここ に ごねん すんでいます。", "Saya sudah tinggal di sini selama lima tahun.", [41000, 45000]],
-			["学生の数が３年間で倍になりました。", "がくせい の かず が さんねんかん で ばい に なりました。", "Jumlah siswa menjadi dua kali lipat dalam tiga tahun.", [45000, 52000]]
-		  ]
-		},
-		{
-		  "id": 32,
-		  "kotoba": ["一日", "いちにち", "satu hari", [52000, 59000]],
-		  "kalimat": [
-			["来月、一日休みを取ります。", "らいげつ、いちにち やすみ を とります。", "Bulan depan saya mengambil cuti satu hari.", [52000, 55500]],
-			["明日は一日仕事です。", "あした は いちにち しごと です。", "Besok saya bekerja seharian.", [55500, 59000]]
-		  ]
-		},
-		{
-		  "id": 33,
-		  "kotoba": ["一年", "いちねん", "satu tahun", [59000, 65000]],
-		  "kalimat": [
-			["日本に来て、ちょうど一年が経ちました。", "にほん に きて、ちょうど いちねん が たちました。", "Tepat satu tahun sejak saya datang ke Jepang.", [59000, 65000]]
-		  ]
-		},
-		{
-		  "id": 34,
-		  "kotoba": ["半年", "はんとし", "setengah tahun", [65000, 71000]],
-		  "kalimat": [
-			["この学校に半年通いました。", "この がっこう に はんとし かよいました。", "Saya bersekolah di sekolah ini selama setengah tahun.", [65000, 71000]]
-		  ]
-		},
-		{
-		  "id": 35,
-		  "kotoba": ["２、３～", "に、さん～", "dua atau tiga ~", [71000, 78000]],
-		  "kalimat": [
-			["心配いりません。２、３日で治りますよ。", "しんぱい いりません。に、さんにち で なおります よ。", "Jangan khawatir. Akan sembuh dalam dua atau tiga hari.", [71000, 78000]]
-		  ]
-		},
-
-		  {
-			"id": 36,
-			"kotoba": ["１時間", "いちじかん", "1 jam", [78000, 80000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 37,
-			"kotoba": ["２時間", "にじかん", "2 jam", [80000, 82000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 38,
-			"kotoba": ["３時間", "さんじかん", "3 jam", [82000, 84000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 39,
-			"kotoba": ["４時間", "よじかん", "4 jam", [84000, 86000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 40,
-			"kotoba": ["５時間", "ごじかん", "5 jam", [86000, 88000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 41,
-			"kotoba": ["６時間", "ろくじかん", "6 jam", [88000, 90000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 42,
-			"kotoba": ["７時間", "しちじかん／ななじかん", "7 jam", [90000, 92500]],
-			"kalimat": []
-		  },
-		  {
-			"id": 43,
-			"kotoba": ["８時間", "はちじかん", "8 jam", [92500, 95000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 44,
-			"kotoba": ["９時間", "くじかん", "9 jam", [95000, 97500]],
-			"kalimat": []
-		  },
-		  {
-			"id": 45,
-			"kotoba": ["10時間", "じゅうじかん", "10 jam", [97500, 100000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 46,
-			"kotoba": ["11時間", "じゅういちじかん", "11 jam", [100000, 102000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 47,
-			"kotoba": ["何時間", "なんじかん", "berapa jam", [102000, 104000]],
-			"kalimat": []
-		  },
-
-		  {
-			"id": 48,
-			"kotoba": ["１日(間)", "いちにち", "1 hari", [104000, 106000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 49,
-			"kotoba": ["２日(間)", "ふつかかん", "2 hari", [106000, 108000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 50,
-			"kotoba": ["３日(間)", "みっかかん", "3 hari", [108000, 110000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 51,
-			"kotoba": ["４日(間)", "よっかかん", "4 hari", [110000, 112000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 52,
-			"kotoba": ["５日(間)", "いつかかん", "5 hari", [112000, 114000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 53,
-			"kotoba": ["６日(間)", "むいかかん", "6 hari", [114000, 116000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 54,
-			"kotoba": ["７日(間)", "なのかかん", "7 hari", [116000, 118000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 55,
-			"kotoba": ["８日(間)", "ようかかん", "8 hari", [118000, 120000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 56,
-			"kotoba": ["９日(間)", "ここのかかん", "9 hari", [120000, 122000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 57,
-			"kotoba": ["10日(間)", "とおかかん", "10 hari", [122000, 124000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 58,
-			"kotoba": ["11日(間)", "じゅういちにちかん", "11 hari", [124000, 126000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 59,
-			"kotoba": ["何日(間)", "なんにちかん", "berapa hari", [126000, 130000]],
-			"kalimat": []
-		  },
-
-		  {
-			"id": 60,
-			"kotoba": ["１週間", "いっしゅうかん", "1 minggu", [130000, 132000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 61,
-			"kotoba": ["２週間", "にしゅうかん", "2 minggu", [132000, 134000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 62,
-			"kotoba": ["３週間", "さんしゅうかん", "3 minggu", [134000, 136000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 63,
-			"kotoba": ["４週間", "よんしゅうかん", "4 minggu", [136000, 138000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 64,
-			"kotoba": ["５週間", "ごしゅうかん", "5 minggu", [138000, 140000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 65,
-			"kotoba": ["６週間", "ろくしゅうかん", "6 minggu", [140000, 142000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 66,
-			"kotoba": ["７週間", "ななしゅうかん", "7 minggu", [142000, 144500]],
-			"kalimat": []
-		  },
-		  {
-			"id": 67,
-			"kotoba": ["８週間", "はっしゅうかん", "8 minggu", [144500, 147000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 68,
-			"kotoba": ["９週間", "きゅうしゅうかん", "9 minggu", [147000, 149500]],
-			"kalimat": []
-		  },
-		  {
-			"id": 69,
-			"kotoba": ["10週間", "じゅっしゅうかん", "10 minggu", [149500, 152000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 70,
-			"kotoba": ["11週間", "じゅういっしゅうかん", "11 minggu", [152000, 154000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 71,
-			"kotoba": ["何週間", "なんしゅうかん", "berapa minggu", [154000, 157000]],
-			"kalimat": []
-		  },
-
-		  {
-			"id": 72,
-			"kotoba": ["１か月", "いっかげつ", "1 bulan", [157000, 159000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 73,
-			"kotoba": ["２か月", "にかげつ", "2 bulan", [159000, 161000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 74,
-			"kotoba": ["３か月", "さんかげつ", "3 bulan", [161000, 163000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 75,
-			"kotoba": ["４か月", "よんかげつ", "4 bulan", [163000, 165000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 76,
-			"kotoba": ["５か月", "ごかげつ", "5 bulan", [165000, 167000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 77,
-			"kotoba": ["６か月", "ろっかげつ", "6 bulan", [167000, 169000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 78,
-			"kotoba": ["７か月", "ななかげつ", "7 bulan", [169000, 171000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 79,
-			"kotoba": ["８か月", "はっかげつ", "8 bulan", [171000, 173000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 80,
-			"kotoba": ["９か月", "きゅうかげつ", "9 bulan", [173000, 175000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 81,
-			"kotoba": ["10か月", "じゅっかげつ", "10 bulan", [175000, 177000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 82,
-			"kotoba": ["11か月", "じゅういっかげつ", "11 bulan", [177000, 179000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 83,
-			"kotoba": ["何か月", "なんかげつ", "berapa bulan", [179000, 182000]],
-			"kalimat": []
-		  },
-
-		  {
-			"id": 84,
-			"kotoba": ["１年(間)", "いちねん(かん)", "1 tahun", [182000, 185000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 85,
-			"kotoba": ["２年間", "にねんかん", "2 tahun", [185000, 187000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 86,
-			"kotoba": ["３年間", "さんねんかん", "3 tahun", [187000, 189000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 87,
-			"kotoba": ["４年間", "よねんかん", "4 tahun", [189000, 192000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 88,
-			"kotoba": ["５年間", "ごねんかん", "5 tahun", [192000, 195000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 89,
-			"kotoba": ["６年間", "ろくねんかん", "6 tahun", [195000, 197000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 90,
-			"kotoba": ["７年間", "ななねんかん", "7 tahun", [197000, 199000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 91,
-			"kotoba": ["８年間", "はちねんかん", "8 tahun", [199000, 201000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 92,
-			"kotoba": ["９年間", "きゅうねんかん", "9 tahun", [201000, 203000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 93,
-			"kotoba": ["10年間", "じゅうねんかん", "10 tahun", [203000, 205000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 94,
-			"kotoba": ["11年間", "じゅういちねんかん", "11 tahun", [205000, 207000]],
-			"kalimat": []
-		  },
-		  {
-			"id": 95,
-			"kotoba": ["何年間", "なんねんかん", "berapa tahun", [207000, 210000]],
-			"kalimat": []
-		  }
-
-	  ]
-	}
+    {
+      "cd": 1,
+      "track": 3,
+      "audio": "cd1_03.mp3",
+      "unit": 2,
+      "tema": [
+        "週",
+        "しゅう",
+        "Minggu"
+      ],
+      "data": [
+        {
+          "id": 17,
+          "kotoba": [
+            "月曜日",
+            "げつようび",
+            "Senin",
+            [
+              3000,
+              5285
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 18,
+          "kotoba": [
+            "火曜日",
+            "かようび",
+            "Selasa",
+            [
+              5285,
+              7570
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 19,
+          "kotoba": [
+            "水曜日",
+            "すいようび",
+            "Rabu",
+            [
+              7570,
+              9855
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 20,
+          "kotoba": [
+            "木曜日",
+            "もくようび",
+            "Kamis",
+            [
+              9855,
+              12140
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 21,
+          "kotoba": [
+            "金曜日",
+            "きんようび",
+            "Jumat",
+            [
+              12140,
+              14425
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 22,
+          "kotoba": [
+            "土曜日",
+            "どようび",
+            "Sabtu",
+            [
+              14425,
+              16710
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 23,
+          "kotoba": [
+            "日曜日",
+            "にちようび",
+            "Minggu",
+            [
+              16710,
+              19000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 24,
+          "kotoba": [
+            "曜日",
+            "ようび",
+            "hari dalam seminggu",
+            [
+              19000,
+              22000
+            ]
+          ],
+          "kalimat": [
+            [
+              "お休みは何曜日ですか。",
+              "おやすみ は なんようび ですか。",
+              "Hari apa Anda libur?",
+              [
+                19000,
+                22000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 25,
+          "kotoba": [
+            "週",
+            "しゅう",
+            "minggu",
+            [
+              22000,
+              26000
+            ]
+          ],
+          "kalimat": [
+            [
+              "どの週がいいですか。",
+              "どの しゅう が いい ですか。",
+              "Minggu yang mana yang baik?",
+              [
+                22000,
+                26000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 26,
+          "kotoba": [
+            "週末",
+            "しゅうまつ",
+            "akhir pekan",
+            [
+              26000,
+              31000
+            ]
+          ],
+          "kalimat": [
+            [
+              "週末はいつも何をしていますか。",
+              "しゅうまつ は いつも なに を して いますか。",
+              "Biasanya Anda melakukan apa saat akhir pekan?",
+              [
+                26000,
+                31000
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "cd": 1,
+      "track": 4,
+      "audio": "cd1_04.mp3",
+      "unit": 2,
+      "tema": [
+        "一日・一年",
+        "いちにち・いちねん",
+        "Satu hari・Satu tahun"
+      ],
+      "data": [
+        {
+          "id": 27,
+          "kotoba": [
+            "～時間",
+            "～じかん",
+            "~jam",
+            [
+              4000,
+              14000
+            ]
+          ],
+          "kalimat": [
+            [
+              "ここから東京まで何時間かかりますか。",
+              "ここから とうきょうまで なんじかん かかりますか。",
+              "Berapa jam dari sini ke Tokyo?",
+              [
+                7000,
+                10500
+              ]
+            ],
+            [
+              "２時間くらいです。",
+              "にじかん くらい です。",
+              "Sekitar dua jam.",
+              [
+                10500,
+                14000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 28,
+          "kotoba": [
+            "～日間",
+            "～にちかん",
+            "~hari",
+            [
+              14000,
+              25000
+            ]
+          ],
+          "kalimat": [
+            [
+              "最初の15日間は無料です。",
+              "さいしょ の じゅうごにちかん は むりょう です。",
+              "15 hari pertama gratis.",
+              [
+                18000,
+                21500
+              ]
+            ],
+            [
+              "セールは土日の２日間です。",
+              "セール は どにち の ふつかかん です。",
+              "Obral berlangsung selama dua hari (Sabtu dan Minggu).",
+              [
+                21500,
+                25000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 29,
+          "kotoba": [
+            "～週間",
+            "～しゅうかん",
+            "~minggu",
+            [
+              25000,
+              32000
+            ]
+          ],
+          "kalimat": [
+            [
+              "夏に２週間、国に帰ります。",
+              "なつ に にしゅうかん、くに に かえります。",
+              "Saya pulang ke negara asal selama dua minggu pada musim panas.",
+              [
+                25000,
+                32000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 30,
+          "kotoba": [
+            "～か月(間)",
+            "～かげつ(かん)",
+            "~bulan",
+            [
+              32000,
+              41000
+            ]
+          ],
+          "kalimat": [
+            [
+              "日本に来て、まだ３か月です。",
+              "にほん に きて、まだ さんかげつ です。",
+              "Saya baru tiga bulan datang ke Jepang.",
+              [
+                35000,
+                41000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 31,
+          "kotoba": [
+            "～年(間)",
+            "～ねん(かん)",
+            "~tahun",
+            [
+              41000,
+              52000
+            ]
+          ],
+          "kalimat": [
+            [
+              "ここに５年住んでいます。",
+              "ここ に ごねん すんでいます。",
+              "Saya sudah tinggal di sini selama lima tahun.",
+              [
+                41000,
+                45000
+              ]
+            ],
+            [
+              "学生の数が３年間で倍になりました。",
+              "がくせい の かず が さんねんかん で ばい に なりました。",
+              "Jumlah siswa menjadi dua kali lipat dalam tiga tahun.",
+              [
+                45000,
+                52000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 32,
+          "kotoba": [
+            "一日",
+            "いちにち",
+            "satu hari",
+            [
+              52000,
+              59000
+            ]
+          ],
+          "kalimat": [
+            [
+              "来月、一日休みを取ります。",
+              "らいげつ、いちにち やすみ を とります。",
+              "Bulan depan saya mengambil cuti satu hari.",
+              [
+                52000,
+                55500
+              ]
+            ],
+            [
+              "明日は一日仕事です。",
+              "あした は いちにち しごと です。",
+              "Besok saya bekerja seharian.",
+              [
+                55500,
+                59000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 33,
+          "kotoba": [
+            "一年",
+            "いちねん",
+            "satu tahun",
+            [
+              59000,
+              65000
+            ]
+          ],
+          "kalimat": [
+            [
+              "日本に来て、ちょうど一年が経ちました。",
+              "にほん に きて、ちょうど いちねん が たちました。",
+              "Tepat satu tahun sejak saya datang ke Jepang.",
+              [
+                59000,
+                65000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 34,
+          "kotoba": [
+            "半年",
+            "はんとし",
+            "setengah tahun",
+            [
+              65000,
+              71000
+            ]
+          ],
+          "kalimat": [
+            [
+              "この学校に半年通いました。",
+              "この がっこう に はんとし かよいました。",
+              "Saya bersekolah di sekolah ini selama setengah tahun.",
+              [
+                65000,
+                71000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 35,
+          "kotoba": [
+            "２、３～",
+            "に、さん～",
+            "dua atau tiga ~",
+            [
+              71000,
+              78000
+            ]
+          ],
+          "kalimat": [
+            [
+              "心配いりません。２、３日で治りますよ。",
+              "しんぱい いりません。に、さんにち で なおります よ。",
+              "Jangan khawatir. Akan sembuh dalam dua atau tiga hari.",
+              [
+                71000,
+                78000
+              ]
+            ]
+          ]
+        },
+        {
+          "id": 36,
+          "kotoba": [
+            "１時間",
+            "いちじかん",
+            "1 jam",
+            [
+              78000,
+              80000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 37,
+          "kotoba": [
+            "２時間",
+            "にじかん",
+            "2 jam",
+            [
+              80000,
+              82000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 38,
+          "kotoba": [
+            "３時間",
+            "さんじかん",
+            "3 jam",
+            [
+              82000,
+              84000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 39,
+          "kotoba": [
+            "４時間",
+            "よじかん",
+            "4 jam",
+            [
+              84000,
+              86000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 40,
+          "kotoba": [
+            "５時間",
+            "ごじかん",
+            "5 jam",
+            [
+              86000,
+              88000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 41,
+          "kotoba": [
+            "６時間",
+            "ろくじかん",
+            "6 jam",
+            [
+              88000,
+              90000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 42,
+          "kotoba": [
+            "７時間",
+            "しちじかん／ななじかん",
+            "7 jam",
+            [
+              90000,
+              92500
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 43,
+          "kotoba": [
+            "８時間",
+            "はちじかん",
+            "8 jam",
+            [
+              92500,
+              95000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 44,
+          "kotoba": [
+            "９時間",
+            "くじかん",
+            "9 jam",
+            [
+              95000,
+              97500
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 45,
+          "kotoba": [
+            "10時間",
+            "じゅうじかん",
+            "10 jam",
+            [
+              97500,
+              100000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 46,
+          "kotoba": [
+            "11時間",
+            "じゅういちじかん",
+            "11 jam",
+            [
+              100000,
+              102000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 47,
+          "kotoba": [
+            "何時間",
+            "なんじかん",
+            "berapa jam",
+            [
+              102000,
+              104000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 48,
+          "kotoba": [
+            "１日(間)",
+            "いちにち",
+            "1 hari",
+            [
+              104000,
+              106000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 49,
+          "kotoba": [
+            "２日(間)",
+            "ふつかかん",
+            "2 hari",
+            [
+              106000,
+              108000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 50,
+          "kotoba": [
+            "３日(間)",
+            "みっかかん",
+            "3 hari",
+            [
+              108000,
+              110000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 51,
+          "kotoba": [
+            "４日(間)",
+            "よっかかん",
+            "4 hari",
+            [
+              110000,
+              112000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 52,
+          "kotoba": [
+            "５日(間)",
+            "いつかかん",
+            "5 hari",
+            [
+              112000,
+              114000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 53,
+          "kotoba": [
+            "６日(間)",
+            "むいかかん",
+            "6 hari",
+            [
+              114000,
+              116000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 54,
+          "kotoba": [
+            "７日(間)",
+            "なのかかん",
+            "7 hari",
+            [
+              116000,
+              118000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 55,
+          "kotoba": [
+            "８日(間)",
+            "ようかかん",
+            "8 hari",
+            [
+              118000,
+              120000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 56,
+          "kotoba": [
+            "９日(間)",
+            "ここのかかん",
+            "9 hari",
+            [
+              120000,
+              122000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 57,
+          "kotoba": [
+            "10日(間)",
+            "とおかかん",
+            "10 hari",
+            [
+              122000,
+              124000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 58,
+          "kotoba": [
+            "11日(間)",
+            "じゅういちにちかん",
+            "11 hari",
+            [
+              124000,
+              126000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 59,
+          "kotoba": [
+            "何日(間)",
+            "なんにちかん",
+            "berapa hari",
+            [
+              126000,
+              130000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 60,
+          "kotoba": [
+            "１週間",
+            "いっしゅうかん",
+            "1 minggu",
+            [
+              130000,
+              132000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 61,
+          "kotoba": [
+            "２週間",
+            "にしゅうかん",
+            "2 minggu",
+            [
+              132000,
+              134000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 62,
+          "kotoba": [
+            "３週間",
+            "さんしゅうかん",
+            "3 minggu",
+            [
+              134000,
+              136000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 63,
+          "kotoba": [
+            "４週間",
+            "よんしゅうかん",
+            "4 minggu",
+            [
+              136000,
+              138000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 64,
+          "kotoba": [
+            "５週間",
+            "ごしゅうかん",
+            "5 minggu",
+            [
+              138000,
+              140000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 65,
+          "kotoba": [
+            "６週間",
+            "ろくしゅうかん",
+            "6 minggu",
+            [
+              140000,
+              142000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 66,
+          "kotoba": [
+            "７週間",
+            "ななしゅうかん",
+            "7 minggu",
+            [
+              142000,
+              144500
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 67,
+          "kotoba": [
+            "８週間",
+            "はっしゅうかん",
+            "8 minggu",
+            [
+              144500,
+              147000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 68,
+          "kotoba": [
+            "９週間",
+            "きゅうしゅうかん",
+            "9 minggu",
+            [
+              147000,
+              149500
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 69,
+          "kotoba": [
+            "10週間",
+            "じゅっしゅうかん",
+            "10 minggu",
+            [
+              149500,
+              152000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 70,
+          "kotoba": [
+            "11週間",
+            "じゅういっしゅうかん",
+            "11 minggu",
+            [
+              152000,
+              154000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 71,
+          "kotoba": [
+            "何週間",
+            "なんしゅうかん",
+            "berapa minggu",
+            [
+              154000,
+              157000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 72,
+          "kotoba": [
+            "１か月",
+            "いっかげつ",
+            "1 bulan",
+            [
+              157000,
+              159000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 73,
+          "kotoba": [
+            "２か月",
+            "にかげつ",
+            "2 bulan",
+            [
+              159000,
+              161000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 74,
+          "kotoba": [
+            "３か月",
+            "さんかげつ",
+            "3 bulan",
+            [
+              161000,
+              163000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 75,
+          "kotoba": [
+            "４か月",
+            "よんかげつ",
+            "4 bulan",
+            [
+              163000,
+              165000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 76,
+          "kotoba": [
+            "５か月",
+            "ごかげつ",
+            "5 bulan",
+            [
+              165000,
+              167000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 77,
+          "kotoba": [
+            "６か月",
+            "ろっかげつ",
+            "6 bulan",
+            [
+              167000,
+              169000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 78,
+          "kotoba": [
+            "７か月",
+            "ななかげつ",
+            "7 bulan",
+            [
+              169000,
+              171000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 79,
+          "kotoba": [
+            "８か月",
+            "はっかげつ",
+            "8 bulan",
+            [
+              171000,
+              173000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 80,
+          "kotoba": [
+            "９か月",
+            "きゅうかげつ",
+            "9 bulan",
+            [
+              173000,
+              175000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 81,
+          "kotoba": [
+            "10か月",
+            "じゅっかげつ",
+            "10 bulan",
+            [
+              175000,
+              177000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 82,
+          "kotoba": [
+            "11か月",
+            "じゅういっかげつ",
+            "11 bulan",
+            [
+              177000,
+              179000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 83,
+          "kotoba": [
+            "何か月",
+            "なんかげつ",
+            "berapa bulan",
+            [
+              179000,
+              182000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 84,
+          "kotoba": [
+            "１年(間)",
+            "いちねん(かん)",
+            "1 tahun",
+            [
+              182000,
+              185000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 85,
+          "kotoba": [
+            "２年間",
+            "にねんかん",
+            "2 tahun",
+            [
+              185000,
+              187000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 86,
+          "kotoba": [
+            "３年間",
+            "さんねんかん",
+            "3 tahun",
+            [
+              187000,
+              189000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 87,
+          "kotoba": [
+            "４年間",
+            "よねんかん",
+            "4 tahun",
+            [
+              189000,
+              192000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 88,
+          "kotoba": [
+            "５年間",
+            "ごねんかん",
+            "5 tahun",
+            [
+              192000,
+              195000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 89,
+          "kotoba": [
+            "６年間",
+            "ろくねんかん",
+            "6 tahun",
+            [
+              195000,
+              197000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 90,
+          "kotoba": [
+            "７年間",
+            "ななねんかん",
+            "7 tahun",
+            [
+              197000,
+              199000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 91,
+          "kotoba": [
+            "８年間",
+            "はちねんかん",
+            "8 tahun",
+            [
+              199000,
+              201000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 92,
+          "kotoba": [
+            "９年間",
+            "きゅうねんかん",
+            "9 tahun",
+            [
+              201000,
+              203000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 93,
+          "kotoba": [
+            "10年間",
+            "じゅうねんかん",
+            "10 tahun",
+            [
+              203000,
+              205000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 94,
+          "kotoba": [
+            "11年間",
+            "じゅういちねんかん",
+            "11 tahun",
+            [
+              205000,
+              207000
+            ]
+          ],
+          "kalimat": []
+        },
+        {
+          "id": 95,
+          "kotoba": [
+            "何年間",
+            "なんねんかん",
+            "berapa tahun",
+            [
+              207000,
+              210000
+            ]
+          ],
+          "kalimat": []
+        }
+      ]
+    }
   ]
 }
