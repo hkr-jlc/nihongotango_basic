@@ -3648,7 +3648,714 @@
           "kalimat": []
         }
       ]
-    }
+    },
+	{
+	  "cd": 1,
+	  "track": 7,
+	  "audio": "cd1_07.mp3",
+	  "unit": 3,
+	  "tema": ["人", "ひと", "Orang"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["私", "わたし", "saya", [8931, 9092]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["私たち", "わたしたち", "kami", [10572, 11092]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["あなた", "あなた", "Anda", [12333, 12773]],
+		  "kalimat": [
+			[
+			  "あなたに聞いているんじゃありません。",
+			  "あなた に きいて いるんじゃ ありません。",
+			  "Saya tidak sedang bertanya kepada Anda.",
+			  [13873, 15474]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["あなたたち", "あなたたち", "kalian", [16695, 17474]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["彼", "かれ", "dia (laki-laki) / pacar", [18654, 18936]],
+		  "kalimat": [
+			[
+			  "わたしの彼もそうです。",
+			  "わたし の かれ も そうです。",
+			  "Pacar saya juga begitu.",
+			  [20416, 21756]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["彼女", "かのじょ", "dia (perempuan) / pacar", [22936, 23936]],
+		  "kalimat": [
+			[
+			  "田中さんにも、彼女がいます。",
+			  "たなかさん にも、かのじょ が います。",
+			  "Tanaka juga punya pacar.",
+			  [23936, 26538]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["彼ら", "かれら", "mereka", [27658, 28058]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["彼女ら", "かのじょら", "mereka (perempuan)", [29219, 29820]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["みんな", "みんな", "semua orang", [31060, 31560]],
+		  "kalimat": [
+			[
+			  "公園はみんなのものです。",
+			  "こうえん は みんな の もの です。",
+			  "Taman adalah milik semua orang.",
+			  [32759, 34261]
+			],
+			[
+			  "みんな、聞いてください。",
+			  "みんな、きいて ください。",
+			  "Semuanya, tolong dengarkan.",
+			  [35441, 36742]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["皆さん", "みなさん", "hadirin / semuanya", [37862, 38502]],
+		  "kalimat": [
+			[
+			  "皆さん、静かにしてください。",
+			  "みなさん、しずか に してください。",
+			  "Semuanya, tolong tenang.",
+			  [39582, 41483]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["全員", "ぜんいん", "semua anggota", [42703, 43323]],
+		  "kalimat": [
+			[
+			  "ここの生徒は全員、合格しました。",
+			  "ここ の せいと は ぜんいん、ごうかく しました。",
+			  "Semua murid di sini lulus.",
+			  [44644, 47164]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["人", "ひと", "orang", [48344, 48564]],
+		  "kalimat": [
+			[
+			  "その人はどんな人ですか。",
+			  "その ひと は どんな ひと ですか。",
+			  "Orang itu seperti apa?",
+			  [49844, 51466]
+			],
+			[
+			  "あそこに人がたくさんいますね。",
+			  "あそこ に ひと が たくさん いますね。",
+			  "Di sana banyak orang ya.",
+			  [52686, 54225]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["人々", "ひとびと", "orang-orang", [55507, 55686]],
+		  "kalimat": [
+			[
+			  "この事件は、多くの人々の関心を集めた。",
+			  "この じけん は、おおく の ひとびと の かんしん を あつめた。",
+			  "Peristiwa ini menarik perhatian banyak orang.",
+			  [57367, 60567]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["人たち", "ひとたち", "orang-orang", [61752, 62432]],
+		  "kalimat": [
+			[
+			  "おもしろい人たちですね。",
+			  "おもしろい ひとたち です ね。",
+			  "Mereka orang-orang yang menarik ya.",
+			  [63792, 71135]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["男", "おとこ", "laki-laki", [71135, 71450]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["男の人", "おとこのひと", "pria", [71450, 71750]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["男の子", "おとこのこ", "anak laki-laki", [71750, 71917]],
+		  "kalimat": [
+			[
+			  "あの男の子を知っていますか。",
+			  "あの おとこのこ を しっていますか。",
+			  "Apakah Anda mengenal anak laki-laki itu?",
+			  [72296, 73917]
+			],
+			[
+			  "彼女には、5歳の男の子がいます。",
+			  "かのじょ には、ごさい の おとこのこ が います。",
+			  "Dia mempunyai anak laki-laki berusia lima tahun.",
+			  [75138, 77399]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["男性", "だんせい", "pria (laki-laki dewasa)", [78618, 79319]],
+		  "kalimat": [
+			[
+			  "わたしの周りには、若い男性がいないんです。",
+			  "わたし の まわり には、わかい だんせい が いないんです。",
+			  "Di sekitar saya tidak ada pria muda.",
+			  [80900, 84182]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["男子", "だんし", "anak laki-laki / siswa laki-laki", [85463, 86224]],
+		  "kalimat": [
+			[
+			  "男子はあちらに並んでください。",
+			  "だんし は あちら に ならんで ください。",
+			  "Anak laki-laki silakan berbaris di sana.",
+			  [87524, 89765]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["女", "おんな", "perempuan", [91045, 91465]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["女の人", "おんなのひと", "wanita", [92566, 93546]],
+		  "kalimat": []
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["女の子", "おんなのこ", "anak perempuan", [94767, 95767]],
+		  "kalimat": [
+			[
+			  "あの女の子はだれですか。",
+			  "あの おんなのこ は だれ ですか。",
+			  "Siapa anak perempuan itu?",
+			  [96968, 98769]
+			],
+			[
+			  "かわいい女の子ですね。",
+			  "かわいい おんなのこ です ね。",
+			  "Anak perempuan itu lucu ya.",
+			  [99989, 101630]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["女性", "じょせい", "wanita (dewasa)", [102950, 103651]],
+		  "kalimat": [
+			[
+			  "あの女性は先生です。",
+			  "あの じょせい は せんせい です。",
+			  "Wanita itu adalah guru.",
+			  [104932, 106733]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["女子", "じょし", "anak perempuan / siswi", [108034, 108754]],
+		  "kalimat": [
+			[
+			  "女子は右側に座ってください。",
+			  "じょし は みぎがわ に すわって ください。",
+			  "Siswi silakan duduk di sebelah kanan.",
+			  [110055, 112656]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["友達", "ともだち", "teman", [113997, 114717]],
+		  "kalimat": [
+			[
+			  "友達と映画を見ました。",
+			  "ともだち と えいが を みました。",
+			  "Saya menonton film bersama teman.",
+			  [116038, 118599]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["恋人", "こいびと", "pacar / kekasih", [119940, 120701]],
+		  "kalimat": [
+			[
+			  "恋人と旅行に行きます。",
+			  "こいびと と りょこう に いきます。",
+			  "Saya pergi berwisata bersama pacar.",
+			  [122042, 124703]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["大人", "おとな", "orang dewasa", [126044, 126744]],
+		  "kalimat": [
+			[
+			  "もう大人ですから、自分で決めます。",
+			  "もう おとな ですから、じぶん で きめます。",
+			  "Karena sudah dewasa, saya memutuskan sendiri.",
+			  [128085, 131306]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["子供", "こども", "anak", [132627, 133327]],
+		  "kalimat": [
+			[
+			  "子供が三人います。",
+			  "こども が さんにん います。",
+			  "Saya mempunyai tiga anak.",
+			  [134628, 136389]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["赤ちゃん", "あかちゃん", "bayi", [137730, 138490]],
+		  "kalimat": [
+			[
+			  "赤ちゃんが寝ています。",
+			  "あかちゃん が ねています。",
+			  "Bayinya sedang tidur.",
+			  [139791, 141552]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["赤ん坊", "あかんぼう", "bayi", [142873, 143713]],
+		  "kalimat": [
+			[
+			  "赤ん坊が泣いています。",
+			  "あかんぼう が ないています。",
+			  "Bayinya sedang menangis.",
+			  [145014, 146975]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["お年寄り", "おとしより", "orang lanjut usia", [148296, 149156]],
+		  "kalimat": [
+			[
+			  "お年寄りに席を譲りました。",
+			  "おとしより に せき を ゆずりました。",
+			  "Saya memberikan tempat duduk kepada orang lanjut usia.",
+			  [150477, 153438]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["若者", "わかもの", "anak muda", [154779, 155500]],
+		  "kalimat": [
+			[
+			  "若者に人気があります。",
+			  "わかもの に にんき が あります。",
+			  "Populer di kalangan anak muda.",
+			  [156821, 158722]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["～たち", "～たち", "jamak (~-orang)", [160043, 160543]],
+		  "kalimat": [
+			[
+			  "子供たちは外で遊んでいます。",
+			  "こどもたち は そと で あそんでいます。",
+			  "Anak-anak sedang bermain di luar.",
+			  [161844, 164605]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["～さん", "～さん", "Tuan/Nyonya/Saudara", [165926, 166486]],
+		  "kalimat": [
+			[
+			  "田中さんはいらっしゃいますか。",
+			  "たなかさん は いらっしゃいますか。",
+			  "Apakah Bapak/Ibu Tanaka ada?",
+			  [167787, 170388]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["～ちゃん", "～ちゃん", "akhiran sayang untuk anak/keluarga", [171709, 172349]],
+		  "kalimat": [
+			[
+			  "花子ちゃんは元気ですか。",
+			  "はなこちゃん は げんき ですか。",
+			  "Bagaimana kabar Hanako-chan?",
+			  [173650, 175931]
+			]
+		  ]
+		}
+	  ]
+	},
+	{
+	  "cd": 1,
+	  "track": 8,
+	  "audio": "cd1_08.mp3",
+	  "unit": 3,
+	  "tema": ["家族", "かぞく", "Keluarga"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["家族", "かぞく", "keluarga", [1520, 4243]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["私", "わたし", "saya", [5883, 6024]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["父", "ちち", "ayah saya", [7245, 7365]],
+		  "kalimat": [
+			[
+			  "わたしの父は、普通の会社員です。",
+			  "わたし の ちち は、ふつう の かいしゃいん です。",
+			  "Ayah saya adalah pegawai perusahaan biasa.",
+			  [9007,11289]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["母", "はは", "ibu saya", [12450,12570]],
+		  "kalimat": [
+			[
+			  "子どものころ、母によく注意されました。",
+			  "こども の ころ、はは に よく ちゅうい されました。",
+			  "Saat kecil saya sering ditegur ibu.",
+			  [13911,16712]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["兄", "あに", "kakak laki-laki saya", [17954,18154]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["姉", "あね", "kakak perempuan saya", [19154,19354]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["妹", "いもうと", "adik perempuan saya", [20355,20555]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["弟", "おとうと", "adik laki-laki saya", [21556,23018]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["祖父", "そふ", "kakek saya", [24679,25079]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["祖母", "そぼ", "nenek saya", [26420,26760]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["おじ", "おじ", "paman saya", [27981,28262]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["おば", "おば", "bibi saya", [29503,29724]],
+		  "kalimat": [
+			[
+			  "東京におばが住んでいます。",
+			  "とうきょう に おば が すんでいます。",
+			  "Bibi saya tinggal di Tokyo.",
+			  [30827,32709]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["親", "おや", "orang tua", [33910,34109]],
+		  "kalimat": [
+			[
+			  "留学のことは、親にはまだ言ってません。",
+			  "りゅうがく の こと は、おや には まだ いってません。",
+			  "Saya belum memberi tahu orang tua tentang rencana belajar di luar negeri.",
+			  [35410,37972]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["父親", "ちちおや", "ayah", [39051,39552]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["母親", "ははおや", "ibu", [40953,43535]],
+		  "kalimat": [
+			[
+			  "男の子は母親に似るんですか。",
+			  "おとこのこ は ははおや に にるんですか。",
+			  "Apakah anak laki-laki mirip ibunya?",
+			  [43954,45176]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["両親", "りょうしん", "kedua orang tua", [46415,47057]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["兄弟", "きょうだい", "saudara kandung", [48417,54301]],
+		  "kalimat": [
+			[
+			  "兄弟はいますか。",
+			  "きょうだい は いますか。",
+			  "Apakah Anda mempunyai saudara kandung?",
+			  [50118,51039]
+			],
+			[
+			  "はい、兄と妹がいます。",
+			  "はい、あに と いもうと が います。",
+			  "Ya, saya mempunyai kakak laki-laki dan adik perempuan.",
+			  [51899,54301]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["お父さん", "おとうさん", "ayah", [55621, 56281]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["お母さん", "おかあさん", "ibu", [57522, 58243]],
+		  "kalimat": [
+			[
+			  "お母さん、わたしのめがね、知らない？",
+			  "おかあさん、わたし の めがね、しらない？",
+			  "Bu, apakah Ibu melihat kacamataku?",
+			  [59483, 62185]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["お兄さん", "おにいさん", "kakak laki-laki", [63446, 64147]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["お姉さん", "おねえさん", "kakak perempuan", [65348, 66068]],
+		  "kalimat": []
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["おじいさん", "おじいさん", "kakek", [67309, 67990]],
+		  "kalimat": []
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["おばあさん", "おばあさん", "nenek", [69210, 69931]],
+		  "kalimat": [
+			[
+			  "おばあさんは毎年、たんじょう日プレゼントをくれます。",
+			  "おばあさん は まいとし、たんじょうび プレゼント を くれます。",
+			  "Nenek memberi saya hadiah ulang tahun setiap tahun.",
+			  [71172, 74274]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["おじさん", "おじさん", "paman", [75514, 76135]],
+		  "kalimat": []
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["おばさん", "おばさん", "bibi", [77356, 78037]],
+		  "kalimat": [
+			[
+			  "東京のおばさんを訪ねるつもりです。",
+			  "とうきょう の おばさん を たずねる つもり です。",
+			  "Saya berencana mengunjungi bibi di Tokyo.",
+			  [79277, 81980]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["夫", "おっと", "suami saya", [83220, 83881]],
+		  "kalimat": [
+			[
+			  "夫はわたしより３つ上です。",
+			  "おっと は わたし より みっつ うえ です。",
+			  "Suami saya tiga tahun lebih tua daripada saya.",
+			  [85121, 87764]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["妻", "つま", "istri saya", [89024, 89685]],
+		  "kalimat": [
+			[
+			  "妻も週に２日、働いています。",
+			  "つま も しゅう に ふつか、はたらいています。",
+			  "Istri saya juga bekerja dua hari setiap minggu.",
+			  [90926, 93748]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["息子", "むすこ", "anak laki-laki", [94988, 95629]],
+		  "kalimat": [
+			[
+			  "息子さんはもう働いているんですか。",
+			  "むすこさん は もう はたらいているんですか。",
+			  "Apakah putra Anda sudah bekerja?",
+			  [96869, 99070]
+			],
+			[
+			  "いいえ、息子はまだ学生です。",
+			  "いいえ、むすこ は まだ がくせい です。",
+			  "Belum, putra saya masih mahasiswa.",
+			  [99971, 102813]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["娘", "むすめ", "anak perempuan", [104053, 104714]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["子供", "こども", "anak-anak", [105954, 106615]],
+		  "kalimat": [
+			[
+			  "うちの子供も、これが大好きです。",
+			  "うち の こども も、これ が だいすき です。",
+			  "Anak-anak saya juga sangat menyukai ini.",
+			  [107855, 110678]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["子", "こ", "anak", [111918, 112439]],
+		  "kalimat": [
+			[
+			  "うちの子を見なかったですか。",
+			  "うち の こ を みなかった ですか。",
+			  "Apakah Anda melihat anak saya?",
+			  [113679, 115981]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["主人", "しゅじん", "suami saya", [117222, 117923]],
+		  "kalimat": [
+			[
+			  "主人はいつも、帰りが遅いんです。",
+			  "しゅじん は いつも、かえり が おそいんです。",
+			  "Suami saya selalu pulang larut.",
+			  [119163, 121865]
+			],
+			[
+			  "ご主人は、ワインはお好きですか。",
+			  "ごしゅじん は、ワイン は おすき ですか。",
+			  "Apakah suami Anda suka anggur?",
+			  [122986, 125988]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["家内", "かない", "istri saya", [127209, 127889]],
+		  "kalimat": [
+			[
+			  "家内はいま、出かけています。",
+			  "かない は いま、でかけています。",
+			  "Istri saya sedang pergi keluar.",
+			  [129130, 131391]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["奥さん", "おくさん", "istri (orang lain)", [132632, 133332]],
+		  "kalimat": [
+			[
+			  "奥さんも働いているんですか。",
+			  "おくさん も はたらいているんですか。",
+			  "Apakah istri Anda juga bekerja?",
+			  [134573, 136974]
+			]
+		  ]
+		}
+	  ]
+	}
+	
 	
   ]
 }
