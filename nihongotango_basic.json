@@ -4354,8 +4354,982 @@
 		  ]
 		}
 	  ]
-	}
+	},
 	
+	{
+	  "cd": 1,
+	  "track": 9,
+	  "audio": "cd1_09.mp3",
+	  "unit": 4,
+	  "tema": ["食べる・飲む", "たべる・のむ", "Makan・Minum"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["食べ物", "たべもの", "makanan", [7165, 9286]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["果物", "くだもの", "buah", [10307, 10707]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["リンゴ", "リンゴ", "apel", [11868, 12368]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["みかん", "みかん", "jeruk mandarin", [13229, 13709]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["レモン", "レモン", "lemon", [14550, 14970]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["バナナ", "バナナ", "pisang", [15811, 16310]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["メロン", "メロン", "melon", [17192, 17631]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["いちご", "いちご", "stroberi", [18532, 18992]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["ぶどう", "ぶどう", "anggur", [19872, 20314]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["スイカ", "スイカ", "semangka", [21253, 21774]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["野菜", "やさい", "sayuran", [22574, 23096]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["人参", "にんじん", "wortel", [24076, 24716]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["じゃがいも", "じゃがいも", "kentang", [25657, 26297]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["玉ねぎ", "たまねぎ", "bawang bombai", [27198, 27838]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["きゅうり", "きゅうり", "mentimun", [28679, 29199]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["トマト", "トマト", "tomat", [30007, 30527]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["肉", "にく", "daging", [31368, 32689]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["豚肉", "ぶたにく", "daging babi", [32789, 33350]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["鶏肉", "とりにく", "daging ayam", [34191, 34890]],
+		  "kalimat": []
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["牛肉", "ぎゅうにく", "daging sapi", [36131, 37713]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["魚", "さかな", "ikan", [37713, 37932]],
+		  "kalimat": []
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["卵／玉子", "たまご", "telur", [38774, 39173]],
+		  "kalimat": []
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["ハム", "ハム", "ham", [40195, 40495]],
+		  "kalimat": []
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["ソーセージ", "ソーセージ", "sosis", [41435, 42256]],
+		  "kalimat": []
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["チーズ", "チーズ", "keju", [43097, 43637]],
+		  "kalimat": []
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["とうふ", "とうふ", "tahu", [44417, 44938]],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["ご飯", "ごはん", "nasi", [45759, 46219]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["米／お米", "こめ／おこめ", "beras", [47240, 48740]],
+		  "kalimat": []
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["ライス", "ライス", "nasi (rice)", [49620, 50161]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["みそ汁", "みそしる", "sup miso", [50882, 51382]],
+		  "kalimat": []
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["うどん", "うどん", "udon", [51542, 52763]],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["そば", "そば", "soba", [53704, 54024]],
+		  "kalimat": []
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["ラーメン", "ラーメン", "ramen", [54825, 55405]],
+		  "kalimat": []
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["パン", "パン", "roti", [56305, 56566]],
+		  "kalimat": []
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["サラダ", "サラダ", "salad", [57387, 57887]],
+		  "kalimat": []
+		},
+		{
+		  "id": 36,
+		  "kotoba": ["スープ", "スープ", "sup", [58728, 59248]],
+		  "kalimat": [
+			[
+			  "スープは静かに飲んでください。",
+			  "スープ は しずか に のんで ください。",
+			  "Tolong minum sup dengan tenang.",
+			  [60467, 62329]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": ["カレー", "カレー", "kari", [63448, 63768]],
+		  "kalimat": []
+		},
+		{
+		  "id": 38,
+		  "kotoba": ["牛丼", "ぎゅうどん", "gyudon", [64890, 65549]],
+		  "kalimat": []
+		},
+		{
+		  "id": 39,
+		  "kotoba": ["寿司", "すし", "sushi", [66530, 66930]],
+		  "kalimat": []
+		},
+		{
+		  "id": 40,
+		  "kotoba": ["おにぎり", "おにぎり", "nasi kepal", [67850, 68430]],
+		  "kalimat": []
+		},
+		{
+		  "id": 41,
+		  "kotoba": ["さしみ", "さしみ", "sashimi", [69391, 69871]],
+		  "kalimat": []
+		},
+		{
+		  "id": 42,
+		  "kotoba": ["天ぷら", "てんぷら", "tempura", [70891, 71531]],
+		  "kalimat": []
+		},
+		{
+		  "id": 43,
+		  "kotoba": ["すきやき", "すきやき", "sukiyaki", [72472, 73173]],
+		  "kalimat": []
+		},
+		{
+		  "id": 44,
+		  "kotoba": ["スパゲティ", "スパゲティ", "spageti", [74274, 74980]],
+		  "kalimat": []
+		},
+		{
+		  "id": 45,
+		  "kotoba": ["ピザ", "ピザ", "pizza", [74980, 75687]],
+		  "kalimat": []
+		},
+		{
+		  "id": 46,
+		  "kotoba": ["パスタ", "パスタ", "pasta", [75687, 77694]],
+		  "kalimat": [
+			[
+			  "私は、ピザよりパスタの方がいいです。",
+			  "わたし は、ピザ より パスタ の ほう が いい です。",
+			  "Saya lebih suka pasta daripada pizza.",
+			  [79096, 81355]
+			]
+		  ]
+		},
+		{
+		  "id": 47,
+		  "kotoba": ["サンドイッチ", "サンドイッチ", "sandwich", [82356, 83885]],
+		  "kalimat": []
+		},
+		{
+		  "id": 48,
+		  "kotoba": ["ハンバーグ", "ハンバーグ", "hamburg steak", [83885, 85414]],
+		  "kalimat": []
+		},
+		{
+		  "id": 49,
+		  "kotoba": ["ハンバーガー", "ハンバーガー", "hamburger", [85414, 86943]],
+		  "kalimat": []
+		},
+		{
+		  "id": 50,
+		  "kotoba": ["ステーキ", "ステーキ", "steak", [86943, 88471]],
+		  "kalimat": []
+		},
+		{
+		  "id": 51,
+		  "kotoba": ["ポテト", "ポテト", "kentang goreng", [88471, 90000]],
+		  "kalimat": []
+		},
+		{
+		  "id": 52,
+		  "kotoba": ["お菓子", "おかし", "makanan ringan / kue", [90903, 91463]],
+		  "kalimat": []
+		},
+		{
+		  "id": 53,
+		  "kotoba": ["和菓子", "わがし", "kue tradisional Jepang", [92343, 92924]],
+		  "kalimat": []
+		},
+		{
+		  "id": 54,
+		  "kotoba": ["甘いもの", "あまいもの", "makanan manis", [93824, 94604]],
+		  "kalimat": [
+			[
+			  "スーさんは、甘いものは好きですか。",
+			  "スーさん は、あまいもの は すき ですか。",
+			  "Sue, apakah kamu suka makanan manis?",
+			  [95545, 97845]
+			]
+		  ]
+		},
+		{
+		  "id": 55,
+		  "kotoba": ["アイスクリーム", "アイスクリーム", "es krim", [99146, 100086]],
+		  "kalimat": []
+		},
+		{
+		  "id": 56,
+		  "kotoba": ["ケーキ", "ケーキ", "kue", [100966, 101486]],
+		  "kalimat": []
+		},
+		{
+		  "id": 57,
+		  "kotoba": ["チーズケーキ", "チーズケーキ", "cheesecake", [102347, 103327]],
+		  "kalimat": []
+		},
+		{
+		  "id": 58,
+		  "kotoba": ["チョコレート", "チョコレート", "cokelat", [104167, 105392]],
+		  "kalimat": []
+		},
+		{
+		  "id": 59,
+		  "kotoba": ["クッキー", "クッキー", "kukis", [105392, 106618]],
+		  "kalimat": []
+		},
+		{
+		  "id": 60,
+		  "kotoba": ["ドーナツ", "ドーナツ", "donat", [106618, 107843]],
+		  "kalimat": []
+		},
+		{
+		  "id": 61,
+		  "kotoba": ["ガム", "ガム", "permen karet", [107843, 109069]],
+		  "kalimat": []
+		},
+		{
+		  "id": 62,
+		  "kotoba": ["あめ", "あめ", "permen", [110089, 110209]],
+		  "kalimat": []
+		},
+		{
+		  "id": 63,
+		  "kotoba": ["おつまみ", "おつまみ", "camilan pendamping minuman", [111230, 111890]],
+		  "kalimat": [
+			[
+			  "お酒はあるけど、おつまみがないです。",
+			  "おさけ は ある けど、おつまみ が ない です。",
+			  "Ada minuman beralkohol, tetapi tidak ada camilan pendamping.",
+			  [113030, 115471]
+			]
+		  ]
+		}
+	  ]
+	},
+	
+	{
+	  "cd": 1,
+	  "track": 10,
+	  "audio": "cd1_10.mp3",
+	  "unit": 4,
+	  "tema": ["飲む", "のむ", "Minum"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["飲み物", "のみもの", "minuman", [3649, 4070]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["ホット", "ホット", "panas", [5230, 5711]],
+		  "kalimat": [
+			[
+			  "ホットとアイス、どちらになさいますか。",
+			  "ホット と アイス、どちら に なさいますか。",
+			  "Mau yang panas atau dingin?",
+			  [6831, 9153]
+			],
+			[
+			  "じゃあ、私はホットで。",
+			  "じゃあ、わたし は ホット で。",
+			  "Kalau begitu, saya yang panas.",
+			  [10114, 11394]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["アイス", "アイス", "dingin", [12655, 13095]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["コーヒー", "コーヒー", "kopi", [14096, 14596]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["アイスコーヒー", "アイスコーヒー", "es kopi", [15797, 16617]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["紅茶", "こうちゃ", "teh hitam", [17777, 18257]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["アイスティー", "アイスティー", "es teh", [19278, 19778]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["お茶", "おちゃ", "teh", [20919, 21279]],
+		  "kalimat": [
+			[
+			  "どこかでお茶をしませんか。",
+			  "どこか で おちゃ を しませんか。",
+			  "Bagaimana kalau kita minum teh di suatu tempat?",
+			  [22480, 24041]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["牛乳", "ぎゅうにゅう", "susu", [24042, 25862]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["ミルク", "ミルク", "milk", [27003, 27483]],
+		  "kalimat": [
+			[
+			  "コーヒーにミルクは入れますか。",
+			  "コーヒー に ミルク は いれますか。",
+			  "Apakah Anda memakai susu pada kopi?",
+			  [28663, 30224]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["コーラ", "コーラ", "cola", [31464, 31905]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["ジュース", "ジュース", "jus", [32844, 33365]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["水", "みず", "air", [34286, 34405]],
+		  "kalimat": [
+			[
+			  "すみません、お水をください。",
+			  "すみません、おみず を ください。",
+			  "Permisi, minta air putih, ya.",
+			  [35646, 37506]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["お湯", "おゆ", "air panas", [38587, 38947]],
+		  "kalimat": [
+			[
+			  "今、お湯を沸かしています。",
+			  "いま、おゆ を わかして います。",
+			  "Sekarang saya sedang merebus air panas.",
+			  [40027, 41667]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["ビール", "ビール", "bir", [42847, 43268]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["酒", "さけ", "alkohol / sake", [44287, 44408]],
+		  "kalimat": [
+			[
+			  "今日は車で来たから、お酒は飲めません。",
+			  "きょう は くるま で きた から、おさけ は のめません。",
+			  "Hari ini saya datang naik mobil, jadi tidak bisa minum alkohol.",
+			  [44588, 48308]
+			],
+			[
+			  "ビールとお酒、どっちの方が好きですか。",
+			  "ビール と おさけ、どっち の ほう が すき ですか。",
+			  "Anda lebih suka bir atau sake?",
+			  [49349, 51810]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["ワイン", "ワイン", "anggur (wine)", [53070, 53490]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["アルコール", "アルコール", "alkohol", [54631, 55350]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["ドリンク", "ドリンク", "minuman", [56572, 57212]],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 11,
+	  "audio": "cd1_11.mp3",
+	  "unit": 4,
+	  "tema": ["料理・味", "りょうり・あじ", "Masakan・Rasa"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["砂糖", "さとう", "gula", [5033, 7155]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["塩", "しお", "garam", [5033, 7155]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["こしょう", "こしょう", "lada", [8294, 8815]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["しょう油", "しょうゆ", "kecap asin", [10056, 10616]],
+		  "kalimat": [
+			[
+			  "それは、しょう油をかけて食べてください。",
+			  "それ は、しょうゆ を かけて たべて ください。",
+			  "Silakan makan itu dengan menambahkan kecap asin.",
+			  [11817, 14018]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["みそ", "みそ", "miso", [15118, 15538]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["バター", "バター", "mentega", [16739, 17079]],
+		  "kalimat": [
+			[
+			  "パンにバターを塗ってあげましょうか。",
+			  "パン に バター を ぬって あげましょうか。",
+			  "Boleh saya oleskan mentega pada rotimu?",
+			  [18439, 20239]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["ジャム", "ジャム", "selai", [21420, 21780]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["ソース", "ソース", "saus", [23041, 23602]],
+		  "kalimat": [
+			[
+			  "〈食堂で〉そっちがしょう油で、こっちがソースです。",
+			  "〈しょくどう で〉そっち が しょうゆ で、こっち が ソース です。",
+			  "Di kantin, yang itu kecap asin dan yang ini saus.",
+			  [24881, 29283]
+			],
+			[
+			  "トマトソースのスパゲティが食べたい。",
+			  "トマトソース の スパゲティ が たべたい。",
+			  "Saya ingin makan spageti saus tomat.",
+			  [30391, 32652]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["油", "あぶら", "minyak", [33814, 34094]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["ケチャップ", "ケチャップ", "saus tomat", [35454, 36155]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["マヨネーズ", "マヨネーズ", "mayones", [37356, 38195]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["味", "あじ", "rasa", [39337, 39676]],
+		  "kalimat": [
+			[
+			  "それはどんな味ですか。",
+			  "それ は どんな あじ ですか。",
+			  "Rasanya seperti apa?",
+			  [40798, 42118]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["甘い", "あまい", "manis", [43359, 43838]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["辛い", "からい", "pedas", [45039, 45539]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["すっぱい", "すっぱい", "asam", [46801, 47460]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["塩辛い", "しおからい", "asin", [48882, 49502]],
+		  "kalimat": []
+		},{
+		  "id": 17,
+		  "kotoba": ["苦い", "にがい", "pahit", [50743, 51383]],
+		  "kalimat": [
+			[
+			  "その薬はそんなに苦くないよ。",
+			  "その くすり は そんなに にがく ない よ。",
+			  "Obat itu tidak terlalu pahit.",
+			  [52584, 54545]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["濃い", "こい", "kental / pekat", [55806, 56366]],
+		  "kalimat": [
+			[
+			  "それは、ちょっと味が濃いかもしれない。",
+			  "それ は、ちょっと あじ が こい かも しれない。",
+			  "Mungkin rasanya agak terlalu kuat.",
+			  [57567, 59928]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["薄い", "うすい", "encer / hambar", [61169, 61769]],
+		  "kalimat": [
+			[
+			  "薄かったら、しょう油を足して。",
+			  "うすかったら、しょうゆ を たして。",
+			  "Kalau terlalu hambar, tambahkan kecap asin.",
+			  [62970, 64991]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["香り", "かおり", "aroma", [66252, 66772]],
+		  "kalimat": [
+			[
+			  "このバターの香りが好きなんです。",
+			  "この バター の かおり が すき な んです。",
+			  "Saya suka aroma mentega ini.",
+			  [67973, 70054]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["におい", "におい", "bau", [71295, 71835]],
+		  "kalimat": [
+			[
+			  "カレーのにおいがする。となりの家かなあ。",
+			  "カレー の におい が する。となり の いえ かなあ。",
+			  "Tercium bau kari. Mungkin dari rumah sebelah.",
+			  [73036, 75737]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["おいしい", "おいしい", "enak", [76998, 77638]],
+		  "kalimat": []
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["まずい", "まずい", "tidak enak", [78879, 79499]],
+		  "kalimat": [
+			[
+			  "この店はやめたほうがいい。まずいから。",
+			  "この みせ は やめた ほう が いい。まずい から。",
+			  "Sebaiknya jangan ke restoran ini. Makanannya tidak enak.",
+			  [80700, 83181]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["料理（する）", "りょうり（する）", "memasak", [84382, 85202]],
+		  "kalimat": [
+			[
+			  "彼女は料理が得意です。",
+			  "かのじょ は りょうり が とくい です。",
+			  "Dia pandai memasak.",
+			  [86443, 87984]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["焼く", "やく", "memanggang", [89245, 89765]],
+		  "kalimat": []
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["揚げる", "あげる", "menggoreng", [90986, 91546]],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["ゆでる", "ゆでる", "merebus", [92787, 93327]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["冷やす", "ひやす", "mendinginkan", [94588, 95208]],
+		  "kalimat": []
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["冷凍（する）", "れいとう（する）", "membekukan", [96449, 97249]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["フライパン", "フライパン", "wajan", [98490, 99190]],
+		  "kalimat": []
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["なべ", "なべ", "panci", [100431, 100951]],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["包丁", "ほうちょう", "pisau dapur", [102192, 102892]],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["ご飯", "ごはん", "nasi / makan", [3828, 4288]],
+		  "kalimat": [
+			["これからご飯ですか。", "これから ごはん ですか。", "Apakah sekarang mau makan?", [5488, 6549]]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["食事", "しょくじ", "makan", [7710, 8269]],
+		  "kalimat": [
+			["食事の前に手を洗いましょう。", "しょくじ の まえ に て を あらいましょう。", "Mari cuci tangan sebelum makan.", [9531, 11351]]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["朝ご飯", "あさごはん", "sarapan", [12451, 13232]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["昼ご飯", "ひるごはん", "makan siang", [14412, 15172]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["お昼／お昼ご飯", "おひる／おひるごはん", "makan siang", [16432, 18472]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["ランチ", "ランチ", "lunch", [19692, 20253]],
+		  "kalimat": [
+			["ホテルでランチをするのもいいですね。", "ホテル で ランチ を する のも いい です ね。", "Makan siang di hotel juga terdengar menyenangkan.", [21413, 23273]]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["ランチタイム", "ランチタイム", "jam makan siang", [24515, 25375]],
+		  "kalimat": [
+			["ランチタイムはきっと込みますよ。", "ランチタイム は きっと こみます よ。", "Saat jam makan siang pasti ramai.", [26634, 28435]]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["晩ご飯", "ばんごはん", "makan malam", [29696, 30437]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["夕食", "ゆうしょく", "makan malam", [31737, 32158]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["夕飯", "ゆうはん", "makan malam", [32298, 34259]],
+		  "kalimat": [
+			["今日の夕飯は何がいい？", "きょう の ゆうはん は なに が いい？", "Malam ini mau makan apa?", [35439, 37121]]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["和食", "わしょく", "masakan Jepang", [38481, 38781]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["洋食", "ようしょく", "masakan Barat", [40302, 40743]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["中華／中華料理", "ちゅうか／ちゅうかりょうり", "masakan Cina", [42124, 44185]],
+		  "kalimat": [
+			["お昼は中華にしませんか。", "おひる は ちゅうか に しませんか。", "Bagaimana kalau makan masakan Cina saat makan siang?", [45447, 47007]]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["イタリアン", "イタリアン", "masakan / restoran Italia", [48228, 48908]],
+		  "kalimat": [
+			["昨日、中華だったから、今日はイタリアンがいい。", "きのう、ちゅうか だった から、きょう は イタリアン が いい。", "Kemarin makan masakan Cina, jadi hari ini maunya masakan Italia.", [50149, 53911]],
+			["駅ビルのイタリアンに行きませんか。", "えきビル の イタリアン に いきませんか。", "Mau ke restoran Italia di gedung stasiun?", [53951, 55573]]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["メニュー", "メニュー", "menu", [56873, 57375]],
+		  "kalimat": [
+			["すみません、メニューを見せてください。", "すみません、メニュー を みせて ください。", "Permisi, boleh saya melihat menunya?", [58716, 60848]]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["おすすめ", "おすすめ", "rekomendasi", [62030, 62710]],
+		  "kalimat": [
+			["どれがおすすめですか。", "どれ が おすすめ ですか。", "Yang mana yang Anda rekomendasikan?", [63811, 64932]]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["デザート", "デザート", "hidangan penutup", [66033, 66713]],
+		  "kalimat": [
+			["デザートはどうする？", "デザート は どうする？", "Bagaimana dengan hidangannya penutup?", [67914, 68974]],
+			["つける？", "つける？", "Ditambah sekalian?", [69596, 70837]],
+			["うん、つけよう。", "うん、つけよう。", "Ya, ayo tambahkan.", [71216, 71537]]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["定食", "ていしょく", "paket makanan", [72698, 73118]],
+		  "kalimat": [
+			["ハンバーグ定食", "ハンバーグていしょく", "Paket hamburger steak", [73118, 73918]]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["おかわり", "おかわり", "tambah lagi", [74579, 75240]],
+		  "kalimat": [
+			["おかわりはどうですか。", "おかわり は どうですか。", "Mau tambah lagi?", [76421, 77682]],
+			["はい、お願いします。", "はい、おねがいします。", "Ya, tolong.", [78343, 79463]]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["弁当", "べんとう", "bekal / bento", [80685, 81325]],
+		  "kalimat": [
+			["毎朝、お弁当を作っているんですか。", "まいあさ、おべんとう を つくって いるんですか。", "Apakah setiap pagi Anda membuat bekal?", [82606, 84707]],
+			["駅のホームでも、お弁当を売ってますよ。", "えき の ホーム でも、おべんとう を うってます よ。", "Di peron stasiun juga dijual bento.", [85628, 87890]]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["会計", "かいけい", "tagihan / pembayaran", [89432, 89551]],
+		  "kalimat": [
+			["会計はもう済みましたか。", "かいけい は もう すみましたか。", "Apakah pembayarannya sudah selesai?", [90912, 92293]]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["おやつ", "おやつ", "camilan", [93454, 93955]],
+		  "kalimat": [
+			["おやつをたくさん食べると、晩ご飯が食べられなくなるよ。", "おやつ を たくさん たべる と、ばんごはん が たべられなく なる よ。", "Kalau terlalu banyak makan camilan, nanti tidak bisa makan malam.", [95057, 98259]]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["食器", "しょっき", "peralatan makan", [99459, 100060]],
+		  "kalimat": []
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["はし", "はし", "sumpit", [101581, 101741]],
+		  "kalimat": []
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["茶わん", "ちゃわん", "mangkuk nasi", [103022, 103543]],
+		  "kalimat": []
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["皿", "さら", "piring", [104844, 105084]],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["フォーク", "フォーク", "garpu", [106325, 106925]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["ナイフ", "ナイフ", "pisau", [106925, 107525]],
+		  "kalimat": []
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["スプーン", "スプーン", "sendok", [107525, 108125]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["グラス", "グラス", "gelas", [108125, 108725]],
+		  "kalimat": [
+			["ワインをグラスで２杯飲んだだけです。", "ワイン を グラス で にはい のんだ だけです。", "Saya hanya minum dua gelas wine.", [108725, 116233]]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["コップ", "コップ", "cangkir / gelas", [117394, 117935]],
+		  "kalimat": [
+			["このコップに水を入れてきてください。", "この コップ に みず を いれてきて ください。", "Tolong isi gelas ini dengan air.", [118980, 120986]]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["ストロー", "ストロー", "sedotan", [122191, 122671]],
+		  "kalimat": []
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["ナプキン", "ナプキン", "serbet", [124116, 124778]],
+		  "kalimat": [
+			["紙ナプキン", "かみナプキン", "tisu makan (paper napkin)", [124778, 125378]]
+		  ]
+		}
+	  ]
+	}	
 	
   ]
 }
