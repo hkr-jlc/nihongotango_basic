@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>言葉 — Kosakata Jepang</title>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://w.soundcloud.com/player/api.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
@@ -222,6 +223,7 @@ body{
   </div>
 
   <div class="toast" id="toast"></div>
+  <div id="sc-widgets" style="position:absolute;width:0;height:0;overflow:hidden;"></div>
 </div>
 
 <script>
@@ -291,23 +293,17 @@ let UNITS = [
 }
 ];
 
-// ─── Isi mapping file audio di sini. Kirim link file barunya kapan saja ───
-// ─── untuk ditambahkan, format: nomorTrack: 'FileID' ───
-const DRIVE_MAP = {
-  1: { // CD1
-    1: '1szePXUDCH5xTT0G8DLJDURQJwybybdBg',
-    2: '1VHrGljIZd8QIoKGTkwUmfr4IWyTtZBEW'
-    // 3: 'FILE_ID_DISINI', dst. menyusul
-  },
-  2: { // CD2
-  }
+// ─── Sumber audio: link trek SoundCloud langsung per nomor track. ───
+// ─── Pola URL trek CD1 dan CD2 berbeda, jadi masing2 punya fungsi builder sendiri ───
+const TRACK_URL = {
+  1: (n)=> `https://soundcloud.com/user-95896001/track-${n}`,           // CD1: track-1, track-2, ...
+  2: (n)=> `https://soundcloud.com/user-95896001/${String(n).padStart(2,'0')}-1` // CD2: 01-1, 02-1, ...
 };
 
 let currentUnitIdx = 0;
 let fcOrder = [];
 let fcIdx = 0;
 let fcFlipped = false;
-let currentAudio = null;
 
 // ────────────────────────────────────────────────────────────────────────
 // PERSISTENCE untuk unit kosakata (window.storage kalau tersedia sbg
@@ -332,42 +328,73 @@ async function loadState(){
 // ────────────────────────────────────────────────────────────────────────
 // HELPERS
 // ────────────────────────────────────────────────────────────────────────
-function audioSrcFor(cd, track){
-  const id = DRIVE_MAP[cd] && DRIVE_MAP[cd][track];
-  if(!id) return null;
-  return `https://drive.google.com/uc?export=download&id=${id}`;
-}
 function toast(msg){
   const t = document.getElementById('toast');
   t.textContent = msg;
   t.classList.add('show');
   setTimeout(()=>t.classList.remove('show'), 1800);
 }
+
+// ── SoundCloud widget (satu iframe/widget dipakai bergantian, di-load ──
+// ── ulang tiap kali pindah trek yang berbeda dari sebelumnya) ──
+let scWidget = null;
+let scReady = false;
+let scPending = [];
+let scLoadedKey = null;
+let progressHandler = null;
+
+function ensureWidget(cb){
+  if(scReady){ cb(); return; }
+  scPending.push(cb);
+  if(scWidget) return; // sudah dalam proses inisialisasi
+  const iframe = document.createElement('iframe');
+  iframe.width = '1'; iframe.height = '1'; iframe.frameBorder = '0';
+  iframe.allow = 'autoplay';
+  const bootUrl = TRACK_URL[1](1);
+  iframe.src = `https://w.soundcloud.com/player/?url=${encodeURIComponent(bootUrl)}&auto_play=false&show_artwork=false&visual=false`;
+  document.getElementById('sc-widgets').appendChild(iframe);
+  scWidget = SC.Widget(iframe);
+  scWidget.bind(SC.Widget.Events.READY, ()=>{
+    scReady = true;
+    scLoadedKey = '1:1';
+    const cbs = scPending; scPending = [];
+    cbs.forEach(fn=>fn());
+  });
+}
 function stopAudio(){
-  if(currentAudio){ currentAudio.pause(); currentAudio = null; }
+  if(scWidget && scReady){
+    scWidget.pause();
+    if(progressHandler){ scWidget.unbind(SC.Widget.Events.PLAY_PROGRESS); progressHandler = null; }
+  }
   document.querySelectorAll('.play-dot.playing').forEach(el=>el.classList.remove('playing'));
   const fcp = document.getElementById('fc-play');
   if(fcp) fcp.classList.remove('playing');
 }
 function playSegment(cd, track, startMs, endMs, btnEl){
   stopAudio();
-  const src = audioSrcFor(cd, track);
-  if(!src){
-    toast(`Belum ada audio utk CD${cd} track ${track}. Kirim link filenya untuk ditambahkan.`);
+  const urlFn = TRACK_URL[cd];
+  if(!urlFn){
+    toast(`Belum ada link audio utk CD${cd}.`);
     return;
   }
-  const audio = new Audio(src);
-  currentAudio = audio;
   if(btnEl) btnEl.classList.add('playing');
-  audio.addEventListener('loadedmetadata', ()=>{
-    audio.currentTime = startMs/1000;
-    audio.play().catch(()=>{ toast('Gagal memutar audio. Cek File ID / izin berbagi Drive.'); stopAudio(); });
+  ensureWidget(()=>{
+    const key = `${cd}:${track}`;
+    const startPlayback = ()=>{
+      scWidget.seekTo(startMs);
+      scWidget.play();
+      progressHandler = (e)=>{ if(e.currentPosition >= endMs) stopAudio(); };
+      scWidget.bind(SC.Widget.Events.PLAY_PROGRESS, progressHandler);
+      scWidget.bind(SC.Widget.Events.FINISH, stopAudio);
+    };
+    if(scLoadedKey === key){
+      startPlayback();
+    } else {
+      scWidget.load(urlFn(track), {
+        callback: ()=>{ scLoadedKey = key; startPlayback(); }
+      });
+    }
   });
-  audio.addEventListener('timeupdate', ()=>{
-    if(audio.currentTime*1000 >= endMs){ stopAudio(); }
-  });
-  audio.addEventListener('ended', stopAudio);
-  audio.addEventListener('error', ()=>{ toast('Gagal memuat audio dari Drive.'); stopAudio(); });
 }
 
 // ────────────────────────────────────────────────────────────────────────
