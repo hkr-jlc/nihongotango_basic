@@ -62,7 +62,7 @@ body{
 
 /* ── Tabs ── */
 .tabs{
-  display:grid;grid-template-columns:repeat(3,1fr);
+  display:grid;grid-template-columns:repeat(2,1fr);
   border-bottom:1px solid var(--border);
   background:var(--paper);position:sticky;top:0;z-index:10;
 }
@@ -193,7 +193,6 @@ body{
   <div class="tabs">
     <div class="tab active" data-tab="kosakata" onclick="switchTab('kosakata')"><span class="tab-jp">単語</span>Kosakata</div>
     <div class="tab" data-tab="flashcard" onclick="switchTab('flashcard')"><span class="tab-jp">カード</span>Flashcard</div>
-    <div class="tab" data-tab="settings" onclick="switchTab('settings')"><span class="tab-jp">設定</span>Pengaturan</div>
   </div>
 
   <div class="content">
@@ -218,57 +217,6 @@ body{
         <button onclick="shuffleUnit()">🔀 Acak urutan</button>
         <button onclick="resetUnitOrder()">↺ Urutan asli</button>
       </div>
-    </div>
-
-    <div id="view-settings" style="display:none">
-
-      <div class="set-card">
-        <div class="set-title">Tambah unit kosakata (JSON)</div>
-        <div class="set-desc">Tempel JSON unit baru (format sama seperti contoh: cd, track, audio, unit, tema, data[]) lalu tekan "Tambah Unit". Bisa diulang untuk banyak unit / CD.</div>
-        <textarea id="unit-json-input" placeholder='{ "cd":1, "track":3, "audio":"cd1_03.mp3", ... }'></textarea>
-        <div class="set-row">
-          <button onclick="addUnitFromInput()">Tambah Unit</button>
-          <button class="ghost" onclick="document.getElementById('unit-json-input').value=''">Bersihkan</button>
-        </div>
-      </div>
-
-      <div class="set-card">
-        <div class="set-title">Unit yang dimuat (<span id="unit-count">0</span>)</div>
-        <div id="unit-list"></div>
-      </div>
-
-      <div class="set-card">
-        <div class="set-title">Sumber audio — Google Drive (otomatis)</div>
-        <div class="set-desc">
-          Tempel link/ID folder CD1 &amp; CD2, plus API Key Drive kamu. App akan mengambil daftar file di folder itu dan mencocokkan nomor track dari nama file (mis. "Track No01.mp3" s/d "Track No24.mp3"). Folder harus di-share <b>Anyone with the link – Viewer</b>.
-        </div>
-        <div class="set-title" style="margin-top:8px">API Key Google Drive</div>
-        <textarea id="drive-apikey" style="min-height:44px" placeholder="AIzaSy..."></textarea>
-
-        <div class="set-title" style="margin-top:10px">Folder CD1 (link atau Folder ID)</div>
-        <textarea id="drive-folder-cd1" style="min-height:44px" placeholder="https://drive.google.com/drive/folders/xxxx atau ID-nya saja"></textarea>
-
-        <div class="set-title" style="margin-top:10px">Folder CD2 (link atau Folder ID)</div>
-        <textarea id="drive-folder-cd2" style="min-height:44px" placeholder="https://drive.google.com/drive/folders/xxxx atau ID-nya saja"></textarea>
-
-        <div class="set-row">
-          <button onclick="fetchAllFolders()">Ambil Daftar File dari Drive</button>
-        </div>
-        <div class="set-desc" id="drive-fetch-status" style="margin-top:8px"></div>
-      </div>
-
-      <div class="set-card">
-        <div class="set-title">Override manual (opsional)</div>
-        <div class="set-desc">Kalau ada track yang namanya tidak cocok pola "Track No{n}.mp3", tambahkan manual di sini: satu baris <b>nomorTrack=FileIDatauLink</b>.</div>
-        <div class="set-title" style="margin-top:8px">CD1</div>
-        <textarea id="drive-cd1" placeholder="1=FILE_ID_atau_link"></textarea>
-        <div class="set-title" style="margin-top:10px">CD2</div>
-        <textarea id="drive-cd2" placeholder="1=FILE_ID_atau_link"></textarea>
-        <div class="set-row">
-          <button onclick="saveDriveMap(true)">Simpan Override</button>
-        </div>
-      </div>
-
     </div>
 
   </div>
@@ -343,12 +291,18 @@ let UNITS = [
 }
 ];
 
-// ─── ISI SEKALI DI SINI supaya audio langsung ke-load tanpa buka tab Pengaturan ───
-const DEFAULT_API_KEY = ""; // <-- tempel Google Drive API Key kamu di antara tanda kutip ini
-// ───────────────────────────────────────────────────────────────────────────────
+// ─── Isi mapping file audio di sini. Kirim link file barunya kapan saja ───
+// ─── untuk ditambahkan, format: nomorTrack: 'FileID' ───
+const DRIVE_MAP = {
+  1: { // CD1
+    1: '1szePXUDCH5xTT0G8DLJDURQJwybybdBg',
+    2: '1VHrGljIZd8QIoKGTkwUmfr4IWyTtZBEW'
+    // 3: 'FILE_ID_DISINI', dst. menyusul
+  },
+  2: { // CD2
+  }
+};
 
-let DRIVE_MAP = {1:{}, 2:{}};
-let DRIVE_CFG = {apiKey: DEFAULT_API_KEY, folder1:'12ShoMdLcAMQp-h8QfIsczb4h5dlIBp4r', folder2:'1qZuTUlAiy68kHb0WcIBNKzyPzwCZGnrZ'};
 let currentUnitIdx = 0;
 let fcOrder = [];
 let fcIdx = 0;
@@ -356,15 +310,13 @@ let fcFlipped = false;
 let currentAudio = null;
 
 // ────────────────────────────────────────────────────────────────────────
-// PERSISTENCE (window.storage kalau tersedia / dijalankan sbg artifact;
-// kalau tidak, data hanya bertahan selama sesi ini)
+// PERSISTENCE untuk unit kosakata (window.storage kalau tersedia sbg
+// artifact; kalau tidak, data hanya bertahan selama sesi ini)
 // ────────────────────────────────────────────────────────────────────────
 async function saveState(){
   try{
     if(window.storage){
       await window.storage.set('units', JSON.stringify(UNITS));
-      await window.storage.set('drivemap', JSON.stringify(DRIVE_MAP));
-      await window.storage.set('drivecfg', JSON.stringify(DRIVE_CFG));
     }
   }catch(e){ /* storage tidak tersedia, lanjut pakai in-memory saja */ }
 }
@@ -372,43 +324,14 @@ async function loadState(){
   try{
     if(window.storage){
       const u = await window.storage.get('units').catch(()=>null);
-      const d = await window.storage.get('drivemap').catch(()=>null);
-      const c = await window.storage.get('drivecfg').catch(()=>null);
       if(u && u.value) UNITS = JSON.parse(u.value);
-      if(d && d.value) DRIVE_MAP = JSON.parse(d.value);
-      if(c && c.value) DRIVE_CFG = JSON.parse(c.value);
     }
   }catch(e){}
-  if(!DRIVE_CFG.apiKey && DEFAULT_API_KEY) DRIVE_CFG.apiKey = DEFAULT_API_KEY;
 }
 
 // ────────────────────────────────────────────────────────────────────────
 // HELPERS
 // ────────────────────────────────────────────────────────────────────────
-function extractDriveId(str){
-  str = str.trim();
-  let m = str.match(/\/d\/([a-zA-Z0-9_-]{10,})/);
-  if(m) return m[1];
-  m = str.match(/[?&]id=([a-zA-Z0-9_-]{10,})/);
-  if(m) return m[1];
-  if(/^[a-zA-Z0-9_-]{10,}$/.test(str)) return str;
-  return null;
-}
-function extractFolderId(str){
-  str = str.trim();
-  let m = str.match(/\/folders\/([a-zA-Z0-9_-]{10,})/);
-  if(m) return m[1];
-  if(/^[a-zA-Z0-9_-]{10,}$/.test(str)) return str;
-  return null;
-}
-function trackNumberFromName(name){
-  // Cocokkan pola "Track No39.mp3", "Track No 39.mp3", "track39.mp3", dll (case-insensitive)
-  let m = name.match(/no\s*0*([0-9]+)/i);
-  if(m) return parseInt(m[1],10);
-  m = name.match(/([0-9]+)(?=\.[a-zA-Z0-9]+$)/);
-  if(m) return parseInt(m[1],10);
-  return null;
-}
 function audioSrcFor(cd, track){
   const id = DRIVE_MAP[cd] && DRIVE_MAP[cd][track];
   if(!id) return null;
@@ -430,7 +353,7 @@ function playSegment(cd, track, startMs, endMs, btnEl){
   stopAudio();
   const src = audioSrcFor(cd, track);
   if(!src){
-    toast(`Belum ada audio utk CD${cd} track ${track}. Atur di tab Pengaturan.`);
+    toast(`Belum ada audio utk CD${cd} track ${track}. Kirim link filenya untuk ditambahkan.`);
     return;
   }
   const audio = new Audio(src);
@@ -455,7 +378,6 @@ function switchTab(name){
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
   document.getElementById('view-kosakata').style.display = name==='kosakata' ? '' : 'none';
   document.getElementById('view-flashcard').style.display = name==='flashcard' ? '' : 'none';
-  document.getElementById('view-settings').style.display = name==='settings' ? '' : 'none';
   if(name==='flashcard') renderFlashcard();
 }
 
@@ -567,128 +489,11 @@ function resetUnitOrder(){
 }
 
 // ────────────────────────────────────────────────────────────────────────
-// SETTINGS: units
-// ────────────────────────────────────────────────────────────────────────
-function renderUnitList(){
-  document.getElementById('unit-count').textContent = UNITS.length;
-  document.getElementById('unit-list').innerHTML = UNITS.map((u,i)=>`
-    <div class="unit-list-item">
-      <span>CD${u.cd} / Track ${u.track} — Unit ${u.unit} · ${u.tema[2]} (${u.data.length} kata)</span>
-      <span class="unit-del" onclick="deleteUnit(${i})">Hapus</span>
-    </div>`).join('') || `<div class="empty-note" style="padding:6px 0">Belum ada unit.</div>`;
-}
-function addUnitFromInput(){
-  const raw = document.getElementById('unit-json-input').value.trim();
-  if(!raw){ toast('Tempel JSON unit dulu.'); return; }
-  let parsed;
-  try{ parsed = JSON.parse(raw); }catch(e){ toast('JSON tidak valid: ' + e.message); return; }
-  if(!parsed.data || !Array.isArray(parsed.data)){ toast('Format JSON tidak sesuai (butuh field "data").'); return; }
-  UNITS.push(parsed);
-  document.getElementById('unit-json-input').value = '';
-  renderUnitList();
-  renderUnitSelect();
-  saveState();
-  toast('Unit ditambahkan.');
-}
-function deleteUnit(i){
-  UNITS.splice(i,1);
-  if(currentUnitIdx>=UNITS.length) currentUnitIdx = Math.max(0, UNITS.length-1);
-  renderUnitList();
-  renderUnitSelect();
-  saveState();
-}
-
-// ────────────────────────────────────────────────────────────────────────
-// SETTINGS: drive mapping
-// ────────────────────────────────────────────────────────────────────────
-async function fetchFolderFiles(folderId, apiKey){
-  const url = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(`'${folderId}' in parents and trashed = false`)}&fields=${encodeURIComponent('files(id,name)')}&pageSize=1000&key=${apiKey}`;
-  const res = await fetch(url);
-  if(!res.ok){
-    const body = await res.json().catch(()=>({}));
-    throw new Error(body?.error?.message || `HTTP ${res.status}`);
-  }
-  const data = await res.json();
-  return data.files || [];
-}
-async function fetchAllFolders(silent){
-  const apiKey = (document.getElementById('drive-apikey').value || DRIVE_CFG.apiKey || '').trim();
-  const f1raw = (document.getElementById('drive-folder-cd1').value || DRIVE_CFG.folder1 || '').trim();
-  const f2raw = (document.getElementById('drive-folder-cd2').value || DRIVE_CFG.folder2 || '').trim();
-  const statusEl = document.getElementById('drive-fetch-status');
-  if(!apiKey){ if(!silent) toast('Isi API Key Google Drive dulu.'); return; }
-  const folder1 = extractFolderId(f1raw);
-  const folder2 = extractFolderId(f2raw);
-  DRIVE_CFG = {apiKey, folder1: folder1||'', folder2: folder2||''};
-  if(statusEl) statusEl.textContent = 'Mengambil daftar file...';
-  let totalMatched = 0, totalFiles = 0;
-  try{
-    if(folder1){
-      const files = await fetchFolderFiles(folder1, apiKey);
-      totalFiles += files.length;
-      files.forEach(f=>{
-        const n = trackNumberFromName(f.name);
-        if(n!=null){ DRIVE_MAP[1][n] = f.id; totalMatched++; }
-      });
-    }
-    if(folder2){
-      const files = await fetchFolderFiles(folder2, apiKey);
-      totalFiles += files.length;
-      files.forEach(f=>{
-        const n = trackNumberFromName(f.name);
-        if(n!=null){ DRIVE_MAP[2][n] = f.id; totalMatched++; }
-      });
-    }
-    saveState();
-    fillDriveTextareas();
-    const msg = `Berhasil: ${totalMatched} dari ${totalFiles} file terpetakan berdasarkan nomor track.`;
-    if(statusEl) statusEl.textContent = msg;
-    if(silent) toast('Daftar audio Drive dimuat otomatis.');
-  }catch(e){
-    const msg = `Gagal mengambil daftar file: ${e.message}. Cek API Key sudah aktifkan "Google Drive API", dan folder sudah di-share "Anyone with the link".`;
-    if(statusEl) statusEl.textContent = msg;
-    if(silent) toast('Gagal memuat daftar audio Drive otomatis. Cek tab Pengaturan.');
-  }
-}
-function parseDriveTextarea(text){
-  const map = {};
-  text.split('\n').forEach(line=>{
-    line = line.trim();
-    if(!line || !line.includes('=')) return;
-    const idx = line.indexOf('=');
-    const track = line.slice(0, idx).trim();
-    const val = line.slice(idx+1).trim();
-    const id = extractDriveId(val);
-    if(track && id) map[track] = id;
-  });
-  return map;
-}
-function saveDriveMap(){
-  const cd1Overrides = parseDriveTextarea(document.getElementById('drive-cd1').value);
-  const cd2Overrides = parseDriveTextarea(document.getElementById('drive-cd2').value);
-  DRIVE_MAP[1] = {...DRIVE_MAP[1], ...cd1Overrides};
-  DRIVE_MAP[2] = {...DRIVE_MAP[2], ...cd2Overrides};
-  saveState();
-  toast(`Override tersimpan: ${Object.keys(cd1Overrides).length + Object.keys(cd2Overrides).length} baris.`);
-}
-function fillDriveTextareas(){
-  document.getElementById('drive-apikey').value = DRIVE_CFG.apiKey || '';
-  document.getElementById('drive-folder-cd1').value = DRIVE_CFG.folder1 || '';
-  document.getElementById('drive-folder-cd2').value = DRIVE_CFG.folder2 || '';
-}
-
-// ────────────────────────────────────────────────────────────────────────
 // INIT
 // ────────────────────────────────────────────────────────────────────────
 (async function init(){
   await loadState();
   renderUnitSelect();
-  renderUnitList();
-  fillDriveTextareas();
-  const mapEmpty = Object.keys(DRIVE_MAP[1]||{}).length===0 && Object.keys(DRIVE_MAP[2]||{}).length===0;
-  if(DRIVE_CFG.apiKey && mapEmpty){
-    fetchAllFolders(true);
-  }
 })();
 </script>
 </body>
