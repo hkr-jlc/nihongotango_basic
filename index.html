@@ -282,12 +282,14 @@ body{
 // Pastikan file JSON ini berada di folder yang sama dengan file HTML ini.
 // ────────────────────────────────────────────────────────────────────────
 let UNITS = [];
+let UNIT_TITLES = [];
 
 async function loadData(){
   const res = await fetch('nihongotango_basic.json');
   if(!res.ok) throw new Error('Gagal memuat nihongotango_basic.json');
   const json = await res.json();
   UNITS = json.units;
+  UNIT_TITLES = json.unitTitles || [];
 }
 
 // ─── Sumber audio: link trek SoundCloud langsung per nomor track. ───
@@ -526,7 +528,7 @@ function uiNextTrack(auto){
 function switchToTrackPtr(autoplay){
   const newUnit = currentTrackObj().unit;
   if(newUnit !== currentUnitNumber_rendered){
-    document.getElementById('sel-unit').value = allUnitNumbers().indexOf(newUnit);
+    document.getElementById('sel-unit').value = newUnit;
     renderKosakata();
   }
   const idx = flatSegments.findIndex(s=>s.trackIdx===trackPtr);
@@ -553,19 +555,37 @@ function allUnitNumbers(){
   const seen = []; UNITS.forEach(u=>{ if(!seen.includes(u.unit)) seen.push(u.unit); });
   return seen;
 }
+function unitTitleFor(unitNum){
+  const t = UNIT_TITLES.find(x=>x.unit===unitNum);
+  return t ? t.tema : null;
+}
 function renderUnitSelect(){
   const sel = document.getElementById('sel-unit');
   sel.innerHTML = '';
-  const units = allUnitNumbers();
-  units.forEach((unitNum,i)=>{
-    const firstTrack = UNITS.find(u=>u.unit===unitNum);
-    const label = `Unit ${unitNum} — ${firstTrack.tema[2]} (${firstTrack.tema[0]})`;
-    sel.innerHTML += `<option value="${i}">${label}</option>`;
+  const withData = allUnitNumbers();
+  // Tampilkan semua unit yg terdaftar di unitTitles (1-50); kalau unitTitles
+  // kosong (fallback), pakai unit yg ada data-nya saja.
+  const allNums = UNIT_TITLES.length
+    ? UNIT_TITLES.map(t=>t.unit)
+    : withData;
+
+  allNums.forEach((unitNum)=>{
+    const hasData = withData.includes(unitNum);
+    const title = unitTitleFor(unitNum);
+    const label = title
+      ? `Unit ${unitNum} — ${title[2]} (${title[0]})`
+      : `Unit ${unitNum} — ${UNITS.find(u=>u.unit===unitNum).tema[2]} (${UNITS.find(u=>u.unit===unitNum).tema[0]})`;
+    const disabledAttr = hasData ? '' : 'disabled';
+    const suffix = hasData ? '' : ' — belum ada data';
+    sel.innerHTML += `<option value="${unitNum}" ${disabledAttr}>${label}${suffix}</option>`;
   });
-  sel.value = units.indexOf(currentTrackObj().unit);
+
+  sel.value = currentTrackObj().unit;
   sel.onchange = ()=>{
-    const unitNum = units[+sel.value];
-    trackPtr = UNITS.findIndex(u=>u.unit===unitNum);
+    const unitNum = +sel.value;
+    const idx = UNITS.findIndex(u=>u.unit===unitNum);
+    if(idx === -1) return; // opsi disabled, seharusnya tidak terpilih
+    trackPtr = idx;
     onUnitChange();
   };
   onUnitChange();
