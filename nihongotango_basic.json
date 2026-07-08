@@ -7175,8 +7175,721 @@
 		  ]
 		}
 	  ]
-	}
+	},
 
+	{
+	  "cd": 1,
+	  "track": 29,
+	  "audio": "cd1_29.mp3",
+	  "unit": 21,
+	  "tema": ["色・形", "いろ・かたち", "Warna, Bentuk"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["色", "いろ", "Warna", [2769, 4070]]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["形", "かたち", "Bentuk", [5692, 5873]]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["青い", "あおい", "Biru", [7032, 8103]],
+		  "kalimat": [
+			["青い空", "Langit biru", [8104, 9175]]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["赤い", "あかい", "Merah", [8104, 9175]],
+		  "kalimat": [
+			["赤いバラ、赤のボールペン", "Mawar merah, pulpen merah", [9176, 10416]]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["黄色い", "きいろい", "Kuning", [10416, 10897]],
+		  "kalimat": [
+			["黄色い花", "Bunga kuning", [10898, 12058]]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["黒い", "くろい", "Hitam", [12058, 12658]],
+		  "kalimat": [
+			["黒い猫、黒い髪", "Kucing hitam, rambut hitam", [12659, 13799]]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["白い", "しろい", "Putih", [13799, 15721]],
+		  "kalimat": [
+			["白い馬、白いシャツ", "Kuda putih, kemeja putih", [15722, 17321]]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["茶色い", "ちゃいろい", "Cokelat", [17321, 17981]],
+		  "kalimat": [
+			["茶色いかばん", "Tas cokelat", [17982, 19343]]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["丸い", "まるい", "Bulat", [19343, 19823]],
+		  "kalimat": [
+			["丸いテーブル", "Meja bundar", [19824, 20444]],
+			["丸", "Bulat; lingkaran", [20445, 21064]]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["大きい", "おおきい", "Besar", [21064, 21745]],
+		  "kalimat": [
+			["もう少し大きい声でお願いします。", "Tolong berbicara sedikit lebih keras.", [22986, 25307]],
+			["聞こえないので、もう少し音を大きくしてください。", "Karena tidak terdengar, tolong besarkan volumenya sedikit.", [26428, 29411]]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["大きさ", "おおきさ", "Ukuran", [30560, 31140]]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["大きな", "おおきな", "Besar", [32320, 32920]],
+		  "kalimat": [
+			["大きな家ですね。", "Rumahnya besar ya.", [34042, 35463]]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["小さい", "ちいさい", "Kecil", [36764, 37384]],
+		  "kalimat": [
+			["小さい子どもには辛すぎると思います。", "Saya rasa terlalu pedas untuk anak kecil.", [38545, 41246]],
+			["字が小さくて、読めません。", "Hurufnya terlalu kecil sehingga tidak bisa dibaca.", [42426, 44048]],
+			["野菜を小さく切ってください。", "Tolong potong sayurnya kecil-kecil.", [45167, 46709]]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["小さな", "ちいさな", "Kecil", [47850, 48510]]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["太い", "ふとい", "Tebal", [49710, 50690]],
+		  "kalimat": [
+			["太いペン", "Pulpen tebal", [50691, 51740]]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["細い", "ほそい", "Tipis; ramping", [50691, 51671]],
+		  "kalimat": [
+			["細いペン、細い道", "Pulpen tipis, jalan sempit", [51672, 52753]]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["厚い", "あつい", "Tebal", [52753, 53313]],
+		  "kalimat": [
+			["厚い本", "Buku tebal", [53314, 54414]]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["薄い", "うすい", "Tipis", [54414, 54914]],
+		  "kalimat": [
+			["薄い本", "Buku tipis", [54915, 56135]]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["長い", "ながい", "Panjang", [56135, 56635]],
+		  "kalimat": [
+			["長い髪", "Rambut panjang", [56636, 57736]]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["短い", "みじかい", "Pendek", [57736, 58376]],
+		  "kalimat": [
+			["短い髪", "Rambut pendek", [58377, 59500]]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 30,
+	  "audio": "cd1_30.mp3",
+	  "unit": 22,
+	  "tema": ["数・量", "かず・りょう", "Jumlah, Kuantitas"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["多い", "おおい", "Banyak", [5492, 5931]],
+		  "kalimat": [
+			["きょうはゴミが多いですね。", "Hari ini sampahnya banyak ya.", [7052, 8634]],
+			["林さん、最近遅刻が多いですよ。どうしたんですか。", "Hayashi-san, belakangan ini Anda sering terlambat. Ada apa?", [9915, 14098]]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["多くの～", "おおくの～", "Banyak ~", [15439, 15999]],
+		  "kalimat": [
+			["英語は多くの国で話されています。", "Bahasa Inggris digunakan di banyak negara.", [17140, 19881]]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["少ない", "すくない", "Sedikit", [21121, 21702]],
+		  "kalimat": [
+			["A社は休みが少ないけど、給料はいいよ。", "Perusahaan A liburnya sedikit, tetapi gajinya bagus.", [22783, 25705]]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["少し", "すこし", "Sedikit", [26946, 27446]],
+		  "kalimat": [
+			["これ、少し食べてみてもいいですか。", "Bolehkah saya mencoba makan sedikit ini?", [28547, 31076]]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["大勢", "おおぜい", "Banyak orang; kerumunan", [32277, 32737]],
+		  "kalimat": [
+			["人が大勢いて、よく見えなかったよ。", "Karena banyak orang, saya tidak bisa melihat dengan jelas.", [34079, 37040]]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["たくさん", "たくさん", "Banyak", [38262, 38862]],
+		  "kalimat": [
+			["宿題がたくさんあったので、ハイキングには行きません。", "Karena ada banyak PR, saya tidak pergi hiking.", [40064, 43445]]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["ちょっと", "ちょっと", "Sebentar; sedikit", [44567, 45106]],
+		  "kalimat": [
+			["すみません、ちょっと手伝ってくれませんか。", "Permisi, bisa bantu sebentar?", [46228, 48489]],
+			["まだ終わりませんか。― あとちょっとです。", "Belum selesai? — Tinggal sebentar lagi.", [49710, 52753]]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["長さ", "ながさ", "Panjang (ukuran)", [53853, 54373]],
+		  "kalimat": [
+			["どれくらいの長さですか。", "Berapa panjangnya?", [55655, 56936]],
+			["長さはどれくらいですか。", "Panjangnya kira-kira berapa?", [58195, 59597]]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["大きさ", "おおきさ", "Ukuran", [60817, 61418]],
+		  "kalimat": [
+			["どれくらいの大きさですか。", "Seberapa besar ukurannya?", [62500, 63761]],
+			["大きさはどれくらいですか。", "Ukurannya kira-kira berapa?", [64902, 66362]]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["重さ", "おもさ", "Berat", [67784, 68144]],
+		  "kalimat": [
+			["どれくらいの重さですか。", "Berapa beratnya?", [69284, 70605]],
+			["重さはどれくらいですか。", "Beratnya kira-kira berapa?", [71906, 73227]]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["プラス（する）", "プラス（する）", "Menambah", [74468, 74990]],
+		  "kalimat": [
+			["これに、あと50個プラスしてください。", "Tolong tambahkan lagi 50 buah ke ini.", [76131, 78813]]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["マイナス（する）", "マイナス（する）", "Berkurang; mengurangi", [79993, 80634]],
+		  "kalimat": [
+			["ダイエットを始めて、3か月でマイナス2キロです。", "Sejak mulai diet, dalam 3 bulan turun 2 kg.", [81855, 85698]]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["約～", "やく～", "Sekitar ~", [86900, 87280]],
+		  "kalimat": [
+			["毎年、約2万人がここを訪れます。", "Setiap tahun sekitar 20.000 orang mengunjungi tempat ini.", [88436, 91578]]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["～くらい", "～くらい", "Sekitar", [92698, 93118]],
+		  "kalimat": [
+			["値段は3万円くらいでした。", "Harganya sekitar 30.000 yen.", [94359, 96121]]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["キロ（メートル）", "キロ（メートル）", "Kilometer", [97281, 97561]]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["メートル", "メートル", "Meter", [98242, 99121]]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["センチ", "センチ", "Sentimeter", [100362, 101000]]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["ミリ", "ミリ", "Milimeter", [101001, 101700]]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["キロ（グラム）", "キロ（グラム）", "Kilogram", [101701, 102500]]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["グラム", "グラム", "Gram", [102501, 103200]]
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["パーセント", "パーセント", "Persen", [103201, 110868]],
+		  "kalimat": [
+			["人間の体の90パーセントは水です。", "90 persen tubuh manusia terdiri dari air.", [112050, 115012]]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 31,
+	  "audio": "cd1_31.mp3",
+	  "unit": 23,
+	  "tema": ["お金", "おかね", "Uang"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["お金", "おかね", "Uang", [2908, 5068]]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["～円", "～えん", "~ yen", [5068, 8189]]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["払う", "はらう", "Membayar", [8189, 9730]]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["支払い", "しはらい", "Pembayaran", [9730, 11651]]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["現金", "げんきん", "Uang tunai", [11651, 13652]],
+		  "kalimat": [
+			["支払いは現金でお願いします。", "Tolong bayar dengan uang tunai.", [13652, 16832]]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["おつり", "おつり", "Uang kembalian", [16832, 18612]]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["細かい", "こまかい", "Pecahan kecil", [18612, 20452]],
+		  "kalimat": [
+			["細かいお金、ありますか。", "Apakah ada uang pecahan kecil?", [20452, 23573]]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["～代", "～だい", "Biaya ~", [23573, 25015]],
+		  "kalimat": [
+			["タクシー代", "Biaya taksi", [23573, 25015]]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["料金", "りょうきん", "Biaya; tarif", [25015, 26914]],
+		  "kalimat": [
+			["ケータイの基本料金", "Biaya dasar telepon seluler", [25015, 26914]]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["入場料", "にゅうじょうりょう", "Biaya masuk", [26914, 29155]]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["する", "する", "Berharga; biaya", [29155, 30667]],
+		  "kalimat": [
+			["そのかばん、いくらしたの。", "Tas itu harganya berapa?", [30667, 33210]],
+			["―これ？ 2万5千円。", "—Yang ini? 25.000 yen.", [33210, 36472]]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["銀行", "ぎんこう", "Bank", [36472, 38393]]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["両替", "りょうがえ", "Penukaran uang", [38393, 40396]]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["おろす", "おろす", "Menarik (uang)", [40396, 46121]],
+		  "kalimat": [
+			["ATMでお金をおろしてくるから、ちょっと待ってて。", "Aku akan menarik uang di ATM, jadi tunggu sebentar ya.", [40396, 46121]]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["貯める", "ためる", "Menabung", [46121, 51765]],
+		  "kalimat": [
+			["お金を貯めて、旅行に行こうと思っています。", "Saya berencana menabung uang lalu pergi berwisata.", [47762, 51765]]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["貯まる", "たまる", "Terkumpul; tertabung", [51765, 56209]],
+		  "kalimat": [
+			["なかなかお金が貯まりません。", "Uang saya sulit terkumpul.", [53347, 56209]]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["貯金", "ちょきん", "Tabungan", [56209, 58010]],
+		  "kalimat": [
+			["貯金はほとんどゼロです。", "Tabungan saya hampir nol.", [58010, 60792]]
+		  ]
+		}
+	  ]
+	},
 	
+	{
+	  "cd": 1,
+	  "track": 32,
+	  "audio": "cd1_32.mp3",
+	  "unit": 24,
+	  "tema": ["郵便・宅配", "ゆうびん・たくはい", "Pos & Pengiriman"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["郵便", "ゆうびん", "Pos", [2928, 3448]]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["郵便局", "ゆうびんきょく", "Kantor pos", [8009, 8710]]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["郵便番号", "ゆうびんばんごう", "Kode pos", [9911, 10891]]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["ポスト", "ポスト", "Kotak pos", [12251, 12751]],
+		  "kalimat": [
+			["これ、ポストに出してもらえる？", "Bisakah kamu memasukkan ini ke kotak pos?", [13952, 15692]],
+			["わかった。", "Baik.", [16292, 16791]]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["手紙", "てがみ", "Surat", [17952, 18452]],
+		  "kalimat": [
+			["親に手紙を書こうと思います。", "Saya berpikir untuk menulis surat kepada orang tua.", [19573, 21833]]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["はがき", "はがき", "Kartu pos", [22954, 23493]]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["絵はがき", "えはがき", "Kartu pos bergambar", [24574, 25294]]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["切手", "きって", "Perangko", [26474, 29695]],
+		  "kalimat": [
+			["切手は、まだ貼ってません。", "Saya belum menempelkan perangkonya.", [26474, 29695]]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["封筒", "ふうとう", "Amplop", [30775, 31416]]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["速達", "そくたつ", "Surat kilat", [32756, 33197]],
+		  "kalimat": [
+			["速達でお願いします。", "Tolong kirim dengan layanan kilat.", [34557, 35697]]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["航空便", "こうくうびん", "Pos udara", [36798, 37658]],
+		  "kalimat": [
+			["航空便だと、いくらかかりますか。", "Kalau lewat pos udara, biayanya berapa?", [38957, 41058]]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["船便", "ふなびん", "Pos laut", [42179, 42838]],
+		  "kalimat": [
+			["船便だと、何日くらいかかりますか。", "Kalau lewat pos laut, kira-kira memakan waktu berapa hari?", [43980, 46500]]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["荷物", "にもつ", "Barang; paket", [47721, 49481]],
+		  "kalimat": [
+			["きのう、荷物が届きました。", "Kemarin paket saya sampai.", [47721, 51201]]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["宅配／宅配便", "たくはい／たくはいびん", "Pengiriman ke rumah; jasa kurir", [52301, 54603]],
+		  "kalimat": [
+			["宅配で送ろうと思います。", "Saya berpikir untuk mengirimnya lewat jasa kurir.", [55843, 57302]],
+			["宅配が届いていますよ。", "Kiriman Anda sudah datang.", [58403, 59664]]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["送る", "おくる", "Mengirim", [60856, 61356]],
+		  "kalimat": [
+			["サンプルを送ってもらえませんか。", "Bisakah Anda mengirimkan sampel kepada saya?", [62616, 64236]]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["出す", "だす", "Mengirim; mengeluarkan", [65436, 65816]],
+		  "kalimat": [
+			["また、はがきを出すのを忘れた。", "Saya lupa lagi mengirim kartu pos.", [67018, 68878]]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["配達（する）", "はいたつ（する）", "Mengantarkan; pengantaran", [70058, 70918]],
+		  "kalimat": [
+			["〈宅配の受付で〉配達の時間は、どうしますか。", "〈Di loket jasa kurir〉Jam pengantarannya ingin yang bagaimana?", [72138, 75859]],
+			["午前でお願いします。", "Tolong pagi hari.", [76719, 78061]]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["届く", "とどく", "Sampai; tiba", [79180, 79700]],
+		  "kalimat": [
+			["友達から絵ハガキが届きました。", "Kartu pos bergambar dari teman telah sampai.", [80882, 83301]]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["着く", "つく", "Tiba", [84382, 84763]],
+		  "kalimat": [
+			["これ、木曜に着きますか。", "Apakah ini akan sampai hari Kamis?", [85843, 87923]]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["受け取る", "うけとる", "Menerima", [89144, 89724]],
+		  "kalimat": [
+			["けさ、荷物を受け取りました。", "Pagi ini saya menerima paket.", [90871, 92599]]
+		  ]
+		}
+	  ]
+	},
+	
+	{
+	  "cd": 1,
+	  "track": 33,
+	  "audio": "cd1_33.mp3",
+	  "unit": 25,
+	  "tema": ["社会", "しゃかい", "Masyarakat"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["政治", "せいじ", "Politik", [5048, 5548]]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["経済", "けいざい", "Ekonomi", [6689, 7290]]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["社会", "しゃかい", "Masyarakat", [8450, 8950]],
+		  "kalimat": [
+			["これは日本社会の問題でしょう。", "Ini mungkin merupakan masalah masyarakat Jepang.", [10251, 12711]],
+			["どんな社会にも、ルールがあります。", "Di setiap masyarakat pasti ada aturan.", [13932, 16132]]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["国", "くに", "Negara", [17253, 17593]]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["世界", "せかい", "Dunia", [18772, 19292]]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["国際", "こくさい", "Internasional", [20372, 21013]]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["国際電話", "こくさいでんわ", "Telepon internasional", [22233, 23273]]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["市", "し", "Kota", [24515, 24654]]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["町", "まち", "Kota kecil", [25774, 26274]]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["村", "むら", "Desa", [26275, 27474]]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["市民", "しみん", "Warga", [28936, 29355]],
+		  "kalimat": [
+			["このイベントには、毎年、多くの市民が参加します。", "Setiap tahun banyak warga mengikuti acara ini.", [30647, 34250]]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["大人", "おとな", "Orang dewasa", [35451, 35831]]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["若者", "わかもの", "Kaum muda", [37112, 37551]]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["老人", "ろうじん", "Orang lanjut usia", [38873, 39472]]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["法律", "ほうりつ", "Hukum", [40734, 41414]]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["規則", "きそく", "Peraturan", [42594, 42856]]
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["警察", "けいさつ", "Polisi", [44195, 44617]]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["グループ", "グループ", "Kelompok", [46057, 46677]],
+		  "kalimat": [
+			["彼女はわたしたちと同じグループです。", "Dia berada dalam kelompok yang sama dengan kami.", [47718, 50019]]
+		  ]
+		}
+	  ]
+	},
+	
+	{
+	  "cd": 1,
+	  "track": 34,
+	  "audio": "cd1_34.mp3",
+	  "unit": 26,
+	  "tema": ["マスコミ", "マスコミ", "Media Massa"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["テレビ", "テレビ", "Televisi", [5251, 5732]]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["ラジオ", "ラジオ", "Radio", [6892, 7354]]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["番組", "ばんぐみ", "Program", [8515, 8935]]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["テレビ番組", "テレビばんぐみ", "Program televisi", [10296, 11097]],
+		  "kalimat": [
+			["いつも、どんな番組を見ていますか。", "Biasanya Anda menonton program apa?", [12498, 14700]]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["ニュース", "ニュース", "Berita", [15820, 16321]],
+		  "kalimat": [
+			["朝、ニュースを見て、びっくりしました。", "Saya terkejut setelah melihat berita pagi.", [17701, 19783]]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["ドラマ", "ドラマ", "Drama (serial)", [21105, 21544]],
+		  "kalimat": [
+			["あのドラマは毎週見ています。", "Saya menonton drama itu setiap minggu.", [22745, 24506]]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["放送", "ほうそう", "Siaran", [25647, 26268]],
+		  "kalimat": [
+			["その試合はテレビで放送するみたいですよ。", "Sepertinya pertandingan itu akan disiarkan di televisi.", [27529, 29991]],
+			["生放送", "Siaran langsung", [31211, 31652]]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["広告", "こうこく", "Iklan", [32250, 32650]],
+		  "kalimat": [
+			["この雑誌、広告ばかりだね。", "Majalah ini isinya iklan semua ya.", [33073, 35433]]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["コマーシャル", "コマーシャル", "Iklan komersial", [36734, 37454]],
+		  "kalimat": [
+			["これ、知っています。テレビのコマーシャルで見ました。", "Saya tahu ini. Saya melihatnya di iklan televisi.", [38636, 41737]]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["看板", "かんばん", "Papan reklame; papan tanda", [42718, 43319]],
+		  "kalimat": [
+			["大きな看板があるから、すぐわかると思います。", "Karena ada papan besar, saya rasa akan langsung ketemu.", [44539, 47381]]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["チラシ", "チラシ", "Selebaran", [48540, 49061]],
+		  "kalimat": [
+			["さっき、駅前でチラシを配っていました。", "Tadi ada yang membagikan selebaran di depan stasiun.", [50281, 52743]]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["パンフレット", "パンフレット", "Pamflet", [53784, 54685]],
+		  "kalimat": [
+			["すみません、パンフレットを１部ください。", "Permisi, boleh minta satu eksemplar pamflet?", [55745, 58567]]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["ポスター", "ポスター", "Poster", [59647, 60147]]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["マスコミ", "マスコミ", "Media massa", [61526, 62157]]
+		}
+	  ]
+	}
+	
+
   ]
 }
