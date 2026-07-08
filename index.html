@@ -54,8 +54,32 @@ body{
 }
 .unit-strip select{
   flex:1;font-size:14px;padding:9px 10px;border-radius:var(--radius-sm);
-  border:1px solid var(--border-strong);background:var(--card);color:var(--ink);max-width: -webkit-fill-available;
+  border:1px solid var(--border-strong);background:var(--card);color:var(--ink);
 }
+.unit-dropdown{position:relative;flex:1}
+.unit-dropdown-btn{
+  font-size:14px;padding:7px 10px;border-radius:var(--radius-sm);
+  border:1px solid var(--border-strong);background:var(--card);color:var(--ink);
+  cursor:pointer;display:flex;flex-direction:column;gap:1px;line-height:1.25;
+}
+.unit-dropdown-btn .u-line1{font-weight:600}
+.unit-dropdown-btn .u-line2{font-size:12px;color:var(--muted)}
+.unit-dropdown-list{
+  display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:20;
+  max-height:280px;overflow-y:auto;background:var(--card);
+  border:1px solid var(--border-strong);border-radius:var(--radius-sm);
+  box-shadow:0 6px 18px rgba(0,0,0,.12);
+}
+.unit-dropdown-list.open{display:block}
+.unit-dropdown-item{
+  padding:7px 10px;cursor:pointer;line-height:1.25;border-bottom:1px solid var(--border);
+}
+.unit-dropdown-item:last-child{border-bottom:none}
+.unit-dropdown-item:hover:not(.disabled){background:var(--paper)}
+.unit-dropdown-item .u-line1{font-weight:600;font-size:14px}
+.unit-dropdown-item .u-line2{font-size:12px;color:var(--muted)}
+.unit-dropdown-item.disabled{opacity:.4;cursor:not-allowed}
+.unit-dropdown-item.selected{background:var(--paper)}
 .unit-tag{
   font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--muted);
   background:var(--card);border:1px solid var(--border);padding:5px 8px;border-radius:6px;white-space:nowrap;
@@ -219,7 +243,11 @@ body{
   </div>
 
   <div class="unit-strip">
-    <select id="sel-unit"></select>
+    <select id="sel-unit" style="display:none"></select>
+    <div class="unit-dropdown" id="unit-dropdown">
+      <div class="unit-dropdown-btn" id="unit-dropdown-btn"></div>
+      <div class="unit-dropdown-list" id="unit-dropdown-list"></div>
+    </div>
     <div class="unit-tag" id="unit-tag">CD- / T-</div>
   </div>
 
@@ -529,6 +557,7 @@ function switchToTrackPtr(autoplay){
   const newUnit = currentTrackObj().unit;
   if(newUnit !== currentUnitNumber_rendered){
     document.getElementById('sel-unit').value = newUnit;
+    updateUnitDropdownBtn();
     renderKosakata();
   }
   const idx = flatSegments.findIndex(s=>s.trackIdx===trackPtr);
@@ -560,8 +589,11 @@ function unitTitleFor(unitNum){
   return t ? t.tema : null;
 }
 function renderUnitSelect(){
-  const sel = document.getElementById('sel-unit');
+  const sel = document.getElementById('sel-unit'); // tetap dipakai sbg penyimpan value
+  const btn = document.getElementById('unit-dropdown-btn');
+  const list = document.getElementById('unit-dropdown-list');
   sel.innerHTML = '';
+  list.innerHTML = '';
   const withData = allUnitNumbers();
   // Tampilkan semua unit yg terdaftar di unitTitles (1-50); kalau unitTitles
   // kosong (fallback), pakai unit yg ada data-nya saja.
@@ -569,26 +601,58 @@ function renderUnitSelect(){
     ? UNIT_TITLES.map(t=>t.unit)
     : withData;
 
+  function titleParts(unitNum){
+    const title = unitTitleFor(unitNum);
+    if(title) return [title[0], title[2]];
+    const fallback = UNITS.find(u=>u.unit===unitNum).tema;
+    return [fallback[0], fallback[2]];
+  }
+
   allNums.forEach((unitNum)=>{
     const hasData = withData.includes(unitNum);
-    const title = unitTitleFor(unitNum);
-    const label = title
-      ? `Unit ${unitNum} — ${title[2]} (${title[0]})`
-      : `Unit ${unitNum} — ${UNITS.find(u=>u.unit===unitNum).tema[2]} (${UNITS.find(u=>u.unit===unitNum).tema[0]})`;
-    const disabledAttr = hasData ? '' : 'disabled';
-    const suffix = hasData ? '' : ' — belum ada data';
-    sel.innerHTML += `<option value="${unitNum}" ${disabledAttr}>${label}${suffix}</option>`;
+    const [line1, line2] = titleParts(unitNum);
+
+    // opsi tersembunyi (penyimpan value asli, dibaca kode lain)
+    sel.innerHTML += `<option value="${unitNum}" ${hasData?'':'disabled'}>Unit ${unitNum} — ${line1} / ${line2}</option>`;
+
+    // item tampilan custom, 2 baris
+    const item = document.createElement('div');
+    item.className = 'unit-dropdown-item' + (hasData?'':' disabled');
+    item.dataset.unit = unitNum;
+    item.innerHTML = `<div class="u-line1">Unit ${unitNum} — ${line1}</div><div class="u-line2">${line2}</div>`;
+    if(hasData){
+      item.onclick = ()=>{
+        sel.value = unitNum;
+        trackPtr = UNITS.findIndex(u=>u.unit===unitNum);
+        list.classList.remove('open');
+        onUnitChange();
+      };
+    }
+    list.appendChild(item);
   });
 
   sel.value = currentTrackObj().unit;
-  sel.onchange = ()=>{
-    const unitNum = +sel.value;
-    const idx = UNITS.findIndex(u=>u.unit===unitNum);
-    if(idx === -1) return; // opsi disabled, seharusnya tidak terpilih
-    trackPtr = idx;
-    onUnitChange();
-  };
+  updateUnitDropdownBtn();
+
+  btn.onclick = ()=>{ list.classList.toggle('open'); };
+  document.addEventListener('click', (e)=>{
+    if(!document.getElementById('unit-dropdown').contains(e.target)) list.classList.remove('open');
+  });
+
   onUnitChange();
+}
+function updateUnitDropdownBtn(){
+  const btn = document.getElementById('unit-dropdown-btn');
+  const list = document.getElementById('unit-dropdown-list');
+  const unitNum = currentTrackObj().unit;
+  const title = unitTitleFor(unitNum);
+  const fallback = UNITS.find(u=>u.unit===unitNum).tema;
+  const line1 = title ? title[0] : fallback[0];
+  const line2 = title ? title[2] : fallback[2];
+  btn.innerHTML = `<div class="u-line1">Unit ${unitNum} — ${line1}</div><div class="u-line2">${line2}</div>`;
+  list.querySelectorAll('.unit-dropdown-item').forEach(el=>{
+    el.classList.toggle('selected', +el.dataset.unit === unitNum);
+  });
 }
 function onUnitChange(){
   const u = currentTrackObj();
