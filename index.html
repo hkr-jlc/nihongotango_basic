@@ -663,6 +663,7 @@ function onUnitChange(){
   const u = currentTrackObj();
   currentUnitNumber_rendered = u.unit;
   document.getElementById('unit-tag').textContent = `CD${u.cd} / Track ${u.track}`;
+  updateUnitDropdownBtn();
   stopAudio();
   curSegIdx = -1;
   renderKosakata();
