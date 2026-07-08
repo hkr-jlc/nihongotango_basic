@@ -3482,7 +3482,2060 @@
 		  ]
 		}
 	  ]
-	}	
+	},
+
+	{
+	  "cd": 1,
+	  "track": 13,
+	  "audio": "cd1_13.mp3",
+	  "unit": 5,
+	  "tema": ["家", "いえ", "Rumah"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["家", "いえ", "rumah", [2381, 2641]],
+		  "kalimat": [
+			[
+			  "いつか広い家に住みたい。",
+			  "いつか ひろい いえ に すみたい。",
+			  "Suatu hari saya ingin tinggal di rumah yang besar.",
+			  [5743, 7365]
+			],
+			[
+			  "家に電話しなければなりません。",
+			  "いえ に でんわ しなければ なりません。",
+			  "Saya harus menelepon ke rumah.",
+			  [8527, 10448]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["部屋", "へや", "kamar", [11549, 11849]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["トイレ", "トイレ", "toilet", [12990, 13491]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["お手洗い", "おてあらい", "toilet", [14612, 15392]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["風呂", "ふろ", "bak mandi", [16552, 16832]],
+		  "kalimat": [
+			[
+			  "お風呂がついている部屋がいいです。",
+			  "おふろ が ついている へや が いいです。",
+			  "Saya ingin kamar yang memiliki kamar mandi.",
+			  [17873, 19675]
+			],
+			[
+			  "私はいつも夕飯の後にお風呂に入ります。",
+			  "わたし は いつも ゆうはん の あと に おふろ に はいります。",
+			  "Saya selalu mandi setelah makan malam.",
+			  [21016, 23818]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["台所", "だいどころ", "dapur", [24980, 25780]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["キッチン", "キッチン", "dapur", [26961, 27621]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["洗面所", "せんめんじょ", "ruang cuci muka", [28902, 29724]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["玄関", "げんかん", "pintu masuk", [30925, 31526]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["門", "もん", "gerbang", [32727, 33228]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["居間", "いま", "ruang keluarga", [34429, 35069]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["リビング", "リビング", "ruang keluarga", [36270, 36930]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["ベランダ", "ベランダ", "balkon", [38131, 38912]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["庭", "にわ", "halaman / taman", [40093, 40633]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["ドア", "ドア", "pintu", [41874, 42234]],
+		  "kalimat": [
+			[
+			  "ドアを開ける、ドアを閉める。",
+			  "ドア を あける、ドア を しめる。",
+			  "Membuka pintu, menutup pintu.",
+			  [43435, 46097]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["窓", "まど", "jendela", [47258, 47778]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["天井", "てんじょう", "langit-langit", [47398, 47978]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["床", "ゆか", "lantai", [49179, 49579]],
+		  "kalimat": [
+			[
+			  "床がすべりやすいので、気をつけてください。",
+			  "ゆか が すべりやすい ので、きをつけて ください。",
+			  "Lantainya licin, jadi harap berhati-hati.",
+			  [50780, 53482]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["壁", "かべ", "dinding", [54663, 55063]],
+		  "kalimat": []
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["屋根", "やね", "atap", [56284, 56704]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["家具", "かぐ", "perabot", [57965, 58545]],
+		  "kalimat": []
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["机", "つくえ", "meja", [59746, 60266]],
+		  "kalimat": [
+			[
+			  "では、テストを始めます。机の上には何も置かないでください。",
+			  "では、テスト を はじめます。つくえ の うえ には なにも おかないで ください。",
+			  "Baiklah, tes akan dimulai. Jangan meletakkan apa pun di atas meja.",
+			  [61487, 65389]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["いす", "いす", "kursi", [66610, 67110]],
+		  "kalimat": []
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["棚", "たな", "rak", [68351, 68791]],
+		  "kalimat": [
+			[
+			  "これをあそこの棚に置いてください。",
+			  "これ を あそこ の たな に おいて ください。",
+			  "Tolong letakkan ini di rak yang ada di sana.",
+			  [70012, 72093]
+			],
+			[
+			  "本棚",
+			  "ほんだな",
+			  "rak buku",
+			  [73414, 74134]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["テーブル", "テーブル", "meja", [75355, 76015]],
+		  "kalimat": [
+			[
+			  "あそこの丸いテーブルを使いましょう。",
+			  "あそこ の まるい テーブル を つかいましょう。",
+			  "Mari gunakan meja bundar yang ada di sana.",
+			  [77236, 79397]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["ソファー", "ソファー", "sofa", [80658, 81358]],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["ベッド", "ベッド", "tempat tidur", [82599, 83199]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["家電", "かでん", "peralatan elektronik rumah tangga", [84440, 85060]],
+		  "kalimat": [
+			[
+			  "家電を買うときは、どこに行きますか。",
+			  "かでん を かう とき は、どこ に いきますか。",
+			  "Kalau membeli peralatan elektronik rumah tangga, biasanya Anda pergi ke mana?",
+			  [86281, 88683]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["エアコン", "エアコン", "AC", [89944, 90524]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["クーラー", "クーラー", "AC", [91765, 92385]],
+		  "kalimat": []
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["空調", "くうちょう", "sistem tata udara", [93606, 94286]],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["冷房", "れいぼう", "pendingin ruangan", [95567, 96167]],
+		  "kalimat": []
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["暖房", "だんぼう", "pemanas ruangan", [97428, 98068]],
+		  "kalimat": []
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["ストーブ", "ストーブ", "kompor / pemanas", [99329, 100009]],
+		  "kalimat": []
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["テレビ", "テレビ", "televisi", [101270, 101910]],
+		  "kalimat": []
+		},
+		{
+		  "id": 36,
+		  "kotoba": ["ラジオ", "ラジオ", "radio", [103171, 103751]],
+		  "kalimat": []
+		},
+		{
+		  "id": 37,
+		  "kotoba": ["ビデオ", "ビデオ", "video", [105012, 105652]],
+		  "kalimat": [
+			[
+			  "写真だけじゃなく、ビデオもありますよ。見ますか。",
+			  "しゃしん だけじゃなく、ビデオ も あります よ。みますか。",
+			  "Bukan hanya foto, ada juga video. Mau melihatnya?",
+			  [106873, 109895]
+			],
+			[
+			  "結婚式の様子は、ビデオにとりました。",
+			  "けっこんしき の ようす は、ビデオ に とりました。",
+			  "Keadaan upacara pernikahan direkam dalam video.",
+			  [111116, 113958]
+			],
+			[
+			  "テレビと一緒に、ビデオも買いました。",
+			  "テレビ と いっしょ に、ビデオ も かいました。",
+			  "Saya membeli video juga bersama televisi.",
+			  [115179, 117960]
+			]
+		  ]
+		},
+		{
+		  "id": 38,
+		  "kotoba": ["リモコン", "リモコン", "remote control", [119221, 119921]],
+		  "kalimat": []
+		},
+		{
+		  "id": 39,
+		  "kotoba": ["冷蔵庫", "れいぞうこ", "lemari es", [121162, 121882]],
+		  "kalimat": []
+		},
+		{
+		  "id": 40,
+		  "kotoba": ["洗濯機", "せんたくき", "mesin cuci", [123123, 123863]],
+		  "kalimat": []
+		},
+		{
+		  "id": 41,
+		  "kotoba": ["掃除機", "そうじき", "penyedot debu", [125104, 125844]],
+		  "kalimat": []
+		},
+		{
+		  "id": 42,
+		  "kotoba": ["ポット", "ポット", "teko listrik", [127085, 127625]],
+		  "kalimat": []
+		},
+		{
+		  "id": 43,
+		  "kotoba": ["ドライヤー", "ドライヤー", "pengering rambut", [128866, 129626]],
+		  "kalimat": []
+		},
+		{
+		  "id": 44,
+		  "kotoba": ["ふとん", "ふとん", "futon", [130867, 131487]],
+		  "kalimat": []
+		},
+		{
+		  "id": 45,
+		  "kotoba": ["カーテン", "カーテン", "gorden", [132728, 133388]],
+		  "kalimat": []
+		},
+		{
+		  "id": 46,
+		  "kotoba": ["スリッパ", "スリッパ", "sandal rumah", [134629, 135249]],
+		  "kalimat": []
+		},
+		{
+		  "id": 47,
+		  "kotoba": ["カレンダー", "カレンダー", "kalender", [136490, 137170]],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 14,
+	  "audio": "cd1_14.mp3",
+	  "unit": 6,
+	  "tema": ["服・くつ", "ふく・くつ", "Pakaian & Sepatu"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["服", "ふく", "pakaian", [2641, 2760]],
+		  "kalimat": [
+			[
+			  "あしたは、どんな服を着て行きますか。",
+			  "あした は、どんな ふく を きて いきますか。",
+			  "Besok, pakaian seperti apa yang akan Anda pakai untuk pergi?",
+			  [7403, 9425]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["洋服", "ようふく", "pakaian (gaya Barat)", [10646, 11106]],
+		  "kalimat": [
+			[
+			  "結婚式には、着物じゃなく、洋服で行こうと思っています。",
+			  "けっこんしき には、きもの じゃなく、ようふく で いこう と おもっています。",
+			  "Saya berpikir akan pergi ke pesta pernikahan dengan pakaian Barat, bukan kimono.",
+			  [12547, 17088]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["着物", "きもの", "kimono", [18250, 18529]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["シャツ", "シャツ", "kemeja", [19971, 20410]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["ワイシャツ", "ワイシャツ", "kemeja (dress shirt)", [21711, 22271]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["ズボン", "ズボン", "celana panjang", [23452, 23893]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["スカート", "スカート", "rok", [25114, 25773]],
+		  "kalimat": [
+			[
+			  "ときどき、スカートもはきます。",
+			  "ときどき、スカート も はきます。",
+			  "Kadang-kadang saya juga memakai rok.",
+			  [26855, 28995]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["パンツ", "パンツ", "① celana panjang ② celana dalam", [30083, 30685]],
+		  "kalimat": [
+			[
+			  "白いパンツが似合いますね。",
+			  "しろい パンツ が にあいますね。",
+			  "Celana putih itu cocok untuk Anda.",
+			  [31966, 33786]
+			],
+			[
+			  "パンツをはいたまま、温泉に入らないでください。",
+			  "パンツ を はいた まま、おんせん に はいらないで ください。",
+			  "Tolong jangan masuk ke pemandian air panas dengan celana dalam masih dipakai.",
+			  [35048, 37871]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["Tシャツ", "ティーシャツ", "kaus", [38932, 39652]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["セーター", "セーター", "sweter", [40853, 41393]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["コート", "コート", "mantel", [42814, 43314]],
+		  "kalimat": [
+			[
+			  "寒いから、コートを着たほうがいい。",
+			  "さむい から、コート を きた ほう が いい。",
+			  "Karena dingin, sebaiknya memakai mantel.",
+			  [44475, 46158]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["上着", "うわぎ", "jaket / pakaian luar", [47278, 48960]],
+		  "kalimat": [
+			[
+			  "暑くなったから、上着を脱いだ。",
+			  "あつく なった から、うわぎ を ぬいだ。",
+			  "Karena menjadi panas, saya melepas jaket.",
+			  [49039, 50661]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["スーツ", "スーツ", "jas / setelan", [51823, 52382]],
+		  "kalimat": [
+			[
+			  "あしたは面接だから、スーツを着て行きます。",
+			  "あした は めんせつ だから、スーツ を きて いきます。",
+			  "Besok karena ada wawancara, saya akan pergi memakai jas.",
+			  [53484, 55986]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["ネクタイ", "ネクタイ", "dasi", [57187, 57807]],
+		  "kalimat": [
+			[
+			  "赤いネクタイをしているのが、森さんです。",
+			  "あかい ネクタイ を している の が、もりさん です。",
+			  "Orang yang memakai dasi merah itu adalah Mori-san.",
+			  [58988, 61690]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["くつ", "くつ", "sepatu", [62911, 63431]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["サンダル", "サンダル", "sandal", [64592, 65212]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["下着", "したぎ", "pakaian dalam", [66413, 67113]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["くつ下", "くつした", "kaus kaki", [68334, 69094]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["ジーンズ", "ジーンズ", "jeans", [70315, 71035]],
+		  "kalimat": [
+			[
+			  "マリアさんは、ジーンズが似合いますね。",
+			  "マリアさん は、ジーンズ が にあいますね。",
+			  "Maria, kamu cocok memakai jeans.",
+			  [72256, 74398]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["スニーカー", "スニーカー", "sepatu olahraga", [75619, 76379]],
+		  "kalimat": [
+			[
+			  "休みの日は、いつもスニーカーです。",
+			  "やすみ の ひ は、いつも スニーカー です。",
+			  "Pada hari libur, saya selalu memakai sepatu olahraga.",
+			  [77580, 79682]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["帽子", "ぼうし", "topi", [80883, 81483]],
+		  "kalimat": [
+			[
+			  "帽子をかぶっている人が、先生です。",
+			  "ぼうし を かぶっている ひと が、せんせい です。",
+			  "Orang yang memakai topi itu adalah guru.",
+			  [82684, 84966]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["マフラー", "マフラー", "syal", [86167, 86787]],
+		  "kalimat": [
+			[
+			  "このマフラーは、自分で編みました。",
+			  "この マフラー は、じぶん で あみました。",
+			  "Syal ini saya rajut sendiri.",
+			  [87988, 90150]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["手袋", "てぶくろ", "sarung tangan", [91371, 92011]],
+		  "kalimat": [
+			[
+			  "寒いから、手袋をしたほうがいいですよ。",
+			  "さむい から、てぶくろ を した ほう が いいです よ。",
+			  "Karena dingin, sebaiknya memakai sarung tangan.",
+			  [93232, 95574]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["眼鏡", "めがね", "kacamata", [96775, 97435]],
+		  "kalimat": [
+			[
+			  "映画を見るとき、めがねをかけます。",
+			  "えいが を みる とき、めがね を かけます。",
+			  "Saya memakai kacamata ketika menonton film.",
+			  [98656, 100838]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["サングラス", "サングラス", "kacamata hitam", [102039, 102819]],
+		  "kalimat": []
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["指輪", "ゆびわ", "cincin", [104020, 104620]],
+		  "kalimat": [
+			[
+			  "指輪をする、指輪をつける。",
+			  "ゆびわ を する、ゆびわ を つける。",
+			  "Memakai cincin.",
+			  [105821, 107703]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["ボタン", "ボタン", "kancing", [109004, 109564]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["ポケット", "ポケット", "saku", [110765, 111445]],
+		  "kalimat": []
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["サイズ", "サイズ", "ukuran", [112646, 113166]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["M（サイズ）", "エム（サイズ）", "ukuran M", [114367, 115167]],
+		  "kalimat": []
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["S（サイズ）", "エス（サイズ）", "ukuran S", [116368, 117148]],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["L（サイズ）", "エル（サイズ）", "ukuran L", [118349, 119129]],
+		  "kalimat": []
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["着る", "きる", "memakai (pakaian bagian atas)", [120330, 120910]],
+		  "kalimat": [
+			[
+			  "シャツを着ます。",
+			  "シャツ を きます。",
+			  "Memakai kemeja.",
+			  [122111, 123172]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["はく", "はく", "memakai (celana, rok, sepatu)", [124373, 124953]],
+		  "kalimat": [
+			[
+			  "たまにジーンズをはきます。",
+			  "たまに ジーンズ を はきます。",
+			  "Saya kadang-kadang memakai jeans.",
+			  [126154, 127996]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["かぶる", "かぶる", "memakai (topi)", [129197, 129837]],
+		  "kalimat": [
+			[
+			  "外は暑いから帽子をかぶったほうがいいですよ。",
+			  "そと は あつい から ぼうし を かぶった ほう が いいです よ。",
+			  "Di luar panas, jadi sebaiknya memakai topi.",
+			  [131038, 134221]
+			]
+		  ]
+		},
+		{
+		  "id": 36,
+		  "kotoba": ["かける", "かける", "memakai (kacamata)", [135422, 136042]],
+		  "kalimat": [
+			[
+			  "めがねをかけないと見えません。",
+			  "めがね を かけない と みえません。",
+			  "Kalau tidak memakai kacamata, saya tidak bisa melihat.",
+			  [137243, 139445]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": ["試着（する）", "しちゃく（する）", "mencoba (pakaian)", [140646, 141486]],
+		  "kalimat": [
+			[
+			  "これ、試着してもいいですか。",
+			  "これ、しちゃく しても いいですか。",
+			  "Boleh saya mencoba yang ini?",
+			  [142687, 144529]
+			]
+		  ]
+		},
+		{
+		  "id": 38,
+		  "kotoba": ["脱ぐ", "ぬぐ", "melepas (pakaian)", [145730, 146330]],
+		  "kalimat": [
+			[
+			  "ここでくつを脱いでください。",
+			  "ここ で くつ を ぬいで ください。",
+			  "Silakan lepas sepatu di sini.",
+			  [147531, 149433]
+			]
+		  ]
+		},
+		{
+		  "id": 39,
+		  "kotoba": ["する", "する", "memakai (aksesoris)", [150634, 151154]],
+		  "kalimat": [
+			[
+			  "きょうは、変わったネクタイをしていますね。",
+			  "きょう は、かわった ネクタイ を していますね。",
+			  "Hari ini Anda memakai dasi yang unik, ya.",
+			  [152355, 154837]
+			]
+		  ]
+		},
+		{
+		  "id": 40,
+		  "kotoba": ["とる", "とる", "melepas", [156038, 156558]],
+		  "kalimat": [
+			[
+			  "お風呂に入るときは、めがねをとります。",
+			  "おふろ に はいる とき は、めがね を とります。",
+			  "Saat mandi, saya melepas kacamata.",
+			  [157759, 160141]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 15,
+	  "audio": "cd1_15.mp3",
+	  "unit": 7,
+	  "tema": ["乗り物・交通", "のりもの・こうつう", "Kendaraan & Transportasi"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["交通", "こうつう", "transportasi", [3748, 4389]],
+		  "kalimat": [
+			[
+			  "ここは交通の便がいいから、人気があります。",
+			  "ここ は こうつう の べん が いい から、にんき が あります。",
+			  "Tempat ini populer karena akses transportasinya bagus.",
+			  [10072, 15134]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["車", "くるま", "mobil", [16254, 16734]],
+		  "kalimat": [
+			[
+			  "車の免許は持っていますか。",
+			  "くるま の めんきょ は もって いますか。",
+			  "Apakah Anda memiliki SIM?",
+			  [17875, 19555]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["自動車", "じどうしゃ", "mobil", [20836, 21457]],
+		  "kalimat": [
+			[
+			  "来週、自動車工場を見学します。",
+			  "らいしゅう、じどうしゃ こうじょう を けんがく します。",
+			  "Minggu depan kami akan mengunjungi pabrik mobil.",
+			  [22637, 24977]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["タクシー", "タクシー", "taksi", [26058, 26599]],
+		  "kalimat": [
+			[
+			  "フロントに電話して、タクシーを呼んでもらいましょう。",
+			  "フロント に でんわ して、タクシー を よんで もらいましょう。",
+			  "Mari menelepon resepsionis agar dipesankan taksi.",
+			  [27958, 30519]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["バス", "バス", "bus", [31740, 32140]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["バス停", "バスてい", "halte bus", [33262, 33822]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["電車", "でんしゃ", "kereta", [35101, 35622]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["地下鉄", "ちかてつ", "kereta bawah tanah", [36783, 37243]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["新幹線", "しんかんせん", "Shinkansen", [38704, 39643]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["飛行機", "ひこうき", "pesawat", [40765, 41465]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["船", "ふね", "kapal", [42646, 43006]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["自転車", "じてんしゃ", "sepeda", [44206, 44926]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["オートバイ", "オートバイ", "sepeda motor", [46146, 46766]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["バイク", "バイク", "sepeda motor", [47987, 48487]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["トラック", "トラック", "truk", [49628, 50268]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["駅", "えき", "stasiun", [51469, 51588]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["最寄りの", "もよりの", "yang terdekat", [51748, 53670]],
+		  "kalimat": [
+			[
+			  "最寄りの駅はどこですか。",
+			  "もより の えき は どこ ですか。",
+			  "Di mana stasiun terdekat?",
+			  [54911, 56331]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["乗る", "のる", "naik (kendaraan)", [57512, 57832]],
+		  "kalimat": [
+			[
+			  "いつも8時25分の電車に乗ります。",
+			  "いつも はちじ にじゅうごふん の でんしゃ に のります。",
+			  "Saya selalu naik kereta pukul 08.25.",
+			  [58984, 61585]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["降りる", "おりる", "turun (dari kendaraan)", [62786, 63446]],
+		  "kalimat": [
+			[
+			  "お金は、バスを降りるときに払います。",
+			  "おかね は、バス を おりる とき に はらいます。",
+			  "Membayar ongkos bus saat turun.",
+			  [64627, 67289]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["乗り換える", "のりかえる", "berganti kendaraan", [68510, 69410]],
+		  "kalimat": [
+			[
+			  "次の駅で急行に乗り換えてください。",
+			  "つぎ の えき で きゅうこう に のりかえて ください。",
+			  "Silakan pindah ke kereta ekspres di stasiun berikutnya.",
+			  [70631, 73473]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["乗り換え", "のりかえ", "transit / perpindahan kendaraan", [74694, 75414]],
+		  "kalimat": [
+			[
+			  "これだと、乗り換えなしで行けるので、便利です。",
+			  "これ だと、のりかえ なし で いける ので、べんり です。",
+			  "Kalau lewat rute ini bisa langsung tanpa transit, jadi praktis.",
+			  [76635, 80457]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["乗り場", "のりば", "tempat naik / peron", [81678, 82298]],
+		  "kalimat": [
+			[
+			  "バス乗り場、新幹線乗り場",
+			  "バス のりば、しんかんせん のりば。",
+			  "Halte bus, peron Shinkansen.",
+			  [83519, 85521]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["ホーム", "ホーム", "peron", [86722, 87342]],
+		  "kalimat": [
+			[
+			  "駅のホームにも売店があります。",
+			  "えき の ホーム にも ばいてん が あります。",
+			  "Di peron stasiun juga ada kios.",
+			  [88563, 90745]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["〜番線", "〜ばんせん", "jalur / peron nomor ~", [91966, 92686]],
+		  "kalimat": [
+			[
+			  "２番線の電車は、急行横浜行きです。",
+			  "にばんせん の でんしゃ は、きゅうこう よこはま ゆき です。",
+			  "Kereta di jalur 2 adalah kereta ekspres menuju Yokohama.",
+			  [93907, 96949]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["切符", "きっぷ", "tiket (transportasi)", [98170, 98770]],
+		  "kalimat": []
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["チケット", "チケット", "tiket", [99991, 100611]],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["改札", "かいさつ", "gerbang tiket", [101832, 102452]],
+		  "kalimat": [
+			[
+			  "３時に駅の改札で会いましょう。",
+			  "さんじ に えき の かいさつ で あいましょう。",
+			  "Mari bertemu di gerbang tiket stasiun pukul tiga.",
+			  [103673, 106275]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["急行", "きゅうこう", "kereta ekspres", [107496, 108096]],
+		  "kalimat": []
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["特急", "とっきゅう", "kereta ekspres khusus", [109317, 109937]],
+		  "kalimat": []
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["快速", "かいそく", "kereta cepat", [111158, 111758]],
+		  "kalimat": [
+			[
+			  "この駅には快速は止まりません。",
+			  "この えき には かいそく は とまりません。",
+			  "Kereta cepat tidak berhenti di stasiun ini.",
+			  [112979, 115401]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["各駅", "かくえき", "kereta lokal", [116622, 117202]],
+		  "kalimat": [
+			[
+			  "各駅だと、１時間以上かかります。",
+			  "かくえき だと、いちじかん いじょう かかります。",
+			  "Kalau naik kereta lokal, memakan waktu lebih dari satu jam.",
+			  [118423, 120805]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["席", "せき", "kursi / tempat duduk", [122026, 122546]],
+		  "kalimat": [
+			[
+			  "お金がないから、自由席で行きます。",
+			  "おかね が ない から、じゆうせき で いきます。",
+			  "Karena tidak punya banyak uang, saya akan naik di kursi bebas.",
+			  [123767, 126469]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["道", "みち", "jalan", [127690, 128210]],
+		  "kalimat": [
+			[
+			  "住所はわかるけど、道がわかりません。",
+			  "じゅうしょ は わかる けど、みち が わかりません。",
+			  "Saya tahu alamatnya, tetapi tidak tahu jalannya.",
+			  [129431, 132053]
+			],
+			[
+			  "道がせまくて、車が通れないみたいですね。",
+			  "みち が せまくて、くるま が とおれない みたい です ね。",
+			  "Jalannya sempit, sepertinya mobil tidak bisa lewat.",
+			  [133274, 136296]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["道路", "どうろ", "jalan raya", [137517, 138117]],
+		  "kalimat": [
+			[
+			  "新しい道路ができたら、渋滞がかなり減るでしょう。",
+			  "あたらしい どうろ が できたら、じゅうたい が かなり へる でしょう。",
+			  "Kalau jalan baru selesai dibuat, kemacetan akan jauh berkurang.",
+			  [139338, 142941]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["通り", "とおり", "jalan / ruas jalan", [144162, 144762]],
+		  "kalimat": [
+			[
+			  "お店はＡＢＣ通りにあります。",
+			  "おみせ は エービーシーどおり に あります。",
+			  "Tokonya berada di Jalan ABC.",
+			  [145983, 147985]
+			],
+			[
+			  "この道をまっすぐ行くと、大通りに出ます。",
+			  "この みち を まっすぐ いく と、おおどおり に でます。",
+			  "Kalau lurus terus di jalan ini, akan sampai ke jalan besar.",
+			  [149206, 152208]
+			]
+		  ]
+		},
+		{
+		  "id": 36,
+		  "kotoba": ["交差点", "こうさてん", "persimpangan", [153429, 154049]],
+		  "kalimat": [
+			[
+			  "すみません、地下鉄の入り口はどこでしょうか。――この先の交差点にありますよ。",
+			  "すみません、ちかてつ の いりぐち は どこ でしょうか。――この さき の こうさてん に あります よ。",
+			  "Permisi, pintu masuk kereta bawah tanah ada di mana? — Ada di persimpangan di depan sana.",
+			  [155270, 160875]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": ["角", "かど", "sudut", [162096, 162576]],
+		  "kalimat": [
+			[
+			  "四つ角",
+			  "よつかど",
+			  "persimpangan empat",
+			  [163737, 164598]
+			]
+		  ]
+		},
+		{
+		  "id": 38,
+		  "kotoba": ["信号", "しんごう", "lampu lalu lintas", [165799, 166359]],
+		  "kalimat": []
+		},
+		{
+		  "id": 39,
+		  "kotoba": ["踏切", "ふみきり", "perlintasan kereta api", [167580, 168180]],
+		  "kalimat": []
+		},
+		{
+		  "id": 40,
+		  "kotoba": ["駐車場", "ちゅうしゃじょう", "tempat parkir", [169401, 170101]],
+		  "kalimat": []
+		},
+		{
+		  "id": 41,
+		  "kotoba": ["橋", "はし", "jembatan", [171322, 171822]],
+		  "kalimat": []
+		},
+		{
+		  "id": 42,
+		  "kotoba": ["歩道橋", "ほどうきょう", "jembatan penyeberangan", [173043, 173823]],
+		  "kalimat": []
+		},
+		{
+		  "id": 43,
+		  "kotoba": ["トンネル", "トンネル", "terowongan", [175044, 175724]],
+		  "kalimat": []
+		},
+		{
+		  "id": 44,
+		  "kotoba": ["港", "みなと", "pelabuhan", [176945, 177465]],
+		  "kalimat": []
+		},
+		{
+		  "id": 45,
+		  "kotoba": ["空港", "くうこう", "bandara", [178686, 179246]],
+		  "kalimat": []
+		},
+		{
+		  "id": 46,
+		  "kotoba": ["遅れる", "おくれる", "terlambat", [180467, 181127]],
+		  "kalimat": [
+			[
+			  "電車が遅れて、遅刻してしまった。",
+			  "でんしゃ が おくれて、ちこく して しまった。",
+			  "Keretanya terlambat, sehingga saya jadi terlambat.",
+			  [182328, 185370]
+			]
+		  ]
+		},
+		{
+		  "id": 47,
+		  "kotoba": ["乗り遅れる", "のりおくれる", "ketinggalan kendaraan", [186591, 187431]],
+		  "kalimat": [
+			[
+			  "飛行機に乗り遅れたら、困ります。",
+			  "ひこうき に のりおくれたら、こまります。",
+			  "Kalau ketinggalan pesawat, akan repot.",
+			  [188652, 191294]
+			]
+		  ]
+		},
+		{
+		  "id": 48,
+		  "kotoba": ["出発（する）", "しゅっぱつ（する）", "berangkat", [192515, 193315]],
+		  "kalimat": [
+			[
+			  "あしたは何時に出発しますか。",
+			  "あした は なんじ に しゅっぱつ しますか。",
+			  "Besok berangkat jam berapa?",
+			  [194536, 196758]
+			]
+		  ]
+		},
+		{
+		  "id": 49,
+		  "kotoba": ["着く", "つく", "tiba", [197979, 198499]],
+		  "kalimat": [
+			[
+			  "東京へは何時ごろに着きますか。",
+			  "とうきょう へ は なんじ ごろ に つきますか。",
+			  "Kira-kira jam berapa tiba di Tokyo?",
+			  [199720, 202182]
+			]
+		  ]
+		},
+		{
+		  "id": 50,
+		  "kotoba": ["止まる", "とまる", "berhenti (intr.)", [203403, 203963]],
+		  "kalimat": [
+			[
+			  "電車が急に止まって、びっくりしました。",
+			  "でんしゃ が きゅう に とまって、びっくり しました。",
+			  "Kereta tiba-tiba berhenti sehingga saya kaget.",
+			  [205184, 208206]
+			]
+		  ]
+		},
+		{
+		  "id": 51,
+		  "kotoba": ["止める／停める", "とめる", "menghentikan / memarkir", [209427, 210207]],
+		  "kalimat": [
+			[
+			  "ここに自転車を止めないでください。",
+			  "ここ に じてんしゃ を とめないで ください。",
+			  "Tolong jangan parkir sepeda di sini.",
+			  [211428, 213950]
+			]
+		  ]
+		},
+		{
+		  "id": 52,
+		  "kotoba": ["運転（する）", "うんてん（する）", "mengemudi", [215171, 215891]],
+		  "kalimat": []
+		},
+		{
+		  "id": 53,
+		  "kotoba": ["～目", "～め", "ke- (bilangan bertingkat)", [217112, 217672]],
+		  "kalimat": [
+			[
+			  "「元町」は、ここから３つ目ですよ。",
+			  "「もとまち」 は、ここ から みっつめ です よ。",
+			  "\"Motomachi\" adalah pemberhentian ketiga dari sini.",
+			  [218893, 221615]
+			]
+		  ]
+		},
+		{
+		  "id": 54,
+		  "kotoba": ["通る", "とおる", "melewati", [222836, 223456]],
+		  "kalimat": [
+			[
+			  "このバスは「さくら公園」を通りますか。",
+			  "この バス は 「さくらこうえん」 を とおりますか。",
+			  "Apakah bus ini melewati Taman Sakura?",
+			  [224677, 227239]
+			],
+			[
+			  "この細い道を通って行くんですか。",
+			  "この ほそい みち を とおって いくんですか。",
+			  "Apakah kita akan lewat jalan sempit ini?",
+			  [228460, 231322]
+			]
+		  ]
+		},
+		{
+		  "id": 55,
+		  "kotoba": ["曲がる", "まがる", "berbelok", [232543, 233163]],
+		  "kalimat": [
+			[
+			  "駅はどこですか。― あの角を左に曲がるとすぐです。",
+			  "えき は どこ ですか。― あの かど を ひだり に まがる と すぐ です。",
+			  "Di mana stasiunnya? — Belok kiri di sudut itu, langsung sampai.",
+			  [234384, 238107]
+			]
+		  ]
+		},
+		{
+		  "id": 56,
+		  "kotoba": ["渡る", "わたる", "menyeberang", [239328, 239908]],
+		  "kalimat": [
+			[
+			  "道路を渡る時、車に気をつけてください。",
+			  "どうろ を わたる とき、くるま に きをつけて ください。",
+			  "Saat menyeberang jalan, harap berhati-hati terhadap mobil.",
+			  [241129, 244291]
+			]
+		  ]
+		},
+		{
+		  "id": 57,
+		  "kotoba": ["右", "みぎ", "kanan", [245512, 246032]],
+		  "kalimat": []
+		},
+		{
+		  "id": 58,
+		  "kotoba": ["左", "ひだり", "kiri", [247253, 247773]],
+		  "kalimat": []
+		},
+		{
+		  "id": 59,
+		  "kotoba": ["まっすぐ", "まっすぐ", "lurus", [248994, 249614]],
+		  "kalimat": []
+		},
+		{
+		  "id": 60,
+		  "kotoba": ["向こう", "むこう", "seberang / sisi sana", [250835, 251515]],
+		  "kalimat": []
+		},
+		{
+		  "id": 61,
+		  "kotoba": ["近い", "ちかい", "dekat", [252736, 253236]],
+		  "kalimat": []
+		},
+		{
+		  "id": 62,
+		  "kotoba": ["遠い", "とおい", "jauh", [254457, 254957]],
+		  "kalimat": []
+		},
+		{
+		  "id": 63,
+		  "kotoba": ["～から", "～から", "dari", [256178, 256638]],
+		  "kalimat": []
+		},
+		{
+		  "id": 64,
+		  "kotoba": ["～まで", "～まで", "sampai", [257859, 258319]],
+		  "kalimat": []
+		},
+		{
+		  "id": 65,
+		  "kotoba": ["案内", "あんない", "petunjuk / panduan", [259540, 260180]],
+		  "kalimat": []
+		},
+		{
+		  "id": 66,
+		  "kotoba": ["地図", "ちず", "peta", [261401, 261961]],
+		  "kalimat": []
+		}
+	  ]
+	},
+	
+	{
+	  "cd": 1,
+	  "track": 16,
+	  "audio": "cd1_16.mp3",
+	  "unit": 8,
+	  "tema": ["街", "まち", "Kota"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["町", "まち", "kota kecil", [2508, 2690]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["街", "まち", "kota / kawasan pertokoan", [4511, 6272]],
+		  "kalimat": [
+			[
+			  "学生街",
+			  "がくせいがい",
+			  "kawasan mahasiswa",
+			  [4511, 6272]
+			],
+			[
+			  "オフィス街",
+			  "オフィスがい",
+			  "kawasan perkantoran",
+			  [4511, 6272]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["銀行", "ぎんこう", "bank", [7673, 8293]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["銀行員", "ぎんこういん", "pegawai bank", [9574, 10395]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["郵便局", "ゆうびんきょく", "kantor pos", [11676, 12336]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["レストラン", "レストラン", "restoran", [13757, 14478]],
+		  "kalimat": [
+			[
+			  "この階には、レストランはありませんね。",
+			  "この かい には、レストラン は ありませんね。",
+			  "Di lantai ini tidak ada restoran, ya.",
+			  [15778, 18259]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["食堂", "しょくどう", "kantin", [19520, 20181]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["学生食堂", "がくせいしょくどう", "kantin mahasiswa", [21401, 22602]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["社員食堂", "しゃいんしょくどう", "kantin karyawan", [23663, 24744]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["喫茶店", "きっさてん", "kedai kopi", [26105, 26846]],
+		  "kalimat": [
+			[
+			  "駅前の喫茶店で打ち合わせをしました。",
+			  "えきまえ の きっさてん で うちあわせ を しました。",
+			  "Saya mengadakan pertemuan di kedai kopi depan stasiun.",
+			  [28086, 30628]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["カフェ", "カフェ", "kafe", [31629, 31969]],
+		  "kalimat": [
+			[
+			  "おしゃれなカフェですね。ここでちょっと休みましょうか。",
+			  "おしゃれな カフェ です ね。ここ で ちょっと やすみましょうか。",
+			  "Kafenya bagus ya. Mari istirahat sebentar di sini.",
+			  [33250, 36931]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["ファーストフード店", "ファーストフードてん", "restoran cepat saji", [37992, 39252]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["ファーストフード", "ファーストフード", "makanan cepat saji", [40513, 41472]],
+		  "kalimat": [
+			[
+			  "時間がないから、その辺のファーストフードのお店にしよう。",
+			  "じかん が ない から、そのへん の ファーストフード の おみせ に しよう。",
+			  "Karena tidak ada waktu, mari makan di restoran cepat saji sekitar sini.",
+			  [42633, 45755]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["スーパー／スーパーマーケット", "スーパー／スーパーマーケット", "supermarket", [46935, 49636]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["コンビニ", "コンビニ", "minimarket", [50796, 53557]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["～屋", "～や", "toko ~", [54759, 54879]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["パン屋", "パンや", "toko roti", [56058, 56499]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["本屋", "ほんや", "toko buku", [57659, 58120]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["薬屋", "くすりや", "toko obat", [59280, 59500]],
+		  "kalimat": []
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["薬局", "やっきょく", "apotek", [59739, 61780]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["ドラッグストア", "ドラッグストア", "drugstore", [62960, 63881]],
+		  "kalimat": []
+		},
+		{
+		  "id": 22,
+		  "kotoba": ["花屋", "はなや", "toko bunga", [65061, 65542]],
+		  "kalimat": []
+		},
+		{
+		  "id": 23,
+		  "kotoba": ["電気店", "でんきてん", "toko elektronik", [66682, 67402]],
+		  "kalimat": []
+		},
+		{
+		  "id": 24,
+		  "kotoba": ["不動産屋", "ふどうさんや", "agen properti", [68522, 69423]],
+		  "kalimat": []
+		},
+		{
+		  "id": 25,
+		  "kotoba": ["店", "みせ", "toko", [70622, 70763]],
+		  "kalimat": [
+			[
+			  "そのお店はどこにあるんですか。",
+			  "その おみせ は どこ に あるんですか。",
+			  "Toko itu ada di mana?",
+			  [72203, 74144]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": ["商店街", "しょうてんがい", "jalan pertokoan", [75344, 76204]],
+		  "kalimat": [
+			[
+			  "その店は、さくら商店街の中にあります。",
+			  "その みせ は、さくら しょうてんがい の なか に あります。",
+			  "Toko itu berada di kawasan pertokoan Sakura.",
+			  [77364, 80066]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": ["病院", "びょういん", "rumah sakit", [81146, 81725]],
+		  "kalimat": []
+		},
+		{
+		  "id": 28,
+		  "kotoba": ["歯医者", "はいしゃ", "dokter gigi", [83027, 83566]],
+		  "kalimat": [
+			[
+			  "あしたは歯医者に行かなければなりません。",
+			  "あした は はいしゃ に いかなければ なりません。",
+			  "Besok saya harus pergi ke dokter gigi.",
+			  [84626, 87168]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": ["美容院", "びよういん", "salon kecantikan", [88268, 88948]],
+		  "kalimat": [
+			[
+			  "美容院は予約した？",
+			  "びよういん は よやく した？",
+			  "Sudah membuat janji di salon?",
+			  [90250, 91611]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": ["マンション", "マンション", "apartemen (kondominium)", [92792, 93412]],
+		  "kalimat": [
+			[
+			  "もう少し広いマンションに引っ越したいです。",
+			  "もう すこし ひろい マンション に ひっこしたい です。",
+			  "Saya ingin pindah ke apartemen yang sedikit lebih luas.",
+			  [94774, 96835]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": ["アパート", "アパート", "apartemen", [97977, 98597]],
+		  "kalimat": [
+			[
+			  "学生の時は、古くて小さいアパートに住んでいました。",
+			  "がくせい の とき は、ふるくて ちいさい アパート に すんでいました。",
+			  "Saat masih mahasiswa, saya tinggal di apartemen kecil dan tua.",
+			  [99658, 103301]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": ["家", "いえ／うち", "rumah", [104522, 105823]],
+		  "kalimat": [
+			[
+			  "どんな家に住みたいですか。",
+			  "どんな いえ に すみたい ですか。",
+			  "Rumah seperti apa yang ingin Anda tinggali?",
+			  [107165, 108385]
+			],
+			[
+			  "家に電話しないといけません。",
+			  "うち に でんわ しないと いけません。",
+			  "Saya harus menelepon ke rumah.",
+			  [109546, 111067]
+			],
+			[
+			  "今度、うちに遊びに来て。",
+			  "こんど、うち に あそび に きて。",
+			  "Lain kali mainlah ke rumah saya.",
+			  [112129, 113570]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": ["警察", "けいさつ", "polisi", [114790, 115212]],
+		  "kalimat": [
+			[
+			  "警察に連絡した方がいいですよ。",
+			  "けいさつ に れんらく した ほう が いい です よ。",
+			  "Sebaiknya hubungi polisi.",
+			  [116664, 118625]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": ["警察官", "けいさつかん", "polisi", [119865, 120745]],
+		  "kalimat": []
+		},
+		{
+		  "id": 35,
+		  "kotoba": ["おまわりさん", "おまわりさん", "pak polisi", [121986, 122846]],
+		  "kalimat": []
+		},
+		{
+		  "id": 36,
+		  "kotoba": ["交番", "こうばん", "pos polisi", [124028, 124587]],
+		  "kalimat": [
+			[
+			  "場所、よくわからないですね。― あそこに交番があるから、聞いてみましょう。",
+			  "ばしょ、よく わからない です ね。― あそこ に こうばん が ある から、きいて みましょう。",
+			  "Saya kurang tahu tempatnya. — Di sana ada pos polisi, mari kita bertanya.",
+			  [125789, 131491]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": ["役所", "やくしょ", "kantor pemerintahan", [132772, 133293]],
+		  "kalimat": []
+		},
+		{
+		  "id": 38,
+		  "kotoba": ["大使館", "たいしかん", "kedutaan", [136294, 137055]],
+		  "kalimat": []
+		},
+		{
+		  "id": 39,
+		  "kotoba": ["公園", "こうえん", "taman", [138175, 138735]],
+		  "kalimat": []
+		},
+		{
+		  "id": 40,
+		  "kotoba": ["ベンチ", "ベンチ", "bangku", [139936, 140516]],
+		  "kalimat": [
+			[
+			  "あそこのベンチでちょっと休まない？",
+			  "あそこ の ベンチ で ちょっと やすまない？",
+			  "Istirahat sebentar di bangku sana, yuk?",
+			  [141717, 144499]
+			]
+		  ]
+		},
+		{
+		  "id": 41,
+		  "kotoba": ["図書館", "としょかん", "perpustakaan", [145700, 146320]],
+		  "kalimat": []
+		},
+		{
+		  "id": 42,
+		  "kotoba": ["スポーツジム／ジム", "スポーツジム／ジム", "gym", [147541, 149002]],
+		  "kalimat": []
+		},
+		{
+		  "id": 43,
+		  "kotoba": ["神社", "じんじゃ", "kuil Shinto", [150203, 150783]],
+		  "kalimat": []
+		},
+		{
+		  "id": 44,
+		  "kotoba": ["寺", "てら", "kuil Buddha", [152004, 152464]],
+		  "kalimat": []
+		},
+		{
+		  "id": 45,
+		  "kotoba": ["デパート", "デパート", "department store", [153685, 154305]],
+		  "kalimat": []
+		},
+		{
+		  "id": 46,
+		  "kotoba": ["映画館", "えいがかん", "bioskop", [155506, 156126]],
+		  "kalimat": []
+		},
+		{
+		  "id": 47,
+		  "kotoba": ["美術館", "びじゅつかん", "museum seni", [157347, 158027]],
+		  "kalimat": []
+		},
+		{
+		  "id": 48,
+		  "kotoba": ["駅", "えき", "stasiun", [159228, 159708]],
+		  "kalimat": []
+		},
+		{
+		  "id": 49,
+		  "kotoba": ["駅前", "えきまえ", "depan stasiun", [160909, 161549]],
+		  "kalimat": [
+			[
+			  "ATMなら、駅前にいくつかありますよ。",
+			  "エーティーエム なら、えきまえ に いくつか あります よ。",
+			  "Kalau ATM, ada beberapa di depan stasiun.",
+			  [162770, 165412]
+			]
+		  ]
+		},
+		{
+		  "id": 50,
+		  "kotoba": ["ホテル", "ホテル", "hotel", [166633, 167193]],
+		  "kalimat": []
+		},
+		{
+		  "id": 51,
+		  "kotoba": ["売店", "ばいてん", "kios", [168414, 169014]],
+		  "kalimat": [
+			[
+			  "駅の売店でも売っています。",
+			  "えき の ばいてん でも うって います。",
+			  "Barang itu juga dijual di kios stasiun.",
+			  [170235, 172417]
+			]
+		  ]
+		},
+		{
+		  "id": 52,
+		  "kotoba": ["ビル", "ビル", "gedung", [173638, 174138]],
+		  "kalimat": []
+		},
+		{
+		  "id": 53,
+		  "kotoba": ["駅ビル", "えきビル", "gedung stasiun", [175359, 176079]],
+		  "kalimat": [
+			[
+			  "駅ビルにパン屋ができたそうです。",
+			  "えきビル に パンや が できた そうです。",
+			  "Katanya ada toko roti yang baru buka di gedung stasiun.",
+			  [177300, 180122]
+			]
+		  ]
+		},
+		{
+		  "id": 54,
+		  "kotoba": ["駐車場", "ちゅうしゃじょう", "tempat parkir", [181343, 182003]],
+		  "kalimat": []
+		},
+		{
+		  "id": 55,
+		  "kotoba": ["会社", "かいしゃ", "perusahaan", [183224, 183784]],
+		  "kalimat": []
+		},
+		{
+		  "id": 56,
+		  "kotoba": ["工場", "こうじょう", "pabrik", [185005, 185645]],
+		  "kalimat": [
+			[
+			  "あした、ビール工場を見学します。",
+			  "あした、ビール こうじょう を けんがく します。",
+			  "Besok kami akan mengunjungi pabrik bir.",
+			  [186866, 189488]
+			]
+		  ]
+		},
+		{
+		  "id": 57,
+		  "kotoba": ["空港", "くうこう", "bandara", [190709, 191269]],
+		  "kalimat": [
+			[
+			  "空港までどうやって行きますか。",
+			  "くうこう まで どうやって いきますか。",
+			  "Bagaimana cara pergi ke bandara?",
+			  [192490, 194892]
+			]
+		  ]
+		},
+		{
+		  "id": 58,
+		  "kotoba": ["パン屋", "パンや", "toko roti", [196113, 196633]],
+		  "kalimat": []
+		},
+		{
+		  "id": 59,
+		  "kotoba": ["八百屋", "やおや", "toko sayur", [196813, 198192]],
+		  "kalimat": []
+		},
+		{
+		  "id": 60,
+		  "kotoba": ["くだもの屋", "くだものや", "toko buah", [198873, 200554]],
+		  "kalimat": []
+		},
+		{
+		  "id": 61,
+		  "kotoba": ["肉屋", "にくや", "toko daging", [200653, 201955]],
+		  "kalimat": []
+		},
+		{
+		  "id": 62,
+		  "kotoba": ["魚屋", "さかなや", "toko ikan", [203575, 204135]],
+		  "kalimat": []
+		},
+		{
+		  "id": 63,
+		  "kotoba": ["酒屋", "さかや", "toko minuman keras", [205247, 205787]],
+		  "kalimat": []
+		},
+		{
+		  "id": 64,
+		  "kotoba": ["寿司屋", "すしや", "restoran sushi", [206989, 207769]],
+		  "kalimat": []
+		},
+		{
+		  "id": 65,
+		  "kotoba": ["牛丼屋", "ぎゅうどんや", "restoran gyūdon", [209070, 209790]],
+		  "kalimat": []
+		},
+		{
+		  "id": 66,
+		  "kotoba": ["文具店／文房具屋", "ぶんぐてん／ぶんぼうぐや", "toko alat tulis", [210991, 211853]],
+		  "kalimat": []
+		},
+		{
+		  "id": 67,
+		  "kotoba": ["くつ屋", "くつや", "toko sepatu", [213133, 213674]],
+		  "kalimat": []
+		},
+		{
+		  "id": 68,
+		  "kotoba": ["クリーニング屋", "クリーニングや", "dry cleaner", [214775, 215716]],
+		  "kalimat": []
+		},
+		{
+		  "id": 69,
+		  "kotoba": ["コインランドリー", "コインランドリー", "laundromat", [216915, 217877]],
+		  "kalimat": []
+		},
+		{
+		  "id": 70,
+		  "kotoba": ["床屋", "とこや", "barbershop", [219237, 219798]],
+		  "kalimat": []
+		},
+		{
+		  "id": 71,
+		  "kotoba": ["カメラ屋", "カメラや", "toko kamera", [220918, 223441]],
+		  "kalimat": []
+		},
+		{
+		  "id": 72,
+		  "kotoba": ["めがね屋／メガネ屋", "めがねや", "toko kacamata", [223441, 226163]],
+		  "kalimat": []
+		},
+		{
+		  "id": 73,
+		  "kotoba": ["スポーツ用品店", "スポーツようひんてん", "toko perlengkapan olahraga", [226163, 228625]],
+		  "kalimat": []
+		},
+		{
+		  "id": 74,
+		  "kotoba": ["CDショップ", "シーディーショップ", "toko CD", [229765, 230825]],
+		  "kalimat": []
+		},
+		{
+		  "id": 75,
+		  "kotoba": ["レンタルショップ", "レンタルショップ", "toko penyewaan", [231947, 233007]],
+		  "kalimat": []
+		},
+		{
+		  "id": 76,
+		  "kotoba": ["携帯ショップ", "けいたいショップ", "toko ponsel", [234137, 234906]],
+		  "kalimat": []
+		},
+		{
+		  "id": 77,
+		  "kotoba": ["古本屋", "ふるほんや", "toko buku bekas", [236137, 236906]],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 17,
+	  "audio": "cd1_17.mp3",
+	  "unit": 9,
+	  "tema": ["建物", "たてもの", "Bangunan"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["建物", "たてもの", "bangunan", [2589, 3009]],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["建てる", "たてる", "membangun", [4910, 5330]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["建つ", "たつ", "dibangun / berdiri", [6732, 7251]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["入口", "いりぐち", "pintu masuk", [10014, 11034]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["出口", "でぐち", "pintu keluar", [11035, 12055]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["玄関", "げんかん", "genkan / pintu masuk rumah", [13556, 14176]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["ロビー", "ロビー", "lobi", [15477, 15797]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["受付", "うけつけ", "resepsionis / meja penerima tamu", [17198, 17677]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["階段", "かいだん", "tangga", [19099, 19678]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["エスカレーター", "エスカレーター", "eskalator", [20980, 21839]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["エレベーター", "エレベーター", "lift / elevator", [23160, 23881]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["ろうか", "ろうか", "koridor", [25321, 25802]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["非常口", "ひじょうぐち", "pintu darurat", [27003, 27564]],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "cd": 1,
+	  "track": 18,
+	  "audio": "cd1_18.mp3",
+	  "unit": 10,
+	  "tema": ["自然", "しぜん", "Alam"],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["自然", "しぜん", "alam", [2569, 3049]],
+		  "kalimat": [
+			[
+			  "短い間でしたが、北海道の自然を楽しむことができました。",
+			  "みじかい あいだ でした が、ほっかいどう の しぜん を たのしむ こと が できました。",
+			  "Walaupun hanya sebentar, saya dapat menikmati alam Hokkaido.",
+			  [6572, 10615]
+			],
+			[
+			  "子どものころ、アメリカに住んでいたので、英語は自然に覚えました。",
+			  "こども の ころ、アメリカ に すんでいた ので、えいご は しぜん に おぼえました。",
+			  "Karena waktu kecil tinggal di Amerika, saya belajar bahasa Inggris secara alami.",
+			  [11676, 16419]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["山", "やま", "gunung", [17559, 17779]],
+		  "kalimat": [
+			[
+			  "富士山",
+			  "ふじさん",
+			  "Gunung Fuji",
+			  [18881, 19500]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["川", "かわ", "sungai", [20741, 21601]],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["海", "うみ", "laut", [21601, 22462]],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["波", "なみ", "ombak", [23683, 23803]],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["海岸", "かいがん", "pantai", [25224, 25826]],
+		  "kalimat": []
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["空", "そら", "langit", [27166, 27486]],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["雲", "くも", "awan", [28687, 28927]],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["太陽", "たいよう", "matahari", [30211, 30832]],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["日", "ひ", "matahari", [32173, 32292]],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["月", "つき", "bulan", [33554, 35234]],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["星", "ほし", "bintang", [35355, 37276]],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["宇宙", "うちゅう", "alam semesta", [38597, 39017]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["湖", "みずうみ", "danau", [39097, 39216]],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["池", "いけ", "kolam", [42058, 42179]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["島", "しま", "pulau", [42278, 43740]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["森", "もり", "hutan", [45140, 45261]],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["林", "はやし", "belukar / hutan kecil", [45301, 45420]],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["石", "いし", "batu", [45561, 45701]],
+		  "kalimat": []
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["砂", "すな", "pasir", [47121, 48843]],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": ["丘", "おか", "bukit", [50024, 50364]],
+		  "kalimat": []
+		}
+	  ]
+	}
 	
   ]
 }
