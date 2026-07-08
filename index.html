@@ -60,8 +60,10 @@ body{
 .unit-dropdown-btn{
   font-size:14px;padding:7px 10px;border-radius:var(--radius-sm);
   border:1px solid var(--border-strong);background:var(--card);color:var(--ink);
-  cursor:pointer;display:flex;flex-direction:column;gap:1px;line-height:1.25;
+  cursor:pointer;display:flex;align-items:flex-start;gap:6px;line-height:1.25;
 }
+.unit-dropdown-btn .u-prefix{font-weight:600;white-space:nowrap;flex-shrink:0}
+.unit-dropdown-btn .u-text{display:flex;flex-direction:column;gap:1px}
 .unit-dropdown-btn .u-line1{font-weight:600}
 .unit-dropdown-btn .u-line2{font-size:12px;color:var(--muted)}
 .unit-dropdown-list{
@@ -73,9 +75,12 @@ body{
 .unit-dropdown-list.open{display:block}
 .unit-dropdown-item{
   padding:7px 10px;cursor:pointer;line-height:1.25;border-bottom:1px solid var(--border);
+  display:flex;align-items:flex-start;gap:6px;
 }
 .unit-dropdown-item:last-child{border-bottom:none}
 .unit-dropdown-item:hover:not(.disabled){background:var(--paper)}
+.unit-dropdown-item .u-prefix{font-weight:600;font-size:14px;white-space:nowrap;flex-shrink:0}
+.unit-dropdown-item .u-text{display:flex;flex-direction:column;gap:1px}
 .unit-dropdown-item .u-line1{font-weight:600;font-size:14px}
 .unit-dropdown-item .u-line2{font-size:12px;color:var(--muted)}
 .unit-dropdown-item.disabled{opacity:.4;cursor:not-allowed}
@@ -619,7 +624,7 @@ function renderUnitSelect(){
     const item = document.createElement('div');
     item.className = 'unit-dropdown-item' + (hasData?'':' disabled');
     item.dataset.unit = unitNum;
-    item.innerHTML = `<div class="u-line1">Unit ${unitNum} — ${line1}</div><div class="u-line2">${line2}</div>`;
+    item.innerHTML = `<span class="u-prefix">Unit ${unitNum} —</span><div class="u-text"><div class="u-line1">${line1}</div><div class="u-line2">${line2}</div></div>`;
     if(hasData){
       item.onclick = ()=>{
         sel.value = unitNum;
@@ -649,7 +654,7 @@ function updateUnitDropdownBtn(){
   const fallback = UNITS.find(u=>u.unit===unitNum).tema;
   const line1 = title ? title[0] : fallback[0];
   const line2 = title ? title[2] : fallback[2];
-  btn.innerHTML = `<div class="u-line1">Unit ${unitNum} — ${line1}</div><div class="u-line2">${line2}</div>`;
+  btn.innerHTML = `<span class="u-prefix">Unit ${unitNum} —</span><div class="u-text"><div class="u-line1">${line1}</div><div class="u-line2">${line2}</div></div>`;
   list.querySelectorAll('.unit-dropdown-item').forEach(el=>{
     el.classList.toggle('selected', +el.dataset.unit === unitNum);
   });
