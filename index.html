@@ -352,25 +352,9 @@ function unitTrackRefs(unitNumber){
   return out;
 }
 
-// ────────────────────────────────────────────────────────────────────────
-// PERSISTENCE untuk unit kosakata (window.storage kalau tersedia sbg
-// artifact; kalau tidak, data hanya bertahan selama sesi ini)
-// ────────────────────────────────────────────────────────────────────────
-async function saveState(){
-  try{
-    if(window.storage){
-      await window.storage.set('units', JSON.stringify(UNITS));
-    }
-  }catch(e){ /* storage tidak tersedia, lanjut pakai in-memory saja */ }
-}
-async function loadState(){
-  try{
-    if(window.storage){
-      const u = await window.storage.get('units').catch(()=>null);
-      if(u && u.value) UNITS = JSON.parse(u.value);
-    }
-  }catch(e){}
-}
+// (Catatan: dulu di sini ada saveState()/loadState() yg nyimpen UNITS ke
+// window.storage. Dihapus karena bisa menimpa data JSON terbaru dgn cache
+// lama — UNITS harus SELALU berasal dari nihongotango_basic.json.)
 
 // ────────────────────────────────────────────────────────────────────────
 // HELPERS
@@ -787,7 +771,6 @@ function resetUnitOrder(){
     console.error(e);
     return;
   }
-  await loadState();
   renderUnitSelect();
 })();
 </script>
