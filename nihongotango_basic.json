@@ -22263,9 +22263,7252 @@
 		  ]
 		}
 	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 5,
+	  "audio": "cd2_05.mp3",
+	  "unit": 36,
+	  "tema": [
+		"話す・言う",
+		"はなす・いう",
+		"Berbicara, Mengatakan"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"話す",
+			"はなす",
+			"berbicara",
+			[6192, 6732]
+		  ],
+		  "kalimat": [
+			[
+			  "日本語が少し話せます。",
+			  "にほんご が すこし はなせます。",
+			  "Saya bisa berbicara sedikit bahasa Jepang.",
+			  [7913, 9614]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"話",
+			"はなし",
+			"percakapan; pembicaraan",
+			[10775, 11294]
+		  ],
+		  "kalimat": [
+			[
+			  "誰と話をしていたんですか。",
+			  "だれ と はなし を していたんですか。",
+			  "Tadi sedang berbicara dengan siapa?",
+			  [12376, 13996]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"言う",
+			"いう",
+			"mengatakan",
+			[15198, 15458]
+		  ],
+		  "kalimat": [
+			[
+			  "もう一度言ってください。",
+			  "もう いちど いって ください。",
+			  "Tolong katakan sekali lagi.",
+			  [16658, 17879]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"文句を言う",
+			"もんく を いう",
+			"mengeluh",
+			[18980, 21701]
+		  ],
+		  "kalimat": [
+			[
+			  "ときどき、文句を言うお客さんがいます。",
+			  "ときどき、もんく を いう おきゃくさん が います。",
+			  "Kadang-kadang ada pelanggan yang mengeluh.",
+			  [22222, 23763]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"意見",
+			"いけん",
+			"pendapat",
+			[24904, 25364]
+		  ],
+		  "kalimat": [
+			[
+			  "自由に意見を言ってください。",
+			  "じゆう に いけん を いって ください。",
+			  "Silakan sampaikan pendapat Anda dengan bebas.",
+			  [26486, 28006]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"冗談",
+			"じょうだん",
+			"lelucon",
+			[29086, 29647]
+		  ],
+		  "kalimat": [
+			[
+			  "怒らないでください。今のは冗談ですから。",
+			  "おこらないで ください。いま の は じょうだん ですから。",
+			  "Jangan marah. Tadi itu hanya bercanda.",
+			  [31004, 33785]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"悪口",
+			"わるくち",
+			"perkataan buruk; menjelek-jelekkan",
+			[35005, 35325]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女が人の悪口を言っているのを聞いたことがありません。",
+			  "かのじょ が ひと の わるくち を いっている のを きいた こと が ありません。",
+			  "Saya belum pernah mendengar dia menjelek-jelekkan orang lain.",
+			  [36805, 40527]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"秘密",
+			"ひみつ",
+			"rahasia",
+			[41507, 41786]
+		  ],
+		  "kalimat": [
+			[
+			  "これは秘密ですから、誰にも言わないでください。",
+			  "これ は ひみつ ですから、だれ にも いわないで ください。",
+			  "Ini rahasia, jadi jangan beri tahu siapa pun.",
+			  [43186, 46108]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"嘘",
+			"うそ",
+			"bohong; kebohongan",
+			[47509, 48889]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"嘘をつく",
+			"うそ を つく",
+			"berbohong",
+			[48989, 49709]
+		  ],
+		  "kalimat": [
+			[
+			  "ごめんなさい。今まで嘘をついていました。",
+			  "ごめんなさい。いままで うそ を ついていました。",
+			  "Maaf. Selama ini saya sudah berbohong.",
+			  [50909, 53969]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"聞く",
+			"きく",
+			"bertanya",
+			[55231, 55570]
+		  ],
+		  "kalimat": [
+			[
+			  "ちょっと聞いてもいいですか。",
+			  "ちょっと きいても いいですか。",
+			  "Boleh saya bertanya sebentar?",
+			  [56631, 57971]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"答える",
+			"こたえる",
+			"menjawab",
+			[59192, 59792]
+		  ],
+		  "kalimat": [
+			[
+			  "わからないと答えました。",
+			  "わからない と こたえました。",
+			  "Saya menjawab bahwa saya tidak tahu.",
+			  [60979, 62301]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"返事",
+			"へんじ",
+			"balasan; jawaban",
+			[63402, 63902]
+		  ],
+		  "kalimat": [
+			[
+			  "石井さんから返事が来ました。",
+			  "いしいさん から へんじ が きました。",
+			  "Balasan dari Ishii-san sudah datang.",
+			  [65003, 66644]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"伝える",
+			"つたえる",
+			"menyampaikan",
+			[
+			  67704,
+			  68344
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女に、ロビーにいると伝えてくれませんか。",
+			  "かのじょ に、ロビー に いる と つたえて くれませんか。",
+			  "Bisakah Anda menyampaikan kepadanya bahwa saya ada di lobi?",
+			  [
+				69486,
+				72748
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"伝言",
+			"でんごん",
+			"pesan",
+			[
+			  73888,
+			  74528
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "伝言をお願いできますか。",
+			  "でんごん を おねがい できますか。",
+			  "Bisakah saya menitipkan pesan?",
+			  [
+				75870,
+				77450
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"知らせる",
+			"しらせる",
+			"memberitahu",
+			[
+			  78611,
+			  79251
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "決まったら、メールで知らせます。",
+			  "きまったら、メール で しらせます。",
+			  "Kalau sudah diputuskan, saya akan memberi tahu lewat email.",
+			  [
+				80332,
+				82153
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"お知らせ",
+			"おしらせ",
+			"pemberitahuan",
+			[
+			  83234,
+			  83896
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうは皆さんに、うれしいお知らせがあります。",
+			  "きょう は みなさん に、うれしい おしらせ が あります。",
+			  "Hari ini saya punya kabar gembira untuk semuanya.",
+			  [
+				85096,
+				88519
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"スピーチ(する)",
+			"スピーチ(する)",
+			"berpidato",
+			[
+			  89698,
+			  90359
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "結婚式のスピーチを頼まれました。",
+			  "けっこんしき の スピーチ を たのまれました。",
+			  "Saya diminta memberikan pidato di pesta pernikahan.",
+			  [
+				91524,
+				93464
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"連絡(する)",
+			"れんらく(する)",
+			"menghubungi",
+			[
+			  94525,
+			  97286
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "遅れる場合は、必ず連絡してください。",
+			  "おくれる ばあい は、かならず れんらく して ください。",
+			  "Kalau akan terlambat, pastikan untuk menghubungi saya.",
+			  [
+				97806,
+				99727
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"説明(する)",
+			"せつめい(する)",
+			"menjelaskan; penjelasan",
+			[
+			  100848,
+			  101528
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "彼の説明は、いつもわかりにくい。",
+			  "かれ の せつめい は、いつも わかりにくい。",
+			  "Penjelasannya selalu sulit dipahami.",
+			  [
+				102789,
+				105571
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"相談(する)",
+			"そうだん(する)",
+			"berkonsultasi",
+			[
+			  106831,
+			  107393
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません、ちょっと相談したいことがあるんですが……。",
+			  "すみません、ちょっと そうだん したい こと が あるんですが……。",
+			  "Permisi, ada sesuatu yang ingin saya konsultasikan....",
+			  [
+				108652,
+				112114
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"注意(する)",
+			"ちゅうい(する)",
+			"memperingatkan; berhati-hati",
+			[
+			  113415,
+			  113875
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "遅れないように、課長に注意されました。",
+			  "おくれない ように、かちょう に ちゅうい されました。",
+			  "Saya diperingatkan oleh kepala bagian agar tidak terlambat.",
+			  [
+				115076,
+				117777
+			  ]
+			],
+			[
+			  "間違えやすいので、注意してください。",
+			  "まちがえやすい ので、ちゅうい して ください。",
+			  "Karena mudah keliru, harap berhati-hati.",
+			  [
+				119038,
+				121259
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"報告(する)",
+			"ほうこく(する)",
+			"melaporkan",
+			[
+			  122359,
+			  122762
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "忘れずに報告してください。",
+			  "わすれず に ほうこく して ください。",
+			  "Jangan lupa untuk melapor.",
+			  [
+				124268,
+				126134
+			  ]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 6,
+	  "audio": "cd2_06.mp3",
+	  "unit": 37,
+	  "tema": [
+		"思う・考える",
+		"おもう・かんがえる",
+		"Berpikir, Mempertimbangkan"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"思う",
+			"おもう",
+			"berpikir",
+			[
+			  6609,
+			  6870
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "それを聞いて、どう思いますか。",
+			  "それ を きいて、どう おもいますか。",
+			  "Apa pendapat Anda setelah mendengar itu?",
+			  [
+				8130,
+				10511
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"考える",
+			"かんがえる",
+			"memikirkan; mempertimbangkan",
+			[
+			  11771,
+			  12491
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "いろいろ考えて、やめることにしました。",
+			  "いろいろ かんがえて、やめる こと に しました。",
+			  "Setelah mempertimbangkan berbagai hal, saya memutuskan berhenti.",
+			  [
+				13712,
+				16791
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"迷う",
+			"まよう",
+			"bingung; ragu; tersesat",
+			[
+			  18012,
+			  18492
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "どっちがいいか、迷う。",
+			  "どっち が いいか、まよう。",
+			  "Saya bingung mana yang lebih baik.",
+			  [
+				19612,
+				21493
+			  ]
+			],
+			[
+			  "すみません、道に迷ってしまったんですが……。",
+			  "すみません、みち に まよって しまったんですが……。",
+			  "Permisi, saya tersesat....",
+			  [
+				22794,
+				26234
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"迷子",
+			"まいご",
+			"anak hilang; orang tersesat",
+			[
+			  27614,
+			  28094
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"わかる",
+			"わかる",
+			"mengerti; memahami",
+			[
+			  29315,
+			  29795
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "日本語がわかる人はいますか。",
+			  "にほんご が わかる ひと は いますか。",
+			  "Apakah ada orang yang mengerti bahasa Jepang?",
+			  [
+				31008,
+				32829
+			  ]
+			],
+			[
+			  "あしたは９時に来てください。― わかりました。",
+			  "あした は くじ に きて ください。― わかりました。",
+			  "Besok datang pukul 9 ya. — Baik, saya mengerti.",
+			  [
+				33808,
+				36450
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"覚える",
+			"おぼえる",
+			"menghafal; mengingat",
+			[
+			  37731,
+			  38170
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "週に50個、漢字を覚えるようにしています。",
+			  "しゅう に ごじゅっこ、かんじ を おぼえる よう に して います。",
+			  "Saya berusaha menghafal 50 kanji setiap minggu.",
+			  [
+				39311,
+				42533
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"忘れる",
+			"わすれる",
+			"lupa",
+			[
+			  43734,
+			  44353
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "パスワードを忘れました。",
+			  "パスワード を わすれました。",
+			  "Saya lupa kata sandi.",
+			  [
+				45634,
+				47295
+			  ]
+			],
+			[
+			  "帰る時、かさを忘れないでください。",
+			  "かえる とき、かさ を わすれないで ください。",
+			  "Jangan lupa payung saat pulang.",
+			  [
+				48555,
+				50996
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"思い出す",
+			"おもいだす",
+			"teringat; mengingat kembali",
+			[
+			  52257,
+			  52878
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "顔は知っているんですが、名前が思い出せません。",
+			  "かお は しって いるんですが、なまえ が おもいだせません。",
+			  "Saya kenal wajahnya, tetapi tidak ingat namanya.",
+			  [
+				54018,
+				58400
+			  ]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 7,
+	  "audio": "cd2_07.mp3",
+	  "unit": 38,
+	  "tema": [
+		"行く・来る",
+		"いく・くる",
+		"Pergi, Datang"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"歩く",
+			"あるく",
+			"berjalan",
+			[2948, 5290]
+		  ],
+		  "kalimat": [
+			[
+			  "駅から会社まで、歩いて10分です。",
+			  "えき から かいしゃ まで、あるいて じゅっぷん です。",
+			  "Dari stasiun ke kantor, berjalan kaki sekitar 10 menit.",
+			  [5290, 10191]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"走る",
+			"はしる",
+			"berlari",
+			[11310, 11791]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"行く",
+			"いく",
+			"pergi",
+			[12951, 13312]
+		  ],
+		  "kalimat": [
+			[
+			  "大阪行きの新幹線",
+			  "おおさか ゆき の しんかんせん",
+			  "Shinkansen tujuan Osaka.",
+			  [13312, 14552]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"来る",
+			"くる",
+			"datang",
+			[14552, 14852]
+		  ],
+		  "kalimat": [
+			[
+			  "まだ電話が来ない。",
+			  "まだ でんわ が こない。",
+			  "Teleponnya masih belum datang.",
+			  [16071, 17233]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"帰る",
+			"かえる",
+			"pulang",
+			[18452, 18932]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"戻る",
+			"もどる",
+			"kembali",
+			[20212, 20693]
+		  ],
+		  "kalimat": [
+			[
+			  "部長が戻ったら、聞いてみましょう。",
+			  "ぶちょう が もどったら、きいて みましょう。",
+			  "Kalau kepala bagian sudah kembali, mari kita tanyakan.",
+			  [22033, 23974]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"急ぐ",
+			"いそぐ",
+			"bergegas",
+			[25114, 25614]
+		  ],
+		  "kalimat": [
+			[
+			  "急いでください。もうバスが来ていますよ。",
+			  "いそいで ください。もう バス が きて います よ。",
+			  "Tolong cepat. Busnya sudah datang.",
+			  [26855, 29295]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"逃げる",
+			"にげる",
+			"melarikan diri",
+			[30528, 31028]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"寄る",
+			"よる",
+			"singgah",
+			[32349, 33908]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしは銀行に寄ってから行きます。",
+			  "わたし は ぎんこう に よって から いきます。",
+			  "Saya akan mampir ke bank dulu sebelum pergi.",
+			  [33908, 35789]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"訪ねる",
+			"たずねる",
+			"mengunjungi",
+			[36969, 37630]
+		  ],
+		  "kalimat": [
+			[
+			  "お世話になった先生を訪ねてみようと思います。",
+			  "おせわ に なった せんせい を たずねて みよう と おもいます。",
+			  "Saya berpikir untuk mengunjungi guru yang pernah banyak membantu saya.",
+			  [38829, 41530]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"入る",
+			"はいる",
+			"masuk",
+			[42651, 43072]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"出る",
+			"でる",
+			"keluar",
+			[43072, 44171]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"大学／会社に入る",
+			"だいがく／かいしゃ に はいる",
+			"masuk universitas / masuk perusahaan",
+			[44171, 45832]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"上がる",
+			"あがる",
+			"naik",
+			[45832, 46332]
+		  ],
+		  "kalimat": [
+			[
+			  "２階へ上がる、階段を上がる",
+			  "にかい へ あがる、かいだん を あがる",
+			  "Naik ke lantai dua; naik tangga.",
+			  [46332, 47472]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"登る",
+			"のぼる",
+			"mendaki; memanjat",
+			[47472, 47953]
+		  ],
+		  "kalimat": [
+			[
+			  "山に登る",
+			  "やま に のぼる",
+			  "Mendaki gunung.",
+			  [47953, 49173]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"送る",
+			"おくる",
+			"mengantar",
+			[49173, 52334]
+		  ],
+		  "kalimat": [
+			[
+			  "駅まで友達を送ってから、学校に行きました。",
+			  "えき まで ともだち を おくって から、がっこう に いきました。",
+			  "Saya pergi ke sekolah setelah mengantar teman ke stasiun.",
+			  [49173, 52334]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"迎える",
+			"むかえる",
+			"menyambut",
+			[53513, 54195]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"迎えに行く",
+			"むかえ に いく",
+			"menjemput (pergi menjemput)",
+			[55435, 56454]
+		  ],
+		  "kalimat": [
+			[
+			  "駅まで迎えに行きますよ。",
+			  "えき まで むかえ に いきます よ。",
+			  "Saya akan menjemput ke stasiun.",
+			  [57695, 59096]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"迎えに来る",
+			"むかえ に くる",
+			"datang menjemput",
+			[60288, 61250]
+		  ],
+		  "kalimat": [
+			[
+			  "迎えに来てくれて、ありがとう。",
+			  "むかえ に きて くれて、ありがとう。",
+			  "Terima kasih sudah datang menjemput saya.",
+			  [62533, 64216]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"連れる",
+			"つれる",
+			"membawa (orang)",
+			[65478, 66000]
+		  ],
+		  "kalimat": [
+			[
+			  "パーティーに友達を連れてきてもいいですか。",
+			  "パーティー に ともだち を つれて きて も いい ですか。",
+			  "Bolehkah saya membawa teman ke pesta?",
+			  [67082, 69388]
+			],
+			[
+			  "連れていく、連れて帰る",
+			  "つれていく、つれてかえる",
+			  "Membawa pergi; membawa pulang.",
+			  [69388, 70888]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 8,
+	  "audio": "cd2_08.mp3",
+	  "unit": 39,
+	  "tema": [
+		"あげる・もらう",
+		"あげる・もらう",
+		"Memberi, Menerima"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"あげる",
+			"あげる",
+			"memberi",
+			[6572, 6972]
+		  ],
+		  "kalimat": [
+			[
+			  "これ、一つあげます。―いいんですか。どうも。",
+			  "これ、ひとつ あげます。―いいんですか。どうも。",
+			  "Ini, saya beri satu. ― Benarkah? Terima kasih.",
+			  [8173, 12498]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"差し上げる",
+			"さしあげる",
+			"memberikan (bentuk hormat)",
+			[13639, 14499]
+		  ],
+		  "kalimat": [
+			[
+			  "先生にも一つ差し上げました。",
+			  "せんせい にも ひとつ さしあげました。",
+			  "Saya juga memberikan satu kepada guru.",
+			  [15720, 17881]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"やる",
+			"やる",
+			"memberi (kepada hewan/orang lebih muda)",
+			[18942, 19262]
+		  ],
+		  "kalimat": [
+			[
+			  "これはもういらないから、誰かにやることにした。",
+			  "これ は もう いらない から、だれか に やる こと に しました。",
+			  "Karena ini sudah tidak diperlukan lagi, saya memutuskan memberikannya kepada seseorang.",
+			  [20403, 23246]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"もらう",
+			"もらう",
+			"menerima",
+			[24427, 24948]
+		  ],
+		  "kalimat": [
+			[
+			  "それ、誰にもらったんですか。",
+			  "それ、だれ に もらった ん ですか。",
+			  "Itu kamu terima dari siapa?",
+			  [26189, 28230]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"いただく",
+			"いただく",
+			"menerima (bentuk sangat hormat)",
+			[29451, 29931]
+		  ],
+		  "kalimat": [
+			[
+			  "これは先生にいただいたお菓子です。",
+			  "これ は せんせい に いただいた おかし です。",
+			  "Ini adalah kue yang saya terima dari guru.",
+			  [31233, 33292]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"くれる",
+			"くれる",
+			"memberi (kepada saya)",
+			[36015, 36794]
+		  ],
+		  "kalimat": [
+			[
+			  "これは友達がくれたんです。",
+			  "これ は ともだち が くれた ん です。",
+			  "Ini diberikan oleh teman saya.",
+			  [36015, 37594]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"くださる",
+			"くださる",
+			"memberi (bentuk hormat)",
+			[40576, 41276]
+		  ],
+		  "kalimat": [
+			[
+			  "これは先生がくださったんです。",
+			  "これ は せんせい が くださった ん です。",
+			  "Ini diberikan oleh guru saya.",
+			  [40576, 42317]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"プレゼントする",
+			"プレゼントする",
+			"memberikan sebagai hadiah",
+			[43398, 43848]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女には何をプレゼントしたんですか。",
+			  "かのじょ に は なに を プレゼント した ん ですか。",
+			  "Apa yang kamu berikan kepada dia sebagai hadiah?",
+			  [45899, 48100]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"プレゼント",
+			"プレゼント",
+			"hadiah",
+			[43848, 44298]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"貸す",
+			"かす",
+			"meminjamkan",
+			[49620, 50120]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません、ペンを貸してくれませんか。",
+			  "すみません、ペン を かして くれませんか。",
+			  "Permisi, bolehkah meminjamkan saya sebuah pena?",
+			  [54121, 55263]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"借りる",
+			"かりる",
+			"meminjam",
+			[58144, 58724]
+		  ],
+		  "kalimat": [
+			[
+			  "お手洗いを借りてもいいですか。",
+			  "おてあらい を かりて も いい ですか。",
+			  "Bolehkah saya memakai kamar kecil?",
+			  [59384, 61625]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"返す",
+			"かえす",
+			"mengembalikan",
+			[62826, 63405]
+		  ],
+		  "kalimat": [
+			[
+			  "先生に借りたかさ、まだ返してなかった。",
+			  "せんせい に かりた かさ、まだ かえして なかった。",
+			  "Payung yang saya pinjam dari guru ternyata belum saya kembalikan.",
+			  [64626, 67447]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"交換する",
+			"こうかんする",
+			"menukar",
+			[68588, 69489]
+		  ],
+		  "kalimat": [
+			[
+			  "Lは大きすぎたから、Mに交換してもらった。",
+			  "エル は おおきすぎた から、エム に こうかん して もらった。",
+			  "Karena ukuran L terlalu besar, saya menukarnya dengan ukuran M.",
+			  [70650, 73652]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"送る",
+			"おくる",
+			"mengirim",
+			[74792, 75292]
+		  ],
+		  "kalimat": [
+			[
+			  "メール・荷物を送る。",
+			  "メール・にもつ を おくる。",
+			  "Mengirim email/paket.",
+			  [74792, 75292]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"郵送する",
+			"ゆうそうする",
+			"mengirim lewat pos",
+			[76472, 77394]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"郵送",
+			"ゆうそう",
+			"pengiriman pos",
+			[78534, 79155]
+		  ],
+		  "kalimat": [
+			[
+			  "郵送でもかまいません。",
+			  "ゆうそう でも かまいません。",
+			  "Dikirim lewat pos juga tidak masalah.",
+			  [80415, 81775]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"届く",
+			"とどく",
+			"tiba",
+			[82896, 83417]
+		  ],
+		  "kalimat": [
+			[
+			  "荷物・手紙・結果が届く。",
+			  "にもつ・てがみ・けっか が とどく。",
+			  "Paket/surat/hasil sampai.",
+			  [82896, 83417]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"受け取る",
+			"うけとる",
+			"menerima",
+			[84557, 85197]
+		  ],
+		  "kalimat": [
+			[
+			  "今朝、荷物を受け取りました。",
+			  "けさ、にもつ を うけとりました。",
+			  "Tadi pagi saya menerima paket.",
+			  [86259, 88180]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"取る",
+			"とる",
+			"mengambil",
+			[89260, 89540]
+		  ],
+		  "kalimat": [
+			[
+			  "どうぞ、一つ取ってください。",
+			  "どうぞ、ひとつ とって ください。",
+			  "Silakan ambil satu.",
+			  [90681, 92082]
+			],
+			[
+			  "おかあさん、しょうゆ、取ってくれる？",
+			  "おかあさん、しょうゆ、とって くれる？",
+			  "Bu, tolong ambilkan kecap, ya?",
+			  [93183, 95305]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"パスポートを取る",
+			"パスポート を とる",
+			"mengurus/mendapatkan paspor",
+			[96666, 97947]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"拾う",
+			"ひろう",
+			"memungut",
+			[99509, 99629]
+		  ],
+		  "kalimat": [
+			[
+			  "このかぎ、教室で拾ったんだけど、誰のかな？",
+			  "この かぎ、きょうしつ で ひろった ん だけど、だれ の かな？",
+			  "Saya memungut kunci ini di kelas. Milik siapa ya?",
+			  [100810, 104953]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"なくす",
+			"なくす",
+			"kehilangan",
+			[106354, 106875]
+		  ],
+		  "kalimat": [
+			[
+			  "メモをなくして、電話番号がわからなくなった。",
+			  "メモ を なくして、でんわばんごう が わからなく なった。",
+			  "Saya kehilangan catatan sehingga tidak tahu lagi nomor teleponnya.",
+			  [108076, 111299]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"なくなる",
+			"なくなる",
+			"habis / menghilang",
+			[112500, 113160]
+		  ],
+		  "kalimat": [
+			[
+			  "もうすぐシャンプーがなくなる。",
+			  "もうすぐ シャンプー が なくなる。",
+			  "Sampo akan segera habis.",
+			  [114201, 115882]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"盗む",
+			"ぬすむ",
+			"mencuri",
+			[117082, 117584]
+		  ],
+		  "kalimat": [
+			[
+			  "盗まれないように気をつけてください。",
+			  "ぬすまれない よう に きをつけて ください。",
+			  "Hati-hati agar tidak kemalingan.",
+			  [118731, 120612]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"残る",
+			"のこる",
+			"tersisa",
+			[121754, 122254]
+		  ],
+		  "kalimat": [
+			[
+			  "お金はいくら残っていますか。",
+			  "おかね は いくら のこって いますか。",
+			  "Berapa uang yang masih tersisa?",
+			  [123274, 124754]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"残り",
+			"のこり",
+			"sisa",
+			[125936, 126475]
+		  ],
+		  "kalimat": [
+			[
+			  "残りはこれだけ？",
+			  "のこり は これだけ？",
+			  "Sisanya cuma ini?",
+			  [127637, 129298]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"持つ",
+			"もつ",
+			"membawa / memiliki",
+			[130617, 131019]
+		  ],
+		  "kalimat": [
+			[
+			  "荷物、重そうですね。一つ持ちましょうか。",
+			  "にもつ、おもそう です ね。ひとつ もちましょうか。",
+			  "Barang bawaan Anda kelihatannya berat. Biar saya bawakan satu?",
+			  [132158, 135561]
+			],
+			[
+			  "車を持っているんですか。いいですね。",
+			  "くるま を もっている ん ですか。いいです ね。",
+			  "Anda punya mobil? Enak ya.",
+			  [136701, 139423]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": [
+			"持っていく",
+			"もっていく",
+			"membawa (ke sana)",
+			[140843, 141743]
+		  ],
+		  "kalimat": [
+			[
+			  "あしたのパーティーには、何を持っていけばいいですか。",
+			  "あした の パーティー には、なに を もっていけば いい ですか。",
+			  "Besok ke pesta sebaiknya membawa apa?",
+			  [142884, 146086]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": [
+			"持ってくる",
+			"もってくる",
+			"membawa (ke sini)",
+			[147426, 148187]
+		  ],
+		  "kalimat": [
+			[
+			  "ワインを1本持ってきました。",
+			  "ワイン を いっぽん もってきました。",
+			  "Saya membawa sebotol anggur.",
+			  [149447, 151150]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": [
+			"持って帰る",
+			"もってかえる",
+			"membawa pulang",
+			[152390, 153371]
+		  ],
+		  "kalimat": [
+			[
+			  "ごみは持って帰ってください。",
+			  "ごみ は もってかえって ください。",
+			  "Tolong bawa pulang sampahnya.",
+			  [154472, 156253]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": [
+			"お持ち帰り",
+			"おもちかえり",
+			"dibawa pulang (takeout)",
+			[157314, 158256]
+		  ],
+		  "kalimat": []
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 9,
+	  "audio": "cd2_09.mp3",
+	  "unit": 40,
+	  "tema": [
+		"する",
+		"する",
+		"Melakukan"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"する",
+			"する",
+			"melakukan",
+			[2921, 3221]
+		  ],
+		  "kalimat": [
+			[
+			  "いま、何しているの？",
+			  "いま、なに している の？",
+			  "Sekarang sedang apa?",
+			  [5062, 7884]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"やる",
+			"やる",
+			"melakukan",
+			[9166, 9466]
+		  ],
+		  "kalimat": [
+			[
+			  "宿題はもうやった？",
+			  "しゅくだい は もう やった？",
+			  "PR-nya sudah dikerjakan?",
+			  [10687, 11728]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"心配する",
+			"しんぱいする",
+			"khawatir",
+			[12849, 13789]
+		  ],
+		  "kalimat": [
+			[
+			  "大丈夫です。心配しないでください。",
+			  "だいじょうぶ です。しんぱい しないで ください。",
+			  "Tidak apa-apa. Jangan khawatir.",
+			  [14950, 17210]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"失敗する",
+			"しっぱいする",
+			"gagal",
+			[18391, 19332]
+		  ],
+		  "kalimat": [
+			[
+			  "失敗したの？　もう一回やったら？",
+			  "しっぱい した の？　もう いっかい やったら？",
+			  "Gagal? Coba sekali lagi saja.",
+			  [20533, 23375]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"成功する",
+			"せいこうする",
+			"berhasil",
+			[24616, 25256]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"注文する",
+			"ちゅうもんする",
+			"memesan",
+			[26657, 27599]
+		  ],
+		  "kalimat": [
+			[
+			  "時間がないから、早く注文しよう。",
+			  "じかん が ない から、はやく ちゅうもん しよう。",
+			  "Karena tidak ada banyak waktu, ayo cepat memesan.",
+			  [28818, 30897]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"準備する",
+			"じゅんびする",
+			"mempersiapkan",
+			[32017, 32777]
+		  ],
+		  "kalimat": [
+			[
+			  "旅行の準備はもう終わった？",
+			  "りょこう の じゅんび は もう おわった？",
+			  "Persiapan perjalanan sudah selesai?",
+			  [33939, 35899]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"努力する",
+			"どりょくする",
+			"berusaha",
+			[37081, 37881]
+		  ],
+		  "kalimat": [
+			[
+			  "彼にはもうちょっと努力してほしい。",
+			  "かれ には もう ちょっと どりょく して ほしい。",
+			  "Saya ingin dia berusaha sedikit lagi.",
+			  [39061, 41683]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"中止する",
+			"ちゅうしする",
+			"membatalkan / menghentikan",
+			[42844, 43664]
+		  ],
+		  "kalimat": [
+			[
+			  "雨が降ったら、試合は中止になるかもしれません。",
+			  "あめ が ふったら、しあい は ちゅうし に なる かも しれません。",
+			  "Kalau hujan, pertandingan mungkin akan dibatalkan.",
+			  [44905, 48248]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"登録する",
+			"とうろくする",
+			"mendaftar",
+			[49269, 50170]
+		  ],
+		  "kalimat": [
+			[
+			  "最初に登録をしなければなりません。",
+			  "さいしょ に とうろく を しなければ なりません。",
+			  "Pertama-tama harus melakukan pendaftaran.",
+			  [51391, 53972]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"外国人登録証",
+			"がいこくじんとうろくしょう",
+			"kartu registrasi orang asing",
+			[55052, 56873]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"予約する",
+			"よやくする",
+			"memesan / reservasi",
+			[58115, 58896]
+		  ],
+		  "kalimat": [
+			[
+			  "お店はもう予約してあります。",
+			  "おみせ は もう よやく してあります。",
+			  "Restorannya sudah saya reservasi.",
+			  [60067, 61850]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"チェックインする",
+			"チェックインする",
+			"check-in",
+			[63010, 64091]
+		  ],
+		  "kalimat": [
+			[
+			  "もう4時だから、チェックインできます。",
+			  "もう よじ だから、チェックイン できます。",
+			  "Karena sudah jam 4, sekarang bisa check-in.",
+			  [65352, 67414]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"チェックアウトする",
+			"チェックアウトする",
+			"check-out",
+			[68617, 69798]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"キャンセルする",
+			"キャンセルする",
+			"membatalkan",
+			[70899, 71859]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません。予約をキャンセルしたいんですが。",
+			  "すみません。よやく を キャンセル したい ん ですが。",
+			  "Permisi, saya ingin membatalkan reservasi.",
+			  [73040, 76203]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"キャンセル料",
+			"キャンセルりょう",
+			"biaya pembatalan",
+			[77585, 78567]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"ノックする",
+			"ノックする",
+			"mengetuk",
+			[79867, 80628]
+		  ],
+		  "kalimat": [
+			[
+			  "入るときに軽くノックしてください。",
+			  "はいる とき に かるく ノック して ください。",
+			  "Tolong ketuk pelan saat akan masuk.",
+			  [81689, 83831]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 10,
+	  "audio": "cd2_10.mp3",
+	  "unit": 41,
+	  "tema": [
+		"新しい・静かな",
+		"あたらしい・しずかな",
+		"Baru, Tenang"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"新しい",
+			"あたらしい",
+			"baru",
+			[2948, 3730]
+		  ],
+		  "kalimat": [
+			[
+			  "メニューが新しくなりました。",
+			  "メニュー が あたらしく なりました。",
+			  "Menu telah diperbarui.",
+			  [6891, 10334]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"古い",
+			"ふるい",
+			"lama",
+			[11394, 11814]
+		  ],
+		  "kalimat": [
+			[
+			  "京都には古いお寺がたくさんあります。",
+			  "きょうと には ふるい おてら が たくさん あります。",
+			  "Di Kyoto ada banyak kuil tua.",
+			  [12995, 15536]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"熱い",
+			"あつい",
+			"panas",
+			[16916, 17176]
+		  ],
+		  "kalimat": [
+			[
+			  "熱くて、飲めません。",
+			  "あつくて、のめません。",
+			  "Terlalu panas sehingga tidak bisa diminum.",
+			  [18637, 19718]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"冷たい",
+			"つめたい",
+			"dingin",
+			[20898, 21579]
+		  ],
+		  "kalimat": [
+			[
+			  "冷たいお茶でいいですか。",
+			  "つめたい おちゃ で いい ですか。",
+			  "Apakah teh dingin tidak apa-apa?",
+			  [22719, 24381]
+			],
+			[
+			  "手が冷たいですね。",
+			  "て が つめたい です ね。",
+			  "Tanganmu dingin ya.",
+			  [25541, 28923]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"温かい",
+			"あたたかい",
+			"hangat",
+			[30256, 31676]
+		  ],
+		  "kalimat": [
+			[
+			  "温かい飲み物が飲みたい。",
+			  "あたたかい のみもの が のみたい。",
+			  "Saya ingin minum minuman hangat.",
+			  [31777, 34480]
+			],
+			[
+			  "早く温かいベッドで寝たい。",
+			  "はやく あたたかい ベッド で ねたい。",
+			  "Saya ingin cepat tidur di tempat tidur yang hangat.",
+			  [32777, 34480]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"明るい",
+			"あかるい",
+			"terang",
+			[35600, 36201]
+		  ],
+		  "kalimat": [
+			[
+			  "窓が大きくて、明るい部屋です。",
+			  "まど が おおきくて、あかるい へや です。",
+			  "Ini kamar yang terang karena jendelanya besar.",
+			  [37502, 39484]
+			],
+			[
+			  "明るい音楽が好きです。",
+			  "あかるい おんがく が すき です。",
+			  "Saya suka musik yang ceria.",
+			  [40603, 41986]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"暗い",
+			"くらい",
+			"gelap",
+			[43246, 43606]
+		  ],
+		  "kalimat": [
+			[
+			  "暗くて、よく見えません。",
+			  "くらくて、よく みえません。",
+			  "Gelap sehingga tidak terlihat jelas.",
+			  [45008, 46429]
+			],
+			[
+			  "最近は、暗いニュースが多いね。",
+			  "さいきん は、くらい ニュース が おおい ね。",
+			  "Akhir-akhir ini banyak berita yang suram ya.",
+			  [47609, 49432]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"きれい（な）",
+			"きれい（な）",
+			"bersih; indah",
+			[50733, 51332]
+		  ],
+		  "kalimat": [
+			[
+			  "きのう掃除したから、部屋はきれいですよ。",
+			  "きのう そうじ した から、へや は きれい です よ。",
+			  "Karena kemarin dibersihkan, kamarnya bersih.",
+			  [52373, 54475]
+			],
+			[
+			  "その皿はさっき洗ったから、きれいですよ。",
+			  "その さら は さっき あらった から、きれい です よ。",
+			  "Piring itu baru saja dicuci, jadi bersih.",
+			  [55656, 57938]
+			],
+			[
+			  "きれいな花、きれいな女性、きれいな字",
+			  "きれいな はな、きれいな じょせい、きれいな じ。",
+			  "Bunga yang indah, wanita cantik, tulisan yang rapi.",
+			  [59099, 59700]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"汚い",
+			"きたない",
+			"kotor",
+			[59700, 60184]
+		  ],
+		  "kalimat": [
+			[
+			  "部屋が汚いから、あまり人を呼びたくないんです。",
+			  "へや が きたない から、あまり ひと を よびたくない んです。",
+			  "Karena kamar saya kotor, saya tidak ingin mengundang orang.",
+			  [60844, 64265]
+			],
+			[
+			  "汚い川、汚い字",
+			  "きたない かわ、きたない じ。",
+			  "Sungai yang kotor, tulisan yang jelek.",
+			  [64265, 65845]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"重い",
+			"おもい",
+			"berat",
+			[67066, 67865]
+		  ],
+		  "kalimat": [
+			[
+			  "重い荷物はわたしが持ちます。",
+			  "おもい にもつ は わたし が もちます。",
+			  "Saya yang akan membawa barang yang berat.",
+			  [67066, 68865]
+			],
+			[
+			  "重い病気じゃなかったそうです。",
+			  "おもい びょうき じゃ なかった そうです。",
+			  "Katanya itu bukan penyakit yang serius.",
+			  [70127, 71466]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"軽い",
+			"かるい",
+			"ringan",
+			[72686, 73128]
+		  ],
+		  "kalimat": [
+			[
+			  "このかばんは軽くて、いいですね。",
+			  "この かばん は かるくて、いい です ね。",
+			  "Tas ini ringan, bagus ya.",
+			  [74308, 75948]
+			],
+			[
+			  "食事の前に軽い運動をするといいですよ。",
+			  "しょくじ の まえ に かるい うんどう を すると いい です よ。",
+			  "Sebaiknya lakukan olahraga ringan sebelum makan.",
+			  [77169, 79489]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"厚い",
+			"あつい",
+			"tebal",
+			[80670, 81210]
+		  ],
+		  "kalimat": [
+			[
+			  "厚い紙のほうがいいですか。― はい。丈夫なのがいいです。",
+			  "あつい かみ の ほう が いい ですか。― はい。じょうぶ な の が いい です。",
+			  "Apakah lebih baik kertas yang tebal? — Ya, yang kuat lebih baik.",
+			  [82450, 87111]
+			],
+			[
+			  "厚いカーテン",
+			  "あつい カーテン",
+			  "Tirai yang tebal.",
+			  [87111, 88671]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"薄い",
+			"うすい",
+			"tipis",
+			[88192, 88671]
+		  ],
+		  "kalimat": [
+			[
+			  "薄い本だから、すぐ読めますよ。",
+			  "うすい ほん だから、すぐ よめます よ。",
+			  "Karena bukunya tipis, cepat selesai dibaca.",
+			  [89879, 91881]
+			],
+			[
+			  "味が薄い、薄い青",
+			  "あじ が うすい、うすい あお。",
+			  "Rasanya hambar, biru muda.",
+			  [93060, 93320]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"濃い",
+			"こい",
+			"pekat",
+			[93320, 93520]
+		  ],
+		  "kalimat": [
+			[
+			  "このスープ、ちょっと味が濃いですね。",
+			  "この スープ、ちょっと あじ が こい です ね。",
+			  "Sup ini rasanya agak terlalu pekat ya.",
+			  [94520, 97361]
+			],
+			[
+			  "味が濃い、濃い青",
+			  "あじ が こい、こい あお。",
+			  "Rasa yang kuat, biru tua.",
+			  [97361, 98922]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"にぎやか(な)",
+			"にぎやか(な)",
+			"ramai",
+			[
+			  98922,
+			  99762
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この辺はお店が多くて、にぎやかですね。",
+			  "この へん は おみせ が おおくて、にぎやか です ね。",
+			  "Di sekitar sini banyak toko, jadi ramai ya.",
+			  [
+				100842,
+				103703
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"うるさい",
+			"うるさい",
+			"berisik",
+			[
+			  104963,
+			  105464
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "道路の近くだと、うるさくないですか。",
+			  "どうろ の ちかく だと、うるさく ない です か。",
+			  "Kalau dekat jalan raya, bukankah berisik?",
+			  [
+				106625,
+				108464
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"静か(な)",
+			"しずか(な)",
+			"tenang",
+			[
+			  109825,
+			  110485
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "駅から遠くてもいいので、広くて静かな部屋がいいです。",
+			  "えき から とおくても いい ので、ひろくて しずかな へや が いい です。",
+			  "Walaupun jauh dari stasiun tidak apa-apa, saya ingin kamar yang luas dan tenang.",
+			  [
+				111565,
+				115466
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"詳しい",
+			"くわしい",
+			"terperinci",
+			[
+			  116607,
+			  117247
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "もう少し詳しく説明してもらえますか。",
+			  "もう すこし くわしく せつめい して もらえます か。",
+			  "Bisakah Anda menjelaskan dengan sedikit lebih rinci?",
+			  [
+				118431,
+				120372
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"複雑(な)",
+			"ふくざつ(な)",
+			"rumit",
+			[
+			  121393,
+			  122193
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この駅は複雑ですね。いつも迷います。",
+			  "この えき は ふくざつ です ね。いつも まよいます。",
+			  "Stasiun ini rumit ya. Saya selalu tersesat.",
+			  [
+				123394,
+				126876
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"簡単(な)",
+			"かんたん(な)",
+			"mudah",
+			[
+			  128076,
+			  128837
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "もっと簡単な方法がありますよ。",
+			  "もっと かんたんな ほうほう が あります よ。",
+			  "Ada cara yang lebih mudah.",
+			  [
+				130058,
+				131658
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"難しい",
+			"むずかしい",
+			"sulit",
+			[
+			  132799,
+			  133599
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "難しい言葉には、訳が付いています。",
+			  "むずかしい ことば には、やく が ついています。",
+			  "Untuk kata-kata yang sulit, terdapat terjemahannya.",
+			  [
+				134881,
+				137181
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"易しい",
+			"やさしい",
+			"mudah",
+			[
+			  138222,
+			  138942
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "易しい日本語だから、読めるはずです。",
+			  "やさしい にほんご だから、よめる はず です。",
+			  "Karena bahasa Jepangnya mudah, seharusnya bisa membacanya.",
+			  [
+				140204,
+				142544
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"早い",
+			"はやい",
+			"cepat (awal)",
+			[
+			  143626,
+			  144085
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "起きるのが早いんですね。",
+			  "おきる の が はやい ん です ね。",
+			  "Bangunnya pagi ya.",
+			  [
+				145306,
+				146707
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"早く",
+			"はやく",
+			"dengan cepat",
+			[
+			  148099,
+			  148640
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "早く予約したほうがいいですよ。",
+			  "はやく よやく した ほう が いい です よ。",
+			  "Sebaiknya memesan lebih awal.",
+			  [
+				149841,
+				151502
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"速い",
+			"はやい",
+			"cepat (kecepatan)",
+			[
+			  152622,
+			  153103
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "森さんは歩くのが速い。",
+			  "もりさん は あるく の が はやい。",
+			  "Pak Mori berjalan cepat.",
+			  [
+				154324,
+				155884
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"遅い",
+			"おそい",
+			"lambat, terlambat",
+			[
+			  157206,
+			  157506
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "田中さん、遅いですね。電話してみましょうか。",
+			  "たなかさん、おそい です ね。でんわ して みましょう か。",
+			  "Pak Tanaka terlambat ya. Bagaimana kalau kita coba menelepon?",
+			  [
+				158727,
+				162909
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"遠い",
+			"とおい",
+			"jauh",
+			[
+			  164230,
+			  164691
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "うちは駅から少し遠いです。",
+			  "うち は えき から すこし とおい です。",
+			  "Rumah saya agak jauh dari stasiun.",
+			  [
+				165932,
+				167954
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": [
+			"近い",
+			"ちかい",
+			"dekat",
+			[
+			  164230,
+			  164691
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "うちの近くに市の図書館があります。",
+			  "うち の ちかく に し の としょかん が あります。",
+			  "Di dekat rumah saya ada perpustakaan kota.",
+			  [
+				165932,
+				168296
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": [
+			"強い",
+			"つよい",
+			"kuat",
+			[
+			  169478,
+			  169957
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "風が強くて、歩きにくい。",
+			  "かぜ が つよくて、あるき にくい。",
+			  "Anginnya kencang sehingga sulit berjalan.",
+			  [
+				171218,
+				173080
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": [
+			"弱い",
+			"よわい",
+			"lemah",
+			[
+			  174321,
+			  174782
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "えっ、日本、また負けたの!? 弱いなあ。",
+			  "えっ、にほん、また まけた の!? よわい なあ。",
+			  "Eh? Jepang kalah lagi!? Lemah sekali ya.",
+			  [
+				175982,
+				180165
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": [
+			"高い",
+			"たかい",
+			"tinggi; mahal",
+			[
+			  181766,
+			  182267
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ほしいけど、値段がちょっと高い。",
+			  "ほしい けど、ねだん が ちょっと たかい。",
+			  "Saya ingin, tetapi harganya agak mahal.",
+			  [
+				183468,
+				185689
+			  ]
+			],
+			[
+			  "高い山",
+			  "たかい やま",
+			  "gunung yang tinggi",
+			  [
+				185690,
+				186970
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": [
+			"低い",
+			"ひくい",
+			"rendah",
+			[
+			  186971,
+			  187470
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この前のテスト、どうだった？ ― 点が低くて、がっかりした。",
+			  "このまえ の テスト、どうだった？ ― てん が ひくくて、がっかり した。",
+			  "Bagaimana hasil tes kemarin? — Nilainya rendah, jadi saya kecewa.",
+			  [
+				188731,
+				193134
+			  ]
+			],
+			[
+			  "低いテーブル",
+			  "ひくい テーブル",
+			  "meja yang rendah",
+			  [
+				193135,
+				194395
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": [
+			"便利(な)",
+			"べんり(な)",
+			"praktis; nyaman",
+			[
+			  195536,
+			  196037
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "駅から近くて便利ですね。",
+			  "えき から ちかくて べんり です ね。",
+			  "Dekat dari stasiun, jadi praktis ya.",
+			  [
+				197136,
+				198637
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": [
+			"交通の便",
+			"こうつう の べん",
+			"kemudahan transportasi",
+			[
+			  199938,
+			  200919
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここは交通の便はいいですよ。",
+			  "ここ は こうつう の べん は いい です よ。",
+			  "Transportasi di sini bagus.",
+			  [
+				201220,
+				203224
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": [
+			"不便(な)",
+			"ふべん(な)",
+			"tidak praktis",
+			[
+			  204525,
+			  205144
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "周りにスーパーとかコンビニがないから不便です。",
+			  "まわり に スーパー とか コンビニ が ない から ふべん です。",
+			  "Karena di sekitar tidak ada supermarket atau minimarket, jadi tidak praktis.",
+			  [
+				206365,
+				209086
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 36,
+		  "kotoba": [
+			"かわいい",
+			"かわいい",
+			"imut",
+			[
+			  210206,
+			  210828
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "見て、パンダの赤ちゃん。かわいい！",
+			  "みて、パンダ の あかちゃん。かわいい！",
+			  "Lihat, bayi panda! Lucu sekali!",
+			  [
+				212127,
+				214829
+			  ]
+			],
+			[
+			  "かわいい女の子、かわいいデザイン",
+			  "かわいい おんなのこ、かわいい デザイン",
+			  "gadis yang imut, desain yang lucu",
+			  [
+				214830,
+				216109
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": [
+			"すてき(な)",
+			"すてき(な)",
+			"indah; keren",
+			[
+			  217109,
+			  217729
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "すてきな人／服／バッグ",
+			  "すてきな ひと／ふく／バッグ",
+			  "orang yang menarik / pakaian yang bagus / tas yang bagus",
+			  [
+				217730,
+				219009
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 38,
+		  "kotoba": [
+			"有名(な)",
+			"ゆうめい(な)",
+			"terkenal",
+			[
+			  220010,
+			  220751
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここは昔から有名なお店です。",
+			  "ここ は むかし から ゆうめいな おみせ です。",
+			  "Ini adalah toko yang terkenal sejak dulu.",
+			  [
+				221950,
+				224531
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 39,
+		  "kotoba": [
+			"珍しい",
+			"めずらしい",
+			"langka",
+			[
+			  228772,
+			  229552
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうはスーツですか。珍しいですね。",
+			  "きょう は スーツ です か。めずらしい です ね。",
+			  "Hari ini memakai jas? Jarang sekali ya.",
+			  [
+				230913,
+				234215
+			  ]
+			],
+			[
+			  "珍しいお菓子／鳥／名前",
+			  "めずらしい おかし／とり／なまえ",
+			  "makanan ringan langka / burung langka / nama yang langka",
+			  [
+				234216,
+				235795
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 40,
+		  "kotoba": [
+			"かたい",
+			"かたい",
+			"keras",
+			[
+			  235795,
+			  236275
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ベッドがかたくて、よく寝(ら)れなかった。",
+			  "ベッド が かたくて、よく ねられなかった。",
+			  "Tempat tidurnya keras sehingga saya tidak bisa tidur nyenyak.",
+			  [
+				237524,
+				240305
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 41,
+		  "kotoba": [
+			"やわらかい",
+			"やわらかい",
+			"lembut",
+			[
+			  241567,
+			  242347
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "肉がやわらかくて、おいしいです。",
+			  "にく が やわらかくて、おいしい です。",
+			  "Dagingnya empuk dan enak.",
+			  [
+				243567,
+				246050
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 42,
+		  "kotoba": [
+			"安全(な)",
+			"あんぜん(な)",
+			"aman",
+			[
+			  247210,
+			  247911
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここにいるほうが安全ですよ。",
+			  "ここ に いる ほう が あんぜん です よ。",
+			  "Lebih aman berada di sini.",
+			  [
+				249151,
+				250532
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 43,
+		  "kotoba": [
+			"危ない",
+			"あぶない",
+			"berbahaya",
+			[
+			  251614,
+			  252174
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "危ないから、機械にさわらないでください。",
+			  "あぶない から、きかい に さわらないで ください。",
+			  "Berbahaya, jadi jangan menyentuh mesin.",
+			  [
+				253314,
+				255555
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 44,
+		  "kotoba": [
+			"危険(な)",
+			"きけん(な)",
+			"berbahaya",
+			[
+			  256557,
+			  257177
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "いま行くのは危険です。もう少し待ったほうがいいですよ。",
+			  "いま いく の は きけん です。もう すこし まった ほう が いい です よ。",
+			  "Berbahaya jika pergi sekarang. Sebaiknya tunggu sebentar lagi.",
+			  [
+				258418,
+				261500
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 45,
+		  "kotoba": [
+			"うまい",
+			"うまい",
+			"enak; pandai",
+			[
+			  262680,
+			  263040
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "うん、このピザはうまい！",
+			  "うん、この ピザ は うまい！",
+			  "Hmm, pizza ini enak!",
+			  [
+				265262,
+				266944
+			  ]
+			],
+			[
+			  "彼女はピアノだけじゃなく、歌もうまいんですよ。",
+			  "かのじょ は ピアノ だけ じゃ なく、うた も うまい ん です よ。",
+			  "Dia tidak hanya pandai bermain piano, tetapi juga pandai bernyanyi.",
+			  [
+				268216,
+				270978
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 46,
+		  "kotoba": [
+			"いろいろ(な)",
+			"いろいろ(な)",
+			"bermacam-macam",
+			[
+			  272280,
+			  272959
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これだけじゃなくて、いろいろなデザインのがあります。",
+			  "これ だけ じゃ なくて、いろいろな デザイン の が あります。",
+			  "Bukan hanya ini saja, ada berbagai macam desain.",
+			  [
+				274161,
+				276944
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 47,
+		  "kotoba": [
+			"大丈夫(な)",
+			"だいじょうぶ(な)",
+			"tidak apa-apa",
+			[
+			  278064,
+			  278944
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "（車に乗る）あと一人、乗れますか。― 大丈夫ですよ。",
+			  "（くるま に のる）あと ひとり、のれます か。― だいじょうぶ です よ。",
+			  "Masih muat satu orang lagi? — Ya, tidak apa-apa.",
+			  [
+				280206,
+				285071
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 48,
+		  "kotoba": [
+			"大事(な)",
+			"だいじ(な)",
+			"penting",
+			[
+			  286252,
+			  286891
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "…ごめんなさい、きょうは大事な約束があるんです。",
+			  "…ごめんなさい、きょう は だいじな やくそく が ある ん です。",
+			  "Maaf, hari ini saya ada janji penting.",
+			  [
+				287973,
+				291336
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 49,
+		  "kotoba": [
+			"大切(な)",
+			"たいせつ(な)",
+			"berharga; penting",
+			[
+			  292477,
+			  293278
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "大切な友達／指輪",
+			  "たいせつな ともだち／ゆびわ",
+			  "teman yang berharga / cincin yang berharga",
+			  [
+				294418,
+				295459
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 50,
+		  "kotoba": [
+			"大切にする",
+			"たいせつ に する",
+			"menjaga; menghargai",
+			[
+			  295460,
+			  296548
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "母からもらった時計なので、大切にしています。",
+			  "はは から もらった とけい な の で、たいせつ に して います。",
+			  "Karena ini jam yang saya terima dari ibu, saya menjaganya baik-baik.",
+			  [
+				296548,
+				299598
+			  ]
+			],
+			[
+			  "命／自然を大切にする",
+			  "いのち／しぜん を たいせつ に する",
+			  "menghargai kehidupan / menjaga alam",
+			  [
+				299599,
+				300865
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 51,
+		  "kotoba": [
+			"いい",
+			"いい",
+			"baik",
+			[
+			  300866,
+			  301467
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうは天気がいいですね。",
+			  "きょう は てんき が いい です ね。",
+			  "Cuacanya bagus ya hari ini.",
+			  [
+				302668,
+				304389
+			  ]
+			],
+			[
+			  "コーヒーでいいですか。― はい、お願いします。",
+			  "コーヒー で いい です か。― はい、おねがいします。",
+			  "Kopi saja tidak apa-apa? — Ya, tolong.",
+			  [
+				305550,
+				308612
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 52,
+		  "kotoba": [
+			"悪い",
+			"わるい",
+			"buruk",
+			[
+			  309713,
+			  310293
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "どこか具合が悪いんですか。",
+			  "どこか ぐあい が わるい ん です か。",
+			  "Apakah Anda sedang tidak enak badan?",
+			  [
+				311514,
+				313315
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 53,
+		  "kotoba": [
+			"だめ(な)",
+			"だめ(な)",
+			"tidak boleh; tidak bagus",
+			[
+			  314516,
+			  315197
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "辞書を使ってもいいですか。― だめです。",
+			  "じしょ を つかっても いい です か。― だめ です。",
+			  "Boleh memakai kamus? — Tidak boleh.",
+			  [
+				316398,
+				319320
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 54,
+		  "kotoba": [
+			"ひどい",
+			"ひどい",
+			"parah; buruk sekali",
+			[
+			  320541,
+			  321061
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ボーナスがゼロ!? それはひどいですね。",
+			  "ボーナス が ゼロ!? それ は ひどい です ね。",
+			  "Bonusnya nol!? Itu parah sekali.",
+			  [
+				322302,
+				324764
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 55,
+		  "kotoba": [
+			"変(な)",
+			"へん(な)",
+			"aneh",
+			[
+			  325965,
+			  326605
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これ、変な匂いがする。大丈夫？",
+			  "これ、へんな におい が する。だいじょうぶ？",
+			  "Ini baunya aneh. Tidak apa-apa?",
+			  [
+				327846,
+				330568
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 56,
+		  "kotoba": [
+			"むだ(な)",
+			"むだ(な)",
+			"sia-sia",
+			[
+			  331789,
+			  332469
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これ以上話しても、時間のむだです。",
+			  "これ いじょう はなしても、じかん の むだ です。",
+			  "Meskipun dibicarakan lebih lanjut, hanya membuang waktu.",
+			  [
+				333690,
+				336754
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 57,
+		  "kotoba": [
+			"急(な)",
+			"きゅう(な)",
+			"mendesak",
+			[
+			  337895,
+			  338395
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません、急な用事ができて、帰らなければならなくなりました。",
+			  "すみません、きゅうな ようじ が できて、かえらなければ ならなく なりました。",
+			  "Maaf, ada urusan mendadak sehingga saya harus pulang.",
+			  [
+				339676,
+				343539
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 58,
+		  "kotoba": [
+			"急に",
+			"きゅうに",
+			"tiba-tiba",
+			[
+			  344700,
+			  345221
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "急に外が暗くなってきた。",
+			  "きゅうに そと が くらく なってきた。",
+			  "Tiba-tiba di luar menjadi gelap.",
+			  [
+				346262,
+				347923
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 59,
+		  "kotoba": [
+			"上手(な)",
+			"じょうず(な)",
+			"pandai",
+			[
+			  349144,
+			  349744
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "このケーキ、自分で作ったんですか。上手ですね。",
+			  "この ケーキ、じぶん で つくった ん です か。じょうず です ね。",
+			  "Kue ini Anda buat sendiri? Hebat ya.",
+			  [
+				350925,
+				354889
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 60,
+		  "kotoba": [
+			"下手(な)",
+			"へた(な)",
+			"tidak pandai",
+			[
+			  356310,
+			  356790
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "テニスをやるんですか。― ええ。でも、好きなだけで、下手なんです。",
+			  "テニス を やる ん です か。― ええ。でも、すきな だけ で、へた な ん です。",
+			  "Apakah Anda bermain tenis? — Ya. Tapi saya hanya suka saja, saya tidak pandai.",
+			  [
+				357951,
+				362334
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 61,
+		  "kotoba": [
+			"得意(な)",
+			"とくい(な)",
+			"mahir; keahlian",
+			[
+			  363414,
+			  364034
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "得意な料理は何ですか。",
+			  "とくいな りょうり は なん です か。",
+			  "Apa masakan yang paling Anda kuasai?",
+			  [
+				365194,
+				366455
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 62,
+		  "kotoba": [
+			"苦手(な)",
+			"にがて(な)",
+			"kurang pandai; tidak suka",
+			[
+			  367575,
+			  368235
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "大勢の前で話すのは苦手なんです。",
+			  "おおぜい の まえ で はなす の は にがて な ん です。",
+			  "Saya tidak pandai berbicara di depan banyak orang.",
+			  [
+				369436,
+				371616
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 63,
+		  "kotoba": [
+			"忙しい",
+			"いそがしい",
+			"sibuk",
+			[372897, 373577]
+		  ],
+		  "kalimat": [
+			[
+			  "忙しくて、わたしは行けません。",
+			  "いそがしくて、わたし は いけません。",
+			  "Saya sibuk, jadi tidak bisa pergi.",
+			  [374817, 377018]
+			]
+		  ]
+		},
+		{
+		  "id": 64,
+		  "kotoba": [
+			"暇(な)",
+			"ひま(な)",
+			"luang",
+			[378158, 378678]
+		  ],
+		  "kalimat": [
+			[
+			  "暇なとき、何をしていますか。",
+			  "ひま な とき、なに を しています か。",
+			  "Kalau sedang senggang, biasanya melakukan apa?",
+			  [379859, 381519]
+			]
+		  ]
+		},
+		{
+		  "id": 65,
+		  "kotoba": [
+			"眠い",
+			"ねむい",
+			"mengantuk",
+			[382820, 383260]
+		  ],
+		  "kalimat": [
+			[
+			  "眠いですか。― いいえ、大丈夫です。",
+			  "ねむい です か。― いいえ、だいじょうぶ です。",
+			  "Mengantuk? — Tidak, saya baik-baik saja.",
+			  [384540, 387861]
+			]
+		  ]
+		},
+		{
+		  "id": 66,
+		  "kotoba": [
+			"かわいそう(な)",
+			"かわいそう(な)",
+			"kasihan",
+			[389013, 389913]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女、けがをして、試合に出(ら)れなかったそうです。― えっ、そうなんですか。かわいそうですね。",
+			  "かのじょ、けが を して、しあい に で(ら)れなかった そう です。― えっ、そうなんですか。かわいそう です ね。",
+			  "Katanya dia cedera sehingga tidak bisa ikut pertandingan. — Oh ya? Kasihan ya.",
+			  [391114, 397758]
+			]
+		  ]
+		},
+		{
+		  "id": 67,
+		  "kotoba": [
+			"立派(な)",
+			"りっぱ(な)",
+			"megah; hebat",
+			[399198, 399859]
+		  ],
+		  "kalimat": [
+			[
+			  "これが新しくできた図書館ですか。立派な建物ですね。",
+			  "これ が あたらしく できた としょかん です か。りっぱな たてもの です ね。",
+			  "Apakah ini perpustakaan yang baru dibangun? Bangunannya megah ya.",
+			  [401039, 405742]
+			]
+		  ]
+		},
+		{
+		  "id": 68,
+		  "kotoba": [
+			"仲がいい",
+			"なか が いい",
+			"akrab",
+			[407223, 408023]
+		  ],
+		  "kalimat": [
+			[
+			  "あの二人は仲がいいですね。",
+			  "あの ふたり は なか が いい です ね。",
+			  "Mereka berdua akrab ya.",
+			  [409324, 411045]
+			]
+		  ]
+		},
+		{
+		  "id": 69,
+		  "kotoba": [
+			"大変(な)",
+			"たいへん(な)",
+			"berat; sulit",
+			[412125, 412906]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうも残業ですか。大変ですね。",
+			  "きょう も ざんぎょう です か。たいへん です ね。",
+			  "Lembur lagi hari ini? Berat ya.",
+			  [414006, 416608]
+			]
+		  ]
+		},
+		{
+		  "id": 70,
+		  "kotoba": [
+			"楽(な)",
+			"らく(な)",
+			"mudah; nyaman",
+			[418029, 418529]
+		  ],
+		  "kalimat": [
+			[
+			  "もうちょっと楽な仕事がいいです。",
+			  "もう ちょっと らくな しごと が いい です。",
+			  "Saya ingin pekerjaan yang sedikit lebih ringan.",
+			  [419801, 421282]
+			]
+		  ]
+		},
+		{
+		  "id": 71,
+		  "kotoba": [
+			"無理(な)",
+			"むり(な)",
+			"mustahil",
+			[422362, 422823]
+		  ],
+		  "kalimat": [
+			[
+			  "これを１週間でやるんですか。無理ですよ。",
+			  "これ を いっしゅうかん で やる ん です か。むり です よ。",
+			  "Menyelesaikan ini dalam seminggu? Mustahil.",
+			  [424063, 427525]
+			]
+		  ]
+		},
+		{
+		  "id": 72,
+		  "kotoba": [
+			"無理をする",
+			"むり を する",
+			"memaksakan diri",
+			[428946, 429726]
+		  ],
+		  "kalimat": [
+			[
+			  "体が大事ですから、あまり無理をしないでください。",
+			  "からだ が だいじ です から、あまり むり を しないで ください。",
+			  "Kesehatan itu penting, jadi jangan terlalu memaksakan diri.",
+			  [430747, 433709]
+			]
+		  ]
+		},
+		{
+		  "id": 73,
+		  "kotoba": [
+			"正しい",
+			"ただしい",
+			"benar",
+			[434749, 435409]
+		  ],
+		  "kalimat": [
+			[
+			  "正しい答えはＢです。",
+			  "ただしい こたえ は ビー です。",
+			  "Jawaban yang benar adalah B.",
+			  [436670, 438591]
+			]
+		  ]
+		},
+		{
+		  "id": 74,
+		  "kotoba": [
+			"おしゃれ(な)",
+			"おしゃれ(な)",
+			"modis",
+			[439652, 440292]
+		  ],
+		  "kalimat": [
+			[
+			  "たまには、おしゃれな店でおいしい料理を食べたいです。",
+			  "たまに は、おしゃれな みせ で おいしい りょうり を たべたい です。",
+			  "Sesekali saya ingin makan makanan enak di restoran yang modis.",
+			  [441493, 445496]
+			]
+		  ]
+		},
+		{
+		  "id": 75,
+		  "kotoba": [
+			"親しい",
+			"したしい",
+			"akrab; dekat",
+			[446657, 447297]
+		  ],
+		  "kalimat": [
+			[
+			  "彼とは親しいから、今度、聞いてみます。",
+			  "かれ と は したしい から、こんど、きいて みます。",
+			  "Karena saya dekat dengannya, nanti akan saya tanyakan.",
+			  [448478, 451680]
+			]
+		  ]
+		},
+		{
+		  "id": 76,
+		  "kotoba": [
+			"すごい",
+			"すごい",
+			"hebat",
+			[452861, 453421]
+		  ],
+		  "kalimat": [
+			[
+			  "この服、自分で作ったんですか。すごいですね。",
+			  "この ふく、じぶん で つくった ん です か。すごい です ね。",
+			  "Baju ini Anda buat sendiri? Hebat ya.",
+			  [454622, 458225]
+			]
+		  ]
+		},
+		{
+		  "id": 77,
+		  "kotoba": [
+			"すばらしい",
+			"すばらしい",
+			"luar biasa",
+			[459406, 460026]
+		  ],
+		  "kalimat": [
+			[
+			  "青木さんのスピーチはすばらしかったです。",
+			  "あおきさん の スピーチ は すばらしかった です。",
+			  "Pidato Aoki sangat luar biasa.",
+			  [461227, 463969]
+			]
+		  ]
+		},
+		{
+		  "id": 78,
+		  "kotoba": [
+			"丁寧(な)",
+			"ていねい(な)",
+			"ramah; sopan",
+			[465170, 465850]
+		  ],
+		  "kalimat": [
+			[
+			  "森先生はいつも丁寧に教えてくれます。",
+			  "もりせんせい は いつも ていねい に おしえて くれます。",
+			  "Guru Mori selalu mengajar dengan ramah dan teliti.",
+			  [467031, 469993]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 11,
+	  "audio": "cd2_11.mp3",
+	  "unit": 42,
+	  "tema": [
+		"どんな人？",
+		"どんなひと？",
+		"Orang seperti apa?"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"頭のいい",
+			"あたま の いい",
+			"pintar",
+			[2830, 6253]
+		  ],
+		  "kalimat": [
+			[
+			  "彼がクラスで一番頭がいい。",
+			  "かれ が クラス で いちばん あたま が いい。",
+			  "Dia yang paling pintar di kelas.",
+			  [7594, 9636]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"背の高い",
+			"せ の たかい",
+			"bertubuh tinggi",
+			[10796, 11577]
+		  ],
+		  "kalimat": [
+			[
+			  "ポールさんは背が高いですね。",
+			  "ポールさん は せ が たかい です ね。",
+			  "Paul tinggi ya.",
+			  [12758, 14359]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"背の低い",
+			"せ の ひくい",
+			"bertubuh pendek",
+			[15861, 16680]
+		  ],
+		  "kalimat": [
+			[
+			  "背の低いほうがスーさんです。",
+			  "せ の ひくい ほう が スーさん です。",
+			  "Yang lebih pendek adalah Sue.",
+			  [17981, 19483]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"髪の長い",
+			"かみ の ながい",
+			"berambut panjang",
+			[20684, 21625]
+		  ],
+		  "kalimat": [
+			[
+			  "髪の長い女性が先生です。",
+			  "かみ の ながい じょせい が せんせい です。",
+			  "Wanita berambut panjang itu adalah guru.",
+			  [22826, 24707]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"かわいい",
+			"かわいい",
+			"imut",
+			[25768, 26329]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女はかわいいから、人気がありますよ。",
+			  "かのじょ は かわいい から、にんき が あります よ。",
+			  "Karena dia imut, dia populer.",
+			  [27529, 29771]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"きれい(な)",
+			"きれい(な)",
+			"cantik",
+			[30884, 31444]
+		  ],
+		  "kalimat": [
+			[
+			  "きれいな女の人！モデルみたい。",
+			  "きれいな おんな の ひと！モデル みたい。",
+			  "Wanita yang cantik! Seperti model.",
+			  [32484, 35506]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"おしゃれ(な)",
+			"おしゃれ(な)",
+			"modis",
+			[36686, 37227]
+		  ],
+		  "kalimat": [
+			[
+			  "原さんは、服もおしゃれだけど、言うこともおしゃれですね。",
+			  "はらさん は、ふく も おしゃれ だけど、いう こと も おしゃれ です ね。",
+			  "Hara berpakaian modis, dan cara bicaranya juga keren.",
+			  [38286, 41847]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"かっこいい",
+			"かっこいい",
+			"keren",
+			[43129, 43889]
+		  ],
+		  "kalimat": [
+			[
+			  "あの７番の選手、かっこいいですね。",
+			  "あの ななばん の せんしゅ、かっこいい です ね。",
+			  "Pemain nomor 7 itu keren ya.",
+			  [45230, 47771]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"ハンサム(な)",
+			"ハンサム(な)",
+			"tampan",
+			[49171, 49951]
+		  ],
+		  "kalimat": [
+			[
+			  "この中で、誰が一番ハンサムだと思いますか。",
+			  "この なか で、だれ が いちばん ハンサム だ と おもいます か。",
+			  "Menurutmu siapa yang paling tampan di antara mereka?",
+			  [51152, 54133]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"親切(な)",
+			"しんせつ(な)",
+			"baik hati",
+			[55454, 56274]
+		  ],
+		  "kalimat": [
+			[
+			  "親切な人が荷物を持ってくれました。",
+			  "しんせつな ひと が にもつ を もって くれました。",
+			  "Orang yang baik hati membantu membawakan barang saya.",
+			  [57515, 60456]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"優しい",
+			"やさしい",
+			"lembut; baik",
+			[61671, 62352]
+		  ],
+		  "kalimat": [
+			[
+			  "祖母は、わたしにはいつも優しかったです。",
+			  "そぼ は、わたし に は いつも やさしかった です。",
+			  "Nenek selalu baik kepada saya.",
+			  [63634, 66259]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"まじめ(な)",
+			"まじめ(な)",
+			"rajin; serius",
+			[67441, 68122]
+		  ],
+		  "kalimat": [
+			[
+			  "彼はまじめで、よく働きますよ。",
+			  "かれ は まじめ で、よく はたらきます よ。",
+			  "Dia rajin dan bekerja keras.",
+			  [69325, 71608]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"金持ち",
+			"かねもち",
+			"orang kaya",
+			[72750, 73471]
+		  ],
+		  "kalimat": [
+			[
+			  "金持ちになりたいですか。",
+			  "かねもち に なりたい です か。",
+			  "Apakah Anda ingin menjadi orang kaya?",
+			  [74733, 76036]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 12,
+	  "audio": "cd2_12.mp3",
+	  "unit": 43,
+	  "tema": [
+		"とても・もっと",
+		"とても・もっと",
+		"Sangat, lebih"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"とても",
+			"とても",
+			"sangat",
+			[
+			  2908,
+			  3468
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "とてもおもしろかったです。",
+			  "とても おもしろかった です。",
+			  "Sangat menarik.",
+			  [
+				4469,
+				9571
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"ちょっと",
+			"ちょっと",
+			"sedikit",
+			[
+			  10651,
+			  11191
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ちょっと疲れました。",
+			  "ちょっと つかれました。",
+			  "Saya sedikit lelah.",
+			  [
+				12431,
+				13492
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"あまり～ない",
+			"あまり～ない",
+			"tidak terlalu",
+			[
+			  14632,
+			  16071
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あまりおいしくなかったです。",
+			  "あまり おいしく なかった です。",
+			  "Tidak terlalu enak.",
+			  [
+				17332,
+				18972
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"すごく",
+			"すごく",
+			"sangat",
+			[
+			  20253,
+			  20794
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "京都、どうでした。― すごくよかったです。",
+			  "きょうと、どうでした。― すごく よかった です。",
+			  "Bagaimana Kyoto? — Sangat bagus.",
+			  [
+				21893,
+				24954
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"もっと",
+			"もっと",
+			"lebih",
+			[
+			  26094,
+			  26594
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "もっときれいになりたいです。",
+			  "もっと きれい に なりたい です。",
+			  "Saya ingin menjadi lebih cantik.",
+			  [
+				27715,
+				29295
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"一緒に",
+			"いっしょに",
+			"bersama",
+			[
+			  30795,
+			  31135
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "駅まで一緒に行きませんか。",
+			  "えき まで いっしょに いきませんか。",
+			  "Mau pergi ke stasiun bersama?",
+			  [
+				32277,
+				33856
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"自分で",
+			"じぶんで",
+			"sendiri",
+			[
+			  35078,
+			  35737
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "自分で予約してください。",
+			  "じぶんで よやく してください。",
+			  "Silakan reservasi sendiri.",
+			  [
+				36918,
+				38298
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"一人で",
+			"ひとりで",
+			"sendirian",
+			[
+			  39480,
+			  40120
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "一人で行ったんですか。",
+			  "ひとりで いったん ですか。",
+			  "Apakah pergi sendirian?",
+			  [
+				41361,
+				42481
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"全部",
+			"ぜんぶ",
+			"semua",
+			[
+			  43701,
+			  44222
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "全部覚えました。",
+			  "ぜんぶ おぼえました。",
+			  "Saya ingat semuanya.",
+			  [
+				45341,
+				46302
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"みんな",
+			"みんな",
+			"semua orang",
+			[
+			  47503,
+			  47984
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "みんな忘れました。",
+			  "みんな わすれました。",
+			  "Saya lupa semuanya.",
+			  [
+				49243,
+				50385
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"全部で",
+			"ぜんぶで",
+			"total",
+			[
+			  51465,
+			  52064
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "全部でいくらですか。",
+			  "ぜんぶで いくら ですか。",
+			  "Totalnya berapa?",
+			  [
+				53266,
+				54305
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"うまく",
+			"うまく",
+			"dengan baik",
+			[
+			  55487,
+			  55947
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "うまく発表できました。",
+			  "うまく はっぴょう できました。",
+			  "Saya berhasil presentasi dengan baik.",
+			  [
+				57147,
+				58287
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"一生懸命",
+			"いっしょうけんめい",
+			"sekuat tenaga",
+			[
+			  59676,
+			  60576
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "今回は一生懸命勉強しました。",
+			  "こんかい は いっしょうけんめい べんきょう しました。",
+			  "Kali ini saya belajar dengan sungguh-sungguh.",
+			  [
+				61817,
+				64159
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"自由に",
+			"じゆうに",
+			"dengan bebas",
+			[
+			  65219,
+			  65838
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この部屋は、自由に使っていいですよ。",
+			  "この へや は、じゆうに つかって いい です よ。",
+			  "Ruangan ini boleh digunakan dengan bebas.",
+			  [
+				67060,
+				69441
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"ゆっくり",
+			"ゆっくり",
+			"pelan-pelan",
+			[
+			  70602,
+			  71222
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "もう少しゆっくり話してくれませんか。",
+			  "もう すこし ゆっくり はなして くれませんか。",
+			  "Bisakah berbicara sedikit lebih pelan?",
+			  [
+				72462,
+				75103
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"ゆっくりと",
+			"ゆっくりと",
+			"dengan santai",
+			[
+			  76424,
+			  77225
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "疲れたでしょう。あしたはゆっくり休んでください。",
+			  "つかれた でしょう。あした は ゆっくり やすんで ください。",
+			  "Pasti lelah ya. Besok istirahatlah dengan santai.",
+			  [
+				78406,
+				81728
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"まっすぐ",
+			"まっすぐ",
+			"lurus",
+			[
+			  82909,
+			  83588
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この道をまっすぐ行ってください。",
+			  "この みち を まっすぐ いって ください。",
+			  "Silakan lurus saja di jalan ini.",
+			  [
+				84710,
+				86871
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"まっすぐに",
+			"まっすぐに",
+			"secara lurus",
+			[
+			  88070,
+			  88891
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"本当に",
+			"ほんとうに",
+			"benar-benar",
+			[
+			  90072,
+			  90873
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "本当にありがとうございました。",
+			  "ほんとうに ありがとうございました。",
+			  "Terima kasih banyak.",
+			  [
+				92013,
+				94075
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"きっと",
+			"きっと",
+			"pasti",
+			[
+			  95275,
+			  95817
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "大丈夫です。きっとうまくいきます。",
+			  "だいじょうぶ です。きっと うまく いきます。",
+			  "Tidak apa-apa. Pasti akan berjalan lancar.",
+			  [
+				96977,
+				99500
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"もちろん",
+			"もちろん",
+			"tentu saja",
+			[
+			  100620,
+			  101161
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あの本、買いました？ ― もちろん、買いました。",
+			  "あの ほん、かいました？ ― もちろん、かいました。",
+			  "Buku itu sudah dibeli? — Tentu saja, sudah.",
+			  [
+				102462,
+				105585
+			  ]
+			]
+		  ]
+		},
+		  {
+			"id": 22,
+			"kotoba": [
+			  "必ず",
+			  "かならず",
+			  "pasti; jangan lupa",
+			  [106805, 107466]
+			],
+			"kalimat": [
+			  [
+				"あしたは必ず書類を持ってきてください。",
+				"あした は かならず しょるい を もってきて ください。",
+				"Besok jangan lupa membawa dokumennya.",
+				[108567, 110929]
+			  ]
+			]
+		  },
+		  {
+			"id": 23,
+			"kotoba": [
+			  "絶対に",
+			  "ぜったいに",
+			  "pasti; sama sekali tidak",
+			  [112069, 112871]
+			],
+			"kalimat": [
+			  [
+				"先生のことは絶対に忘れません。",
+				"せんせい の こと は ぜったいに わすれません。",
+				"Saya pasti tidak akan melupakan guru saya.",
+				[114051, 116573]
+			  ]
+			]
+		  },
+		  {
+			"id": 24,
+			"kotoba": [
+			  "ぜひ",
+			  "ぜひ",
+			  "dengan segala cara; pasti",
+			  [117674, 118034]
+			],
+			"kalimat": [
+			  [
+				"今度、ぜひ遊びに来てください。",
+				"こんど、ぜひ あそび に きて ください。",
+				"Lain kali, silakan datang berkunjung.",
+				[119096, 121273]
+			  ]
+			]
+		  },
+		  {
+			"id": 25,
+			"kotoba": [
+			  "たぶん",
+			  "たぶん",
+			  "mungkin",
+			  [122393, 122793]
+			],
+			"kalimat": [
+			  [
+				"田中さんは、たぶん来ないと思います。",
+				"たなかさん は、たぶん こない と おもいます。",
+				"Saya rasa Pak Tanaka mungkin tidak akan datang.",
+				[124074, 126295]
+			  ]
+			]
+		  },
+		  {
+			"id": 26,
+			"kotoba": [
+			  "できるだけ",
+			  "できるだけ",
+			  "sebisa mungkin",
+			  [127395, 128176]
+			],
+			"kalimat": [
+			  [
+				"できるだけ安く買いたいです。",
+				"できるだけ やすく かいたい です。",
+				"Saya ingin membeli semurah mungkin.",
+				[129396, 131057]
+			  ]
+			]
+		  },
+		  {
+			"id": 27,
+			"kotoba": [
+			  "できれば",
+			  "できれば",
+			  "kalau memungkinkan",
+			  [132157, 132777]
+			],
+			"kalimat": [
+			  [
+				"できれば日本で働きたいと思っています。",
+				"できれば にほん で はたらきたい と おもっています。",
+				"Kalau memungkinkan, saya ingin bekerja di Jepang.",
+				[133957, 136679]
+			  ]
+			]
+		  },
+		  {
+			"id": 28,
+			"kotoba": [
+			  "なるべく",
+			  "なるべく",
+			  "sebisa mungkin",
+			  [137840, 138520]
+			],
+			"kalimat": [
+			  [
+				"なるべく早く来てください。",
+				"なるべく はやく きて ください。",
+				"Datanglah secepat mungkin.",
+				[139700, 141121]
+			  ]
+			]
+		  },
+		  {
+			"id": 29,
+			"kotoba": [
+			  "とりあえず",
+			  "とりあえず",
+			  "untuk sementara",
+			  [142281, 143062]
+			],
+			"kalimat": [
+			  [
+				"いいかどうかわからないので、とりあえず１つ買ってみます。",
+				"いい か どうか わからない ので、とりあえず ひとつ かって みます。",
+				"Karena saya belum tahu bagus atau tidak, untuk sementara saya coba beli satu.",
+				[144162, 148123]
+			  ]
+			]
+		  },
+		  {
+			"id": 30,
+			"kotoba": [
+			  "代わりに",
+			  "かわりに",
+			  "sebagai pengganti",
+			  [149304, 149924]
+			],
+			"kalimat": [
+			  [
+				"旅行に行けなくなったので、代わりにおいしいものを食べに行きました。",
+				"りょこう に いけなく なった ので、かわりに おいしい もの を たべ に いきました。",
+				"Karena tidak jadi pergi berwisata, sebagai gantinya saya pergi makan makanan enak.",
+				[151064, 155187]
+			  ],
+			  [
+				"社長の代わりに、わたしが行きました。",
+				"しゃちょう の かわりに、わたし が いきました。",
+				"Saya pergi menggantikan presiden perusahaan.",
+				[156368, 158610]
+			  ]
+			]
+		  },
+		  {
+			"id": 31,
+			"kotoba": [
+			  "一度",
+			  "いちど",
+			  "sekali",
+			  [159790, 160231]
+			],
+			"kalimat": [
+			  [
+				"一度、着物を着てみたいです。",
+				"いちど、きもの を きて みたい です。",
+				"Saya ingin sekali mencoba memakai kimono.",
+				[161512, 163634]
+			  ]
+			]
+		  },
+		  {
+			"id": 32,
+			"kotoba": [
+			  "すぐ(に)",
+			  "すぐ(に)",
+			  "segera",
+			  [164875, 165194]
+			],
+			"kalimat": [
+			  [
+				"お客さんが待っているから、すぐに来てください。",
+				"おきゃくさん が まっている から、すぐに きて ください。",
+				"Karena pelanggan sedang menunggu, tolong segera datang.",
+				[166376, 168817]
+			  ]
+			]
+		  },
+		  {
+			"id": 33,
+			"kotoba": [
+			  "しばらく",
+			  "しばらく",
+			  "untuk sementara waktu",
+			  [169957, 170639]
+			],
+			"kalimat": [
+			  [
+				"しばらく国へ帰ることになりました。",
+				"しばらく くに へ かえる こと に なりました。",
+				"Saya akan pulang ke negara asal untuk sementara waktu.",
+				[171799, 174221]
+			  ]
+			]
+		  },
+		  {
+			"id": 34,
+			"kotoba": [
+			  "ずっと",
+			  "ずっと",
+			  "terus; sepanjang waktu",
+			  [
+				175401,
+				175942
+			  ]
+			],
+			"kalimat": [
+			  [
+				"こっちは朝からずっと雨です。",
+				"こっち は あさ から ずっと あめ です。",
+				"Di sini hujan terus sejak pagi.",
+				[
+				  177062,
+				  182765
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 35,
+			"kotoba": [
+			  "そろそろ",
+			  "そろそろ",
+			  "sudah waktunya",
+			  [
+				183866,
+				184246
+			  ]
+			],
+			"kalimat": [
+			  [
+				"もう９時ですね。そろそろ帰ります。",
+				"もう くじ です ね。そろそろ かえります。",
+				"Sudah jam 9 ya. Sudah waktunya saya pulang.",
+				[
+				  184366,
+				  188209
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 36,
+			"kotoba": [
+			  "突然",
+			  "とつぜん",
+			  "tiba-tiba",
+			  [
+				189210,
+				189633
+			  ]
+			],
+			"kalimat": [
+			  [
+				"突然、雨が降ってきたんです。",
+				"とつぜん、あめ が ふってきた んです。",
+				"Tiba-tiba hujan turun.",
+				[
+				  190210,
+				  194633
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 37,
+			"kotoba": [
+			  "途中で",
+			  "とちゅうで",
+			  "di tengah jalan",
+			  [
+				195674,
+				196793
+			  ]
+			],
+			"kalimat": [
+			  [
+				"走っている途中で、足が痛くなってきたんです。",
+				"はしっている とちゅうで、あし が いたく なってきた んです。",
+				"Di tengah berlari, kaki saya mulai terasa sakit.",
+				[
+				  197914,
+				  200455
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 38,
+			"kotoba": [
+			  "久しぶりに",
+			  "ひさしぶりに",
+			  "setelah sekian lama",
+			  [
+				201917,
+				203159
+			  ]
+			],
+			"kalimat": [
+			  [
+				"きょう、久しぶりに大学の時の友達に会いました。",
+				"きょう、ひさしぶり に だいがく の とき の ともだち に あいました。",
+				"Hari ini saya bertemu teman kuliah setelah sekian lama.",
+				[
+				  203160,
+				  206819
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 39,
+			"kotoba": [
+			  "初め(は)",
+			  "はじめ(は)",
+			  "pada awalnya",
+			  [
+				207871,
+				208491
+			  ]
+			],
+			"kalimat": [
+			  [
+				"初めは恥ずかしかったですが、いまはもう、慣れました。",
+				"はじめ は はずかしかった です が、いま は もう、なれました。",
+				"Awalnya saya malu, tetapi sekarang sudah terbiasa.",
+				[
+				  208492,
+				  209112
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 40,
+			"kotoba": [
+			  "初めて",
+			  "はじめて",
+			  "untuk pertama kali",
+			  [
+				210193,
+				210853
+			  ]
+			],
+			"kalimat": [
+			  [
+				"きのう、初めて彼女のお父さんに会いました。",
+				"きのう、はじめて かのじょ の おとうさん に あいました。",
+				"Kemarin saya bertemu ayah pacar saya untuk pertama kalinya.",
+				[
+				  211894,
+				  215356
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 41,
+			"kotoba": [
+			  "最初(は)",
+			  "さいしょ(は)",
+			  "awalnya",
+			  [
+				216597,
+				217097
+			  ]
+			],
+			"kalimat": [
+			  [
+				"わたしも最初、そう思っていました。",
+				"わたし も さいしょ、そう おもっていました。",
+				"Awalnya saya juga berpikir begitu.",
+				[
+				  218538,
+				  220360
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 42,
+			"kotoba": [
+			  "最初に",
+			  "さいしょに",
+			  "pertama-tama",
+			  [
+				221540,
+				222201
+			  ]
+			],
+			"kalimat": [
+			  [
+				"部屋に入ったら、最初に名前を言ってください。",
+				"へや に はいったら、さいしょ に なまえ を いって ください。",
+				"Saat masuk ruangan, pertama-tama sebutkan nama Anda.",
+				[
+				  223382,
+				  226324
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 43,
+			"kotoba": [
+			  "最後(は)",
+			  "さいご(は)",
+			  "pada akhirnya",
+			  [
+				227605,
+				228105
+			  ]
+			],
+			"kalimat": [
+			  [
+				"このドラマ、最後はどうなるんですか。",
+				"この ドラマ、さいご は どう なるんですか。",
+				"Bagaimana akhir drama ini?",
+				[
+				  229167,
+				  231707
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 44,
+			"kotoba": [
+			  "最後に",
+			  "さいごに",
+			  "terakhir",
+			  [
+				232888,
+				233509
+			  ]
+			],
+			"kalimat": [
+			  [
+				"最後にもう一度確認してください。",
+				"さいご に もう いちど かくにん して ください。",
+				"Terakhir, tolong periksa sekali lagi.",
+				[
+				  234609,
+				  236811
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 45,
+			"kotoba": [
+			  "先に",
+			  "さきに",
+			  "lebih dulu",
+			  [
+				237951,
+				238533
+			  ]
+			],
+			"kalimat": [
+			  [
+				"あとから行きますから、どうぞ先に行ってください。",
+				"あとから いきます から、どうぞ さき に いって ください。",
+				"Saya menyusul nanti, jadi silakan pergi duluan.",
+				[
+				  239734,
+				  242556
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 46,
+			"kotoba": [
+			  "今度",
+			  "こんど",
+			  "lain kali",
+			  [
+				243697,
+				244157
+			  ]
+			],
+			"kalimat": [
+			  [
+				"今度また誘ってください。",
+				"こんど また さそって ください。",
+				"Lain kali ajak saya lagi, ya.",
+				[
+				  245318,
+				  246799
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 47,
+			"kotoba": [
+			  "次は",
+			  "つぎは",
+			  "berikutnya",
+			  [
+				248000,
+				248501
+			  ]
+			],
+			"kalimat": [
+			  [
+				"次は来週にしましょう。",
+				"つぎ は らいしゅう に しましょう。",
+				"Lain kali kita lakukan minggu depan.",
+				[
+				  249742,
+				  251423
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 48,
+			"kotoba": [
+			  "次に",
+			  "つぎに",
+			  "selanjutnya",
+			  [
+				252664,
+				253715
+			  ]
+			],
+			"kalimat": [
+			  [
+				"次に、住所をお願いします。",
+				"つぎ に、じゅうしょ を おねがいします。",
+				"Selanjutnya, mohon alamatnya.",
+				[
+				  254385,
+				  256427
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 49,
+			"kotoba": [
+			  "最近",
+			  "さいきん",
+			  "akhir-akhir ini",
+			  [
+				257687,
+				258309
+			  ]
+			],
+			"kalimat": [
+			  [
+				"最近、林さんと会ってないです。",
+				"さいきん、はやしさん と あってない です。",
+				"Akhir-akhir ini saya tidak bertemu dengan Hayashi-san.",
+				[
+				  259490,
+				  261831
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 50,
+			"kotoba": [
+			  "さっき",
+			  "さっき",
+			  "baru saja",
+			  [
+				263052,
+				263593
+			  ]
+			],
+			"kalimat": [
+			  [
+				"さっき社長から電話がありました。",
+				"さっき しゃちょう から でんわ が ありました。",
+				"Baru saja ada telepon dari direktur.",
+				[
+				  264634,
+				  266776
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 51,
+			"kotoba": [
+			  "結構",
+			  "けっこう",
+			  "lumayan; cukup",
+			  [
+				267908,
+				268507
+			  ]
+			],
+			"kalimat": [
+			  [
+				"この本、結構おもしろいですよ。読んでみてください。",
+				"この ほん、けっこう おもしろい です よ。よんでみて ください。",
+				"Buku ini lumayan menarik. Coba baca, ya.",
+				[
+				  269829,
+				  273649
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 52,
+			"kotoba": [
+			  "だいたい",
+			  "だいたい",
+			  "kurang lebih",
+			  [
+				274771,
+				275370
+			  ]
+			],
+			"kalimat": [
+			  [
+				"いまの説明、わかりましたか。― はい、だいたいわかりました。",
+				"いま の せつめい、わかりました か。― はい、だいたい わかりました。",
+				"Apakah penjelasan tadi dimengerti? — Ya, kurang lebih mengerti.",
+				[
+				  276591,
+				  281473
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 53,
+			"kotoba": [
+			  "だいぶ",
+			  "だいぶ",
+			  "cukup banyak; jauh",
+			  [
+				282634,
+				283134
+			  ]
+			],
+			"kalimat": [
+			  [
+				"だいぶ元気になりました。",
+				"だいぶ げんき に なりました。",
+				"Saya sudah jauh lebih sehat.",
+				[
+				  284295,
+				  285694
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 54,
+			"kotoba": [
+			  "ほとんど",
+			  "ほとんど",
+			  "hampir semua",
+			  [
+				286896,
+				287516
+			  ]
+			],
+			"kalimat": [
+			  [
+				"ここにあるのは、ほとんどＬサイズです。",
+				"ここ に ある の は、ほとんど エルサイズ です。",
+				"Yang ada di sini hampir semuanya ukuran L.",
+				[
+				  288736,
+				  291298
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 55,
+			"kotoba": [
+			  "ほとんど～ない",
+			  "ほとんど～ない",
+			  "hampir tidak",
+			  [
+				292457,
+				294178
+			  ]
+			],
+			"kalimat": [
+			  [
+				"昔のことだから、ほとんど覚えていません。",
+				"むかし の こと だから、ほとんど おぼえていません。",
+				"Karena sudah lama sekali, saya hampir tidak mengingatnya.",
+				[
+				  295439,
+				  299263
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 56,
+			"kotoba": [
+			  "また",
+			  "また",
+			  "lagi",
+			  [
+				300437,
+				300757
+			  ]
+			],
+			"kalimat": [
+			  [
+				"よかったら、また来てください。",
+				"よかったら、また きて ください。",
+				"Kalau sempat, silakan datang lagi.",
+				[
+				  301958,
+				  303719
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 57,
+			"kotoba": [
+			  "たいてい",
+			  "たいてい",
+			  "biasanya",
+			  [
+				304760,
+				305260
+			  ]
+			],
+			"kalimat": [
+			  [
+				"休みの日は、たいてい家にいます。",
+				"やすみ の ひ は、たいてい いえ に います。",
+				"Saat hari libur saya biasanya di rumah.",
+				[
+				  306701,
+				  309263
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 58,
+			"kotoba": [
+			  "だんだん",
+			  "だんだん",
+			  "sedikit demi sedikit",
+			  [
+				310424,
+				311645
+			  ]
+			],
+			"kalimat": [
+			  [
+				"だんだん暖かくなってきましたね。",
+				"だんだん あたたかく なってきました ね。",
+				"Sedikit demi sedikit cuaca menjadi lebih hangat, ya.",
+				[
+				  312245,
+				  314547
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 59,
+			"kotoba": [
+			  "どんどん",
+			  "どんどん",
+			  "semakin; terus-menerus",
+			  [
+				315828,
+				316428
+			  ]
+			],
+			"kalimat": [
+			  [
+				"練習を続ければ、どんどん話せるようになりますよ。",
+				"れんしゅう を つづければ、どんどん はなせる よう に なります よ。",
+				"Kalau terus berlatih, kamu akan semakin lancar berbicara.",
+				[
+				  317609,
+				  320531
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 60,
+			"kotoba": [
+			  "ちょうど",
+			  "ちょうど",
+			  "tepat",
+			  [
+				321632,
+				322112
+			  ]
+			],
+			"kalimat": [
+			  [
+				"ちょうどいま、電話しようと思っていたんです。",
+				"ちょうど いま、でんわ しよう と おもっていたんです。",
+				"Saya tadi tepat sedang berpikir untuk menelepon Anda.",
+				[
+				  323253,
+				  325374
+				]
+			  ],
+			  [
+				"ここは、５時ちょうどに閉まります。",
+				"ここ は、ごじ ちょうど に しまります。",
+				"Tempat ini tutup tepat pukul lima.",
+				[
+				  326495,
+				  328777
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 61,
+			"kotoba": [
+			  "ちょうど～",
+			  "ちょうど～",
+			  "tepat",
+			  [
+				329969,
+				330409
+			  ]
+			],
+			"kalimat": [
+			  [
+				"時間、わかりますか。― ちょうど２時です。",
+				"じかん、わかりますか。― ちょうど にじ です。",
+				"Tahu sekarang jam berapa? — Tepat pukul dua.",
+				[
+				  331709,
+				  335370
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 62,
+			"kotoba": [
+			  "ちょうどいい",
+			  "ちょうどいい",
+			  "pas; cocok",
+			  [
+				336491,
+				337211
+			  ]
+			],
+			"kalimat": [
+			  [
+				"甘くないですか。― いいえ、ちょうどいいです。",
+				"あまくない ですか。― いいえ、ちょうど いい です。",
+				"Tidak terlalu manis? — Tidak, rasanya pas.",
+				[
+				  338651,
+				  341512
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 63,
+			"kotoba": [
+			  "ほか",
+			  "ほか",
+			  "yang lain",
+			  [
+				342672,
+				342973
+			  ]
+			],
+			"kalimat": [
+			  [
+				"ほかに質問はありませんか。",
+				"ほか に しつもん は ありませんか。",
+				"Apakah ada pertanyaan lain?",
+				[
+				  344133,
+				  345793
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 64,
+			"kotoba": [
+			  "まだ",
+			  "まだ",
+			  "masih; belum",
+			  [
+				346954,
+				347234
+			  ]
+			],
+			"kalimat": [
+			  [
+				"彼はもう働いているんですか。― いいえ、まだ学生です。",
+				"かれ は もう はたらいているんですか。― いいえ、まだ がくせい です。",
+				"Apakah dia sudah bekerja? — Belum, dia masih mahasiswa.",
+				[
+				  348354,
+				  352575
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 65,
+			"kotoba": [
+			  "もう",
+			  "もう",
+			  "sudah",
+			  [
+				353756,
+				353996
+			  ]
+			],
+			"kalimat": [
+			  [
+				"昼ごはんはもう食べましたか。― いいえ、まだです。",
+				"ひるごはん は もう たべましたか。― いいえ、まだ です。",
+				"Apakah sudah makan siang? — Belum.",
+				[
+				  355196,
+				  358877
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 66,
+			"kotoba": [
+			  "もう～",
+			  "もう～",
+			  "lagi; sedikit lagi",
+			  [
+				360097,
+				360337
+			  ]
+			],
+			"kalimat": [
+			  [
+				"もう少し待ってください。",
+				"もう すこし まって ください。",
+				"Tolong tunggu sebentar lagi.",
+				[
+				  361557,
+				  362758
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 67,
+			"kotoba": [
+			  "もうすぐ",
+			  "もうすぐ",
+			  "sebentar lagi",
+			  [
+				363898,
+				364498
+			  ]
+			],
+			"kalimat": [
+			  [
+				"もうすぐ夏休みですね。",
+				"もうすぐ なつやすみ です ね。",
+				"Sebentar lagi libur musim panas, ya.",
+				[
+				  365498,
+				  367019
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 68,
+			"kotoba": [
+			  "やっと",
+			  "やっと",
+			  "akhirnya",
+			  [
+				368259,
+				368759
+			  ]
+			],
+			"kalimat": [
+			  [
+				"説明を聞いて、やっとわかりました。",
+				"せつめい を きいて、やっと わかりました。",
+				"Setelah mendengar penjelasannya, akhirnya saya mengerti.",
+				[
+				  370000,
+				  372440
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 69,
+			"kotoba": [
+			  "～中",
+			  "～ちゅう",
+			  "sedang ...",
+			  [
+				373621,
+				373981
+			  ]
+			],
+			"kalimat": [
+			  [
+				"いま仕事中だから、あとで電話する。",
+				"いま しごとちゅう だから、あとで でんわ する。",
+				"Sekarang saya sedang bekerja, nanti saya telepon.",
+				[
+				  375161,
+				  377642
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 70,
+			"kotoba": [
+			  "～中",
+			  "～じゅう",
+			  "sepanjang ...",
+			  [
+				380543,
+				381083
+			  ]
+			],
+			"kalimat": [
+			  [
+				"きのうは一日中、掃除をしていました。",
+				"きのう は いちにちじゅう、そうじ を していました。",
+				"Kemarin saya membersihkan rumah sepanjang hari.",
+				[
+				  381523,
+				  383823
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 71,
+			"kotoba": [
+			  "～中に／～中",
+			  "～ちゅうに／～じゅうに",
+			  "sebelum batas waktu; hingga akhir ...",
+			  [
+				385004,
+				385524
+			  ]
+			],
+			"kalimat": [
+			  [
+				"今日中に返事をください。",
+				"きょうじゅう に へんじ を ください。",
+				"Tolong beri balasan hari ini juga.",
+				[
+				  388625,
+				  390345
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 72,
+			"kotoba": [
+			  "そのあと",
+			  "そのあと",
+			  "setelah itu",
+			  [
+				391486,
+				392146
+			  ]
+			],
+			"kalimat": [
+			  [
+				"きのうは映画を見て、そのあと、買い物をしました。",
+				"きのう は えいが を みて、そのあと、かいもの を しました。",
+				"Kemarin saya menonton film, lalu setelah itu pergi berbelanja.",
+				[
+				  393207,
+				  395988
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 73,
+			"kotoba": [
+			  "このあと",
+			  "このあと",
+			  "setelah ini",
+			  [
+				397068,
+				397688
+			  ]
+			],
+			"kalimat": [
+			  [
+				"このあと、何か予定がありますか。",
+				"このあと、なにか よてい が ありますか。",
+				"Apakah Anda punya rencana setelah ini?",
+				[
+				  398729,
+				  400870
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 74,
+			"kotoba": [
+			  "あのあと",
+			  "あのあと",
+			  "setelah itu",
+			  [
+				402150,
+				403251
+			  ]
+			],
+			"kalimat": [
+			  [
+				"あのあと、すぐ家に帰ったんですか。",
+				"あのあと、すぐ いえ に かえったんですか。",
+				"Setelah itu, apakah langsung pulang ke rumah?",
+				[
+				  403251,
+				  406212
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 75,
+			"kotoba": [
+			  "でも…",
+			  "でも",
+			  "tetapi; namun",
+			  [
+				407413,
+				407733
+			  ]
+			],
+			"kalimat": [
+			  [
+				"天気はずっとよくなかったです。でも、楽しかったですよ。",
+				"てんき は ずっと よくなかった です。でも、たのしかった です よ。",
+				"Cuacanya terus tidak bagus. Tetapi, tetap menyenangkan.",
+				[
+				  408893,
+				  413035
+				]
+			  ]
+			]
+		  },
+		  {
+			"id": 76,
+			"kotoba": [
+			  "それから…",
+			  "それから",
+			  "lalu; setelah itu",
+			  [
+				414115,
+				414716
+			  ]
+			],
+			"kalimat": [
+			  [
+				"あしたはまず、工場を見学します。それから、さくら公園に行って、お弁当を食べます。",
+				"あした は まず、こうじょう を けんがく します。それから、さくらこうえん に いって、おべんとう を たべます。",
+				"Besok kami akan mengunjungi pabrik terlebih dahulu. Setelah itu pergi ke Taman Sakura dan makan bekal.",
+				[
+				  415816,
+				  422833
+				]
+			  ]
+			]
+		  }	
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 13,
+	  "audio": "cd2_13.mp3",
+	  "unit": 44,
+	  "tema": [
+		"こそあ",
+		"こそあ",
+		"Ko-So-A"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"ここ",
+			"ここ",
+			"di sini",
+			[
+			  5511,
+			  5812
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここに名前を書いてください。",
+			  "ここ に なまえ を かいて ください。",
+			  "Silakan tulis nama Anda di sini.",
+			  [
+				6972,
+				8894
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"そこ",
+			"そこ",
+			"di situ",
+			[
+			  10155,
+			  11115
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "そこ、私の席なんですが……。",
+			  "そこ、わたし の せき なんですが……。",
+			  "Maaf, itu tempat duduk saya....",
+			  [
+				13337,
+				14418
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"あそこ",
+			"あそこ",
+			"di sana",
+			[
+			  15839,
+			  16298
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あそこに喫茶店がありますね。ちょっと休みませんか。",
+			  "あそこ に きっさてん が ありますね。ちょっと やすみませんか。",
+			  "Di sana ada kedai kopi. Bagaimana kalau kita istirahat sebentar?",
+			  [
+				17359,
+				20221
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"こっち",
+			"こっち",
+			"ke sini; sebelah sini",
+			[
+			  21442,
+			  21962
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "マリアさん、ちょっとこっちに来て。",
+			  "マリアさん、ちょっと こっち に きて。",
+			  "Maria, coba ke sini sebentar.",
+			  [
+				23224,
+				25004
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"そっち",
+			"そっち",
+			"ke situ; sebelah situ",
+			[
+			  26365,
+			  26946
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "（電話で）そっちの天気はどう？",
+			  "（でんわ で）そっち の てんき は どう？",
+			  "Lewat telepon: Bagaimana cuaca di sana?",
+			  [
+				28086,
+				30964
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"あっち",
+			"あっち",
+			"di sana; ke sana",
+			[
+			  32386,
+			  32886
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "じゃまだなあ。あっちに行って！",
+			  "じゃま だなあ。あっち に いって！",
+			  "Menghalangi saja. Pergi ke sana!",
+			  [
+				34106,
+				36088
+			  ]
+			],
+			[
+			  "こっちは混んでますね。あっちの店にしましょう。",
+			  "こっち は こんでますね。あっち の みせ に しましょう。",
+			  "Di sini ramai ya. Mari ke toko yang di sana saja.",
+			  [
+				37250,
+				40353
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"この",
+			"この",
+			"ini",
+			[
+			  41634,
+			  41933
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この電車は新宿に止まりますか。",
+			  "この でんしゃ は しんじゅく に とまりますか。",
+			  "Apakah kereta ini berhenti di Shinjuku?",
+			  [
+				43134,
+				45036
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"その",
+			"その",
+			"itu",
+			[
+			  46257,
+			  46597
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "その服で会社に行くの？",
+			  "その ふく で かいしゃ に いく の？",
+			  "Kamu pergi ke kantor memakai baju itu?",
+			  [
+				47899,
+				49420
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"あの",
+			"あの",
+			"itu (di sana)",
+			[
+			  50820,
+			  51060
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あの人、知ってる？ ― あのめがねの人？ 知らない。",
+			  "あの ひと、しってる？ ― あの めがね の ひと？ しらない。",
+			  "Kenal orang itu? — Yang berkacamata itu? — Tidak.",
+			  [
+				52182,
+				56325
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"これ",
+			"これ",
+			"yang ini",
+			[
+			  57566,
+			  57847
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これ、友だちがくれたんです。",
+			  "これ、ともだち が くれたんです。",
+			  "Ini diberikan oleh teman saya.",
+			  [
+				59067,
+				60716
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"それ",
+			"それ",
+			"yang itu",
+			[
+			  61838,
+			  62138
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "それ、いつ買ったんですか。",
+			  "それ、いつ かったんですか。",
+			  "Kapan membeli itu?",
+			  [
+				63499,
+				65019
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"あれ",
+			"あれ",
+			"yang itu (di sana)",
+			[
+			  66421,
+			  66641
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしのはあれです。",
+			  "わたし の は あれ です。",
+			  "Yang di sana itu milik saya.",
+			  [
+				68082,
+				68984
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"こちら",
+			"こちら",
+			"ke sini; sebelah sini (bentuk sopan)",
+			[
+			  70004,
+			  70504
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "こちらが出口です。",
+			  "こちら が でぐち です。",
+			  "Pintu keluarnya di sebelah sini.",
+			  [
+				71746,
+				72727
+			  ]
+			],
+			[
+			  "こちらにどうぞ。",
+			  "こちら に どうぞ。",
+			  "Silakan lewat sini.",
+			  [
+				73828,
+				74468
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"そちら",
+			"そちら",
+			"ke situ; sebelah situ (bentuk sopan)",
+			[
+			  75668,
+			  76210
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "そちらでお待ちください。",
+			  "そちら で おまち ください。",
+			  "Silakan menunggu di sana.",
+			  [
+				77471,
+				78712
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"あちら",
+			"あちら",
+			"di sana; ke sana (bentuk sopan)",
+			[
+			  79853,
+			  80293
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "お席は、あちらです。",
+			  "おせき は、あちら です。",
+			  "Tempat duduk Anda ada di sana.",
+			  [
+				81493,
+				82935
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"こちら",
+			"こちら",
+			"orang ini (bentuk sopan)",
+			[
+			  83975,
+			  84496
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "こちらは森先生です。",
+			  "こちら は もり せんせい です。",
+			  "Ini adalah Bapak/Ibu Guru Mori.",
+			  [
+				85759,
+				89461
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"そちら",
+			"そちら",
+			"Anda (bentuk sopan)",
+			[
+			  90562,
+			  91102
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これは、そちらのお荷物ですか。",
+			  "これは、そちら の おにもつ ですか。",
+			  "Apakah ini barang bawaan Anda?",
+			  [
+				92223,
+				94785
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"あちら",
+			"あちら",
+			"orang itu (bentuk sopan)",
+			[
+			  96086,
+			  96546
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あちらは社長さんですか。",
+			  "あちら は しゃちょうさん ですか。",
+			  "Apakah orang itu adalah presiden direktur?",
+			  [
+				97827,
+				99549
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"この辺",
+			"このへん",
+			"sekitar sini",
+			[
+			  100770,
+			  101390
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "この辺にコンビニはありませんか。",
+			  "このへん に コンビニ は ありませんか。",
+			  "Apakah ada minimarket di sekitar sini?",
+			  [
+				102711,
+				104853
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"その辺",
+			"そのへん",
+			"sekitar sana",
+			[
+			  106294,
+			  106955
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしのかばん、知りませんか。― その辺で見ましたよ。",
+			  "わたし の かばん、しりませんか。― そのへん で みましたよ。",
+			  "Apakah Anda melihat tas saya? — Saya melihatnya di sekitar sana.",
+			  [
+				108536,
+				111838
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"あの辺",
+			"あのへん",
+			"daerah sekitar sana",
+			[
+			  113219,
+			  113760
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "どこにしますか。― あの辺がよさそうです。",
+			  "どこ に しますか。― あのへん が よさそうです。",
+			  "Mau ke mana? — Daerah sana kelihatannya bagus.",
+			  [
+				115081,
+				118084
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"こんな～",
+			"こんな～",
+			"~ seperti ini",
+			[
+			  119275,
+			  119736
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "こんな服は着たくない。",
+			  "こんな ふく は きたくない。",
+			  "Saya tidak ingin memakai pakaian seperti ini.",
+			  [
+				120917,
+				122257
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"こんなふう",
+			"こんなふう",
+			"dengan cara seperti ini",
+			[
+			  123378,
+			  124140
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしも、こんなふうになりたい。",
+			  "わたし も、こんな ふう に なりたい。",
+			  "Saya juga ingin menjadi seperti ini.",
+			  [
+				125680,
+				127061
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"そんな～",
+			"そんな～",
+			"~ seperti itu",
+			[
+			  128302,
+			  128804
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "そんな店、聞いたことがありません。",
+			  "そんな みせ、きいた こと が ありません。",
+			  "Saya belum pernah mendengar toko seperti itu.",
+			  [
+				130104,
+				132266
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"そんなこと(は)ない",
+			"そんなこと(は)ない",
+			"tidak begitu; bukan begitu",
+			[
+			  133467,
+			  134669
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしは無理です。― そんなことないですよ。頑張ってください。",
+			  "わたし は むり です。― そんなこと ないです よ。がんばって ください。",
+			  "Saya tidak sanggup. — Tidak begitu kok. Semangat ya.",
+			  [
+				136490,
+				141074
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"そんなに",
+			"そんなに",
+			"sebegitu; sebanyak itu",
+			[
+			  142294,
+			  142954
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "そんなに（たくさん）食べるんですか。",
+			  "そんなに（たくさん）たべる んですか。",
+			  "Memangnya kamu makan sebanyak itu?",
+			  [
+				144296,
+				146358
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"そんなに～ない",
+			"そんなに～ない",
+			"tidak begitu ...",
+			[
+			  147699,
+			  149451
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "10万円くらいですか。― いいえ、そんなに高くないです。",
+			  "じゅうまんえん くらい ですか。― いいえ、そんなに たかくないです。",
+			  "Sekitar 100.000 yen? — Tidak, tidak semahal itu.",
+			  [
+				150772,
+				155356
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": [
+			"あんな～",
+			"あんな～",
+			"~ seperti itu",
+			[
+			  156617,
+			  158340
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "わたしもあんな家に住みたい。",
+			  "わたし も あんな いえ に すみたい。",
+			  "Saya juga ingin tinggal di rumah seperti itu.",
+			  [
+				158500,
+				160080
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": [
+			"あんなに",
+			"あんなに",
+			"sebegitu; sampai seperti itu",
+			[
+			  161341,
+			  161902
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あんなに注意したのに、また遅刻したの!?",
+			  "あんなに ちゅうい した のに、また ちこく した の!?",
+			  "Padahal sudah diperingatkan berkali-kali seperti itu, kok terlambat lagi!?",
+			  [
+				163144,
+				166265
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": [
+			"このような",
+			"このような",
+			"seperti ini",
+			[
+			  167606,
+			  168367
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "このようなミスは二度としないでください。",
+			  "このような ミス は にど と しないで ください。",
+			  "Tolong jangan mengulangi kesalahan seperti ini lagi.",
+			  [
+				169508,
+				172330
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": [
+			"このように",
+			"このように",
+			"seperti ini; dengan cara ini",
+			[
+			  173551,
+			  174332
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうの予定はこのようになっています。",
+			  "きょう の よてい は このよう に なっています。",
+			  "Rencana hari ini adalah seperti ini.",
+			  [
+				175653,
+				177775
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 32,
+		  "kotoba": [
+			"このくらい",
+			"このくらい",
+			"sekitar sebanyak ini",
+			[
+			  178956,
+			  179695
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "どのくらい食べますか。 このくらいですか。",
+			  "どのくらい たべますか。 このくらい ですか。",
+			  "Kira-kira mau makan berapa banyak? Sebanyak ini?",
+			  [
+				180917,
+				183478
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": [
+			"そのくらい",
+			"そのくらい",
+			"sekitar sebanyak itu",
+			[
+			  184777,
+			  185539
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ビールは10本くらいでいい？ ― そのくらいでいいと思います。",
+			  "ビール は じゅっぽん くらい で いい？ ― そのくらい で いい と おもいます。",
+			  "Sepuluh botol bir cukup? — Ya, saya rasa sebanyak itu sudah cukup.",
+			  [
+				186778,
+				190741
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 34,
+		  "kotoba": [
+			"あのくらい",
+			"あのくらい",
+			"sekitar sebanyak itu (di sana)",
+			[
+			  191961,
+			  192682
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女、歌が上手ですね。 ― そうですね。わたしもあのくらい上手に歌いたいです。",
+			  "かのじょ、うた が じょうず です ね。 ― そうです ね。 わたし も あのくらい じょうず に うたいたい です。",
+			  "Dia pandai bernyanyi ya. — Iya ya. Saya juga ingin bisa bernyanyi sebaik itu.",
+			  [
+				193962,
+				200844
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": [
+			"そうです",
+			"そうです",
+			"betul",
+			[
+			  202085,
+			  202725
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "これも100円ですか。 ― ええ、そうです。",
+			  "これ も ひゃくえん ですか。 ― ええ、そうです。",
+			  "Yang ini juga 100 yen? — Ya, betul.",
+			  [
+				203866,
+				206646
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 36,
+		  "kotoba": [
+			"そうですか",
+			"そうですか",
+			"oh begitu; benarkah?",
+			[
+			  207828,
+			  208508
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません。あしたはちょっと用事があって……。 ― そうですか。それは残念です。",
+			  "すみません。あした は ちょっと ようじ が あって……。 ― そうですか。 それ は ざんねん です。",
+			  "Maaf. Besok saya ada sedikit urusan... — Oh begitu? Sayang sekali.",
+			  [
+				209855,
+				216540
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": [
+			"そうですね",
+			"そうですね",
+			"ya benar; hmm, mari saya pikir",
+			[
+			  217762,
+			  218481
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここから入ればいいんですか。 ― そうですね。",
+			  "ここ から はいれば いいんですか。 ― そうです ね。",
+			  "Masuk dari sini ya? — Ya, benar.",
+			  [
+				219582,
+				222425
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 38,
+		  "kotoba": [
+			"そうですねえ",
+			"そうですねえ",
+			"hmm..., mari saya pikir",
+			[
+			  223746,
+			  224467
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "もっと小さいの、ありますか。 ― そうですねえ。これはどうですか。",
+			  "もっと ちいさい の、ありますか。 ― そうですねえ。 これ は どうですか。",
+			  "Ada yang lebih kecil? — Hmm..., bagaimana kalau yang ini?",
+			  [
+				226027,
+				231231
+			  ]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 14,
+	  "audio": "cd2_14.mp3",
+	  "unit": 45,
+	  "tema": [
+		"いつ・どこ・だれ",
+		"いつ・どこ・だれ",
+		"Kapan, Di mana, Siapa"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"いつ",
+			"いつ",
+			"kapan",
+			[3068, 4330]
+		  ],
+		  "kalimat": [
+			[
+			  "誕生日はいつですか。",
+			  "たんじょうび は いつ ですか。",
+			  "Kapan ulang tahunmu?",
+			  [8492, 9753]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"どこ",
+			"どこ",
+			"di mana",
+			[10994, 11334]
+		  ],
+		  "kalimat": [
+			[
+			  "それ、どこで買ったんですか。",
+			  "それ、どこ で かったんですか。",
+			  "Itu dibeli di mana?",
+			  [12475, 14376]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"どちら",
+			"どちら",
+			"di mana (sopan)",
+			[15656, 16157]
+		  ],
+		  "kalimat": [
+			[
+			  "お国はどちらですか。― 中国です。",
+			  "おくに は どちら ですか。― ちゅうごく です。",
+			  "Asal negara Anda dari mana? — Dari Tiongkok.",
+			  [17317, 20259]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"だれ",
+			"だれ",
+			"siapa",
+			[21459, 22370]
+		  ],
+		  "kalimat": [
+			[
+			  "誰と会うんですか。― 田中さんです。",
+			  "だれ と あうんですか。― たなかさん です。",
+			  "Bertemu dengan siapa? — Dengan Tanaka-san.",
+			  [22370, 25582]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"どなた",
+			"どなた",
+			"siapa (sopan)",
+			[26701, 27262]
+		  ],
+		  "kalimat": [
+			[
+			  "あそこにいるのはどなたですか。― うちの社長です。",
+			  "あそこ に いる のは どなた ですか。― うち の しゃちょう です。",
+			  "Siapa orang yang ada di sana? — Direktur perusahaan kami.",
+			  [28522, 32304]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"どう",
+			"どう",
+			"bagaimana",
+			[33526, 33765]
+		  ],
+		  "kalimat": [
+			[
+			  "日本の生活はどうですか。― 楽しいです。",
+			  "にほん の せいかつ は どう ですか。― たのしい です。",
+			  "Bagaimana kehidupan di Jepang? — Menyenangkan.",
+			  [35127, 38289]
+			],
+			[
+			  "どうしたんですか。― 頭がちょっと痛いんです。",
+			  "どうしたんですか。― あたま が ちょっと いたいんです。",
+			  "Ada apa? — Kepala saya agak sakit.",
+			  [39469, 42832]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"どうやって",
+			"どうやって",
+			"bagaimana caranya",
+			[44051, 44832]
+		  ],
+		  "kalimat": [
+			[
+			  "これはどうやって食べるんですか。",
+			  "これ は どうやって たべるんですか。",
+			  "Bagaimana cara makan ini?",
+			  [45972, 48195]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"いかが",
+			"いかが",
+			"bagaimana (sopan)",
+			[49515, 49956]
+		  ],
+		  "kalimat": [
+			[
+			  "こちらの色はいかがですか。― いいですね。それをください。",
+			  "こちら の いろ は いかが ですか。― いいです ね。 それ を ください。",
+			  "Bagaimana warna yang ini? — Bagus ya. Saya ambil yang itu.",
+			  [51135, 55498]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"どちら",
+			"どちら",
+			"yang mana",
+			[56700, 57179]
+		  ],
+		  "kalimat": [
+			[
+			  "コーヒーと紅茶と、どちらがいいですか。",
+			  "コーヒー と こうちゃ と、どちら が いいですか。",
+			  "Mau kopi atau teh?",
+			  [58423, 60884]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"どっち",
+			"どっち",
+			"yang mana",
+			[62025, 62565]
+		  ],
+		  "kalimat": [
+			[
+			  "どっちがいい？ ― こっち。",
+			  "どっち が いい？ ― こっち。",
+			  "Yang mana yang kamu mau? — Yang ini.",
+			  [63746, 65747]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"どれ",
+			"どれ",
+			"yang mana",
+			[67009, 67289]
+		  ],
+		  "kalimat": [
+			[
+			  "私のグラスはどれ？ ― これだよ。",
+			  "わたし の グラス は どれ？ ― これだよ。",
+			  "Mana gelasku? — Ini.",
+			  [68689, 71110]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"どの",
+			"どの",
+			"yang ...",
+			[72391, 72691]
+		  ],
+		  "kalimat": [
+			[
+			  "（写真を見ながら）どの人が奥さんですか。",
+			  "（しゃしん を みながら）どの ひと が おくさん ですか。",
+			  "(Sambil melihat foto) Yang mana istrimu?",
+			  [73872, 77515]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"どのくらい",
+			"どのくらい",
+			"berapa banyak; seberapa",
+			[78754, 79495]
+		  ],
+		  "kalimat": [
+			[
+			  "お店はどのくらい混んでいましたか。",
+			  "おみせ は どのくらい こんでいましたか。",
+			  "Seberapa ramai tokonya?",
+			  [80695, 82798]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"どれくらい",
+			"どれくらい",
+			"berapa banyak; seberapa",
+			[84078, 84818]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"どの辺",
+			"どのへん",
+			"sekitar bagian mana",
+			[86078, 86699]
+		  ],
+		  "kalimat": [
+			[
+			  "家はどの辺ですか。― 駅のすぐ近くです。",
+			  "いえ は どのへん ですか。― えき の すぐ ちかく です。",
+			  "Rumahmu di sekitar mana? — Tepat dekat stasiun.",
+			  [87947, 91530]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"どうして",
+			"どうして",
+			"mengapa",
+			[92771, 93371]
+		  ],
+		  "kalimat": [
+			[
+			  "きのうはどうして来なかったんですか。",
+			  "きのう は どうして こなかったんですか。",
+			  "Mengapa kemarin tidak datang?",
+			  [94471, 96313]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"なに",
+			"なに",
+			"apa",
+			[97534, 99955]
+		  ],
+		  "kalimat": [
+			[
+			  "何を飲みますか。",
+			  "なに を のみますか。",
+			  "Mau minum apa?",
+			  [97534, 99955]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"何",
+			"なん",
+			"apa",
+			[101236, 101356]
+		  ],
+		  "kalimat": [
+			[
+			  "これは何ですか。",
+			  "これ は なん ですか。",
+			  "Ini apa?",
+			  [102757, 103658]
+			],
+			[
+			  "それは何という食べ物ですか。― 納豆です。",
+			  "それ は なん と いう たべもの ですか。― なっとう です。",
+			  "Makanan itu namanya apa? — Natto.",
+			  [104939, 108401]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"いくつ",
+			"いくつ",
+			"berapa (jumlah); berapa usia",
+			[109622, 110082]
+		  ],
+		  "kalimat": [
+			[
+			  "いくつ食べますか。― じゃ、3つください。",
+			  "いくつ たべますか。― じゃ、みっつ ください。",
+			  "Mau berapa? — Kalau begitu tiga, ya.",
+			  [111323, 114585]
+			],
+			[
+			  "お子さんは、おいくつですか。― 2歳です。",
+			  "おこさん は、おいくつ ですか。― にさい です。",
+			  "Anaknya berapa usia? — Dua tahun.",
+			  [115786, 118968]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"いくら",
+			"いくら",
+			"berapa harga",
+			[120169, 120588]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません、これはいくらですか。― 1000円です。",
+			  "すみません、これ は いくら ですか。― せんえん です。",
+			  "Permisi, ini berapa harganya? — 1.000 yen.",
+			  [121750, 125871]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"どんな",
+			"どんな",
+			"seperti apa",
+			[126993, 127472]
+		  ],
+		  "kalimat": [
+			[
+			  "どんな家に住みたいですか。",
+			  "どんな いえ に すみたい ですか。",
+			  "Ingin tinggal di rumah seperti apa?",
+			  [128694, 130054]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"どういう",
+			"どういう",
+			"seperti apa; apa maksud",
+			[131335, 131895]
+		  ],
+		  "kalimat": [
+			[
+			  "これはどういう意味ですか。",
+			  "これ は どういう いみ ですか。",
+			  "Apa arti ini?",
+			  [133195, 134896]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"いくつ目",
+			"いくつめ",
+			"ke berapa",
+			[136177, 136778]
+		  ],
+		  "kalimat": [
+			[
+			  "東京駅からいくつ目の駅ですか。",
+			  "とうきょうえき から いくつめ の えき ですか。",
+			  "Dari Stasiun Tokyo, ini stasiun ke berapa?",
+			  [137919, 140379]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 15,
+	  "audio": "cd2_15.mp3",
+	  "unit": 46,
+	  "tema": [
+		"場所",
+		"ばしょ",
+		"Tempat"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"場所",
+			"ばしょ",
+			"tempat, lokasi",
+			[2969, 3351]
+		  ],
+		  "kalimat": [
+			[
+			  "場所は、どこでもいいです。",
+			  "ばしょ は、どこ でも いい です。",
+			  "Tempatnya di mana saja tidak masalah.",
+			  [6673, 8615]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"上",
+			"うえ",
+			"atas",
+			[9816, 10676]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"下",
+			"した",
+			"bawah",
+			[10676, 11537]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"前",
+			"まえ",
+			"depan",
+			[12758, 13039]
+		  ],
+		  "kalimat": [
+			[
+			  "もう少し前のほうに来てください。",
+			  "もう すこし まえ の ほう に きて ください。",
+			  "Tolong datang sedikit lebih ke depan.",
+			  [14260, 16041]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"後ろ",
+			"うしろ",
+			"belakang",
+			[17161, 17643]
+		  ],
+		  "kalimat": [
+			[
+			  "〈タクシーに乗る〉わたしが前に乗るから、後ろに乗ってくれる？",
+			  "〈タクシー に のる〉 わたし が まえ に のる から、うしろ に のって くれる？",
+			  "〈Naik taksi〉Aku duduk di depan, jadi maukah kamu duduk di belakang?",
+			  [18742, 23387]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"間",
+			"あいだ",
+			"di antara",
+			[24808, 25108]
+		  ],
+		  "kalimat": [
+			[
+			  "棚と壁の間に本が落ちて、取れない。",
+			  "たな と かべ の あいだ に ほん が おちて、とれない。",
+			  "Sebuah buku jatuh di antara rak dan dinding sehingga tidak bisa diambil.",
+			  [26230, 28791]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"そば",
+			"そば",
+			"dekat",
+			[30036, 30336]
+		  ],
+		  "kalimat": [
+			[
+			  "大学のそばに大きい本屋があります。",
+			  "だいがく の そば に おおきい ほんや が あります。",
+			  "Ada toko buku besar di dekat universitas.",
+			  [31477, 33959]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"近く",
+			"ちかく",
+			"dekat",
+			[35100, 35680]
+		  ],
+		  "kalimat": [
+			[
+			  "ホテルは駅の近くがいいです。",
+			  "ホテル は えき の ちかく が いい です。",
+			  "Saya ingin hotel yang dekat stasiun.",
+			  [36902, 38643]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"となり",
+			"となり",
+			"sebelah, tetangga",
+			[39764, 41445]
+		  ],
+		  "kalimat": [
+			[
+			  "となりがうるさくて、眠れません。",
+			  "となり が うるさくて、ねむれません。",
+			  "Tetangga sebelah berisik sehingga saya tidak bisa tidur.",
+			  [41846, 43686]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"横",
+			"よこ",
+			"samping",
+			[44868, 45289]
+		  ],
+		  "kalimat": [
+			[
+			  "ゴミ箱は、机の横に置いてください。",
+			  "ゴミばこ は、つくえ の よこ に おいて ください。",
+			  "Tolong letakkan tempat sampah di samping meja.",
+			  [46450, 48972]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"右",
+			"みぎ",
+			"kanan",
+			[50112, 50432]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"左",
+			"ひだり",
+			"kiri",
+			[51614, 51894]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"中",
+			"なか",
+			"di dalam",
+			[53335, 53596]
+		  ],
+		  "kalimat": [
+			[
+			  "箱の中に何がありましたか。",
+			  "はこ の なか に なに が ありました か。",
+			  "Apa yang ada di dalam kotak?",
+			  [54856, 56879]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"外",
+			"そと",
+			"luar",
+			[58140, 58480]
+		  ],
+		  "kalimat": [
+			[
+			  "雨が強くて、外に出られません。",
+			  "あめ が つよくて、そと に でられません。",
+			  "Hujan turun sangat deras sehingga tidak bisa keluar.",
+			  [59695, 61937]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"中央",
+			"ちゅうおう",
+			"tengah",
+			[63079, 63698]
+		  ],
+		  "kalimat": [
+			[
+			  "そのテーブルは、部屋の中央に置いてください。",
+			  "その テーブル は、へや の ちゅうおう に おいて ください。",
+			  "Tolong letakkan meja itu di tengah ruangan.",
+			  [65021, 68003]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"周り",
+			"まわり",
+			"sekitar, sekeliling",
+			[69183, 69664]
+		  ],
+		  "kalimat": [
+			[
+			  "いつも公園の周りを走っています。",
+			  "いつも こうえん の まわり を はしっています。",
+			  "Saya selalu berlari mengelilingi taman.",
+			  [70804, 72986]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"先",
+			"さき",
+			"depan, lebih depan",
+			[74227, 74367]
+		  ],
+		  "kalimat": [
+			[
+			  "すみません、この近くにATMはありませんか。―100メートルくらい先にコンビニがありますよ。",
+			  "すみません、この ちかく に ATM は ありません か。―100メートル くらい さき に コンビニ が あります よ。",
+			  "Permisi, apakah ada ATM di dekat sini? — Ada minimarket sekitar 100 meter di depan.",
+			  [75769, 83515]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"表",
+			"おもて",
+			"bagian depan, sisi depan",
+			[84977, 85337]
+		  ],
+		  "kalimat": [
+			[
+			  "これはどっちが表ですか。",
+			  "これ は どっち が おもて です か。",
+			  "Yang mana bagian depannya?",
+			  [86497, 88420]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"裏",
+			"うら",
+			"bagian belakang",
+			[89751, 89871]
+		  ],
+		  "kalimat": [
+			[
+			  "テレビの裏にも、番号が書いてあるはずです。",
+			  "テレビ の うら に も、ばんごう が かいてある はず です。",
+			  "Nomornya seharusnya juga tertulis di belakang televisi.",
+			  [91092, 93614]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"地図",
+			"ちず",
+			"peta",
+			[94775, 95135]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"北",
+			"きた",
+			"utara",
+			[96276, 97490]
+		  ],
+		  "kalimat": [
+			[
+			  "北口",
+			  "きたぐち",
+			  "pintu utara",
+			  [97490, 98187]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"南",
+			"みなみ",
+			"selatan",
+			[97490, 98704]
+		  ],
+		  "kalimat": [
+			[
+			  "南口",
+			  "みなみぐち",
+			  "pintu selatan",
+			  [98704, 99401]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"西",
+			"にし",
+			"barat",
+			[98704, 99919]
+		  ],
+		  "kalimat": [
+			[
+			  "西口",
+			  "にしぐち",
+			  "pintu barat",
+			  [99919, 100615]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"東",
+			"ひがし",
+			"timur",
+			[101120, 102982]
+		  ],
+		  "kalimat": [
+			[
+			  "東口",
+			  "ひがしぐち",
+			  "pintu timur",
+			  [102982, 103679]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"～側",
+			"～がわ",
+			"sisi ~",
+			[104363, 106164]
+		  ],
+		  "kalimat": [
+			[
+			  "窓側の席は空いてますか。",
+			  "まどがわ の せき は あいてます か。",
+			  "Apakah kursi di sisi jendela masih kosong?",
+			  [104363, 106164]
+			],
+			[
+			  "右側、左側、窓側、南側",
+			  "みぎがわ、ひだりがわ、まどがわ、みなみがわ",
+			  "sisi kanan, sisi kiri, sisi jendela, sisi selatan",
+			  [106164, 107786]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"～口",
+			"～ぐち",
+			"pintu masuk/keluar ~",
+			[109007, 110261]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"北口、入口、出口、非常口、裏口",
+			"きたぐち、いりぐち、でぐち、ひじょうぐち、うらぐち",
+			"pintu utara, pintu masuk, pintu keluar, pintu darurat, pintu belakang",
+			[109007, 116232]
+		  ],
+		  "kalimat": [
+			[
+			  "玄関は閉まっていますので、裏口から入ってください。",
+			  "げんかん は しまって います ので、うらぐち から はいって ください。",
+			  "Pintu depan ditutup, jadi silakan masuk dari pintu belakang.",
+			  [117774, 121111]
+			]
+		  ]
+		}
+	  ]
 	}
-
-
 	
   ]
 }
