@@ -403,6 +403,7 @@ function stopAudio(){
   if(fcp) fcp.classList.remove('playing');
   isPlayingBaca = false;
   updatePlayPauseIcon();
+  updatePlayDotIcons();
 }
 // Putar satu segmen saja lalu berhenti di endMs (dipakai flashcard & tap manual di luar mode baca)
 function playSegment(cd, track, startMs, endMs, btnEl){
@@ -488,6 +489,7 @@ function onTrackFinish(){
   } else {
     isPlayingBaca = false;
     updatePlayPauseIcon();
+    updatePlayDotIcons();
   }
 }
 function highlightSeg(idx){
@@ -498,6 +500,19 @@ function highlightSeg(idx){
   if(el){
     el.classList.add('active');
     el.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+  updatePlayDotIcons();
+}
+function updatePlayDotIcons(){
+  document.querySelectorAll('.kotoba-card .play-dot, .kalimat-item .play-dot').forEach(el=>{
+    el.textContent = '▶';
+    el.classList.remove('playing');
+  });
+  const seg = flatSegments[curSegIdx];
+  if(seg && isPlayingBaca){
+    const container = document.getElementById(seg.domId);
+    const dot = container && container.querySelector('.play-dot');
+    if(dot){ dot.textContent = '❚❚'; dot.classList.add('playing'); }
   }
 }
 function updatePlayerInfo(){
@@ -519,6 +534,7 @@ function uiPlayPause(){
     scWidget && scWidget.pause();
     isPlayingBaca = false;
     updatePlayPauseIcon();
+    updatePlayDotIcons();
   } else {
     const idx = curSegIdx>=0 ? curSegIdx : flatSegments.findIndex(s=>s.trackIdx===trackPtr);
     loadAndPlayFromSeg(idx<0?0:idx, true);
