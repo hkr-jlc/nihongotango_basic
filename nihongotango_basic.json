@@ -20354,7 +20354,1917 @@
 		  "kalimat": []
 		}
 	  ]
+	},
+	
+	{
+	  "cd": 2,
+	  "track": 1,
+	  "audio": "cd2_01.mp3",
+	  "unit": 32,
+	  "tema": [
+		"人と人",
+		"ひととひと",
+		"Hubungan antarmanusia"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": ["誘う", "さそう", "mengajak", [5506, 6067]],
+		  "kalimat": [
+			[
+			  "森さんを食事に誘ってみようと思います。",
+			  "もりさん を しょくじ に さそって みよう と おもいます。",
+			  "Saya berpikir untuk mengajak Mori-san makan.",
+			  [7208, 9529]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": ["誘い", "さそい", "ajakan", [10630, 11170]],
+		  "kalimat": []
+		},
+		{
+		  "id": 3,
+		  "kotoba": ["呼ぶ", "よぶ", "mengundang", [12451, 12751]],
+		  "kalimat": [
+			[
+			  "森さんも呼びましょう。彼、カラオケ好きだから来ますよ。",
+			  "もりさん も よびましょう。かれ、カラオケ ずき だから きます よ。",
+			  "Ayo undang Mori-san juga. Dia suka karaoke, jadi pasti datang.",
+			  [13851, 17733]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": ["招待（する）", "しょうたい（する）", "mengundang (ke acara)", [18974, 19614]],
+		  "kalimat": [
+			[
+			  "田中さんの結婚式に招待されました。",
+			  "たなかさん の けっこんしき に しょうたい されました。",
+			  "Saya diundang ke pesta pernikahan Tanaka-san.",
+			  [20734, 23055]
+			],
+			[
+			  "招待状",
+			  "しょうたいじょう",
+			  "surat undangan",
+			  [23055, 24176]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": ["断る", "ことわる", "menolak", [24176, 24776]],
+		  "kalimat": [
+			[
+			  "お昼に誘われたけど、忙しかったから断りました。",
+			  "おひる に さそわれた けど、いそがしかった から ことわりました。",
+			  "Saya diajak makan siang, tetapi karena sibuk saya menolaknya.",
+			  [25917, 29419]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": ["謝る", "あやまる", "meminta maaf", [30551, 31152]],
+		  "kalimat": [
+			[
+			  "早く謝ったほうがいいよ。",
+			  "はやく あやまった ほう が いい よ。",
+			  "Sebaiknya cepat meminta maaf.",
+			  [32192, 33573]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": ["お願い", "おねがい", "permintaan", [34813, 35413]],
+		  "kalimat": [
+			[
+			  "すみません、ちょっとお願いがあるんですが。―何ですか。",
+			  "すみません、ちょっと おねがい が あるんです が。―なん ですか。",
+			  "Permisi, saya ada sedikit permintaan. — Ada apa?",
+			  [36474, 40774]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": ["お願いする", "おねがいする", "meminta tolong", [42094, 42956]],
+		  "kalimat": [
+			[
+			  "買い物をお願いしてもいい？",
+			  "かいもの を おねがい しても いい？",
+			  "Boleh minta tolong membelikan sesuatu?",
+			  [44115, 45695]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": ["頼む", "たのむ", "meminta tolong", [46977, 47436]],
+		  "kalimat": [
+			[
+			  "原さんに、引っ越しの手伝いを頼みました。",
+			  "はらさん に、ひっこし の てつだい を たのみました。",
+			  "Saya meminta Hara-san membantu saat pindahan.",
+			  [48477, 51118]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": ["助ける", "たすける", "menolong", [52138, 52737]],
+		  "kalimat": [
+			[
+			  "石井さんには、いつも助けてもらっています。",
+			  "いしいさん には、いつも たすけて もらっています。",
+			  "Saya selalu mendapat bantuan dari Ishii-san.",
+			  [53939, 56198]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": ["手伝う", "てつだう", "membantu", [57359, 57960]],
+		  "kalimat": [
+			[
+			  "忙しそうですね。何か手伝いましょうか。",
+			  "いそがしそう です ね。なにか てつだいましょうか。",
+			  "Kelihatannya sibuk. Ada yang bisa saya bantu?",
+			  [59340, 62060]
+			],
+			[
+			  "手伝い",
+			  "てつだい",
+			  "bantuan",
+			  [62060, 63322]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": ["信じる", "しんじる", "percaya", [63322, 63942]],
+		  "kalimat": [
+			[
+			  "彼の言うことは信じます。",
+			  "かれ の いう こと は しんじます。",
+			  "Saya percaya apa yang dia katakan.",
+			  [65143, 66582]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": ["電話をかける", "でんわ を かける", "menelepon", [67724, 68784]],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": ["約束（する）", "やくそく（する）", "janji", [69945, 70405]],
+		  "kalimat": [
+			[
+			  "一緒に行きませんか。―すみません、今日はちょっと約束があるんです。",
+			  "いっしょ に いきませんか。―すみません、きょう は ちょっと やくそく が あるんです。",
+			  "Mau pergi bersama? — Maaf, hari ini saya sudah ada janji.",
+			  [71965, 76567]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": ["約束を守る", "やくそく を まもる", "menepati janji", [77668, 78948]],
+		  "kalimat": []
+		},
+		{
+		  "id": 16,
+		  "kotoba": ["約束を破る", "やくそく を やぶる", "melanggar janji", [80188, 81468]],
+		  "kalimat": []
+		},
+		{
+		  "id": 17,
+		  "kotoba": ["会う", "あう", "bertemu", [82650, 82890]],
+		  "kalimat": [
+			[
+			  "友達と会う約束があるんです。",
+			  "ともだち と あう やくそく が あるんです。",
+			  "Saya punya janji bertemu teman.",
+			  [84049, 85990]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": ["待ち合わせ", "まちあわせ", "janji bertemu", [86932, 87772]],
+		  "kalimat": [
+			[
+			  "待ち合わせ場所はどこですか。",
+			  "まちあわせ ばしょ は どこ ですか。",
+			  "Tempat bertemunya di mana?",
+			  [88959, 90420]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": ["待ち合わせる", "まちあわせる", "bertemu (sesuai janji)", [91480, 92421]],
+		  "kalimat": [
+			[
+			  "３時に駅の改札口で待ち合わせましょう。",
+			  "さんじ に えき の かいさつぐち で まちあわせましょう。",
+			  "Mari bertemu di pintu tiket stasiun pukul tiga.",
+			  [93503, 96144]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": ["参加（する）", "さんか（する）", "berpartisipasi", [97305, 101367]],
+		  "kalimat": [
+			[
+			  "わたしもこの会に参加したいと思っています。",
+			  "わたし も この かい に さんか したい と おもっています。",
+			  "Saya juga ingin ikut berpartisipasi dalam pertemuan ini.",
+			  [97305, 101367]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"出る",
+			"でる",
+			"hadir; mengikuti",
+			[
+			  102406,
+			  102688
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "授業、試合に出る",
+			  "じゅぎょう、しあい に でる",
+			  "Menghadiri kelas; mengikuti pertandingan.",
+			  [
+				102688,
+				103847
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"紹介（する）",
+			"しょうかい（する）",
+			"memperkenalkan",
+			[
+			  103847,
+			  104468
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "森さんの彼女に会いましたか。―ええ、さっき紹介してもらいました。",
+			  "もりさん の かのじょ に あいましたか。―ええ、さっき しょうかい してもらいました。",
+			  "Apakah kamu sudah bertemu pacarnya Mori-san? — Ya, tadi baru diperkenalkan.",
+			  [
+				105709,
+				110451
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"世話（する）",
+			"せわ（する）",
+			"merawat; mengurus",
+			[
+			  111712,
+			  112033
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "子どもの世話で毎日疲れます。",
+			  "こども の せわ で まいにち つかれます。",
+			  "Saya lelah setiap hari karena mengurus anak.",
+			  [
+				113132,
+				115694
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"世話をする",
+			"せわ を する",
+			"merawat",
+			[
+			  116835,
+			  117596
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "誰が犬の世話をしているんですか。",
+			  "だれ が いぬ の せわ を しているんですか。",
+			  "Siapa yang merawat anjing itu?",
+			  [
+				118667,
+				120908
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"お世話になる",
+			"おせわ に なる",
+			"menerima bantuan; berada dalam asuhan",
+			[
+			  122149,
+			  123089
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "いろいろお世話になりました。ありがとうございました。",
+			  "いろいろ おせわ に なりました。ありがとうございました。",
+			  "Terima kasih atas segala bantuan yang telah diberikan.",
+			  [
+				124229,
+				127351
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"迷惑",
+			"めいわく",
+			"gangguan; merepotkan",
+			[
+			  128551,
+			  128931
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"迷惑をかける",
+			"めいわく を かける",
+			"merepotkan orang lain",
+			[
+			  130412,
+			  131592
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "急に休んだので、会社の人に迷惑をかけてしまった。",
+			  "きゅう に やすんだ ので、かいしゃ の ひと に めいわく を かけてしまった。",
+			  "Karena tiba-tiba libur, saya merepotkan orang-orang di kantor.",
+			  [
+				132693,
+				136115
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": [
+			"遠慮（する）",
+			"えんりょ（する）",
+			"segan; sungkan",
+			[
+			  137275,
+			  137775
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "遠慮しないで、たくさん食べてください。",
+			  "えんりょ しないで、たくさん たべてください。",
+			  "Jangan sungkan, silakan makan yang banyak.",
+			  [
+				138995,
+				141056
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": [
+			"遠慮なく",
+			"えんりょなく",
+			"tanpa sungkan",
+			[
+			  142138,
+			  142918
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "じゃあ、遠慮なくいただきます。",
+			  "じゃあ、えんりょなく いただきます。",
+			  "Kalau begitu, saya akan menerimanya tanpa sungkan.",
+			  [
+				144078,
+				145899
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": [
+			"賛成（する）",
+			"さんせい（する）",
+			"setuju",
+			[
+			  147139,
+			  147819
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "田中さんの意見に賛成の人は、手を挙げてください。",
+			  "たなかさん の いけん に さんせい の ひと は、て を あげてください。",
+			  "Yang setuju dengan pendapat Tanaka-san, silakan angkat tangan.",
+			  [
+				149080,
+				152302
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": [
+			"反対（する）",
+			"はんたい（する）",
+			"menentang",
+			[
+			  153483,
+			  154084
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": [
+			"けんか（する）",
+			"けんか（する）",
+			"bertengkar",
+			[
+			  155205,
+			  155725
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "また彼とけんかしたの!? もうちょっと仲良くしたら？",
+			  "また かれ と けんか したの!? もう ちょっと なかよく したら？",
+			  "Bertengkar lagi dengan pacarmu!? Coba akur sedikit dong.",
+			  [
+				156966,
+				160868
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": [
+			"パーティー",
+			"パーティー",
+			"pesta",
+			[
+			  162070,
+			  162590
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 34,
+		  "kotoba": [
+			"デート（する）",
+			"デート（する）",
+			"berkencan",
+			[
+			  164151,
+			  164632
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "あしたは彼とデートだから、だめです。",
+			  "あした は かれ と デート だから、だめです。",
+			  "Besok saya berkencan dengan pacar saya, jadi tidak bisa.",
+			  [
+				165872,
+				167974
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 35,
+		  "kotoba": [
+			"関係（する）",
+			"かんけい（する）",
+			"hubungan",
+			[
+			  169115,
+			  169635
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "彼とはどういう関係ですか。―大学で同じクラスだったんです。",
+			  "かれ と は どういう かんけい ですか。―だいがく で おなじ クラス だったんです。",
+			  "Apa hubungan Anda dengannya? — Kami dulu sekelas di universitas.",
+			  [
+				171156,
+				175939
+			  ]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 2,
+	  "audio": "cd2_02.mp3",
+	  "unit": 33,
+	  "tema": [
+		"気持ち",
+		"きもち",
+		"Perasaan"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"楽しい",
+			"たのしい",
+			"menyenangkan",
+			[5250, 5891]
+		  ],
+		  "kalimat": [
+			[
+			  "旅行はどうでしたか。― すごく楽しかったです。",
+			  "りょこう は どうでしたか。― すごく たのしかった です。",
+			  "Bagaimana perjalananmu? — Sangat menyenangkan.",
+			  [7152, 10274]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"楽しみ",
+			"たのしみ",
+			"hal yang dinantikan",
+			[11374, 12015]
+		  ],
+		  "kalimat": [
+			[
+			  "旅行に行くのが楽しみです。",
+			  "りょこう に いく のが たのしみ です。",
+			  "Saya menantikan pergi berlibur.",
+			  [13215, 14756]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"楽しみにする",
+			"たのしみにする",
+			"menantikan",
+			[15857, 16996]
+		  ],
+		  "kalimat": [
+			[
+			  "皆さんに会うのを楽しみにしています。",
+			  "みなさん に あう のを たのしみに しています。",
+			  "Saya menantikan bertemu dengan kalian semua.",
+			  [18038, 20518]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"楽しむ",
+			"たのしむ",
+			"menikmati",
+			[21559, 22219]
+		  ],
+		  "kalimat": [
+			[
+			  "彼は日本での生活を楽しんでいるみたいですね。",
+			  "かれ は にほん での せいかつ を たのしんでいる みたいですね。",
+			  "Kelihatannya dia menikmati kehidupan di Jepang.",
+			  [23400, 26382]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"面白い",
+			"おもしろい",
+			"menarik",
+			[27562, 28263]
+		  ],
+		  "kalimat": [
+			[
+			  "〈映画について〉これはどう。― 面白かったよ。",
+			  "えいが について。これ は どう。― おもしろかった よ。",
+			  "Tentang film: Bagaimana yang ini? — Menarik.",
+			  [29419, 33822]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"つまらない",
+			"つまらない",
+			"membosankan",
+			[35101, 35843]
+		  ],
+		  "kalimat": [
+			[
+			  "最近のテレビ番組はつまらないね。",
+			  "さいきん の テレビ ばんぐみ は つまらない ね。",
+			  "Acara TV belakangan ini membosankan ya.",
+			  [36963, 39283]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"うれしい",
+			"うれしい",
+			"senang",
+			[40585, 41204]
+		  ],
+		  "kalimat": [
+			[
+			  "これ、私にくれるの？ うれしい。",
+			  "これ、わたし に くれる の？ うれしい。",
+			  "Ini untukku? Senangnya!",
+			  [42424, 44746]
+			]
+		  ]
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"幸せ（な）",
+			"しあわせ（な）",
+			"bahagia",
+			[46146, 46966]
+		  ],
+		  "kalimat": [
+			[
+			  "彼女はいま、すごく幸せだと思います。",
+			  "かのじょ は いま、すごく しあわせ だと おもいます。",
+			  "Saya rasa dia sangat bahagia sekarang.",
+			  [48048, 50888]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"さびしい",
+			"さびしい",
+			"kesepian",
+			[52069, 52730]
+		  ],
+		  "kalimat": [
+			[
+			  "知っている人がいなくて、ちょっとさびしいです。",
+			  "しっている ひと が いなくて、ちょっと さびしい です。",
+			  "Karena tidak ada orang yang saya kenal, saya agak kesepian.",
+			  [53989, 56771]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"残念（な）",
+			"ざんねん（な）",
+			"disayangkan",
+			[57871, 58652]
+		  ],
+		  "kalimat": [
+			[
+			  "旅行に行けなかったんですか。それは残念でしたね。",
+			  "りょこう に いけなかった んですか。それ は ざんねん でした ね。",
+			  "Tidak jadi pergi berlibur? Sayang sekali ya.",
+			  [59756, 63216]
+			]
+		  ]
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"心配（な）",
+			"しんぱい（な）",
+			"khawatir",
+			[64537, 65338]
+		  ],
+		  "kalimat": [
+			[
+			  "心配だから、駅まで送りますよ。",
+			  "しんぱい だから、えき まで おくります よ。",
+			  "Karena saya khawatir, saya akan mengantarmu sampai stasiun.",
+			  [66438, 68358]
+			]
+		  ]
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"不安（な）",
+			"ふあん（な）",
+			"cemas",
+			[69459, 70099]
+		  ],
+		  "kalimat": [
+			[
+			  "うまくできるかどうか、不安です。",
+			  "うまく できるか どうか、ふあん です。",
+			  "Saya cemas apakah saya bisa melakukannya dengan baik.",
+			  [71259, 73400]
+			]
+		  ]
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"怖い",
+			"こわい",
+			"menakutkan",
+			[74519, 74939]
+		  ],
+		  "kalimat": [
+			[
+			  "怖い話を聞いて、夜、寝(ら)れなくなった。",
+			  "こわい はなし を きいて、よる、ね(ら)れなく なった。",
+			  "Setelah mendengar cerita seram, malamnya saya tidak bisa tidur.",
+			  [76021, 79061]
+			],
+			[
+			  "田中先生は、怒ると怖いですよ。",
+			  "たなかせんせい は、おこる と こわい です よ。",
+			  "Pak Tanaka menakutkan kalau sedang marah.",
+			  [80162, 82421]
+			]
+		  ]
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"悲しい",
+			"かなしい",
+			"sedih",
+			[83582, 84242]
+		  ],
+		  "kalimat": [
+			[
+			  "…その犬、最後に死ぬんですか。悲しい話ですね。",
+			  "…その いぬ、さいご に しぬんですか。かなしい はなし です ね。",
+			  "…Anjing itu akhirnya mati? Cerita yang sedih ya.",
+			  [85643, 90072]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"恥ずかしい",
+			"はずかしい",
+			"malu",
+			[91212, 92072]
+		  ],
+		  "kalimat": [
+			[
+			  "髪が変だから、恥ずかしいです。",
+			  "かみ が へん だから、はずかしい です。",
+			  "Rambut saya aneh, jadi saya malu.",
+			  [93373, 95114]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"緊張（する）",
+			"きんちょう（する）",
+			"tegang",
+			[96293, 97254]
+		  ],
+		  "kalimat": [
+			[
+			  "あしたの面接、緊張する。どうしよう。",
+			  "あした の めんせつ、きんちょう する。どうしよう。",
+			  "Besok wawancara kerja. Saya gugup. Bagaimana ya?",
+			  [98295, 101334]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"びっくりする",
+			"びっくりする",
+			"terkejut",
+			[102475, 103376]
+		  ],
+		  "kalimat": [
+			[
+			  "急に名前を呼ばれて、びっくりした。",
+			  "きゅう に なまえ を よばれて、びっくり した。",
+			  "Saya terkejut ketika nama saya dipanggil tiba-tiba.",
+			  [104475, 106637]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"怒る",
+			"おこる",
+			"marah",
+			[107736, 108197]
+		  ],
+		  "kalimat": [
+			[
+			  "遅刻して、店長に怒られた。",
+			  "ちこく して、てんちょう に おこられた。",
+			  "Karena terlambat, saya dimarahi manajer toko.",
+			  [109298, 111438]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"困る",
+			"こまる",
+			"kesulitan",
+			[112597, 113079]
+		  ],
+		  "kalimat": [
+			[
+			  "困ったときは、いつでも連絡してください。",
+			  "こまった とき は、いつでも れんらく して ください。",
+			  "Kalau mengalami kesulitan, silakan hubungi saya kapan saja.",
+			  [114058, 116359]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"好き（な）",
+			"すき（な）",
+			"suka",
+			[117519, 117980]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"大好き（な）",
+			"だいすき（な）",
+			"sangat suka",
+			[119159, 119940]
+		  ],
+		  "kalimat": [
+			[
+			  "あっ、これ、わたしが大好きな曲です。",
+			  "あっ、これ、わたし が だいすき な きょく です。",
+			  "Ah, ini lagu yang sangat saya sukai.",
+			  [121042, 123566]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"嫌い（な）",
+			"きらい（な）",
+			"tidak suka",
+			[124747, 125388]
+		  ],
+		  "kalimat": [
+			[
+			  "嫌いなものがあったら、言ってください。",
+			  "きらい な もの が あったら、いって ください。",
+			  "Kalau ada yang tidak Anda sukai, silakan beri tahu.",
+			  [126590, 128332]
+			]
+		  ]
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"大嫌い（な）",
+			"だいきらい（な）",
+			"sangat tidak suka",
+			[129514, 130417]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"気持ち",
+			"きもち",
+			"perasaan",
+			[131597, 132198]
+		  ],
+		  "kalimat": [
+			[
+			  "スーさんの気持ちがよくわかります。",
+			  "スーさん の きもち が よく わかります。",
+			  "Saya sangat mengerti perasaan Sue.",
+			  [133360, 135343]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 3,
+	  "audio": "cd2_03.mp3",
+	  "unit": 34,
+	  "tema": [
+		"健康・病気",
+		"けんこう・びょうき",
+		"Kesehatan, Penyakit"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"健康",
+			"けんこう",
+			"kesehatan",
+			[2929, 3530]
+		  ],
+		  "kalimat": [
+			[
+			  "朝早く起きるのは、健康にいいんですよ。",
+			  "あさ はやく おきる のは、けんこう に いいんですよ。",
+			  "Bangun pagi baik untuk kesehatan.",
+			  [6333, 10877]
+			]
+		  ]
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"病気",
+			"びょうき",
+			"penyakit",
+			[12037, 12558]
+		  ],
+		  "kalimat": [
+			[
+			  "ちゃんと休まないと、病気になりますよ。",
+			  "ちゃんと やすまないと、びょうき に なります よ。",
+			  "Kalau tidak beristirahat dengan baik, nanti bisa sakit.",
+			  [13699, 16001]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"熱",
+			"ねつ",
+			"demam",
+			[17102, 17221]
+		  ],
+		  "kalimat": [
+			[
+			  "熱が下がったら、少し楽になりました。",
+			  "ねつ が さがったら、すこし らく に なりました。",
+			  "Setelah demamnya turun, saya merasa agak lega.",
+			  [18602, 20844]
+			]
+		  ]
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"熱がある",
+			"ねつ が ある",
+			"demam",
+			[21904, 22725]
+		  ],
+		  "kalimat": [
+			[
+			  "熱があるので、きょうは早めに帰ります。",
+			  "ねつ が ある ので、きょう は はやめ に かえります。",
+			  "Karena saya demam, hari ini saya pulang lebih awal.",
+			  [23727, 26329]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"咳",
+			"せき",
+			"batuk",
+			[27449, 27789]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"咳が出る",
+			"せき が でる",
+			"batuk (keluar batuk)",
+			[29111, 29911]
+		  ],
+		  "kalimat": [
+			[
+			  "空気が悪いと、咳が出て止まらなくなるんです。",
+			  "くうき が わるい と、せき が でて とまらなく なるんです。",
+			  "Kalau udaranya buruk, saya mulai batuk dan tidak bisa berhenti.",
+			  [30948, 34189]
+			]
+		  ]
+		},
+		{
+		  "id": 7,
+		  "kotoba": [
+			"風邪",
+			"かぜ",
+			"flu, pilek",
+			[35331, 35530]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 8,
+		  "kotoba": [
+			"風邪をひく",
+			"かぜ を ひく",
+			"masuk angin, terkena flu",
+			[36771, 37632]
+		  ],
+		  "kalimat": [
+			[
+			  "風邪をひいたみたいです。のどが痛いです。",
+			  "かぜ を ひいた みたいです。のど が いたい です。",
+			  "Sepertinya saya masuk angin. Tenggorokan saya sakit.",
+			  [38773, 41954]
+			]
+		  ]
+		},
+		{
+		  "id": 9,
+		  "kotoba": [
+			"痛い",
+			"いたい",
+			"sakit, nyeri",
+			[43314, 44956]
+		  ],
+		  "kalimat": [
+			[
+			  "お腹が痛い。食べ過ぎたかもしれない。",
+			  "おなか が いたい。たべすぎた かも しれない。",
+			  "Perut saya sakit. Mungkin saya makan terlalu banyak.",
+			  [44957, 48078]
+			]
+		  ]
+		},
+		{
+		  "id": 10,
+		  "kotoba": [
+			"痛み",
+			"いたみ",
+			"rasa sakit",
+			[49478, 49819]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 11,
+		  "kotoba": [
+			"頭痛",
+			"ずつう",
+			"sakit kepala",
+			[50939, 51519]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 12,
+		  "kotoba": [
+			"吐き気",
+			"はきけ",
+			"mual",
+			[52801, 53341]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 13,
+		  "kotoba": [
+			"めまい",
+			"めまい",
+			"pusing, vertigo",
+			[54462, 54942]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 14,
+		  "kotoba": [
+			"治る",
+			"なおる",
+			"sembuh",
+			[56042, 56503]
+		  ],
+		  "kalimat": [
+			[
+			  "風邪が治ったら、また練習に参加したいと思います。",
+			  "かぜ が なおったら、また れんしゅう に さんか したい と おもいます。",
+			  "Kalau flu saya sudah sembuh, saya ingin ikut latihan lagi.",
+			  [57603, 60765]
+			]
+		  ]
+		},
+		{
+		  "id": 15,
+		  "kotoba": [
+			"治す",
+			"なおす",
+			"menyembuhkan",
+			[61925, 62445]
+		  ],
+		  "kalimat": [
+			[
+			  "よく休んで、早く治してください。",
+			  "よく やすんで、はやく なおして ください。",
+			  "Beristirahatlah yang cukup, semoga cepat sembuh.",
+			  [63605, 66025]
+			]
+		  ]
+		},
+		{
+		  "id": 16,
+		  "kotoba": [
+			"よくなる",
+			"よくなる",
+			"membaik, sembuh",
+			[
+			  67146,
+			  67805
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "薬を飲んだら、だいぶよくなりました。",
+			  "くすり を のんだら、だいぶ よくなりました。",
+			  "Setelah minum obat, saya jauh lebih baik.",
+			  [
+				68887,
+				70966
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 17,
+		  "kotoba": [
+			"元気",
+			"げんき",
+			"sehat, bugar",
+			[
+			  72128,
+			  72647
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ご家族はお元気ですか。―ええ、おかげさまで。",
+			  "ごかぞく は おげんき ですか。― ええ、おかげさまで。",
+			  "Bagaimana kabar keluarga Anda? — Ya, alhamdulillah baik.",
+			  [
+				73768,
+				77448
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 18,
+		  "kotoba": [
+			"元気がない",
+			"げんき が ない",
+			"tidak bersemangat",
+			[
+			  78649,
+			  79590
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "高橋さん、最近、元気がないね。",
+			  "たかはしさん、さいきん、げんき が ない ね。",
+			  "Takahashi, akhir-akhir ini kamu kelihatan kurang bersemangat ya.",
+			  [
+				80689,
+				83230
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 19,
+		  "kotoba": [
+			"気分",
+			"きぶん",
+			"perasaan, kondisi",
+			[
+			  84671,
+			  85111
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうは気分はどうですか。よくなりましたか。",
+			  "きょう は きぶん は どうですか。よく なりましたか。",
+			  "Bagaimana keadaanmu hari ini? Sudah membaik?",
+			  [
+				86252,
+				89436
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 20,
+		  "kotoba": [
+			"気分がいい",
+			"きぶん が いい",
+			"merasa enak, suasana hati baik",
+			[
+			  90477,
+			  91397
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょうはライオンズが勝ったから、気分がいい。",
+			  "きょう は ライオンズ が かった から、きぶん が いい。",
+			  "Hari ini Lions menang, jadi suasana hati saya baik.",
+			  [
+				92578,
+				95361
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 21,
+		  "kotoba": [
+			"気分が悪い",
+			"きぶん が わるい",
+			"merasa tidak enak, mual",
+			[
+			  96561,
+			  97623
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ずっと立っていたら、気分が悪くなってきた。",
+			  "ずっと たっていたら、きぶん が わるく なってきた。",
+			  "Karena terus berdiri, saya mulai merasa tidak enak badan.",
+			  [
+				98942,
+				101025
+			  ]
+			],
+			[
+			  "店員の態度が悪くて、気分が悪い。",
+			  "てんいん の たいど が わるくて、きぶん が わるい。",
+			  "Sikap pegawai toko itu buruk sehingga membuat saya tidak enak hati.",
+			  [
+				102165,
+				104647
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 22,
+		  "kotoba": [
+			"気持ち",
+			"きもち",
+			"perasaan",
+			[
+			  105747,
+			  106329
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 23,
+		  "kotoba": [
+			"気持ちいい",
+			"きもちいい",
+			"nyaman, terasa enak",
+			[
+			  107450,
+			  108210
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "窓を開けたら、気持ちいい風が入ってきました。",
+			  "まど を あけたら、きもちいい かぜ が はいってきました。",
+			  "Ketika saya membuka jendela, angin yang sejuk masuk.",
+			  [
+				109471,
+				112112
+			  ]
+			],
+			[
+			  "高橋さんの挨拶は元気がよくて、気持ちがいいです。",
+			  "たかはしさん の あいさつ は げんき が よくて、きもち が いい です。",
+			  "Sapaan Takahashi yang penuh semangat membuat perasaan menjadi senang.",
+			  [
+				113313,
+				116376
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 24,
+		  "kotoba": [
+			"気持ち悪い",
+			"きもちわるい",
+			"mual; menjijikkan",
+			[
+			  117444,
+			  118363
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "バスに乗ると、気持ちが悪くなってしまうんです。",
+			  "バス に のる と、きもち が わるく なってしまうんです。",
+			  "Kalau naik bus, saya jadi merasa mual.",
+			  [
+				119484,
+				122146
+			  ]
+			],
+			[
+			  "あの人、一人でずっと何か言ってる。ちょっと気持ち悪いね。",
+			  "あの ひと、ひとり で ずっと なにか いってる。ちょっと きもちわるい ね。",
+			  "Orang itu terus bicara sendiri. Agak menyeramkan ya.",
+			  [
+				123045,
+				127007
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 25,
+		  "kotoba": [
+			"具合",
+			"ぐあい",
+			"keadaan, kondisi",
+			[
+			  128228,
+			  128468
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "具合はどうですか。― はい、だいぶよくなりました。",
+			  "ぐあい は どうですか。― はい、だいぶ よくなりました。",
+			  "Bagaimana keadaanmu? — Ya, sudah jauh membaik.",
+			  [
+				129848,
+				133610
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 26,
+		  "kotoba": [
+			"調子",
+			"ちょうし",
+			"kondisi",
+			[
+			  134730,
+			  135252
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "朝早く起きるようになってから、調子がいいです。",
+			  "あさ はやく おきる よう に なってから、ちょうし が いい です。",
+			  "Sejak mulai bangun pagi, kondisi saya menjadi baik.",
+			  [
+				136371,
+				139272
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 27,
+		  "kotoba": [
+			"体調",
+			"たいちょう",
+			"kondisi fisik",
+			[
+			  140473,
+			  141093
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "体調がよくないときは、無理をしないほうがいいです。",
+			  "たいちょう が よくない とき は、むり を しない ほう が いい です。",
+			  "Kalau kondisi fisik sedang tidak baik, sebaiknya jangan memaksakan diri.",
+			  [
+				142335,
+				145295
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 28,
+		  "kotoba": [
+			"気をつける",
+			"きをつける",
+			"berhati-hati",
+			[
+			  146496,
+			  147296
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "体に気をつけてください。",
+			  "からだ に きをつけて ください。",
+			  "Tolong jaga kesehatan Anda.",
+			  [
+				148597,
+				150698
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 29,
+		  "kotoba": [
+			"顔色",
+			"かおいろ",
+			"warna wajah, raut muka",
+			[
+			  151858,
+			  152519
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "どうしたんですか。顔色がよくないですね。",
+			  "どうしたんですか。かおいろ が よくない です ね。",
+			  "Ada apa? Wajahmu kelihatan kurang sehat ya.",
+			  [
+				153760,
+				157473
+			  ]
+			],
+			[
+			  "― 大丈夫です。熱があるだけです。",
+			  "― だいじょうぶ です。ねつ が ある だけ です。",
+			  "— Tidak apa-apa. Saya hanya demam.",
+			  [
+				158614,
+				160155
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 30,
+		  "kotoba": [
+			"疲れる",
+			"つかれる",
+			"lelah",
+			[
+			  160216,
+			  160876
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ああ、疲れた。きょうは早く帰って寝よう。",
+			  "ああ、つかれた。きょう は はやく かえって ねよう。",
+			  "Ah, capek. Hari ini pulang cepat lalu tidur saja.",
+			  [
+				162057,
+				166301
+			  ]
+			],
+			[
+			  "疲れているようですね。少し休んだら、どうですか。",
+			  "つかれている ようです ね。すこし やすんだら、どうですか。",
+			  "Sepertinya Anda lelah. Bagaimana kalau istirahat sebentar?",
+			  [
+				167542,
+				170784
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 31,
+		  "kotoba": [
+			"けが",
+			"けが",
+			"luka, cedera",
+			[
+			  171885,
+			  172206
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 32,
+		  "kotoba": [
+			"けがをする",
+			"けが を する",
+			"terluka",
+			[
+			  173347,
+			  174147
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "練習でけがをして、試合に出られなかったんです。",
+			  "れんしゅう で けが を して、しあい に でられなかったんです。",
+			  "Saya cedera saat latihan sehingga tidak bisa ikut pertandingan.",
+			  [
+				175276,
+				178877
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 33,
+		  "kotoba": [
+			"薬",
+			"くすり",
+			"obat",
+			[
+			  180097,
+			  180377
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 34,
+		  "kotoba": [
+			"注射",
+			"ちゅうしゃ",
+			"suntikan",
+			[
+			  181737,
+			  182277
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 35,
+		  "kotoba": [
+			"レントゲン",
+			"レントゲン",
+			"rontgen",
+			[
+			  183437,
+			  184177
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "レントゲンを撮って、詳しく見てみましょう。",
+			  "レントゲン を とって、くわしく みてみましょう。",
+			  "Mari kita ambil foto rontgen lalu memeriksanya lebih rinci.",
+			  [
+				185359,
+				188199
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 36,
+		  "kotoba": [
+			"入院(する)",
+			"にゅういん(する)",
+			"dirawat di rumah sakit",
+			[
+			  189479,
+			  190060
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "田中さん、まだ入院してるの？ ― いいえ、もう退院しました。",
+			  "たなかさん、まだ にゅういん してる の？ ― いいえ、もう たいいん しました。",
+			  "Apakah Pak Tanaka masih dirawat? — Tidak, beliau sudah keluar dari rumah sakit.",
+			  [
+				191300,
+				195961
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 37,
+		  "kotoba": [
+			"退院(する)",
+			"たいいん(する)",
+			"keluar dari rumah sakit",
+			[
+			  197162,
+			  197781
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 38,
+		  "kotoba": [
+			"ダイエット(する)",
+			"ダイエット(する)",
+			"berdiet",
+			[
+			  199182,
+			  199923
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "最近、太ったので、少しダイエットしようと思います。",
+			  "さいきん、ふとった ので、すこし ダイエット しよう と おもいます。",
+			  "Akhir-akhir ini saya bertambah gemuk, jadi saya ingin mulai sedikit berdiet.",
+			  [
+				201103,
+				204024
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 39,
+		  "kotoba": [
+			"インフルエンザ",
+			"インフルエンザ",
+			"influenza",
+			[
+			  205231,
+			  206193
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 40,
+		  "kotoba": [
+			"うつる",
+			"うつる",
+			"tertular",
+			[
+			  207456,
+			  207918
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "風邪が流行ってるから、うつらないように気をつけてください。",
+			  "かぜ が はやってる から、うつらない よう に きをつけて ください。",
+			  "Karena flu sedang mewabah, berhati-hatilah agar tidak tertular.",
+			  [
+				209099,
+				212286
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 41,
+		  "kotoba": [
+			"うつす",
+			"うつす",
+			"menularkan",
+			[
+			  213429,
+			  213930
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "人にうつさないようにしてくださいね。",
+			  "ひと に うつさない よう に して ください ね。",
+			  "Tolong jangan sampai menularkannya kepada orang lain.",
+			  [
+				215031,
+				217015
+			  ]
+			]
+		  ]
+		}
+	  ]
+	},
+
+	{
+	  "cd": 2,
+	  "track": 4,
+	  "audio": "cd2_04.mp3",
+	  "unit": 35,
+	  "tema": [
+		"見る・聞く",
+		"みる・きく",
+		"Melihat, Mendengar"
+	  ],
+	  "data": [
+		{
+		  "id": 1,
+		  "kotoba": [
+			"見る",
+			"みる",
+			"melihat",
+			[
+			  5831,
+			  6131
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 2,
+		  "kotoba": [
+			"ご覧ください",
+			"ごらんください",
+			"silakan lihat",
+			[
+			  7333,
+			  8253
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ガイド「ご覧ください。こちらが東京タワーです。」",
+			  "ガイド「ごらんください。こちら が とうきょうタワー です。」",
+			  "Pemandu: \"Silakan lihat. Ini adalah Tokyo Tower.\"",
+			  [
+				9514,
+				14618
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 3,
+		  "kotoba": [
+			"聞く",
+			"きく",
+			"mendengar; menyimak",
+			[
+			  15778,
+			  16118
+			]
+		  ],
+		  "kalimat": []
+		},
+		{
+		  "id": 4,
+		  "kotoba": [
+			"見える",
+			"みえる",
+			"terlihat",
+			[
+			  17419,
+			  17859
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "ここから富士山が見えます。",
+			  "ここから ふじさん が みえます。",
+			  "Gunung Fuji dapat terlihat dari sini.",
+			  [
+				19100,
+				20681
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 5,
+		  "kotoba": [
+			"聞こえる",
+			"きこえる",
+			"terdengar",
+			[
+			  21843,
+			  22503
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "よく聞こえないんですが……もう少し大きい声で言ってもらえませんか。",
+			  "よく きこえないんですが……もう すこし おおきい こえ で いって もらえませんか。",
+			  "Saya kurang bisa mendengar... Bisakah Anda mengatakannya sedikit lebih keras?",
+			  [
+				23765,
+				28347
+			  ]
+			]
+		  ]
+		},
+		{
+		  "id": 6,
+		  "kotoba": [
+			"見せる",
+			"みせる",
+			"memperlihatkan",
+			[
+			  29640,
+			  30121
+			]
+		  ],
+		  "kalimat": [
+			[
+			  "きょう、先生がおもしろいビデオを見せてくれた。",
+			  "きょう、せんせい が おもしろい ビデオ を みせてくれた。",
+			  "Hari ini guru memperlihatkan video yang menarik kepada kami.",
+			  [
+				31266,
+				34679
+			  ]
+			]
+		  ]
+		}
+	  ]
 	}
+
 
 	
   ]
