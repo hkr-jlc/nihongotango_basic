@@ -217,7 +217,6 @@ body{
 .fc-flashcard.back .kotoba-text{text-align:center}
 .fc-flashcard.back .kalimat-list{width:100%;background:var(--card)}
 .fc-flashcard.back .kalimat-item{display:initial;justify-content:center;text-align:center}
-.fc-flashcard.back .kalimat-text{text-align:center;flex:none}
 
 /* ── Settings ── */
 .set-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;margin-bottom:14px}
@@ -785,11 +784,9 @@ function renderFlashcard(){
   const kalimatHtml = hasKalimat ? entry.kalimat.map((k,ki)=>{
     const [jp, ky, kid] = k;
     return `<div class="kalimat-item">
-      <div class="kalimat-text">
-        <div class="kalimat-jp">${jp}</div>
-        <div class="kalimat-yomi">${ky}</div>
-        <div class="kalimat-id">${kid}</div>
-      </div>
+      <div class="kalimat-jp">${jp}</div>
+      <div class="kalimat-yomi">${ky}</div>
+      <div class="kalimat-id">${kid}</div>
     </div>`;
   }).join('') : '';
 
