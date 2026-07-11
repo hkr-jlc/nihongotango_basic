@@ -204,6 +204,15 @@ body{
   flex:1;padding:12px;border-radius:var(--radius-sm);border:1px solid var(--border-strong);
   background:var(--card);font-size:13.5px;font-weight:500;cursor:pointer;color:var(--ink);
 }
+.fc-flashcard{
+  min-height:230px;display:flex;flex-direction:column;justify-content:center;
+  cursor:pointer;user-select:none;position:relative;
+  box-shadow:0 3px 10px rgba(35,31,27,.06);
+}
+.fc-flashcard.front{align-items:center;padding:40px 20px}
+.fc-flashcard.front .kotoba-main{padding:0}
+.fc-flashcard.front .kotoba-text{text-align:center}
+.fc-flashcard.back .kalimat-list{background:var(--card)}
 
 /* ── Settings ── */
 .set-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;margin-bottom:14px}
@@ -328,6 +337,7 @@ const TRACK_URL = {
 let trackPtr = 0;        // index ke UNITS (tiap elemen UNITS = satu track)
 let fcOrder = [];
 let fcIdx = 0;
+let fcFlipped = false;
 
 // ── Engine "baca-along" utk tab Kosakata ──
 let flatSegments = [];   // segmen (kotoba+kalimat) milik unit yg sedang ditampilkan
@@ -491,9 +501,20 @@ function highlightSeg(idx){
     el.classList.add('active');
     el.scrollIntoView({behavior:'smooth', block:'center'});
   }
-  const fcEl = document.getElementById('fc-'+seg.domId);
-  if(fcEl) fcEl.classList.add('active');
+  syncFlashcardToSeg(seg);
   updatePlayDotIcons();
+}
+// Bikin tampilan Flashcard langsung menyesuaikan ke kata yg sedang diputar
+function syncFlashcardToSeg(seg){
+  if(!seg) return;
+  const ti = seg.trackIdx, i = seg.entryIdx;
+  if(ti !== trackPtr || !fcOrder.length){
+    fcOrder = UNITS[ti].data.map((_,x)=>x);
+  }
+  const pos = fcOrder.indexOf(i);
+  fcIdx = pos>=0 ? pos : 0;
+  fcFlipped = false;
+  if(document.getElementById('fc-card-wrap')) renderFlashcard();
 }
 function updatePlayDotIcons(){
   document.querySelectorAll('.kotoba-card .play-dot, .kalimat-item .play-dot').forEach(el=>{
@@ -664,6 +685,7 @@ function onUnitChange(){
   renderKosakata();
   fcOrder = u.data.map((_,i)=>i);
   fcIdx = 0;
+  fcFlipped = false;
   renderFlashcard();
 }
 
@@ -741,12 +763,23 @@ function renderFlashcard(){
   document.getElementById('fc-next').disabled = fcIdx>=fcOrder.length-1;
 
   const domId = `seg-${ti}-${i}`;
+
+  if(!fcFlipped){
+    document.getElementById('fc-card-wrap').innerHTML = `<div class="kotoba-card fc-flashcard front" id="fc-${domId}" onclick="fcFlip()">
+      <div class="kotoba-main">
+        <div class="kotoba-text">
+          <div class="kotoba-kanji">${kanji}</div>
+        </div>
+      </div>
+      <div class="fc-hint">tap kartu untuk membalik</div>
+    </div>`;
+    return;
+  }
+
   const hasKalimat = entry.kalimat && entry.kalimat.length;
   const kalimatHtml = hasKalimat ? entry.kalimat.map((k,ki)=>{
     const [jp, ky, kid] = k;
-    const kDomId = `seg-${ti}-${i}-${ki}`;
-    return `<div class="kalimat-item" id="fc-${kDomId}">
-      <div class="play-dot small" onclick="event.stopPropagation();jumpToSegByDom('${kDomId}')">▶</div>
+    return `<div class="kalimat-item">
       <div class="kalimat-text">
         <div class="kalimat-jp">${jp}</div>
         <div class="kalimat-yomi">${ky}</div>
@@ -755,9 +788,8 @@ function renderFlashcard(){
     </div>`;
   }).join('') : '';
 
-  document.getElementById('fc-card-wrap').innerHTML = `<div class="kotoba-card" id="fc-${domId}">
-    <div class="kotoba-main" onclick="jumpToSegByDom('${domId}')">
-      <div class="play-dot" onclick="event.stopPropagation();jumpToSegByDom('${domId}')">▶</div>
+  document.getElementById('fc-card-wrap').innerHTML = `<div class="kotoba-card fc-flashcard back" id="fc-${domId}" onclick="fcFlip()">
+    <div class="kotoba-main">
       <div class="kotoba-text">
         <div class="kotoba-kanji">${kanji}</div>
         <div class="kotoba-yomi">${yomi}</div>
@@ -767,9 +799,11 @@ function renderFlashcard(){
     <div class="kalimat-list">${kalimatHtml}</div>
   </div>`;
 }
+function fcFlip(){ fcFlipped = !fcFlipped; renderFlashcard(); }
 function fcNav(dir){
   stopAudio();
   fcIdx = Math.max(0, Math.min(fcOrder.length-1, fcIdx+dir));
+  fcFlipped = false;
   renderFlashcard();
 }
 function shuffleUnit(){
@@ -777,12 +811,34 @@ function shuffleUnit(){
     const j = Math.floor(Math.random()*(i+1));
     [fcOrder[i],fcOrder[j]] = [fcOrder[j],fcOrder[i]];
   }
-  fcIdx=0; renderFlashcard();
+  fcIdx=0; fcFlipped=false; renderFlashcard();
 }
 function resetUnitOrder(){
   fcOrder = currentTrackObj().data.map((_,i)=>i);
-  fcIdx=0; renderFlashcard();
+  fcIdx=0; fcFlipped=false; renderFlashcard();
 }
+
+// ── Swipe kiri/kanan utk pindah kartu Flashcard ──
+let fcTouchX=null, fcTouchY=null;
+function fcSwipeInit(){
+  const wrap = document.getElementById('fc-card-wrap');
+  wrap.addEventListener('touchstart', (e)=>{
+    const t = e.changedTouches[0];
+    fcTouchX = t.clientX; fcTouchY = t.clientY;
+  }, {passive:true});
+  wrap.addEventListener('touchend', (e)=>{
+    if(fcTouchX===null) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - fcTouchX;
+    const dy = t.clientY - fcTouchY;
+    fcTouchX = null;
+    if(Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)*1.5){
+      e.preventDefault();
+      if(dx < 0) fcNav(1); else fcNav(-1);
+    }
+  });
+}
+
 
 // ────────────────────────────────────────────────────────────────────────
 // INIT
@@ -796,6 +852,7 @@ function resetUnitOrder(){
     return;
   }
   renderUnitSelect();
+  fcSwipeInit();
 })();
 </script>
 </body>
