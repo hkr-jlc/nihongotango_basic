@@ -814,9 +814,19 @@ function syncSegToFlashcard(ti, i){
 }
 function fcFlip(){ fcFlipped = !fcFlipped; renderFlashcard(); }
 function fcNav(dir){
-  stopAudio();
+  const prevIdx = fcIdx;
+  const wasPlaying = isPlayingBaca;
   fcIdx = Math.max(0, Math.min(fcOrder.length-1, fcIdx+dir));
   renderFlashcard();
+  if(fcIdx !== prevIdx) jumpAudioToFlashcard(wasPlaying);
+}
+// player-btn main aktif (lagi main) -> audio ikut lompat & lanjut main di kartu baru.
+// player-btn main tidak aktif (pause) -> audio cuma lompat posisi, tidak ikut main.
+function jumpAudioToFlashcard(autoplay){
+  const ti = trackPtr;
+  const i = fcOrder[fcIdx];
+  const idx = flatSegments.findIndex(s=>s.trackIdx===ti && s.entryIdx===i && s.kalimatIdx===null);
+  if(idx>=0) loadAndPlayFromSeg(idx, autoplay);
 }
 function shuffleUnit(){
   for(let i=fcOrder.length-1;i>0;i--){
