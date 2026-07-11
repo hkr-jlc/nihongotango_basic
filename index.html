@@ -271,14 +271,7 @@ body{
         <span id="fc-pos">1 / 1</span>
         <button class="fc-btn" id="fc-next" onclick="fcNav(1)">›</button>
       </div>
-      <div class="flashcard" id="fc-card" onclick="fcFlip()">
-        <div class="fc-playbtn" id="fc-play" onclick="event.stopPropagation();fcPlay()">▶</div>
-        <div id="fc-front">
-          <div class="fc-kanji" id="fc-kanji">—</div>
-          <div class="fc-yomi" id="fc-yomi">—</div>
-        </div>
-        <div class="fc-hint">tap kartu untuk membalik</div>
-      </div>
+      <div id="fc-card-wrap"></div>
       <div class="fc-actions">
         <button onclick="shuffleUnit()">🔀 Acak urutan</button>
         <button onclick="resetUnitOrder()">↺ Urutan asli</button>
@@ -335,7 +328,6 @@ const TRACK_URL = {
 let trackPtr = 0;        // index ke UNITS (tiap elemen UNITS = satu track)
 let fcOrder = [];
 let fcIdx = 0;
-let fcFlipped = false;
 
 // ── Engine "baca-along" utk tab Kosakata ──
 let flatSegments = [];   // segmen (kotoba+kalimat) milik unit yg sedang ditampilkan
@@ -399,8 +391,6 @@ function stopAudio(){
     scWidget.unbind(SC.Widget.Events.FINISH);
   }
   document.querySelectorAll('.play-dot.playing').forEach(el=>el.classList.remove('playing'));
-  const fcp = document.getElementById('fc-play');
-  if(fcp) fcp.classList.remove('playing');
   isPlayingBaca = false;
   updatePlayPauseIcon();
   updatePlayDotIcons();
@@ -501,6 +491,8 @@ function highlightSeg(idx){
     el.classList.add('active');
     el.scrollIntoView({behavior:'smooth', block:'center'});
   }
+  const fcEl = document.getElementById('fc-'+seg.domId);
+  if(fcEl) fcEl.classList.add('active');
   updatePlayDotIcons();
 }
 function updatePlayDotIcons(){
@@ -513,6 +505,9 @@ function updatePlayDotIcons(){
     const container = document.getElementById(seg.domId);
     const dot = container && container.querySelector('.play-dot');
     if(dot){ dot.textContent = '❚❚'; dot.classList.add('playing'); }
+    const fcContainer = document.getElementById('fc-'+seg.domId);
+    const fcDot = fcContainer && fcContainer.querySelector('.play-dot');
+    if(fcDot){ fcDot.textContent = '❚❚'; fcDot.classList.add('playing'); }
   }
 }
 function updatePlayerInfo(){
@@ -577,7 +572,7 @@ function switchTab(name){
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
   document.getElementById('view-kosakata').style.display = name==='kosakata' ? '' : 'none';
   document.getElementById('view-flashcard').style.display = name==='flashcard' ? '' : 'none';
-  document.getElementById('player-bar').classList.toggle('show', name==='kosakata');
+  document.getElementById('player-bar').classList.add('show');
   if(name==='flashcard') renderFlashcard();
 }
 
@@ -668,7 +663,7 @@ function onUnitChange(){
   curSegIdx = -1;
   renderKosakata();
   fcOrder = u.data.map((_,i)=>i);
-  fcIdx = 0; fcFlipped = false;
+  fcIdx = 0;
   renderFlashcard();
 }
 
@@ -735,44 +730,58 @@ function jumpToSegByDom(domId){
 // FLASHCARD VIEW
 // ────────────────────────────────────────────────────────────────────────
 function renderFlashcard(){
-  const u = currentTrackObj();
+  const ti = trackPtr;
+  const u = UNITS[ti];
   if(!fcOrder.length) fcOrder = u.data.map((_,i)=>i);
-  const entry = u.data[fcOrder[fcIdx]];
-  const [kanji, yomi, arti, seg] = entry.kotoba;
+  const i = fcOrder[fcIdx];
+  const entry = u.data[i];
+  const [kanji, yomi, arti] = entry.kotoba;
   document.getElementById('fc-pos').textContent = `${fcIdx+1} / ${fcOrder.length}`;
   document.getElementById('fc-prev').disabled = fcIdx<=0;
   document.getElementById('fc-next').disabled = fcIdx>=fcOrder.length-1;
-  const front = document.getElementById('fc-front');
-  if(!fcFlipped){
-    front.innerHTML = `<div class="fc-kanji" id="fc-kanji">${kanji}</div><div class="fc-yomi" id="fc-yomi">${yomi}</div>`;
-  } else {
-    front.innerHTML = `<div class="fc-arti">${arti}</div><div class="fc-yomi" style="margin-top:14px">${kanji} ・ ${yomi}</div>`;
-  }
-  const playBtn = document.getElementById('fc-play');
-  playBtn.onclick = (e)=>{ e.stopPropagation(); playSegment(u.cd, u.track, seg[0], seg[1], playBtn); };
+
+  const domId = `seg-${ti}-${i}`;
+  const hasKalimat = entry.kalimat && entry.kalimat.length;
+  const kalimatHtml = hasKalimat ? entry.kalimat.map((k,ki)=>{
+    const [jp, ky, kid] = k;
+    const kDomId = `seg-${ti}-${i}-${ki}`;
+    return `<div class="kalimat-item" id="fc-${kDomId}">
+      <div class="play-dot small" onclick="event.stopPropagation();jumpToSegByDom('${kDomId}')">▶</div>
+      <div class="kalimat-text">
+        <div class="kalimat-jp">${jp}</div>
+        <div class="kalimat-yomi">${ky}</div>
+        <div class="kalimat-id">${kid}</div>
+      </div>
+    </div>`;
+  }).join('') : '';
+
+  document.getElementById('fc-card-wrap').innerHTML = `<div class="kotoba-card" id="fc-${domId}">
+    <div class="kotoba-main" onclick="jumpToSegByDom('${domId}')">
+      <div class="play-dot" onclick="event.stopPropagation();jumpToSegByDom('${domId}')">▶</div>
+      <div class="kotoba-text">
+        <div class="kotoba-kanji">${kanji}</div>
+        <div class="kotoba-yomi">${yomi}</div>
+        <div class="kotoba-arti">${arti}</div>
+      </div>
+    </div>
+    <div class="kalimat-list">${kalimatHtml}</div>
+  </div>`;
 }
-function fcFlip(){ fcFlipped = !fcFlipped; renderFlashcard(); }
 function fcNav(dir){
   stopAudio();
   fcIdx = Math.max(0, Math.min(fcOrder.length-1, fcIdx+dir));
-  fcFlipped = false;
   renderFlashcard();
-}
-function fcPlay(){
-  const u = currentTrackObj();
-  const entry = u.data[fcOrder[fcIdx]];
-  playSegment(u.cd, u.track, entry.kotoba[3][0], entry.kotoba[3][1], document.getElementById('fc-play'));
 }
 function shuffleUnit(){
   for(let i=fcOrder.length-1;i>0;i--){
     const j = Math.floor(Math.random()*(i+1));
     [fcOrder[i],fcOrder[j]] = [fcOrder[j],fcOrder[i]];
   }
-  fcIdx=0; fcFlipped=false; renderFlashcard();
+  fcIdx=0; renderFlashcard();
 }
 function resetUnitOrder(){
   fcOrder = currentTrackObj().data.map((_,i)=>i);
-  fcIdx=0; fcFlipped=false; renderFlashcard();
+  fcIdx=0; renderFlashcard();
 }
 
 // ────────────────────────────────────────────────────────────────────────
