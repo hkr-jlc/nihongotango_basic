@@ -212,7 +212,12 @@ body{
 .fc-flashcard.front{align-items:center;padding:40px 20px}
 .fc-flashcard.front .kotoba-main{padding:0}
 .fc-flashcard.front .kotoba-text{text-align:center}
-.fc-flashcard.back .kalimat-list{background:var(--card)}
+.fc-flashcard.back{align-items:center;padding:24px 20px}
+.fc-flashcard.back .kotoba-main{padding:0 0 14px;justify-content:center}
+.fc-flashcard.back .kotoba-text{text-align:center}
+.fc-flashcard.back .kalimat-list{width:100%;background:var(--card)}
+.fc-flashcard.back .kalimat-item{justify-content:center;text-align:center}
+.fc-flashcard.back .kalimat-text{text-align:center;flex:none}
 
 /* ── Settings ── */
 .set-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;margin-bottom:14px}
@@ -513,7 +518,6 @@ function syncFlashcardToSeg(seg){
   }
   const pos = fcOrder.indexOf(i);
   fcIdx = pos>=0 ? pos : 0;
-  fcFlipped = false;
   if(document.getElementById('fc-card-wrap')) renderFlashcard();
 }
 function updatePlayDotIcons(){
@@ -761,6 +765,7 @@ function renderFlashcard(){
   document.getElementById('fc-pos').textContent = `${fcIdx+1} / ${fcOrder.length}`;
   document.getElementById('fc-prev').disabled = fcIdx<=0;
   document.getElementById('fc-next').disabled = fcIdx>=fcOrder.length-1;
+  syncSegToFlashcard(ti, i);
 
   const domId = `seg-${ti}-${i}`;
 
@@ -799,11 +804,18 @@ function renderFlashcard(){
     <div class="kalimat-list">${kalimatHtml}</div>
   </div>`;
 }
+// Begitu pindah kartu (next/prev/swipe/shuffle), player-bar langsung menyesuaikan ke kata yg lagi ditampilkan
+function syncSegToFlashcard(ti, i){
+  const idx = flatSegments.findIndex(s=>s.trackIdx===ti && s.entryIdx===i && s.kalimatIdx===null);
+  if(idx>=0){
+    curSegIdx = idx;
+    updatePlayerInfo();
+  }
+}
 function fcFlip(){ fcFlipped = !fcFlipped; renderFlashcard(); }
 function fcNav(dir){
   stopAudio();
   fcIdx = Math.max(0, Math.min(fcOrder.length-1, fcIdx+dir));
-  fcFlipped = false;
   renderFlashcard();
 }
 function shuffleUnit(){
@@ -811,11 +823,11 @@ function shuffleUnit(){
     const j = Math.floor(Math.random()*(i+1));
     [fcOrder[i],fcOrder[j]] = [fcOrder[j],fcOrder[i]];
   }
-  fcIdx=0; fcFlipped=false; renderFlashcard();
+  fcIdx=0; renderFlashcard();
 }
 function resetUnitOrder(){
   fcOrder = currentTrackObj().data.map((_,i)=>i);
-  fcIdx=0; fcFlipped=false; renderFlashcard();
+  fcIdx=0; renderFlashcard();
 }
 
 // ── Swipe kiri/kanan utk pindah kartu Flashcard ──
